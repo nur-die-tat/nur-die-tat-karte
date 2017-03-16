@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoJSON</title>
+    <link rel="stylesheet" href="node_modules/openlayers/dist/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="node_modules/openlayers/dist/ol-debug.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+        var client = new XMLHttpRequest();
+        client.overrideMimeType("application/json");
+        client.open('GET', 'persons.json', true);
+        client.onreadystatechange = function() {
+            console.log('status: ' + client.status);
+            if (client.readyState == 4 && client.status == "200") {
+            console.log('text: ' + client.responseText);
+            var geojson = JSON.parse(client.responseText);
+            
+            var vectorSource = new ol.source.Vector({
+                features: (new ol.format.GeoJSON()).readFeatures(geojson, {
+                    featureProjection: 'EPSG:3857'
+                }),
+            });
+                
+                var style = new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 7.5,
+                        stroke: new ol.style.Stroke({
+                            color: 'purple',
+                            width: 2
+                        })
+                    })
+                });
+
+      var vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+          style: function(feature, resolution) {
+              if(resolution < 39) {
+                  var textStyle = style.clone();
+                  textStyle.setText(new ol.style.Text({
+                      text: feature.getProperties()['name'],
+                      textAlign: 'left',
+                      offsetX: 10
+                  }));
+                  return textStyle;
+              }
+              else {
+                return style;
+              }
+          }
+      });
+
+      window.map = new ol.Map({
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }),
+          vectorLayer
+        ],
+        target: 'map',
+        controls: ol.control.defaults({
+          attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+            collapsible: false
+          })
+        }),
+        view: new ol.View({
+          center: [0, 0],
+          zoom: 2
+        })
+      });
+            }
+        };
+        client.send(null);
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+{
+        "type": "FeatureCollection",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:4326"
+          }
+        },
+        "features": [
+    {
+  "type": "Feature",
+  "properties": {
+      "name": "Forsch",
+      "adress": "Hackländerstr 30",
+      "description": "Föderation der Bauarbeiter (FAUD), Schriftführer",
+      "begin": "1923-09-01",
+      "end": "1923-09-31",
+      "sources": [
+          "V 35 S.4",
+          "V 35 S.4"
+      ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [ 6.911476, 50.956757, 0.0 ]
+  }
+},
+ {
+    "type": "Feature",
+    "properties": {
+        "name": "Klein",
+        "description": "Wilhelm Klein\n\nGeschäftsleitung der Kreisbörse Köln (FAUD);\n\n",
+        "adress": "Buchforststr. 106 Kalk",
+        "begin": null,
+        "end": null,
+        "sources": ["VI 1"]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.007468, 50.945536, 0.0 ]
+    }
+ }
+ ]
+}
