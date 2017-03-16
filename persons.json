@@ -19,12 +19,12 @@
           "V 35 S.4",
           "V 35 S.4"
       ]
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [ 6.911476, 50.956757, 0.0 ]
-  }
-},
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.911476, 50.956757, 0.0 ]
+      }
+    },
  {
     "type": "Feature",
     "properties": {
