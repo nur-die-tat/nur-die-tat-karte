@@ -1,0 +1,44 @@
+.rangeslider {
+
+}
+
+.rangeslider-range-background {
+  position: relative;
+  margin: 10px 25px;
+
+  border: 1px black solid;
+  border-radius: 3px;
+  height: 10px;
+  overflow: visible;
+  z-index: 0;
+}
+
+.rangeslider-range-knob {
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -6px;
+  border: 1px black solid;
+  border-radius: 3px;
+  height: 20px;
+  width: 10px;
+  display: inline-block;
+  z-index: 2;
+}
+
+.rangeslider-range-between-knobs {
+  position: absolute;
+  margin: 0 5px;
+  height: 10px;
+  background-color: rgba(220, 20, 60, 0.4);
+  z-index: 1;
+}
+
+.rangeslider-yearmarker-container {
+  margin: 10px 25px;
+}
+
+.rangeslider-yearmarker {
+  position: absolute;
+  margin-left: 25px;
+  display: inline;
+}
