@@ -6,19 +6,57 @@
             "name": "EPSG:4326"
           }
         },
-        "features": [
+
+"features": [
+   
+    /* DUMMY begin
+    { 
+     "type": "Feature",
+     "properties": {
+         "name": "xxxxxxxxxxxx",
+         "description": "xxxxxxxxxxxx, xxxxxxx",
+         "adress": "xxxxxxxxxxxxxxxxxxx xy, xxxxxxxxxxx",
+         "begin": "1923-08-01",
+         "end": "1923-09-30", 
+         "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4"]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.91698, 50.95058, 0.0 ] 
+    }
+ }
+ DUMMY end*/
+  
+    { 
+     "type": "Feature",
+     "properties": {
+         "name": "Bunse, Johann",
+         "description": ["Föderation aller Berufe Bezirk Köln, provisorische Geschäftsleitung"
+                         "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden)"
+                         "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf"],
+         "adress": "Perlengraben 4, Köln",
+         "begin": "1923-7-01",
+         "end": "1925-04-30", 
+         "sources": ["Der Syndikalist, V.Jg., Nr.30, S.4"
+                     "Der Syndikalist, VI.Jg., Nr.44, S.4"
+                     "Der Syndikalist, VI.Jg., Nr.50, S.4"
+                     "Protokoll vom 15. Kongress der FAUD, S.101-110"]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.953657, 50.929913, 0.0 ] 
+    }
+ },
+    
     {
   "type": "Feature",
   "properties": {
       "name": "Forsch",
-      "adress": "Hackländerstr 30",
+      "adress": "Hackländerstr 30, Ehrenfeld",
       "description": "Föderation der Bauarbeiter (FAUD), Schriftführer",
       "begin": "1923-09-01",
-      "end": "1923-09-31",
-      "sources": [
-          "V 35 S.4",
-          "V 35 S.4"
-      ]
+      "end": "1923-09-30",
+      "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4"]
       },
       "geometry": {
         "type": "Point",
@@ -28,17 +66,34 @@
  {
     "type": "Feature",
     "properties": {
-        "name": "Klein",
-        "description": "Wilhelm Klein\n\nGeschäftsleitung der Kreisbörse Köln (FAUD);\n\n",
-        "adress": "Buchforststr. 106 Kalk",
-        "begin": null,
-        "end": null,
-        "sources": ["VI 1"]
+        "name": "Klein, Wilhelm",
+        "description": "Kreisbörse Köln (FAUD), Geschäftsleitung",
+        "adress": "Buchforststr. 106, Kalk",
+        "begin": "1924-01-01",
+        "end": "1924-01-31",
+        "sources": ["Der Syndikalist, VI.Jg., Nr.1, S.4"]
     },
     "geometry": {
         "type": "Point",
         "coordinates": [ 7.007468, 50.945536, 0.0 ]
     }
- }
+ },
+ { 
+     "type": "Feature",
+     "properties": {
+         "name": "Osterberg",
+         "description": ",Föderation der Bauarbeiter (FAUD), 1. Kassierer",
+         "adress": "Ehrenfeldgürtel 81, Ehrenfeld",
+         "begin": "1923-08-01",
+         "end": "1923-09-30", 
+         "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4"]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.91698, 50.95058, 0.0 ] 
+    }
+ },
+    
+    
  ]
 }
