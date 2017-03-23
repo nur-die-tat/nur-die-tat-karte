@@ -16,6 +16,11 @@ html, body {
   margin: 0;
 }
 
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
 #left-panel {
   margin: 0;
   padding: 10px;
