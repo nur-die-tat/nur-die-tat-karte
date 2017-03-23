@@ -23,6 +23,7 @@ html, body {
   float: left;
   height: calc(100% - 150px);
   /*display: inline-block;*/
+  overflow-y: scroll;
 }
 
 #map {
