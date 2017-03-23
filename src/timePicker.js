@@ -11,7 +11,7 @@ export function timePicker(layers) {
   let endElement = document.querySelector('#end-picker');
 
   let begin = new Date('1918-01-01');
-  let end = new Date('1935-01-01');
+  let end = new Date('1937-01-01');
 
   beginElement.value = formatDate(begin);
   endElement.value = formatDate(end);

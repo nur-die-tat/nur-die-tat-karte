@@ -7,5 +7,3 @@ let m = map();
 let ls = vectorLayers(m);
 featureDetails(m);
 timePicker(ls);
-
-

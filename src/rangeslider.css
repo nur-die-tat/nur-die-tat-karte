@@ -19,6 +19,7 @@
   margin-left: -6px;
   border: 1px black solid;
   border-radius: 3px;
+  background-color: white;
   height: 20px;
   width: 10px;
   display: inline-block;
@@ -28,7 +29,7 @@
 .rangeslider-range-between-knobs {
   position: absolute;
   margin: 0 5px;
-  height: 10px;
+  height: 8px;
   background-color: rgba(220, 20, 60, 0.4);
   z-index: 1;
 }
