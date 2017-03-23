@@ -9,6 +9,13 @@ export function vectorLayers(map) {
         url: '../layers/persons.json',
         format: new ol.format.GeoJSON()
       })
+    }),
+      new ol.layer.Vector({
+      name: 'Veranstaltungen',
+      source: new ol.source.Vector({
+        url: '../layers/events.json',
+        format: new ol.format.GeoJSON()
+      })
     })
   ];
 

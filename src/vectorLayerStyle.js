@@ -11,7 +11,11 @@ var style = new ol.style.Style({
     textAlign: 'left',
     textBaseline: 'middle',
     offsetX: 10
-  })
+  }),
+  stroke: new ol.style.Stroke({
+    color: 'purple',
+    width : 4
+    })
 });
 
 export function vectorLayerStyle(feature, resolution) {
@@ -23,18 +27,30 @@ export function vectorLayerStyle(feature, resolution) {
 
   if (feature.get('icon')) {
     switch (feature.get('icon')) {
-      case 'keyword':
-        // feature.setImage(new ol.style.Icon({
-        //
-        // }));
+      case 'test':
         featureStyle.setImage(new ol.style.Circle({
           radius: 7.5,
           stroke: new ol.style.Stroke({
-            color: 'red',
+            color: 'yellow',
             width: 2
           })
         }));
         break;
+      case 'event':
+        featureStyle.setImage(new ol.style.Circle({
+          radius: 7.5,
+          stroke: new ol.style.Stroke({
+            color: 'purple',
+            width: 2
+          })
+        }));
+        break;
+      case 'house':
+        featureStyle.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/house.png'
+          }));
+        break;            
     }
   }
 

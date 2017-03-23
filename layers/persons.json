@@ -11,6 +11,7 @@
       "properties": {
         "name": "xxxxxxxxxxxx",
         "description": "xxxxxxxxxxxx, xxxxxxx",
+        "icon": "house",
         "adress": "xxxxxxxxxxxxxxxxxxx xy, xxxxxxxxxxx",
         "begin": "1923-08-01",
         "end": "1923-09-30",
@@ -31,7 +32,7 @@
            "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden)",
            "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf"
          ],
-         "icon": "keyword",
+         "icon": "house",
          "adress": "Perlengraben 4, Köln",
          "begin": "1923-7-01",
          "end": "1925-04-30", 
@@ -52,6 +53,7 @@
       "name": "Forsch",
       "adress": "Hackländerstr 30, Ehrenfeld",
       "description": "Föderation der Bauarbeiter (FAUD), Schriftführer",
+      "icon": "house",
       "begin": "1923-09-01",
       "end": "1923-09-30",
       "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4"]
@@ -66,6 +68,7 @@
     "properties": {
         "name": "Klein, Wilhelm",
         "description": "Kreisbörse Köln (FAUD), Geschäftsleitung",
+        "icon": "house",
         "adress": "Buchforststr. 106, Kalk",
         "begin": "1924-01-01",
         "end": "1924-01-31",
@@ -81,6 +84,7 @@
      "properties": {
          "name": "Osterberg",
          "description": ",Föderation der Bauarbeiter (FAUD), 1. Kassierer",
+         "icon": "house",
          "adress": "Ehrenfeldgürtel 81, Ehrenfeld",
          "begin": "1923-08-01",
          "end": "1923-09-30", 
