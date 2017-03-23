@@ -38,14 +38,16 @@ export class RangeSlider {
 
     this.stepSize = this.rangeBackground.clientWidth / this.diff;
 
-    this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
+    // this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
 
-    this.leftKnob = document.createElement('div');
+    this.leftKnob = document.createElement('img');
     this.leftKnob.classList.add('rangeslider-range-knob');
+    this.leftKnob.src = '../images/knob.png';
     this.rangeBackground.appendChild(this.leftKnob);
 
-    this.rightKnob = document.createElement('div');
+    this.rightKnob = document.createElement('img');
     this.rightKnob.classList.add('rangeslider-range-knob');
+    this.rightKnob.src = '../images/knob.png';
     this.rangeBackground.appendChild(this.rightKnob);
 
     this.betweenKnobs = document.createElement('div');
@@ -58,7 +60,31 @@ export class RangeSlider {
     this.attachRightKnobListeners();
     this.attachBetweenKnobListeners();
 
-    this.createMarkers();
+    this.createLineMarkers();
+    this.createNumberMarkers();
+
+    window.addEventListener('resize', () => {
+      this.stepSize = this.rangeBackground.clientWidth / this.diff;
+      //this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
+      this.setLeft(this.leftStep);
+      this.setRight(this.rightStep);
+      this.createNumberMarkers();
+      this.createLineMarkers();
+    });
+  }
+
+  createLineMarkers() {
+    if (this.lineMarkerContainer) {
+      this.rangeBackground.removeChild(this.lineMarkerContainer);
+    }
+    this.lineMarkerContainer = document.createElement('ul');
+    this.lineMarkerContainer.classList.add('rangeslider-ruler');
+    this.rangeBackground.appendChild(this.lineMarkerContainer);
+    for (let i = 1; i < this.diff; i++) {
+      let li = document.createElement('li');
+      li.style['left'] = i * this.stepSize - 1 + 'px';
+      this.lineMarkerContainer.appendChild(li);
+    }
   }
 
   setLeft(step) {
@@ -95,15 +121,21 @@ export class RangeSlider {
   attachLeftKnobListeners() {
     let mouseDown = false;
 
+    let startStep;
+    let startX;
+
     this.leftKnob.addEventListener('mousedown', e => {
+      startStep = this.leftStep;
+      startX = e.screenX;
       mouseDown = true;
       e.stopImmediatePropagation();
+      e.preventDefault();
     });
 
     document.addEventListener('mousemove', e => {
       if (mouseDown) {
-        let xNorm = e.screenX - this.rangeBackground.offsetLeft;
-        this.setLeft(Math.round(xNorm / this.stepSize));
+        let x = e.screenX - startX;
+        this.setLeft(startStep + Math.round(x / this.stepSize));
       }
     });
 
@@ -115,15 +147,21 @@ export class RangeSlider {
   attachRightKnobListeners() {
     let mouseDown = false;
 
+    let startStep;
+    let startX;
+
     this.rightKnob.addEventListener('mousedown', e => {
+      startStep = this.rightStep;
+      startX = e.screenX;
       mouseDown = true;
       e.stopImmediatePropagation();
+      e.preventDefault();
     });
 
     document.addEventListener('mousemove', e => {
       if (mouseDown) {
-        let xNorm = e.screenX - this.rangeBackground.offsetLeft;
-        this.setRight(Math.round(xNorm / this.stepSize));
+        let x = e.screenX - startX;
+        this.setRight(startStep + Math.round(x / this.stepSize));
       }
     });
 
@@ -134,21 +172,25 @@ export class RangeSlider {
 
   attachBetweenKnobListeners() {
     let mouseDown = false;
-    let last;
+
+    let startLeft;
+    let startRight;
+    let startX;
 
     this.betweenKnobs.addEventListener('mousedown', e => {
       mouseDown = true;
-      let xNorm = e.screenX - this.rangeBackground.offsetLeft;
-      last = Math.round(xNorm / this.stepSize);
+      startLeft = this.leftStep;
+      startRight = this.rightStep;
+      startX = e.screenX;
+      e.preventDefault();
     });
 
     document.addEventListener('mousemove', e => {
       if (mouseDown) {
-        let xNorm = e.screenX - this.rangeBackground.offsetLeft;
-        let move = Math.round(xNorm / this.stepSize) - last;
-        this.setLeft(this.leftStep + move);
-        this.setRight(this.rightStep + move);
-        last = last + move;
+        let x = e.screenX - startX;
+        let move = Math.round(x / this.stepSize);
+        this.setLeft(startLeft + move);
+        this.setRight(startRight + move);
       }
     });
 
@@ -157,20 +199,34 @@ export class RangeSlider {
     });
   }
 
-  createMarkers() {
-    let container = document.createElement('div');
-    this.element.appendChild(container);
-    container.classList.add('rangeslider-yearmarker-container');
+  createNumberMarkers() {
+    if (this.markerContainer) {
+      this.element.removeChild(this.markerContainer);
+    }
+    this.markerContainer = document.createElement('div');
+    this.element.appendChild(this.markerContainer);
+    this.markerContainer.classList.add('rangeslider-yearmarker-container');
 
     let date = new Date(this.begin);
     let steps = 0;
+    let lastLeft = -Infinity;
+
     while (date <= this.end) {
       if (date.getMonth() === 0) {
         let yearNode = document.createElement('div');
-        container.appendChild(yearNode);
+        this.markerContainer.appendChild(yearNode);
         yearNode.classList.add('rangeslider-yearmarker');
         yearNode.textContent = date.getFullYear();
-        yearNode.style.left = steps * this.stepSize - yearNode.offsetWidth / 2 + 'px';
+
+        let newLeft = steps * this.stepSize - yearNode.offsetWidth / 2;
+
+        if (newLeft - lastLeft > yearNode.offsetWidth) {
+          yearNode.style.left = newLeft + 'px';
+          lastLeft = newLeft;
+        }
+        else {
+          this.markerContainer.removeChild(yearNode);
+        }
       }
 
       steps++;

@@ -1,5 +1,11 @@
-.rangeslider {
-
+.rangeslider, .rangeslider * {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .rangeslider-range-background {
@@ -13,22 +19,50 @@
   z-index: 0;
 }
 
+.rangeslider-ruler, .rangeslider-ruler li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.rangeslider-ruler li {
+  width: 1px;
+  height: 4px;
+  background-color: black;
+}
+
+.rangeslider-ruler li:nth-child(3n) {
+  width: 1px;
+  height: 5px;
+  background-color: black;
+}
+
+.rangeslider-ruler li:nth-child(12n) {
+  width: 1px;
+  height: 8px;
+  background-color: black;
+}
+
 .rangeslider-range-knob {
   position: absolute;
   margin-top: -6px;
   margin-left: -6px;
-  border: 1px black solid;
-  border-radius: 3px;
-  background-color: white;
+  /*border: 1px black solid;*/
+  /*border-radius: 3px;*/
+  /*background-color: white;*/
   height: 20px;
-  width: 10px;
+  width: 11px;
   display: inline-block;
   z-index: 2;
 }
 
 .rangeslider-range-between-knobs {
   position: absolute;
-  margin: 0 5px;
+  margin: 0;
   height: 8px;
   background-color: rgba(220, 20, 60, 0.4);
   z-index: 1;
