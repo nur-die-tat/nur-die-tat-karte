@@ -24,7 +24,7 @@ const lineStyle = new ol.style.Style({
     })
   }),
   stroke: new ol.style.Stroke({
-    color: 'purple',
+    color: 'red',
     width : 4
   }),
   zIndex: 1
@@ -37,13 +37,10 @@ function createGeometryStyle(feature, resolution, geometry) {
 
     if (feature.get('icon')) {
       switch (feature.get('icon')) {
-        case 'test':
-          style.setImage(new ol.style.Circle({
-            radius: 7.5,
-            stroke: new ol.style.Stroke({
-              color: 'yellow',
-              width: 2
-            })
+      case 'flagw':
+        style.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/flagw.png'
           }));
           break;
         case 'event':
@@ -61,6 +58,18 @@ function createGeometryStyle(feature, resolution, geometry) {
             src: '../icons/house.png'
           }));
           break;
+      case 'peace':
+        style.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/peace.png'
+          }));
+        break;
+      case 'theater':
+        style.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/theater.png'
+          }));
+        break;
       }
     }
 

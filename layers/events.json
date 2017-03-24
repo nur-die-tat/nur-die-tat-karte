@@ -11,20 +11,67 @@
     {
      "type": "Feature",
      "properties": {
-         "name": "Demonstration zum 1. Mai 1926",
+         "name": "Maidemonstration",
          "description": [
-            "Demonstration von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt",
+            "Demonstration zum 1. Mai 1926 von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt",
             "Abendveranstaltung in Kalk (Humboldt-Kolonie)"
          ],
-         "icon": "event",
+         "icon": "flagw",
          "adress": "Bergischer Ring, Köln-Mühlheim",
          "begin": "1926-05-01",
          "end": "1926-05-01", 
-         "sources": ["Der Syndikalist, VIII.Jg., Nr.17 S.4"]
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.17 S.4."]
      },
     "geometry": {
         "type": "GeometryCollection",
         "geometries": [ { "type": "Point", "coordinates": [ 7.001815, 50.958214, 0.0 ] },
-        { "type": "LineString", "coordinates": [ [ 7.001815, 50.958214, 0.0 ], [ 7.000956, 50.956384, 0.0 ], [ 7.000395, 50.95546, 0.0 ], [ 6.999829, 50.954791, 0.0 ], [ 6.999829, 50.954791, 0.0 ], [ 6.999327, 50.953868, 0.0 ], [ 6.998901, 50.953351, 0.0 ], [ 6.998544, 50.953066, 0.0 ], [ 6.997003, 50.95211, 0.0 ], [ 6.99649, 50.951727, 0.0 ], [ 6.996025, 50.951261, 0.0 ], [ 6.994146, 50.949028, 0.0 ], [ 6.993754, 50.948672, 0.0 ], [ 6.992897, 50.948077, 0.0 ], [ 6.991439, 50.947185, 0.0 ], [ 6.989221, 50.946033, 0.0 ], [ 6.988228, 50.945577, 0.0 ], [ 6.986641, 50.944999, 0.0 ], [ 6.983952, 50.94428, 0.0 ], [ 6.983952, 50.94428, 0.0 ], [ 6.983837, 50.944439, 0.0 ], [ 6.983837, 50.944439, 0.0 ], [ 6.982954, 50.944273, 0.0 ], [ 6.982954, 50.944273, 0.0 ], [ 6.982431, 50.944061, 0.0 ], [ 6.982115, 50.943745, 0.0 ], [ 6.979236, 50.940013, 0.0 ], [ 6.979236, 50.940013, 0.0 ], [ 6.97892, 50.939754, 0.0 ], [ 6.978355, 50.939618, 0.0 ], [ 6.975479, 50.939822, 0.0 ], [ 6.973509, 50.939899, 0.0 ], [ 6.973107, 50.939894, 0.0 ], [ 6.972832, 50.939843, 0.0 ], [ 6.972586, 50.939767, 0.0 ], [ 6.972233, 50.93958, 0.0 ], [ 6.972233, 50.93958, 0.0 ], [ 6.971723, 50.939193, 0.0 ], [ 6.971493, 50.938901, 0.0 ], [ 6.971302, 50.938343, 0.0 ], [ 6.971176, 50.937438, 0.0 ], [ 6.971049, 50.93719, 0.0 ], [ 6.970902, 50.937037, 0.0 ], [ 6.970616, 50.936863, 0.0 ], [ 6.970295, 50.93677, 0.0 ], [ 6.969856, 50.936703, 0.0 ], [ 6.969856, 50.936703, 0.0 ], [ 6.962973, 50.93631, 0.0 ], [ 6.961645, 50.93615, 0.0 ], [ 6.960614, 50.935873, 0.0 ], [ 6.960614, 50.935873, 0.0 ], [ 6.960355, 50.936034, 0.0 ], [ 6.960342, 50.936242, 0.0 ], [ 6.960342, 50.936242, 0.0 ], [ 6.958909, 50.936217, 0.0 ], [ 6.95802, 50.936276, 0.0 ], [ 6.956985, 50.936268, 0.0 ], [ 6.955062, 50.936465, 0.0 ], [ 6.955062, 50.936465, 0.0 ], [ 6.953734, 50.936461, 0.0 ], [ 6.952504, 50.936393, 0.0 ], [ 6.950926, 50.936461, 0.0 ], [ 6.948843, 50.936427, 0.0 ], [ 6.948843, 50.936427, 0.0 ], [ 6.948808, 50.936258, 0.0 ], [ 6.948808, 50.936258, 0.0 ], [ 6.947688, 50.936385, 0.0 ] ] } ] } } ]
+        { "type": "LineString", "coordinates": [ [ 7.001815, 50.958214, 0.0 ], [ 7.000956, 50.956384, 0.0 ], [ 7.000395, 50.95546, 0.0 ], [ 6.999829, 50.954791, 0.0 ], [ 6.999829, 50.954791, 0.0 ], [ 6.999327, 50.953868, 0.0 ], [ 6.998901, 50.953351, 0.0 ], [ 6.998544, 50.953066, 0.0 ], [ 6.997003, 50.95211, 0.0 ], [ 6.99649, 50.951727, 0.0 ], [ 6.996025, 50.951261, 0.0 ], [ 6.994146, 50.949028, 0.0 ], [ 6.993754, 50.948672, 0.0 ], [ 6.992897, 50.948077, 0.0 ], [ 6.991439, 50.947185, 0.0 ], [ 6.989221, 50.946033, 0.0 ], [ 6.988228, 50.945577, 0.0 ], [ 6.986641, 50.944999, 0.0 ], [ 6.983952, 50.94428, 0.0 ], [ 6.983952, 50.94428, 0.0 ], [ 6.983837, 50.944439, 0.0 ], [ 6.983837, 50.944439, 0.0 ], [ 6.982954, 50.944273, 0.0 ], [ 6.982954, 50.944273, 0.0 ], [ 6.982431, 50.944061, 0.0 ], [ 6.982115, 50.943745, 0.0 ], [ 6.979236, 50.940013, 0.0 ], [ 6.979236, 50.940013, 0.0 ], [ 6.97892, 50.939754, 0.0 ], [ 6.978355, 50.939618, 0.0 ], [ 6.975479, 50.939822, 0.0 ], [ 6.973509, 50.939899, 0.0 ], [ 6.973107, 50.939894, 0.0 ], [ 6.972832, 50.939843, 0.0 ], [ 6.972586, 50.939767, 0.0 ], [ 6.972233, 50.93958, 0.0 ], [ 6.972233, 50.93958, 0.0 ], [ 6.971723, 50.939193, 0.0 ], [ 6.971493, 50.938901, 0.0 ], [ 6.971302, 50.938343, 0.0 ], [ 6.971176, 50.937438, 0.0 ], [ 6.971049, 50.93719, 0.0 ], [ 6.970902, 50.937037, 0.0 ], [ 6.970616, 50.936863, 0.0 ], [ 6.970295, 50.93677, 0.0 ], [ 6.969856, 50.936703, 0.0 ], [ 6.969856, 50.936703, 0.0 ], [ 6.962973, 50.93631, 0.0 ], [ 6.961645, 50.93615, 0.0 ], [ 6.960614, 50.935873, 0.0 ], [ 6.960614, 50.935873, 0.0 ], [ 6.960355, 50.936034, 0.0 ], [ 6.960342, 50.936242, 0.0 ], [ 6.960342, 50.936242, 0.0 ], [ 6.958909, 50.936217, 0.0 ], [ 6.95802, 50.936276, 0.0 ], [ 6.956985, 50.936268, 0.0 ], [ 6.955062, 50.936465, 0.0 ], [ 6.955062, 50.936465, 0.0 ], [ 6.953734, 50.936461, 0.0 ], [ 6.952504, 50.936393, 0.0 ], [ 6.950926, 50.936461, 0.0 ], [ 6.948843, 50.936427, 0.0 ], [ 6.948843, 50.936427, 0.0 ], [ 6.948808, 50.936258, 0.0 ], [ 6.948808, 50.936258, 0.0 ], [ 6.947688, 50.936385, 0.0 ] ] } ] } },
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Antikriegstage",
+         "description": [
+            "31.07.1926",
+            " '[...] abends 7 Uhr, Beginn der Feier in Köln-Deutz, Konzertsaal Reimann. Gesang der Kölner Freien Sänger, Vortrag der Genossen Heinrich Melzer, Hans Schmitz und der Genossin Trautchen Kaspers. Rezitation durch Düsseldorfer, Mühlheimer-Ruhr Genossen und Sprechchöre der München-Gladbacher, Elberfelder, Duisburger und Kölner Jugendgenossen.' ",
+            "01.08.1926",
+            " '... morgens 10 Uhr, in Köln auf dem Neumarkt wieder Gesang, Vortrag, Rezitationen und Sprechchöre.' ",
+            "Ab Mittag versammelte sich der nationalistische 'Jungdeutschen Orden' ebenfalls auf dem Neumarkt. Der Syndikalist: 'Entfaltet die schwarzen Fahnen in dem heiligen Köln, daß alle Spießer aufschrecken und der Schatten des Kölner Doms verscheucht werde, den alle Pfaffen notwendig haben, um ihr schändliches Menschenvernichtungswerk ausüben zu können.' Tatsächlich kam es zu mehreren Zusammenstößen in der Innenstadt sowie Schüssen auf ein Auto abreisender Jungdeutscher. Laut Presseberichten waren v.a. kommunistische Gruppen für beides verantwortlich.", 
+            "'Nachmittags [Versammlung] auf den Poller Wiesen.'"
+         ],
+         "icon": "peace",
+         "adress": " ",
+         "begin": "1926-07-31",
+         "end": "1926-08-01", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.30 Beilage, S.4.",
+                     "Rheinisch-Westfälische Zeitung, CLXXXIV.Jg., Nr.76, S.1f."]
+     },
+    "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [ { "type": "Point", "coordinates": [ 6.947688, 50.936385, 0.0 ] },
+                       { "type": "Point", "coordinates": [ 6.988009134028017, 50.909350012079322, 0.0 ] },
+                       { "type": "Point", "coordinates": [ 6.987778, 50.934722, 0.0 ] } ] 
+                } 
+    },
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Maifeier",
+         "description": [
+            "01.05.1926",
+            "Feier im Lokal Ohrem in der Wattstr. 15 Kalk, Abendveranstaltung mit Theater, Gesang, Vortrag, Rezitation und Tanz."
+         ],
+         "icon": "theater",
+         "adress": " ",
+         "begin": "1926-05-01",
+         "end": "1926-05-01", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.17 S.4."]
+     },
+    "geometry": {
+        "type": "Point", "coordinates": [ 6.999595, 50.931824, 0.0 ] }  
+                 
+    }
+        
+        
+    ]
    
  }

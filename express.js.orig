@@ -1,0 +1,12 @@
+var express = require('express');
+var app = express();
+
+<<<<<<< HEAD
+app.use( express.static('.'));
+=======
+app.use(express.static('.'));
+>>>>>>> a279ebac5573ecca09034f4cdd7c9de6dad37d44
+
+app.listen(3000, function () {
+  console.log('App is listening on localhost:3000!');
+});
