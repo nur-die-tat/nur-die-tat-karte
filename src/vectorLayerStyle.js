@@ -70,6 +70,24 @@ function createGeometryStyle(feature, resolution, geometry) {
             src: '../icons/theater.png'
           }));
         break;
+      case 'info':
+        featureStyle.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/info.png'
+          }));
+        break;
+      case 'shakehand':
+        featureStyle.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/shakehand.png'
+          }));
+        break;
+      case 'camp':
+        featureStyle.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/camp.png'
+          }));
+        break
       }
     }
 

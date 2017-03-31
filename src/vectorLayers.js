@@ -16,6 +16,13 @@ export function vectorLayers(map) {
         url: '../layers/events.json',
         format: new ol.format.GeoJSON()
       })
+    }),
+      new ol.layer.Vector({
+      name: 'Treffpunkte',
+      source: new ol.source.Vector({
+        url: '../layers/meetings.json',
+        format: new ol.format.GeoJSON()
+      })
     })
   ];
 
