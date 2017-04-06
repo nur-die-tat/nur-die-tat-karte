@@ -37,7 +37,7 @@ export function vectorLayers(map) {
 }
 
 function showLayerMenu(layers) {
-  let target = document.querySelector('#layer-selectors');
+  let target = document.querySelector('#vector-layer-selectors');
 
   for (let l of layers) {
     let checked = l.getVisible();
