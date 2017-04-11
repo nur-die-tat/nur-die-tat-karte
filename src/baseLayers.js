@@ -1,9 +1,17 @@
 import {Observable} from '../node_modules/rxjs/bundles/rx.js';
+import {calculateExtent} from "./calculateExtent.js";
 
 export function baseLayers(map) {
   let layers = [
     new ol.layer.Image({
-      name: 'tk25 1936-1945',
+      name: 'Industrial',
+      source: new ol.source.ImageStatic({
+        url: '../layers/1925-industrial_modified.jpg',
+        imageExtent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803]
+      })
+    }),
+    new ol.layer.Image({
+      name: 'NRW GeoServer',
       source: new ol.source.ImageWMS({
         serverType: 'mapserver',
         url: 'http://www.wms.nrw.de/geobasis/wms_nw_tk25_1936-1945?',
@@ -12,10 +20,11 @@ export function baseLayers(map) {
           LAYERS: 'nw_tk25_1936-1945'
         },
         crossOrigin: ''
-      })
+      }),
+      visible: false
     }),
     new ol.layer.Tile({
-      name: 'modern',
+      name: 'Modern',
       source: new ol.source.OSM(),
       visible: false
     })
