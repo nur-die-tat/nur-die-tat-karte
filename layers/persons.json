@@ -15,7 +15,7 @@
         "adress": "xxxxxxxxxxxxxxxxxxx xy, xxxxxxxxxxx",
         "begin": "1923-08-01",
         "end": "1923-09-30",
-        "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4"]
+        "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4."]
       },
       "geometry": {
         "type": "Point",
@@ -26,69 +26,199 @@
     {
      "type": "Feature",
      "properties": {
+         "name": "Baumbach, Lina",
+         "description": [
+           "Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB);",
+           "Delegierte auf SFB-Reichskonferenz." ],
+         "icon": "sfb",
+         "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
+         "begin": "1921-08-29",
+         "end": "1921-11-30", 
+         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
+                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.90, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ] 
+    }
+ },
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Berschel, Heinrich",
+         "description": [
+           "nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender."],
+         "icon": "house",
+         "adress": "Weidengasse 44",
+         "begin": "1921-01-01",
+         "end": "1921-01-31", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.5, S.3."
+                    ]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.9561893000000055, 50.947783, 0.0 ] 
+    }
+ },
+    
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Born, Willi",
+         "description": [
+           "Verantwortlicher für Planung und Unterkünfte während der Antikriegstage 1929.",
+           "trug zu Ausschluss von Eduard Neumann bei, dem Veruntreuung von Geldern vorgeworfen wurde."],
+         "icon": "house",
+         "adress": "Keupstraße 121",
+         "begin": "1921-08-29",
+         "end": "1921-11-30", 
+         "sources": ["Der Syndikalist, XI.Jg., Nr.20, S.4.",
+                     "Der Syndikalist, XI.Jg., Nr.26, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.012693099999979, 50.9632533, 0.0 ] 
+    }
+ },
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Boske, Albert jun.",
+         "description": [
+           "Verantwortlicher für Anschrift an die Syndikalistisch-Anarchistische Jugend."],
+         "icon": "house",
+         "adress": "Buschfeldstraße 106¹, Köln-Hohlweide",
+         "begin": "1926-02-01",
+         "end": "1926-03-31", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.039938900000038, 50.9745034, 0.0 ] 
+    }
+ },
+    
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Bunse",
+         "description": [
+           "Erster Vorsitzender der neu konstituierten Arbeiterbörse Groß-Köln."],
+         "icon": "house",
+         "adress": "Karthäuser Hof 3, Köln-Mülheim",
+         "begin": "1922-01-01",
+         "end": "1922-01-31", 
+         "sources": ["Der Syndikalist, IV.Jg., Beilage S.6."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.888406900000064, 51.0186432, 0.0 ] 
+    }
+ },
+    {
+     "type": "Feature",
+     "properties": {
          "name": "Bunse, Johann",
          "description": [
-           "Föderation aller Berufe Bezirk Köln, provisorische Geschäftsleitung",
-           "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden)",
-           "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf"
+           "Föderation aller Berufe Bezirk Köln, provisorische Geschäftsleitung;",
+           "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden);",
+           "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf."
          ],
          "icon": "house",
          "adress": "Perlengraben 4, Köln",
          "begin": "1923-7-01",
          "end": "1925-04-30", 
-         "sources": ["Der Syndikalist, V.Jg., Nr.30, S.4",
-                     "Der Syndikalist, VI.Jg., Nr.44, S.4",
-                     "Der Syndikalist, VI.Jg., Nr.50, S.4",
-                     "Protokoll vom 15. Kongress der FAUD, S.101-110"]
+         "sources": ["Der Syndikalist, V.Jg., Nr.30, S.4.",
+                     "Der Syndikalist, VI.Jg., Nr.44, S.4.",
+                     "Der Syndikalist, VI.Jg., Nr.50, S.4.",
+                     "Protokoll vom 15. Kongress der FAUD, S.101-110."]
      },
     "geometry": {
         "type": "Point",
         "coordinates": [ 6.95694275200367, 50.92857482578074, 0.0 ] 
     }
  },
-    
+      
+    {
+    "type": "Feature",
+    "properties": {
+        "name": "Canje, Jean",
+        "description": "Schriftführer, verantwortlich für Zuschriften zwecks Neuaufbau der Köln-Mülheimer Gruppen.",
+        "icon": "house",
+        "adress": "Bleichstr. 4, Mülheim",
+        "begin": "1922-01-01",
+        "end": "1922-01-31",
+        "sources": ["Der Syndikalist, IV.Jg., Nr.2, S.4.",
+                    "Der Syndikalist, IV.Jg., Nr.3, S.4."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.0014886, 50.9605678, 0.0 ]
+    }
+ },
     {
   "type": "Feature",
   "properties": {
-      "name": "Forsch",
+      "name": "„Witwe Dropp“",
       "adress": "Hackländerstr 30, Ehrenfeld",
-      "description": "Föderation der Bauarbeiter (FAUD), Schriftführer",
+      "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
       "icon": "house",
       "begin": "1923-09-01",
       "end": "1923-09-30",
-      "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4"]
+      "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4."]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [ 6.911476, 50.956757, 0.0 ]
       }
     },
- {
+    
+    {
+  "type": "Feature",
+  "properties": {
+      "name": "Forsch",
+      "adress": "Hackländerstr 30, Ehrenfeld",
+      "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
+      "icon": "house",
+      "begin": "1923-09-01",
+      "end": "1923-09-30",
+      "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4."]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.911476, 50.956757, 0.0 ]
+      }
+    },
+    
+    {
     "type": "Feature",
     "properties": {
         "name": "Klein, Wilhelm",
-        "description": "Kreisbörse Köln (FAUD), Geschäftsleitung",
+        "description": "Kreisbörse Köln (FAUD), Geschäftsleitung.",
         "icon": "house",
         "adress": "Buchforststr. 106, Kalk",
         "begin": "1924-01-01",
         "end": "1924-01-31",
-        "sources": ["Der Syndikalist, VI.Jg., Nr.1, S.4"]
+        "sources": ["Der Syndikalist, VI.Jg., Nr.1, S.4."]
     },
     "geometry": {
         "type": "Point",
         "coordinates": [ 7.007468, 50.945536, 0.0 ]
     }
  },
+    
  { 
      "type": "Feature",
      "properties": {
          "name": "Osterberg",
-         "description": ",Föderation der Bauarbeiter (FAUD), 1. Kassierer",
+         "description": ",Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
          "icon": "house",
          "adress": "Ehrenfeldgürtel 81, Ehrenfeld",
          "begin": "1923-08-01",
          "end": "1923-09-30", 
-         "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4"]
+         "sources": ["Der Syndikalist, V.Jg., Nr.35 S.4."]
      },
     "geometry": {
         "type": "Point",

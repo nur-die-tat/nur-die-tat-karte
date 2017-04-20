@@ -3,6 +3,14 @@ export function featureDetails(map) {
   map.on('click', e => {
     map.forEachFeatureAtPixel(e.pixel, f => showFeatureDetails(f));
   })
+  map.on('pointermove', e => {
+    if (map.hasFeatureAtPixel(e.pixel)) {
+      map.getViewport().style.cursor = 'pointer';
+    }
+    else {
+      map.getViewport().style.cursor = 'auto';
+    }
+  })
 }
 
 function clearElement(element) {

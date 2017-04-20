@@ -33,7 +33,7 @@ html, body {
 
 #map {
   margin: 0;
-  margin-left: 400px;
+  //margin-left: 400px;
   /*width: calc(100% - 250px);*/
   height: calc(100% - 150px);
   /*display: inline;*/

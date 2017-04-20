@@ -10,7 +10,12 @@ const pointStyle = new ol.style.Style({
     font: '14px sans-serif',
     textAlign: 'left',
     textBaseline: 'middle',
-    offsetX: 10
+    offsetX: 20,
+    offsetY: -20,
+    stroke: new ol.style.Stroke({
+        color: 'white',
+        width: 4
+    })
   }),
   zIndex: 2
 });
@@ -64,6 +69,12 @@ function createGeometryStyle(feature, resolution, geometry) {
             src: '../icons/peace.png'
           }));
         break;
+      case 'sfb':
+        style.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/sfb.png'
+          }));
+        break;
       case 'theater':
         style.setImage(new ol.style.Icon({
           anchor: [0.5, 1],
@@ -91,7 +102,7 @@ function createGeometryStyle(feature, resolution, geometry) {
       }
     }
 
-    if (resolution < 39) {
+    if (resolution < 20) {
       style.getText().setText(feature.get('name'));
     }
 

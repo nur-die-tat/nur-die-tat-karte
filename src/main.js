@@ -13,4 +13,4 @@ let ls = vectorLayers(m);
 featureDetails(m);
 timePicker(ls);
 
-// positioningHelper(m);
+positioningHelper(m);

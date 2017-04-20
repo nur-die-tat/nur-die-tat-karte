@@ -55,7 +55,7 @@ export class RangeSlider {
     this.rangeBackground.appendChild(this.betweenKnobs);
 
     this.setLeft(0);
-    this.setRight(1);
+    this.setRight(this.diff);
     this.attachLeftKnobListeners();
     this.attachRightKnobListeners();
     this.attachBetweenKnobListeners();

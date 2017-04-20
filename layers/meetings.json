@@ -8,64 +8,70 @@
         },
     
     "features": [
-    {
-     "type": "Feature",
+    {"type": "Feature",
+     "properties": {
+         "name": "Baumbach, Lina",
+         "description": [
+           "Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB);",
+           "Delegierte auf SFB-Reichskonferenz." ],
+         "icon": "sfb",
+         "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
+         "begin": "1921-08-29",
+         "end": "1921-11-30", 
+         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
+                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.90, S.4."]},
+    "geometry": {"type": "Point",
+        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
+    },
+        
+    {"type": "Feature",
      "properties": {
          "name": "FAU Lokal",
-         "description": [
-           "letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus"
-         ],
+         "description": ["letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus"],
          "icon": "info",
          "adress": "Albertusstraße",
          "begin": "1933-01-01",
          "end": "1933-01-31", 
          "sources": ["Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 112."]
      },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.944645, 50.939233, 0.0 ] 
-    }
- },
+    "geometry": {"type": "Point",
+        "coordinates": [ 6.944645, 50.939233, 0.0 ]}
+    },
     
-    {
-  "type": "Feature",
-  "properties": {
+    {"type": "Feature",
+     "properties": {
       "name": "„Zum Hirsch“",
       "adress": "Kämmergasse, Köln",
-      "description": [ "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse",
-                       "Mitglieder-Versammlung am 05.08.1923; Treffen jeden 2. So.",
-                       "Vortrag von Augustin Souchy 27.08.1922" ],
-
+      "description": [ "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
+                       "Mitglieder-Versammlung am 05.08.1923; Treffen jeden 2. Sonntag;",
+                       "Vortrag von Augustin Souchy 27.08.1922." ],
       "icon": "shakehand",
       "begin": "1923-08-01",
       "end": "1923-08-31",
-      "sources": ["Der Syndikalist, IV.Jg., Nr.33, Beilage S.4",
-                  "Der Syndikalist, V.Jg., Nr.30, S.4",
-                  "Der Syndikalist, V.Jg., Nr.35, S.4" ]
+      "sources": ["Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
+                  "Der Syndikalist, V.Jg., Nr.30, S.4.",
+                  "Der Syndikalist, V.Jg., Nr.35, S.4."]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.952518800000007, 50.9331915, 0.0 ]
-      }
+      "geometry": {"type": "Point",
+                   "coordinates": [ 6.952518800000007, 50.9331915, 0.0 ]}
     },
-        {
-  "type": "Feature",
-  "properties": {
+        
+    {"type": "Feature",
+     "properties": {
       "name": "Lager Dellbrück",
       "adress": "Dellbrück",
       "description": [ "Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R. durch Syndikalisten und Anarchisten mitgetragen worden war;",
                      "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland."],
-
       "icon": "camp",
       "begin": "1920-03-01",
       "end": "1920-04-30",
       "sources": ["Der Polizeipräsident am 20.04.1920. LAV BR 9, Nr.7871, pag.5f.",
                   "Interalliierte Rheinland-Kommission am 22.04.1920, LAV BR 9, Nr.7871, pag.8."]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]
-      }
+      "geometry": {"type": "Point",
+                   "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
     }
  ]
 }
