@@ -22,7 +22,10 @@
         "coordinates": [ 6.91698, 50.95058, 0.0 ]
       }
     },
-"features": [
+
+    
+    
+    "features": [
     {
      "type": "Feature",
      "properties": {
@@ -158,23 +161,7 @@
         "coordinates": [ 7.0014886, 50.9605678, 0.0 ]
     }
  },
-    {
-  "type": "Feature",
-  "properties": {
-      "name": "„Witwe Dropp“",
-      "adress": "Hackländerstr 30, Ehrenfeld",
-      "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
-      "icon": "house",
-      "begin": "1923-09-01",
-      "end": "1923-09-30",
-      "sources": ["Der Syndikalist, V.Jg., Nr.35, S.4."]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.911476, 50.956757, 0.0 ]
-      }
-    },
-    
+        
     {
   "type": "Feature",
   "properties": {

@@ -7,8 +7,30 @@
           }
         },
     
+    
     "features": [
-    {"type": "Feature",
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Backhausen",
+         "description": [
+           "Lokal, Treffen der SAJ jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
+           "allgemeine FAU Mitglieder-Vollversamllung am 05.12.1926;" ],
+         "icon": "shakehand",
+         "adress": "Mühlheimer Str. 112, Kalk",
+         "begin": "1926-02-01",
+         "end": "1926-12-31", 
+         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
+                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.90, S.4."]
+                   },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
+    },
+        
+        {"type": "Feature",
      "properties": {
          "name": "Baumbach, Lina",
          "description": [
@@ -18,10 +40,9 @@
          "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
          "begin": "1921-08-29",
          "end": "1921-11-30", 
-         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
-                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.90, S.4."]},
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4.",
+                     "Der Syndikalist, VIII.Jg., Nr.46, Beilage S.2."]
+                   },
     "geometry": {"type": "Point",
         "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
     },
@@ -29,47 +50,81 @@
     {"type": "Feature",
      "properties": {
          "name": "FAU Lokal",
-         "description": ["letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus"],
+         "description": ["letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus;",
+                         "vermutete Adresse."],
          "icon": "info",
          "adress": "Albertusstraße",
          "begin": "1933-01-01",
          "end": "1933-01-31", 
          "sources": ["Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 112."]
-     },
+                   },
     "geometry": {"type": "Point",
-        "coordinates": [ 6.944645, 50.939233, 0.0 ]}
+                 "coordinates": [ 6.944645, 50.939233, 0.0 ]}
     },
     
+    {"type": "Feature",
+     "properties": {
+         "name": "FAU Büro",
+         "description": ["Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
+                         "„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des „Syndikalist“",
+                         "vermutliche Lage".],
+         "icon": "info",
+         "adress": "Lichhof 18",
+         "begin": "1931-10-01",
+         "end": "1931-11-31", 
+         "sources": ["Der Syndikalist, XIII.Jg., Nr.43, S.3."]
+                   },
+    "geometry": {"type": "Point",
+                 "coordinates": [ 6.958935, 50.934274, 0.0 ]}
+    },
+        
     {"type": "Feature",
      "properties": {
       "name": "„Zum Hirsch“",
       "adress": "Kämmergasse, Köln",
       "description": [ "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
+                       "Vortrag von Augustin Souchy 27.08.1922;",
                        "Mitglieder-Versammlung am 05.08.1923; Treffen jeden 2. Sonntag;",
-                       "Vortrag von Augustin Souchy 27.08.1922." ],
+                       "vermutliche Lage."],
       "icon": "shakehand",
-      "begin": "1923-08-01",
+      "begin": "1922-08-01",
       "end": "1923-08-31",
       "sources": ["Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
                   "Der Syndikalist, V.Jg., Nr.30, S.4.",
                   "Der Syndikalist, V.Jg., Nr.35, S.4."]
-      },
+                   },
       "geometry": {"type": "Point",
-                   "coordinates": [ 6.952518800000007, 50.9331915, 0.0 ]}
+                   "coordinates": [ 6.9525188, 50.9331915, 0.0 ]}
     },
         
     {"type": "Feature",
      "properties": {
+      "name": "„Witwe Dropp“",
+      "adress": "Siegburger Straße, Deutz",
+      "description": ["Börsenlokal: Deutz, Siegbergerhof; Börsensitzungen jeden 2. Do. ab 24.08.1922;",
+                      "grob vermutete Lage."],
+      "icon": "info",
+      "begin": "1922-08-01",
+      "end": "1922-09-30",
+      "sources": ["Der Syndikalist, IV.Jg., Nr.33, S.4."]
+                   },
+      "geometry": {"type": "Point",
+                   "coordinates": [ 6.970847, 50.932437, 0.0 ]}
+    },    
+
+    {"type": "Feature",
+     "properties": {
       "name": "Lager Dellbrück",
       "adress": "Dellbrück",
-      "description": [ "Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R. durch Syndikalisten und Anarchisten mitgetragen worden war;",
-                     "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland."],
+      "description": ["Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
+                      "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
+                      "vermutliche Lage."],
       "icon": "camp",
       "begin": "1920-03-01",
       "end": "1920-04-30",
       "sources": ["Der Polizeipräsident am 20.04.1920. LAV BR 9, Nr.7871, pag.5f.",
                   "Interalliierte Rheinland-Kommission am 22.04.1920, LAV BR 9, Nr.7871, pag.8."]
-      },
+                   },
       "geometry": {"type": "Point",
                    "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
     }
