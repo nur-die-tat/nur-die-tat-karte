@@ -33,10 +33,14 @@ html, body {
 
 #map {
   margin: 0;
-  //margin-left: 400px;
+  margin-left: 400px;
   /*width: calc(100% - 250px);*/
   height: calc(100% - 150px);
   /*display: inline;*/
+}
+
+#left-panel.hidden + #map {
+  margin-left: 0;
 }
 
 #footer {
@@ -46,4 +50,22 @@ html, body {
 
 .hidden {
   display: none;
+}
+
+#left-panel-show-button {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  width: 25px;
+  height: 60px;
+  z-index: 1;
+}
+
+#left-panel-hide-button {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  width: 25px;
+  height: 60px;
+  z-index: 1;
 }

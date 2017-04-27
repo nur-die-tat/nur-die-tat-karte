@@ -19,21 +19,21 @@ export function baseLayers(map) {
               maxResolution: 20
             })
         ],
-        visible: true
+        visible: false
     }),
       new ol.layer.Tile({
       name: 'transport',
       source: new ol.source.OSM({
           url: 'https://{a-c}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
       }),
-      visible: true
+      visible: false
     }),
       new ol.layer.Tile({
       name: 'mobile atlas',
       source: new ol.source.OSM({
           url: 'https://{a-c}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
       }),
-      visible: true
+      visible: false
     }),
     new ol.layer.Image({
       name: 'NRW GeoServer',
@@ -46,7 +46,7 @@ export function baseLayers(map) {
         },
         crossOrigin: ''
       }),
-      visible: true
+      visible: false
     }),
     new ol.layer.Image({
       name: 'NRW GeoServer 2',
@@ -59,7 +59,7 @@ export function baseLayers(map) {
         },
         crossOrigin: ''
       }),
-      visible: true
+      visible: false
     }),
     new ol.layer.Tile({
       name: 'Modern',
