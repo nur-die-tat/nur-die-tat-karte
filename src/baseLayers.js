@@ -4,34 +4,34 @@ import {calculateExtent} from "./calculateExtent.js";
 export function baseLayers(map) {
   let layers = [
     new ol.layer.Group({
-        name: 'industrial',
-        layers: [
-            new ol.layer.Tile({
-              source: new ol.source.OSM({
-                  url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-              })
-            }),
-            new ol.layer.Image({
-              source: new ol.source.ImageStatic({
-                url: '../layers/1925-industrial_modified.jpg',
-                imageExtent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803]
-              }),
-              maxResolution: 20
-            })
-        ],
+      name: 'industrial',
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM({
+            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+          })
+        }),
+        new ol.layer.Image({
+          source: new ol.source.ImageStatic({
+            url: '../layers/1925-industrial_modified.jpg',
+            imageExtent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803]
+          }),
+          maxResolution: 20
+        })
+      ],
         visible: true
     }),
-      new ol.layer.Tile({
+    new ol.layer.Tile({
       name: 'transport',
       source: new ol.source.OSM({
-          url: 'https://{a-c}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+        url: 'https://{a-c}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
       }),
       visible: false
     }),
-      new ol.layer.Tile({
+    new ol.layer.Tile({
       name: 'mobile atlas',
       source: new ol.source.OSM({
-          url: 'https://{a-c}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+        url: 'https://{a-c}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
       }),
       visible: false
     }),
@@ -97,7 +97,7 @@ function showLayerMenu(layers) {
     let text = document.createTextNode(l.get('name'));
     selection.appendChild(text);
     selection.addEventListener('click', () => {
-      visibleLayer.setVisible(true);
+      visibleLayer.setVisible(false);
       l.setVisible(true);
       visibleLayer = l;
     });
