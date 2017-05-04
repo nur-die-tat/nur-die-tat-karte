@@ -19,7 +19,7 @@ export function baseLayers(map) {
               maxResolution: 20
             })
         ],
-        visible: false
+        visible: true
     }),
       new ol.layer.Tile({
       name: 'transport',
@@ -63,7 +63,8 @@ export function baseLayers(map) {
     }),
     new ol.layer.Tile({
       name: 'Modern',
-      source: new ol.source.OSM()
+      source: new ol.source.OSM(),
+      visible: false
     })
   ];
 

@@ -36,7 +36,7 @@
             "01.08.1926",
             " „[...] morgens 10 Uhr, in Köln auf dem Neumarkt wieder Gesang, Vortrag, Rezitationen und Sprechchöre.“ ",
             "Ab Mittag versammelte sich der nationalistische 'Jungdeutschen Orden' ebenfalls auf dem Neumarkt. Der Syndikalist: „Entfaltet die schwarzen Fahnen in dem heiligen Köln, daß alle Spießer aufschrecken und der Schatten des Kölner Doms verscheucht werde, den alle Pfaffen notwendig haben, um ihr schändliches Menschenvernichtungswerk ausüben zu können.“ Tatsächlich kam es zu mehreren Zusammenstößen in der Innenstadt sowie Schüssen auf ein Auto abreisender Jungdeutscher. Laut Presseberichten waren v.a. kommunistische Gruppen für beides verantwortlich.", 
-            "'Nachmittags [Versammlung] auf den Poller Wiesen.'"
+            "„Nachmittags [Versammlung] auf den Poller Wiesen.“"
          ],
          "icon": "peace",
          "adress": " ",
@@ -50,6 +50,46 @@
         "geometries": [ { "type": "Point", "coordinates": [ 6.947688, 50.936385, 0.0 ] },
                        { "type": "Point", "coordinates": [ 6.988009134028017, 50.909350012079322, 0.0 ] },
                        { "type": "Point", "coordinates": [ 6.987778, 50.934722, 0.0 ] } ] 
+                } 
+    },
+        
+    {"type": "Feature",
+     "properties": {
+         "name": "Antikriegsabend",
+         "description": [
+            "„Kriegsdienstgegner! Arbeiter und Arbeiterinnen, alt und jung! Erscheint in Massen uim ANti-Kriegs-Abend in Köln am 25. August , abends 8 Uhr, im Lokal Industriehof, Glockengasse.“",
+            ""
+         ],
+         "icon": "peace",
+         "adress": " ",
+         "begin": "1928-08-01",
+         "end": "1928-08-31", 
+         "sources": ["Der Syndikalist, X.Jg., Nr.33, S.4."]
+     },
+    "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [ { "type": "Point", "coordinates": [ 6.973162, 50.936835, 0.0 ] } ] 
+                } 
+    },
+        
+    {"type": "Feature",
+     "properties": {
+         "name": "Antikriegs-Kundgebung",
+         "description": [
+            "„Am Samstag den 3. August, abends 7½ Uhr, findet im Saale von Josef Schmidt (früher Reihmann) eine öffentliche Anti-Kriegskundgebung in Köln-Deutz, Deutzer Freiheit 67, statt.“; „Kölner Sprechchor sowie die Kampfbühne (Schwarze Schar), Düsseldorf.“",
+            "„Sonntag, den 4. August, morgens 10 Uhr, findet in Köln auf dem Heumarkt (an der Hauptmarkthalle) eine große öffentliche Kundgebung statt, mit anschließender Demonstration durch die innere Stadt. - Nachmittags Verweilen auf den Poller Wiesen.“"
+         ],
+         "icon": "peace",
+         "adress": " ",
+         "begin": "1929-08-01",
+         "end": "1929-08-31", 
+         "sources": ["Der Syndikalist, XI.Jg., Nr.28, S.4."]
+     },
+    "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [ { "type": "Point", "coordinates": [ 6.973162, 50.936835, 0.0 ] },
+                        { "type": "Point", "coordinates": [ 6.961004, 50.936506, 0.0 ] },
+                        { "type": "Point", "coordinates": [ 6.988009134028017, 50.909350012079322, 0.0 ] } ] 
                 } 
     },
     {

@@ -26,6 +26,7 @@
     
     
     "features": [
+           
     {
      "type": "Feature",
      "properties": {
@@ -47,12 +48,11 @@
         "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ] 
     }
  },
-    {
-     "type": "Feature",
+    {"type": "Feature",
      "properties": {
          "name": "Berschel, Heinrich",
          "description": [
-           "nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender."],
+           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender."],
          "icon": "house",
          "adress": "Weidengasse 44",
          "begin": "1921-01-01",
@@ -66,8 +66,7 @@
     }
  },
     
-    {
-     "type": "Feature",
+    {"type": "Feature",
      "properties": {
          "name": "Born, Willi",
          "description": [

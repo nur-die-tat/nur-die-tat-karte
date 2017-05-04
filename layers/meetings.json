@@ -20,17 +20,16 @@
          "adress": "Mühlheimer Str. 112, Kalk",
          "begin": "1926-02-01",
          "end": "1926-12-31", 
-         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
-                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.90, S.4."]
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4.",
+                     "Der Syndikalist, VIII.Jg., Nr.46, Beilage S.2."]
                    },
     "geometry": {
         "type": "Point",
         "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
     },
         
-        {"type": "Feature",
+       {
+     "type": "Feature",
      "properties": {
          "name": "Baumbach, Lina",
          "description": [
@@ -40,12 +39,16 @@
          "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
          "begin": "1921-08-29",
          "end": "1921-11-30", 
-         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4.",
-                     "Der Syndikalist, VIII.Jg., Nr.46, Beilage S.2."]
-                   },
-    "geometry": {"type": "Point",
-        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
-    },
+         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
+                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
+                     "Die Schöpfung, I.Jg., Nr.90, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ] 
+    }
+ },
         
     {"type": "Feature",
      "properties": {
@@ -67,7 +70,7 @@
          "name": "FAU Büro",
          "description": ["Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
                          "„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des „Syndikalist“",
-                         "vermutliche Lage".],
+                         "vermutliche Lage."],
          "icon": "info",
          "adress": "Lichhof 18",
          "begin": "1931-10-01",
