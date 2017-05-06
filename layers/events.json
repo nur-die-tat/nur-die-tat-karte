@@ -13,8 +13,8 @@
      "properties": {
          "name": "Maidemonstration",
          "description": [
-            "Demonstration zum 1. Mai 1926 von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt",
-            "Abendveranstaltung in Kalk (Humboldt-Kolonie)"
+            "Demonstration zum 1. Mai 1926 von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt, Karten 10 Pfennig;",
+            "Abendveranstaltung in Kalk (Humboldt-Kolonie)."
          ],
          "icon": "flagw",
          "adress": "Bergischer Ring, Köln-Mühlheim",
@@ -98,10 +98,10 @@
          "name": "Maifeier",
          "description": [
             "01.05.1926",
-            "Feier im Lokal Ohrem in der Wattstr. 15 Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz.“"
+            "20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
          ],
          "icon": "theater",
-         "adress": " ",
+         "adress": "Wattstr. 15",
          "begin": "1926-05-01",
          "end": "1926-05-01", 
          "sources": ["Der Syndikalist, VIII.Jg., Nr.17 S.4."]

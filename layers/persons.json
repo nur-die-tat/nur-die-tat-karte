@@ -57,9 +57,7 @@
          "adress": "Weidengasse 44",
          "begin": "1921-01-01",
          "end": "1921-01-31", 
-         "sources": ["Der Syndikalist, III.Jg., Nr.5, S.3."
-                    ]
-     },
+         "sources": ["Der Syndikalist, III.Jg., Nr.5, Beilage S.3."]},
     "geometry": {
         "type": "Point",
         "coordinates": [ 6.9561893000000055, 50.947783, 0.0 ] 
@@ -74,33 +72,30 @@
            "trug zu Ausschluss von Eduard Neumann bei, dem Veruntreuung von Geldern vorgeworfen wurde."],
          "icon": "house",
          "adress": "Keupstraße 121",
-         "begin": "1921-08-29",
-         "end": "1921-11-30", 
+         "begin": "1929-05-01",
+         "end": "1929-09-30", 
          "sources": ["Der Syndikalist, XI.Jg., Nr.20, S.4.",
-                     "Der Syndikalist, XI.Jg., Nr.26, S.4."]
-     },
+                     "Der Syndikalist, XI.Jg., Nr.26, S.4."]},
     "geometry": {
         "type": "Point",
-        "coordinates": [ 7.012693099999979, 50.9632533, 0.0 ] 
-    }
- },
+        "coordinates": [ 7.012693099999979, 50.9632533, 0.0 ]}
+    },
+        
     {
      "type": "Feature",
      "properties": {
          "name": "Boske, Albert jun.",
          "description": [
-           "Verantwortlicher für Anschrift an die Syndikalistisch-Anarchistische Jugend."],
+           "Verantwortlicher für Anschriften an die Syndikalistisch-Anarchistische Jugend."],
          "icon": "house",
          "adress": "Buschfeldstraße 106¹, Köln-Hohlweide",
          "begin": "1926-02-01",
          "end": "1926-03-31", 
-         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4."]
-     },
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4."]},
     "geometry": {
         "type": "Point",
-        "coordinates": [ 7.039938900000038, 50.9745034, 0.0 ] 
-    }
- },
+        "coordinates": [ 7.039938900000038, 50.9745034, 0.0 ]}
+    },
     
     {
      "type": "Feature",
@@ -112,22 +107,20 @@
          "adress": "Karthäuser Hof 3, Köln-Mülheim",
          "begin": "1922-01-01",
          "end": "1922-01-31", 
-         "sources": ["Der Syndikalist, IV.Jg., Beilage S.6."]
-     },
+         "sources": ["Der Syndikalist, IV.Jg., Beilage S.6."]},
     "geometry": {
         "type": "Point",
-        "coordinates": [ 6.888406900000064, 51.0186432, 0.0 ] 
-    }
- },
-    {
+        "coordinates": [ 6.888406900000064, 51.0186432, 0.0 ]}
+    },
+        
+     {
      "type": "Feature",
      "properties": {
          "name": "Bunse, Johann",
          "description": [
            "Föderation aller Berufe Bezirk Köln, provisorische Geschäftsleitung;",
            "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden);",
-           "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf."
-         ],
+           "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf."],
          "icon": "house",
          "adress": "Perlengraben 4, Köln",
          "begin": "1923-7-01",
@@ -139,9 +132,8 @@
      },
     "geometry": {
         "type": "Point",
-        "coordinates": [ 6.95694275200367, 50.92857482578074, 0.0 ] 
-    }
- },
+        "coordinates": [ 6.95694275200367, 50.92857482578074, 0.0 ]}
+    },
       
     {
     "type": "Feature",
@@ -152,18 +144,33 @@
         "adress": "Bleichstr. 4, Mülheim",
         "begin": "1922-01-01",
         "end": "1922-01-31",
-        "sources": ["Der Syndikalist, IV.Jg., Nr.2, S.4.",
+        "sources": ["Der Syndikalist, IV.Jg., Nr.2, Beilage S.4.",
                     "Der Syndikalist, IV.Jg., Nr.3, S.4."]
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [ 7.0014886, 50.9605678, 0.0 ]
-    }
- },
+        "coordinates": [ 7.0014886, 50.9605678, 0.0 ]}
+    },
         
     {
-  "type": "Feature",
-  "properties": {
+    "type": "Feature",
+    "properties": {
+      "name": "Faßbender, Gerhard",
+      "adress": "Deutscher Ring 64",
+      "description": "Wurde 1921 ausgeschlossen, weil er eine 16-stündige Schicht schob. Das wurde als unsolidarisch gewertet, da es den Arbeitsplatz anderer gefährdete.",
+      "icon": "house",
+      "begin": "1921-03-01",
+      "end": "1921-04-30",
+      "sources": ["Der Syndikalist, III.Jg., Nr.13, S.4."]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.874785100000054, 50.8829308, 0.0 ]}
+     },
+        
+     {
+     "type": "Feature",
+     "properties": {
       "name": "Forsch",
       "adress": "Hackländerstr 30, Ehrenfeld",
       "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
@@ -174,10 +181,28 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [ 6.911476, 50.956757, 0.0 ]
-      }
+        "coordinates": [ 6.911476, 50.956757, 0.0 ]}
     },
     
+    {
+    "type": "Feature",
+    "properties": {
+        "name": "Kattarius, Wilhelm",
+        "description": ["auch: Kartarius, 1920 in wildem Betriebsrat in Knapsack;", 
+                        "bei Neuwahl des Börsenvorstandes Köln am 05.01.1921 zum Revisor gewählt;",
+                        "1922 erneut in wildem Betriebsrat, Verhaftung und Verurteilung zu einem Monat Gefängnis wegen Anzettelns eines wilden Streiks."],
+        "icon": "house",
+        "adress": "Heidestraße 176, Hürth",
+        "begin": "1920-07-01",
+        "end": "1923-03-31",
+        "sources": ["LAV BR 9, N. 7871, pag. 70-72;",
+                    "Der Syndikalist, III.Jg., Nr.5, Beilage S.3.",
+                    "LAV a.a.O., pag. 534, 538, 547, 565."]},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.870478899999966, 50.86751229999999, 0.0 ]}
+    },
+        
     {
     "type": "Feature",
     "properties": {
@@ -195,11 +220,123 @@
     }
  },
     
- { 
+    {
+    "type": "Feature",
+    "properties": {
+        "name": "Konitzny, S.",
+        "description": "Ab 23.01.1929 Schriftführer der FAU Köln-Süd.",
+        "icon": "house",
+        "adress": "Loreleystr. 10-12",
+        "begin": "1929-01-01",
+        "end": "1929-03-31",
+        "sources": ["Der Syndikalist, XI.Jg., Nr.7, S.4."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.95156499999996, 50.9198406, 0.0 ]
+    }
+ },    
+      
+    {
+    "type": "Feature",
+    "properties": {
+        "name": "Lieders, Joh.",
+        "description": "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Kassierer.",
+        "icon": "house",
+        "adress": "Subbelrather Str. 276",
+        "begin": "1921-01-01",
+        "end": "1921-02-28",
+        "sources": ["Der Syndikalist, III.Jg., Nr.5, Beilage S.3."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.917257800000016, 50.9550084, 0.0 ]}
+   },    
+    
+        
+        {
+    "type": "Feature",
+    "properties": {
+        "name": "List, Wilhelm",
+        "description": "Verantwortlich für Anfragen eines Quartiers zur Bauarbeiterkonferenz 15.-17.09.1928 in Köln.",
+        "icon": "house",
+        "adress": "Wilhelmstr. 45",
+        "begin": "1928-08-01",
+        "end": "1928-09-30",
+        "sources": ["Der Syndikalist, X.Jg., Nr.34, S.4."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.992435, 50.8930696, 0.0 ]}
+   },
+      
+      {
+    "type": "Feature",
+    "properties": {
+        "name": "Morawitz, Johann",
+        "description": ["auch Jean Morawitz; lud ein zu Treffen im Lokal Schmitz in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage; nahm Plakat- u. Flugblattbestellungen für Antikriegstag 1926 entgegen;",
+                       "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."],
+        "icon": "house",
+        "adress": "Engelstr. 8, Kalk",
+        "begin": "192-11-01",
+        "end": "1929-01-31",
+        "sources": ["Der Syndikalist, VII.Jg., Nr.46, S.4.",
+                    "Der Syndikalist, VIII.Jg., Nr.1, S.4.",
+                    "Der Syndikalist, VIII.Jg., Nr.30, Beilage S.4.",
+                    "Der Syndikalist, XI.Jg., Nr.2, S.4."]},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.025244499999985, 50.8993476, 0.0 ]}
+   },  
+        
+        {
+    "type": "Feature",
+    "properties": {
+        "name": "Neumann, E.",
+        "description": ["verantwortlich für Zuschriften bzgl. des Ostertreffens der SAJ 1928; dort Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz Neumann;",
+                        "verantwortlich für Zuschriften bzgl. des Pfingstreffens 1928;",
+                        "Referent auf gemeinsamer Konferenz von ASJ Rheinland & SAJ Rheinland zum Thema Verschmelzungsfrage;",
+                        "nach vollzogener Verschmelzung & Neuwahl am 01.07.1928 wieder Vorsitz der neuen BISt mit Sitz in der Dasselstr.;", 
+                        "07.10.1928 auf Konferenz der Anarchistischen Jugend Referent über „Die Lage im Bezirk“;",
+                        "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
+                        "Ausschluss im Mai 1929, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."],
+        "icon": "house",
+        "adress": "Dasselstr. 14",
+        "begin": "1928-03-01",
+        "end": "1929-05-31",
+        "sources": ["Der Syndikalist, X.Jg., Nr.12, S.4.",
+                    "Der Syndikalist, X.Jg., Nr.19, S.4.",
+                    "Der Syndikalist, X.Jg., Nr.20, S.4.",
+                    "Der Syndikalist, X.Jg., Nr.24, S.4.",
+                    "Der Syndikalist, X.Jg., Nr.33, S.4.",
+                    "Der Syndikalist, X.Jg., Nr.47, Beilage S.4.",
+                    "Der Syndikalist, XI.Jg., Nr.4, S.4.",
+                    "Der Syndikalist, XI.Jg., Nr.20, S.4."]},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.9355481, 50.9295419, 0.0 ]}
+   },
+         
+        {
+    "type": "Feature",
+    "properties": {
+        "name": "Nußbaum, Georg",
+        "description": ["Kassierer 1922."],
+        "icon": "house",
+        "adress": "Deutz-Mülheimer Str. 230, Deutz",
+        "begin": "1922-01-01",
+        "end": "1922-01-31",
+        "sources": ["Der Syndikalist, IV.Jg., Nr.2, Beilage S.4."]},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.9967752999999675, 50.960795, 0.0 ]}
+   },
+        
+     {
      "type": "Feature",
      "properties": {
          "name": "Osterberg",
-         "description": ",Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
+         "description": "Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
          "icon": "house",
          "adress": "Ehrenfeldgürtel 81, Ehrenfeld",
          "begin": "1923-08-01",
@@ -208,9 +345,57 @@
      },
     "geometry": {
         "type": "Point",
-        "coordinates": [ 6.91698, 50.95058, 0.0 ] 
-    }
- }
+        "coordinates": [ 6.91698, 50.95058, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Peukes, Hermann",
+         "description": "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 Revisor.",
+         "icon": "house",
+         "adress": "Lessingstr. 61",
+         "begin": "1920-12-31",
+         "end": "1921-01-31", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.5, Beilage S.3."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.914786999999933, 50.95533289999999, 0.0 ]}
+    },
     
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Reuter, Johann",
+         "description": ["Ab 23.01.1929 Kassierer der FAU Köln-Süd;",
+                         "von der Gestapo als Kölner Anarchosyndikalist registriert."],
+         "icon": "house",
+         "adress": "Merowingerstraße 67",
+         "begin": "1929-01-01",
+         "end": "1937-01-31", 
+         "sources": ["Der Syndikalist, XI.Jg., Nr.7, S.4.",
+                     "BArch R 58 / 319, pag. 31."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.954852100000039, 50.919979, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Reuter, S.",
+         "description": ["Ab 23.01.1929 Erster Vorsitzender FAU Köln-Süd."],
+         "icon": "house",
+         "adress": "Vorgebirgstr. 23",
+         "begin": "1929-01-01",
+         "end": "1929-02-28", 
+         "sources": ["Der Syndikalist, XI.Jg., Nr.7, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.954852100000039, 50.919979, 0.0 ]}
+    }    
  ]
 }
