@@ -1,6 +1,6 @@
 import {vectorLayers} from 'vectorLayers.js';
 import {featureDetails} from 'featureDetails.js';
-import {timePicker} from 'timePicker.js';
+import {TimePicker} from 'timePicker.js';
 import {map} from 'map.js';
 import {baseLayers} from "baseLayers.js";
 import {positioningHelper} from 'positioningHelper.js';
@@ -12,17 +12,28 @@ let m = map();
 baseLayers(m);
 let ls = vectorLayers(m);
 featureDetails(m);
-timePicker(ls);
+let tp = new TimePicker(ls);
 
 panelHide(m);
 
 positioningHelper(m);
 
+let updateSizes = () => {
+  $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());
+  m.updateSize();
+  tp.update();
+};
+
+let resetSizes = () => {
+  $('.tab-content').css('height', null);
+};
+
+window.addEventListener('resize', () => {
+  if ($('#karte').is(':visible')) {
+    updateSizes();
+  }
+});
+
 $('a[data-toggle="tab"][href="#karte"]')
-  .on('shown.bs.tab', () => {
-    $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());
-    m.updateSize();
-  })
-  .on('hide.bs.tab', () => {
-    $('.tab-content').css('height', null);
-  });
+  .on('shown.bs.tab', updateSizes)
+  .on('hide.bs.tab', resetSizes);

@@ -62,15 +62,15 @@ export class RangeSlider {
 
     this.createLineMarkers();
     this.createNumberMarkers();
+  }
 
-    window.addEventListener('resize', () => {
-      this.stepSize = this.rangeBackground.clientWidth / this.diff;
-      //this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
-      this.setLeft(this.leftStep);
-      this.setRight(this.rightStep);
-      this.createNumberMarkers();
-      this.createLineMarkers();
-    });
+  update() {
+    this.stepSize = this.rangeBackground.clientWidth / this.diff;
+    //this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
+    this.setLeft(this.leftStep);
+    this.setRight(this.rightStep);
+    this.createNumberMarkers();
+    this.createLineMarkers();
   }
 
   createLineMarkers() {
