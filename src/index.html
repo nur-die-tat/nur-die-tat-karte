@@ -57,9 +57,9 @@
 </nav>
 <div class="tab-content">
     <div class="tab-pane active" id="home" role="tabpanel">
-        
+
         <div class="container" style="margin-top:2rem">
-        
+
         <div class="card float-right w-15">
         <img class="card-img-top" src="../images/frei das land.png" alt="Card image cap">
         <div class="card-block">
@@ -67,13 +67,25 @@
         </div>
         </div>    
                         
-        <p><b>"Nur die Karte"</b> ist ein unabhängiges, unkommerzielles Open-Source-Projekt. Wir projezieren historische Karten Kölns aus den Jahren zwischen den Weltkriegen auf Openstreetmap und zeichnen darauf Punkte ein, die im Zusammenhang mit der antiautoritären Arbeiterbewegung (insbesondere der anarchosyndikalistischen "Freien Arbeiterunion Deutschlands") stehen. Darunter fallen beispielsweise Wohnorte von damals aktiven Personen, Treffpunkte und Veranstaltungen.</p>
+            <p><b>"Nur die Karte"</b> ist ein unabhängiges, unkommerzielles Open Source – Projekt. Wir projezieren
+                historische Karten Kölns aus den Jahren zwischen den Weltkriegen auf Openstreetmap und zeichnen darauf
+                Punkte ein, die im Zusammenhang mit der antiautoritären Arbeiterbewegung (insbesondere der
+                anarchosyndikalistischen "Freien Arbeiterunion Deutschlands") stehen. Darunter fallen Wohnorte von
+                damals aktiven Personen, Treffpunkte und weitere Ereignisse.</p>
 
-       <p>Durch die Darstellung der gesammelten Informationen wollen wir Möglichkeiten aufzeigen, die sich bieten, wenn moderne Mittel genutzt werden, um wissenschaftliche Erkenntnisse zugänglich zu machen. Nicht zuletzt möchten wir natürlich an die Menschen, deren Ideen erinnern und damit zu kritischen Gedanken anregen.<br>
-        Der Titel des Projekts ist angelehnt an den Ausruf "Nur die Tat kann uns helfen!", der bei einem Streik in Leverkusen 1921 fiel. Unter diesem Titel erschien 2016 <a href="https://www.syndikat-a.de/index.php?article_id=2&cat=3959&prod=4243die Broschüre"> "'Nur die Tat kann uns helfen!' Die FAUD im Raum Köln" beim Verlag Syndikat A</a>. Die hier gesammelten Informationen beruhen auf der Recherchearbeit im Zuge der Veröffentlichung.</p>
+            <p>Durch die Darstellung der gesammelten Informationen wollen wir Möglichkeiten aufzeigen, die sich bieten,
+                wenn moderne Mittel genutzt werden, um wissenschaftliche Erkenntnisse zugänglich zu machen. Nicht
+                zuletzt möchten wir natürlich an die Menschen, deren Ideen erinnern und damit zu kritischen Gedanken
+                anregen.<br>
+                Der Titel des Projekts ist angelehnt an den Ausruf "Nur die Tat kann uns helfen!", der bei einem Streik
+                in Leverkusen 1921 fiel. Unter diesem Titel erschien 2016 <a
+                        href="https://www.syndikat-a.de/index.php?article_id=2&cat=3959&prod=4243die Broschüre"> "'Nur
+                    die Tat kann uns helfen!' Die FAUD im Raum Köln" beim Verlag Syndikat A</a>. Die hier gesammelten
+                Informationen beruhen auf der Recherchearbeit im Zuge der Veröffentlichung.</p>
 
-        <p>Das Projekt befindet sich derzeit noch im Aufbau.<br>
-        <a href="http://localhost:3000/src/#kontakt"> Für Fragen, Anregungen und Kritik sind wir jederzeit offen.</a></p></div> 
+            <p>Das Projekt befindet sich derzeit noch im Aufbau.<br>
+                <a href="http://localhost:3000/src/#kontakt"> Für Fragen, Anregungen und Kritik sind wir jederzeit
+                    offen.</a></p></div>
 
             
         
@@ -82,32 +94,29 @@
         <button id="left-panel-hide-button" class="toggle-panel-button">&#x25C4;</button>
         <button id="left-panel-show-button" class="hidden toggle-panel-button">&#x25B6;</button>
         <div id="left-panel">
-                <div class="dropdown mt-2 w-25">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="basiskarten-dropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Basiskarten
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="basiskarten-dropdown">
-                    <div class="dropdown-menu" aria-labelledby="basiskarten-dropdown">
-                        <fieldset id="base-layer-selectors" class="form-group">
-                        </fieldset>
+            <div class="dropdown mt-2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="basiskarten-dropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Basiskarten
+                </button>
+                <div class="dropdown-menu" aria-labelledby="basiskarten-dropdown">
+                    <div id="base-layer-selectors" class="form-group">
                     </div>
                 </div>
-
-                <div class="dropdown mt-2 w-25">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="themen-dropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Themen
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="themen-dropdown">
-                        <fieldset id="vector-layer-selectors" class="form-group">
-                        </fieldset>
-                    </div>
-                </div>
-
-            <div class="mt-3">
             </div>
 
+            <div class="dropdown mt-2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="themen-dropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Themen
+                </button>
+                <div class="dropdown-menu" aria-labelledby="themen-dropdown">
+                    <div id="vector-layer-selectors" class="form-group">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-3">
                 <h2>Details</h2>
                 <div id="details-content">
                     <h3>Name</h3>

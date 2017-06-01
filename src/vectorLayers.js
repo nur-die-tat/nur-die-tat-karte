@@ -8,21 +8,24 @@ export function vectorLayers(map) {
       source: new ol.source.Vector({
         url: '../layers/persons.json',
         format: new ol.format.GeoJSON()
-      })
+      }),
+      visible: true
     }),
-      new ol.layer.Vector({
+    new ol.layer.Vector({
       name: 'Veranstaltungen',
       source: new ol.source.Vector({
         url: '../layers/events.json',
         format: new ol.format.GeoJSON()
-      })
+      }),
+      visible: true
     }),
-      new ol.layer.Vector({
+    new ol.layer.Vector({
       name: 'Treffpunkte',
       source: new ol.source.Vector({
         url: '../layers/meetings.json',
         format: new ol.format.GeoJSON()
-      })
+      }),
+      visible: true
     })
   ];
 
@@ -53,7 +56,6 @@ function showLayerMenu(layers) {
     checkbox.classList.add('form-check-input');
     checkbox.checked = checked;
     label.appendChild(checkbox);
-    let text = document.createTextNode(l.get('name'));
     label.innerHTML += '&nbsp;' + l.get('name');
     label.addEventListener('click', () => {
       checked = !checked;
