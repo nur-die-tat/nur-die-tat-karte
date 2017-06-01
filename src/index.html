@@ -20,7 +20,7 @@
     <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
     <script src="../node_modules/openlayers/dist/ol-debug.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>
+    <script src="../node_modules/proj4/dist/proj4.js"></script>
     <link href="./design.css" rel="stylesheet">
     <link href="./rangeslider.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -66,18 +66,16 @@
     <div class="tab-pane active" id="home" role="tabpanel">
         sdfslkjdfksdfj
     </div>
-    <div class="tab-pane" id="karte" role="tabpanel">
+    <div class="tab-pane container" id="karte" role="tabpanel">
         <button id="left-panel-hide-button" class="toggle-panel-button">&#x25C4;</button>
         <button id="left-panel-show-button" class="hidden toggle-panel-button">&#x25B6;</button>
         <div id="left-panel">
-            <div>
                 <h2>Basiskarten</h2>
-                <div id="base-layer-selectors" class="form-group">
-                </div>
-            </div>
+                <fieldset id="base-layer-selectors" class="form-group">
+                </fieldset>
             <div>
                 <h2>Themen</h2>
-                <div id="vector-layer-selectors">
+                <div id="vector-layer-selectors" class="form-group form-check">
                 </div>
             </div>
             <div>

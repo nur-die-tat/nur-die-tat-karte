@@ -27,7 +27,7 @@ export function vectorLayers(map) {
   ];
 
   for (let l of layers) {
-    l.setStyle(vectorLayerStyle)
+    l.setStyle(vectorLayerStyle);
     map.addLayer(l);
   }
 
@@ -41,15 +41,20 @@ function showLayerMenu(layers) {
 
   for (let l of layers) {
     let checked = l.getVisible();
-    let selection = document.createElement('div');
-    target.appendChild(selection);
+    let container = document.createElement('div');
+    container.classList.add('form-check');
+    target.appendChild(container);
+    let label = document.createElement('label');
+    label.classList.add('form-check-label');
+    container.appendChild(label);
     let checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
+    checkbox.classList.add('form-check-input');
     checkbox.checked = checked;
-    selection.appendChild(checkbox);
+    label.appendChild(checkbox);
     let text = document.createTextNode(l.get('name'));
-    selection.appendChild(text);
-    selection.addEventListener('click', () => {
+    label.innerHTML += '&nbsp;' + l.get('name');
+    label.addEventListener('click', () => {
       checked = !checked;
       l.setVisible(checked);
     });

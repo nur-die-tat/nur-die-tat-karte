@@ -4,7 +4,7 @@ import {calculateExtent} from "./calculateExtent.js";
 export function baseLayers(map) {
   let layers = [
     new ol.layer.Group({
-      name: 'industrial',
+      name: 'Industrial 1925',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM({
@@ -14,6 +14,7 @@ export function baseLayers(map) {
         new ol.layer.Image({
           source: new ol.source.ImageStatic({
             url: '../layers/1925-industrial_modified.jpg',
+            attributions: '&copy; Stadtarchiv Köln',
             imageExtent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803]
           }),
           maxResolution: 20
@@ -22,7 +23,7 @@ export function baseLayers(map) {
         visible: true
     }),
     new ol.layer.Group({
-      name: 'industrial 1918',
+      name: 'Industrial 1918',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM({
@@ -32,6 +33,7 @@ export function baseLayers(map) {
         new ol.layer.Tile({
           extent: [761390, 6597471, 795931, 6628039],
           source: new ol.source.TileImage({
+            attributions: '&copy; Stadtarchiv Köln',
             url: '../tiled maps/1918/{z}/{x}/{y}.png'
           }),
           maxResolution: 20
@@ -105,16 +107,20 @@ function showLayerMenu(layers) {
     if (checked) {
       visibleLayer = l;
     }
-    let selection = document.createElement('div');
-    target.appendChild(selection);
+    let container = document.createElement('div');
+    container.classList.add('form-check');
+    target.appendChild(container);
+    let label = document.createElement('label');
+    label.classList.add('form-check-label');
+    container.appendChild(label);
     let checkbox = document.createElement('input');
     checkbox.name = 'base-layer';
     checkbox.type = 'radio';
+    checkbox.classList.add('form-check-input');
     checkbox.checked = checked;
-    selection.appendChild(checkbox);
-    let text = document.createTextNode(l.get('name'));
-    selection.appendChild(text);
-    selection.addEventListener('click', () => {
+    label.appendChild(checkbox);
+    label.innerHTML += '&nbsp;' + l.get('name');
+    label.addEventListener('click', () => {
       visibleLayer.setVisible(false);
       l.setVisible(true);
       visibleLayer = l;

@@ -37,3 +37,9 @@ window.addEventListener('resize', () => {
 $('a[data-toggle="tab"][href="#karte"]')
   .on('shown.bs.tab', updateSizes)
   .on('hide.bs.tab', resetSizes);
+
+var hash = window.location.hash;
+
+if (hash !== '') {
+  $(`a[data-toggle="tab"][href="${hash}"]`).tab('show');
+}
