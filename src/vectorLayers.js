@@ -43,6 +43,7 @@ function showLayerMenu(layers) {
     let checked = l.getVisible();
     let container = document.createElement('div');
     container.classList.add('form-check');
+    container.classList.add('dropdown-item');
     target.appendChild(container);
     let label = document.createElement('label');
     label.classList.add('form-check-label');
