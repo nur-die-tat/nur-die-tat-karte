@@ -21,6 +21,24 @@ export function baseLayers(map) {
       ],
         visible: true
     }),
+    new ol.layer.Group({
+      name: 'industrial 1918',
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM({
+            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+          })
+        }),
+        new ol.layer.Tile({
+          extent: [761390, 6597471, 795931, 6628039],
+          source: new ol.source.TileImage({
+            url: '../tiled maps/1918/{z}/{x}/{y}.png'
+          }),
+          maxResolution: 20
+        })
+      ],
+      visible: false
+    }),
     new ol.layer.Tile({
       name: 'transport',
       source: new ol.source.OSM({

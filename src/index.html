@@ -1,61 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <script src="../node_modules/systemjs/dist/system.js"></script>
-  <!--<script src="../node_modules/rxjs/bundles/rx.js"></script>-->
-  <script type="application/javascript">
-    SystemJS.config({
-      map: {
-        'plugin-babel': '../node_modules/systemjs-plugin-babel/plugin-babel.js',
-        'systemjs-babel-build': '../node_modules/systemjs-plugin-babel/systemjs-babel-browser.js'
-      },
-      transpiler: 'plugin-babel'
-    });
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <!--<script src="../node_modules/rxjs/bundles/rx.js"></script>-->
+    <script type="application/javascript">
+        SystemJS.config({
+            map: {
+                'plugin-babel': '../node_modules/systemjs-plugin-babel/plugin-babel.js',
+                'systemjs-babel-build': '../node_modules/systemjs-plugin-babel/systemjs-babel-browser.js'
+            },
+            transpiler: 'plugin-babel'
+        });
 
-    SystemJS.import('./main.js');
-  </script>
-  <link rel="stylesheet" href="../node_modules/openlayers/dist/ol.css" type="text/css">
-  <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
-  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
-  <script src="../node_modules/openlayers/dist/ol-debug.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>
-  <link href="./design.css" rel="stylesheet">
-  <link href="./rangeslider.css" rel="stylesheet">
+        SystemJS.import('./main.js');
+    </script>
+    <link rel="stylesheet" href="../node_modules/openlayers/dist/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="../node_modules/openlayers/dist/ol-debug.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>
+    <link href="./design.css" rel="stylesheet">
+    <link href="./rangeslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="page-container">
-  <button id="left-panel-hide-button" class="toggle-panel-button">&#x25C4;</button>
-  <button id="left-panel-show-button" class="hidden toggle-panel-button">&#x25B6;</button>
-  <div id="left-panel">
-    <div>
-      <h2>Basiskarten</h2>
-      <div id="base-layer-selectors">
-      </div>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Nur die Karte</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-tabs" role="tablist">
+            <li class="nav-item active">
+                <a class="nav-link" data-toggle="tab" href="#home" role="tab">Home <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#karte" role="tab">Karte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#anmerkungen" role="tab">Anmerkungen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#kontakt" role="tab">Kontakt</a>
+            </li>
+        </ul>
     </div>
-    <div>
-      <h2>Themen</h2>
-      <div id="vector-layer-selectors">
-      </div>
+</nav>
+<div class="tab-content">
+    <div class="tab-pane active" id="home" role="tabpanel">
+        sdfslkjdfksdfj
     </div>
-    <div>
-      <h2>Details</h2>
-      <div id="details-content">
-        <h3>Name</h3>
-        <div id="feature-name"></div>
-        <h3>Beschreibung</h3>
-        <div id="feature-description"></div>
-        <h3>Quellen</h3>
-        <ul id="feature-sources"></ul>
-      </div>
+    <div class="tab-pane" id="karte" role="tabpanel">
+        <button id="left-panel-hide-button" class="toggle-panel-button">&#x25C4;</button>
+        <button id="left-panel-show-button" class="hidden toggle-panel-button">&#x25B6;</button>
+        <div id="left-panel">
+            <div>
+                <h2>Basiskarten</h2>
+                <div id="base-layer-selectors">
+                </div>
+            </div>
+            <div>
+                <h2>Themen</h2>
+                <div id="vector-layer-selectors">
+                </div>
+            </div>
+            <div>
+                <h2>Details</h2>
+                <div id="details-content">
+                    <h3>Name</h3>
+                    <div id="feature-name"></div>
+                    <h3>Beschreibung</h3>
+                    <div id="feature-description"></div>
+                    <h3>Quellen</h3>
+                    <ul id="feature-sources"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="map" class="map">
+        </div>
+        <div id="footer">
+            Begin: <input id="begin-picker" type="date" value="1910-01-01">, End: <input id="end-picker" type="date"
+                                                                                         value="1940-01-01">
+        </div>
     </div>
-  </div>
-  <div id="map" class="map">
-  </div>
-  <div id="footer">
-    Begin: <input id="begin-picker" type="date" value="1910-01-01">, End: <input id="end-picker" type="date" value="1940-01-01">
-  </div>
+    <div class="tab-pane" id="anmerkungen" role="tabpanel">
+        anmerkungen
+    </div>
+    <div class="tab-pane" id="kontakt" role="tabpanel">
+        kontakt
+    </div>
 </div>
 </body>
 </html>
