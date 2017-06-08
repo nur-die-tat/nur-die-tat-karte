@@ -113,6 +113,9 @@ function showLayerMenu(layers) {
     target.appendChild(container);
     let label = document.createElement('label');
     label.classList.add('form-check-label');
+    if (checked) {
+      label.classList.add('checked');
+    }
     container.appendChild(label);
     let checkbox = document.createElement('input');
     checkbox.name = 'base-layer';

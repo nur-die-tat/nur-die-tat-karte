@@ -82,19 +82,19 @@ function createGeometryStyle(feature, resolution, geometry) {
           }));
         break;
       case 'info':
-        featureStyle.setImage(new ol.style.Icon({
+        style.setImage(new ol.style.Icon({
           anchor: [0.5, 1],
             src: '../icons/info.png'
           }));
         break;
       case 'shakehand':
-        featureStyle.setImage(new ol.style.Icon({
+        style.setImage(new ol.style.Icon({
           anchor: [0.5, 1],
             src: '../icons/shakehand.png'
           }));
         break;
       case 'camp':
-        featureStyle.setImage(new ol.style.Icon({
+        style.setImage(new ol.style.Icon({
           anchor: [0.5, 1],
             src: '../icons/camp.png'
           }));
