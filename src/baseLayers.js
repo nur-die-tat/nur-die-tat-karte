@@ -11,16 +11,16 @@ export function baseLayers(map) {
             url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
           })
         }),
-        new ol.layer.Image({
-          source: new ol.source.ImageStatic({
-            url: '../layers/1925-industrial_modified.jpg',
+        new ol.layer.Tile({
+          extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
+          source: new ol.source.TileImage({
             attributions: '&copy; Stadtarchiv Köln',
-            imageExtent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803]
+            url: 'http://diekarte.musca.uberspace.de/tiles/1925/{z}/{x}/{y}.png'
           }),
           maxResolution: 20
         })
       ],
-        visible: true
+      visible: true
     }),
     new ol.layer.Group({
       name: 'Industrial 1918',
@@ -34,7 +34,7 @@ export function baseLayers(map) {
           extent: [761390, 6597471, 795931, 6628039],
           source: new ol.source.TileImage({
             attributions: '&copy; Stadtarchiv Köln',
-            url: '../tiled maps/1918/{z}/{x}/{y}.png'
+            url: 'http://diekarte.musca.uberspace.de/tiles/1918/{z}/{x}/{y}.png'
           }),
           maxResolution: 20
         })
