@@ -396,6 +396,39 @@
     "geometry": {
         "type": "Point",
         "coordinates": [ 6.954852100000039, 50.919979, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Schumacher, Jakob",
+         "description": ["Wahl zum Schriftführer des Agitationskomitees Köln-Solingen 30.01.1921."],
+         "icon": "house",
+         "adress": "Birkengartenstr. 1",
+         "begin": "1921-01-01",
+         "end": "1921-02-28", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.13, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.9862207999999555, 51.0291869, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Sneydn",
+         "description": ["auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; bei Streik im CHemiewerk in Leverkusen Anfang 1921 kurzzeitig in Haft;",
+                        "vermuteter Wohnort."],
+         "icon": "house",
+         "adress": "Hauptstr. 51, Ohligs-Mehrscheidt",
+         "begin": "1921-01-01",
+         "end": "1921-03-31", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.13, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.02351987361908, 51.164778098847556, 0.0 ]}
     }    
  ]
 }
