@@ -17,12 +17,15 @@ export function vectorLayerMenu(layers) {
     checkbox.checked = checked;
     label.appendChild(checkbox);
     label.innerHTML += '&nbsp;' + l.get('name');
-    label.addEventListener('click', () => {
-      checked = !checked;
-      l.setVisible(checked);
+    label.addEventListener('click', e => {
+      if (e.target === label) {
+        checked = !checked;
+        l.setVisible(checked);
+      }
     });
   }
 
+  // hack for strange behaviour that removes checked state
   setTimeout(() => {
     for (let l of layers) {
       document.querySelector(`input[value="${l.get('name')}"]`).checked = l.getVisible();

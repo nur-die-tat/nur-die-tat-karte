@@ -27,9 +27,11 @@ export function baseLayerMenu(layers) {
     label.appendChild(checkbox);
     label.innerHTML += '&nbsp;' + l.get('name');
     label.addEventListener('click', () => {
-      visibleLayer.setVisible(false);
-      l.setVisible(true);
-      visibleLayer = l;
+      if (e.target === label) {
+        visibleLayer.setVisible(false);
+        l.setVisible(true);
+        visibleLayer = l;
+      }
     });
   }
 
