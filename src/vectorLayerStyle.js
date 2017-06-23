@@ -98,6 +98,12 @@ function createGeometryStyle(feature, resolution, geometry) {
           anchor: [0.5, 1],
             src: '../icons/camp.png'
           }));
+        break;
+      case 'strike':
+        style.setImage(new ol.style.Icon({
+          anchor: [0.5, 1],
+            src: '../icons/strike.png'
+          }));
         break
       }
     }

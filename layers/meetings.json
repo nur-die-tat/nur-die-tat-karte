@@ -130,6 +130,22 @@
                    },
       "geometry": {"type": "Point",
                    "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Wellershausen",
+         "description": ["Treffen der Rodenkirchener Anarchosyndikalisten."],
+         "icon": "shakehand",
+         "adress": "Barbarastr. 17, Rodenkirchen",
+         "begin": "1926-05-01",
+         "end": "1926-07-31", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.23, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.995635, 50.89356, 0.0 ]}
     }
  ]
 }

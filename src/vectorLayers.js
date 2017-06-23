@@ -26,6 +26,14 @@ export function vectorLayers(map) {
         format: new ol.format.GeoJSON()
       }),
       visible: true
+    }),
+    new ol.layer.Vector({
+      name: 'Arbeitskämpfe',
+      source: new ol.source.Vector({
+        url: '../layers/strike.json',
+        format: new ol.format.GeoJSON()
+      }),
+      visible: true
     })
   ];
 

@@ -6,6 +6,7 @@
             "name": "EPSG:4326"
           }
         },
+    
     "dummy": {
       "type": "Feature",
       "properties": {
@@ -185,12 +186,29 @@
     },
     
     {
+     "type": "Feature",
+     "properties": {
+         "name": "Jagemann, Kurt",
+         "description": ["1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+         "keine Festnahme."],
+         "icon": "house",
+         "adress": "Am Wiesengrund 16, Köln-Dünnwald",
+         "begin": "1932-12-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 319, pag. 31."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.036156, 50.984452, 0.0 ]}
+    },    
+        
+    {
     "type": "Feature",
     "properties": {
         "name": "Kattarius, Wilhelm",
         "description": ["auch: Kartarius, 1920 in wildem Betriebsrat in Knapsack;", 
-                        "bei Neuwahl des Börsenvorstandes Köln am 05.01.1921 zum Revisor gewählt;",
-                        "1922 erneut in wildem Betriebsrat, Verhaftung und Verurteilung zu einem Monat Gefängnis wegen Anzettelns eines wilden Streiks."],
+        "bei Neuwahl des Börsenvorstandes Köln am 05.01.1921 zum Revisor gewählt;",
+        "1922 erneut in wildem Betriebsrat, Verhaftung und Verurteilung zu einem Monat Gefängnis wegen Anzettelns eines wilden Streiks."],
         "icon": "house",
         "adress": "Heidestraße 176, Hürth",
         "begin": "1920-07-01",
@@ -202,6 +220,24 @@
         "type": "Point",
         "coordinates": [ 6.870478899999966, 50.86751229999999, 0.0 ]}
     },
+    
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Kerker, Theodor",
+         "description": ["1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+         "keine Festnahme;",
+         "vermutlicher Wohnort."],
+         "icon": "house",
+         "adress": "Günestraße 16",
+         "begin": "1932-12-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 319, pag. 31."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.053394, 50.975548, 0.0 ]}
+    },    
         
     {
     "type": "Feature",
@@ -236,7 +272,24 @@
         "coordinates": [ 6.95156499999996, 50.9198406, 0.0 ]
     }
  },    
-      
+     
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Krochert, Karl",
+         "description": ["1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+         "keine Festnahme."],
+         "icon": "house",
+         "adress": "Wahlenstr. 35, Köln-Ehrenfeld",
+         "begin": "1932-12-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 319, pag. 31."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.921882, 50.949701, 0.0 ]}
+    }, 
+  
     {
     "type": "Feature",
     "properties": {
@@ -269,21 +322,42 @@
         "type": "Point",
         "coordinates": [ 6.992435, 50.8930696, 0.0 ]}
    },
-      
+     
+        {
+    "type": "Feature",
+    "properties": {
+        "name": "Lösaus, Karl Adolf",
+        "description": ["Schreiner, *09.07.1907 in Wiesbaden;",
+        "nach 1933 Untergrundarbeit mit Grete Saballa;",
+        "Emigration in die Niederlande, Dunkerque, dort bei Zentralstelle der Deutschen Anarchosyndikalisten;",
+        "1936-1937 im Spanischen Bürgerkrieg, Batterie 'Sacco & Vanzetti';",
+        "Flucht nach Schweden, Internierung 1940."],
+        "icon": "house",
+        "adress": "Rolshoverstr. 2, Kalk",
+        "begin": "1928-08-01",
+        "end": "1936-01-01",
+        "sources": ["BArch R 58 / 319, pag  26.",
+        "Graf, Nelles (Hrsg.), Rudolf Berner, Die unsichtbare Front. Bericht über die illegale Arbeit in Deutschland (1937). Berlin/Köln 1997, S. 9, 97.",
+        "Nelles, Linse, Piotrowski, García (Hrsg.), Deutsche AntifaschistInnen in Barcelona 1933-1939. Heidelberg 2013, 165."]},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.000257, 50.93736, 0.0 ]}
+   },
+        
       {
     "type": "Feature",
     "properties": {
         "name": "Morawitz, Johann",
         "description": ["auch Jean Morawitz; lud ein zu Treffen im Lokal Schmitz in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage; nahm Plakat- u. Flugblattbestellungen für Antikriegstag 1926 entgegen;",
-                       "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."],
+        "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."],
         "icon": "house",
         "adress": "Engelstr. 8, Kalk",
-        "begin": "192-11-01",
+        "begin": "1926-11-01",
         "end": "1929-01-31",
         "sources": ["Der Syndikalist, VII.Jg., Nr.46, S.4.",
-                    "Der Syndikalist, VIII.Jg., Nr.1, S.4.",
-                    "Der Syndikalist, VIII.Jg., Nr.30, Beilage S.4.",
-                    "Der Syndikalist, XI.Jg., Nr.2, S.4."]},
+        "Der Syndikalist, VIII.Jg., Nr.1, S.4.",
+        "Der Syndikalist, VIII.Jg., Nr.30, Beilage S.4.",
+        "Der Syndikalist, XI.Jg., Nr.2, S.4."]},
     "geometry": {
         "type": "Point",
         "coordinates": [ 7.025244499999985, 50.8993476, 0.0 ]}
@@ -294,24 +368,24 @@
     "properties": {
         "name": "Neumann, E.",
         "description": ["verantwortlich für Zuschriften bzgl. des Ostertreffens der SAJ 1928; dort Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz Neumann;",
-                        "verantwortlich für Zuschriften bzgl. des Pfingstreffens 1928;",
-                        "Referent auf gemeinsamer Konferenz von ASJ Rheinland & SAJ Rheinland zum Thema Verschmelzungsfrage;",
-                        "nach vollzogener Verschmelzung & Neuwahl am 01.07.1928 wieder Vorsitz der neuen BISt mit Sitz in der Dasselstr.;", 
-                        "07.10.1928 auf Konferenz der Anarchistischen Jugend Referent über „Die Lage im Bezirk“;",
-                        "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
-                        "Ausschluss im Mai 1929, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."],
+        "verantwortlich für Zuschriften bzgl. des Pfingstreffens 1928;",
+        "Referent auf gemeinsamer Konferenz von ASJ Rheinland & SAJ Rheinland zum Thema Verschmelzungsfrage;",
+        "nach vollzogener Verschmelzung & Neuwahl am 01.07.1928 wieder Vorsitz der neuen BISt mit Sitz in der Dasselstr.;", 
+        "07.10.1928 auf Konferenz der Anarchistischen Jugend Referent über „Die Lage im Bezirk“;",
+        "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
+        "Ausschluss im Mai 1929, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."],
         "icon": "house",
         "adress": "Dasselstr. 14",
         "begin": "1928-03-01",
         "end": "1929-05-31",
         "sources": ["Der Syndikalist, X.Jg., Nr.12, S.4.",
-                    "Der Syndikalist, X.Jg., Nr.19, S.4.",
-                    "Der Syndikalist, X.Jg., Nr.20, S.4.",
-                    "Der Syndikalist, X.Jg., Nr.24, S.4.",
-                    "Der Syndikalist, X.Jg., Nr.33, S.4.",
-                    "Der Syndikalist, X.Jg., Nr.47, Beilage S.4.",
-                    "Der Syndikalist, XI.Jg., Nr.4, S.4.",
-                    "Der Syndikalist, XI.Jg., Nr.20, S.4."]},
+        "Der Syndikalist, X.Jg., Nr.19, S.4.",
+        "Der Syndikalist, X.Jg., Nr.20, S.4.",
+        "Der Syndikalist, X.Jg., Nr.24, S.4.",
+        "Der Syndikalist, X.Jg., Nr.33, S.4.",
+        "Der Syndikalist, X.Jg., Nr.47, Beilage S.4.",
+        "Der Syndikalist, XI.Jg., Nr.4, S.4.",
+        "Der Syndikalist, XI.Jg., Nr.20, S.4."]},
     "geometry": {
         "type": "Point",
         "coordinates": [ 6.9355481, 50.9295419, 0.0 ]}
@@ -369,13 +443,14 @@
      "properties": {
          "name": "Reuter, Johann",
          "description": ["Ab 23.01.1929 Kassierer der FAU Köln-Süd;",
-                         "von der Gestapo als Kölner Anarchosyndikalist registriert."],
+         "1937 von der Gestapo als Kölner Anarchosyndikalist registriert;",
+         "keine Festnahme."],
          "icon": "house",
          "adress": "Merowingerstraße 67",
          "begin": "1929-01-01",
-         "end": "1937-01-31", 
+         "end": "1936-12-31", 
          "sources": ["Der Syndikalist, XI.Jg., Nr.7, S.4.",
-                     "BArch R 58 / 319, pag. 31."]
+         "BArch R 58 / 319, pag. 31."]
      },
     "geometry": {
         "type": "Point",
@@ -397,6 +472,63 @@
         "type": "Point",
         "coordinates": [ 6.954852100000039, 50.919979, 0.0 ]}
     },
+     
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Robens, Josef",
+         "description": ["1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+         "keine Festnahme."],
+         "icon": "house",
+         "adress": "Schartgasse 6",
+         "begin": "1932-12-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 319, pag. 31."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.949406, 50.931164, 0.0 ]}
+    },    
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Saballa, Margarete & Johann",
+         "description": ["auch: Greta & Hans;",
+         "*16.11.1907 in Köln und *16.10.1904 in Ratibor;",
+         "Kölner ASJ Mitglieder;",
+         "nach 1933 Kurierdienste und Verteilung 'staatsfeindlicher Schriften', u.a. 'Esst deutsche Bananen', 'Neuer Vorwärts', 'Internationale Revue';",
+         "Untergrundvernetzung mit Julius Nolden in Duisburg;",
+         "im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft."],
+         "icon": "house",
+         "adress": "An Lyskirchen 6",
+         "begin": "1932-01-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 318, pag. 161f, 198f;",
+         "BArch R 58 / 319, pag. 31f."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.962406, 50.933053, 0.0 ]}
+    },
+    
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Schneider, Paul",
+         "description": ["1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+         "laut Gestapo 1929 zum Kassierer Groß-Kölns gewählt;",
+         "keine Festnahme."],
+         "icon": "house",
+         "adress": "Beethovenstr. 18",
+         "begin": "1929-12-01",
+         "end": "1936-12-31", 
+         "sources": ["BArch R 58 / 319, pag. 31, 32."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.937361, 50.93204, 0.0 ]}
+    },    
         
     {
      "type": "Feature",
@@ -418,8 +550,8 @@
      "type": "Feature",
      "properties": {
          "name": "Sneydn",
-         "description": ["auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; bei Streik im CHemiewerk in Leverkusen Anfang 1921 kurzzeitig in Haft;",
-                        "vermuteter Wohnort."],
+         "description": ["auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; wegen Agitation zu illegalem Streik in den Farbenfabriken in Leverkusen Anfang 1921, kurzzeitig in Haft;",
+         "vermuteter Wohnort."],
          "icon": "house",
          "adress": "Hauptstr. 51, Ohligs-Mehrscheidt",
          "begin": "1921-01-01",
@@ -429,6 +561,76 @@
     "geometry": {
         "type": "Point",
         "coordinates": [ 7.02351987361908, 51.164778098847556, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Weingarten, Wilhelm",
+         "description": ["Wahl zum zweiten Kassierer nach Neuwahl des Börsenvorstandes der Arbeiterbörse-Köln am 05.01.1921"],
+         "icon": "house",
+         "adress": "Wollküche 16",
+         "begin": "1920-12-01",
+         "end": "1921-02-28", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.5, S.6."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.953214, 50.934861, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Wiefels, Jakob",
+         "description": ["Vorsitzender FAU Köln-Mülheim;",
+         "stellvertretender Vorsitzender der Arbeiterbörse Groß-Köln nach deren Neukonstituierungsversuch;",
+         "Ausschluss 1923."],
+         "icon": "house",
+         "adress": "Danzierstraße 117",
+         "begin": "1922-01-01",
+         "end": "1923-09-30", 
+         "sources": ["Der Syndikalist, IV.Jg., Nr.2, Beilage S.4;",
+         "Der Syndikalist, IV.Jg., Nr.17, Beilage S.6;",
+         "Der Syndikalist, V.Jg., Nr.34, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.001008, 50.959385, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Winkel, Eugen",
+         "description": ["Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt."],
+         "icon": "house",
+         "adress": "Friedrichstr. 61",
+         "begin": "1920-12-01",
+         "end": "1921-02-28", 
+         "sources": ["Der Syndikalist, III.Jg., Nr.5, S.4."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.06057, 50.888433, 0.0 ]}
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Zander, Mathias",
+         "description": ["Verantwortlich für Anmeldungen zur antimilitaristischen Kundgebung am 31.07. & 01.08.1926;", "1925 Mitbegründer der Kalker Anarchistisch-Syndikalistischen Jugend."],
+         "icon": "house",
+         "adress": "K.-Höhenberg, Frankfurterstr. 294",
+         "begin": "1925-06-01",
+         "end": "1926-09-30", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.23, S.4;",
+         "Der Syndikalist, VIII.Jg., Nr.30, S.4;",
+         "R. Theissen, P. Walter, J. Wilhelms, Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 108-109."]
+     },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.022371, 50.946708, 0.0 ]}
     }    
  ]
 }
