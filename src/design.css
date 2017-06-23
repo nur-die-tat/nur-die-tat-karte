@@ -33,11 +33,22 @@ body {
 
 #left-panel {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   width: 400px;
   float: left;
   height: calc(100% - 150px);
   /*display: inline-block;*/
+}
+
+#layer-selection {
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+#details {
+  margin: 0;
+  height: calc(100% - 115px);
   overflow-y: auto;
 }
 

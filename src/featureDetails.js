@@ -21,11 +21,11 @@ function clearElement(element) {
 
 function showFeatureDetails(feature, layer) {
   if (feature === null) {
-    document.querySelector('#details-content')
+    document.querySelector('#details')
       .classList.add('hidden');
   }
   else {
-    document.querySelector('#details-content')
+    document.querySelector('#details')
       .classList.remove('hidden');
 
     document.querySelector('#feature-name')

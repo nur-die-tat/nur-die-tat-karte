@@ -80,35 +80,34 @@
         <button id="left-panel-hide-button" class="toggle-panel-button">&#x25C4;</button>
         <button id="left-panel-show-button" class="hidden toggle-panel-button">&#x25B6;</button>
         <div id="left-panel">
-            <div class="dropdown mt-2">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="basiskarten-dropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Basiskarten
-                </button>
-                <div class="dropdown-menu" aria-labelledby="basiskarten-dropdown" id="base-layer-selectors">
+            <div id="layer-selection" class="container">
+                <div class="dropdown mt-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="basiskarten-dropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Basiskarten
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="basiskarten-dropdown" id="base-layer-selectors">
+                    </div>
                 </div>
-            </div>
 
-            <div class="dropdown mt-2">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="themen-dropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Themen
-                </button>
-                <div class="dropdown-menu" aria-labelledby="themen-dropdown">
-                    <div id="vector-layer-selectors" class="form-group">
+                <div class="dropdown mt-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="themen-dropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Themen
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="themen-dropdown">
+                        <div id="vector-layer-selectors" class="form-group">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-3">
-                <h2>Details</h2>
-                <div id="details-content">
-                    <h3 id="feature-name"></h3>
-                    <h4 id="layer-name"></h4>
-                    <div id="feature-description"></div>
-                    <h4>Quellen</h4>
-                    <ul id="feature-sources"></ul>
-                </div>
+            <div class="hidden container" id="details">
+                <h2 id="feature-name"></h2>
+                <h5 id="layer-name"></h5>
+                <div id="feature-description"></div>
+                <h4>Quellen</h4>
+                <ul id="feature-sources"></ul>
             </div>
         </div>
         <div id="map" class="map">
@@ -120,116 +119,182 @@
     </div>
     <div class="tab-pane" id="anmerkungen" role="tabpanel">
         <div class="container" style="margin-top:2rem">
-        <h1>Anmerkungen</h1>
-        
-            <br>
-            
-        <p>Das Projekt "Nur die Karte" präsentiert euch Daten, die im Rahmen einer Bachelorarbeit zusammengetragen und später noch vielfach ergänzt worden sind. Wir wollen uns damit nicht brüsten (sofern das in diesem Bildungssystem überhaupt möglich ist) sondern verdeutlichen, dass wir einen wissenschaftlichen Anspruch haben. Dazu gehört in erster Linie, dass wir unsere Quellen darlegen. Das heißt, wenn gewünscht, kann überprüft werden, woher wir unsere Informationen haben und ob wir sie richtig wiedergeben. Außerdem gibt es einige weitere Punkte, die wir erwähnen möchten, um unsere Methode zu beschreiben.</p>
+            <h1>Anmerkungen</h1>
 
-        <ol>
-            <h4><li>Quellen- & Literatur</li></h4>
-            <h4><li>Datumsangaben</li></h4>
-            <h4><li>Adressen</li></h4>
-            <h4><li>Icons</li></h4>
-        </ol>
-        
+            <br>
+
+            <p>Das Projekt "Nur die Karte" präsentiert euch Daten, die im Rahmen einer Bachelorarbeit zusammengetragen
+                und später noch vielfach ergänzt worden sind. Wir wollen uns damit nicht brüsten (sofern das in diesem
+                Bildungssystem überhaupt möglich ist) sondern verdeutlichen, dass wir einen wissenschaftlichen Anspruch
+                haben. Dazu gehört in erster Linie, dass wir unsere Quellen darlegen. Das heißt, wenn gewünscht, kann
+                überprüft werden, woher wir unsere Informationen haben und ob wir sie richtig wiedergeben. Außerdem gibt
+                es einige weitere Punkte, die wir erwähnen möchten, um unsere Methode zu beschreiben.</p>
+
+            <ol>
+                <h4>
+                    <li>Quellen- & Literatur</li>
+                </h4>
+                <h4>
+                    <li>Datumsangaben</li>
+                </h4>
+                <h4>
+                    <li>Adressen</li>
+                </h4>
+                <h4>
+                    <li>Icons</li>
+                </h4>
+            </ol>
+
             <br>
             <br>
             <br>
-                
-<h2>1. Quellen- & Literatur</h2>
-        
-        <br>
-            
-        <h3>Karten</h3>
+
+            <h2>1. Quellen- & Literatur</h2>
+
             <br>
-            Bei Betrachtung des historischen Kartenmaterials fallen insb. an den Schnittkanten Ungenauigkeiten und Schönheitsfehler auf. Dies lies sich bei der Georeferenzierung, d.h. der Einpassung der durch klassische Landvermessung erstellten Karten in das moderne satellitengestützte System, leider nicht vermeiden.
-            
+
+            <h3>Karten</h3>
             <br>
-            
+            Bei Betrachtung des historischen Kartenmaterials fallen insb. an den Schnittkanten Ungenauigkeiten und
+            Schönheitsfehler auf. Dies lies sich bei der Georeferenzierung, d.h. der Einpassung der durch klassische
+            Landvermessung erstellten Karten in das moderne satellitengestützte System, leider nicht vermeiden.
+
+            <br>
+
             <ul>
-            <li>Köln 1918<br>
-                Historisches Archiv der Stadt Köln 7102_0055_002.</li>
-            <li>Köln 1925<br>
-                Historisches Archiv der Stadt Köln 7102_0055_007.</li>
-            <li>Köln 1935<br>
-                Historisches Archiv der Stadt Köln 7102_0055_018.</li>
-             
+                <li>Köln 1918<br>
+                    Historisches Archiv der Stadt Köln 7102_0055_002.
+                </li>
+                <li>Köln 1925<br>
+                    Historisches Archiv der Stadt Köln 7102_0055_007.
+                </li>
+                <li>Köln 1935<br>
+                    Historisches Archiv der Stadt Köln 7102_0055_018.
+                </li>
+
             </ul>
-            
-        
-            
+
+
             <h3>Quellen</h3>
             <ul>
-                <li>Der Syndikalist.¹ Organ der sozialrevolutionären Gewerkschaften und Deutschlands. Berlin 1918/19-1932.<br>
-                    Signaturen der Friedrich Ebert Stiftung: FES MF 639; FES MF 1020.</li>
-                <li>Die Schöpfung.¹ Sozialrevolutionäres Organ für das sozialistische Neuland. Düsseldorf 1921 – 1924.<br>
-                    Signatur des Instituts für soziale Bewegungen Bochum: ISB SZB 3204.</li>
+                <li>Der Syndikalist.¹ Organ der sozialrevolutionären Gewerkschaften und Deutschlands. Berlin
+                    1918/19-1932.<br>
+                    Signaturen der Friedrich Ebert Stiftung: FES MF 639; FES MF 1020.
+                </li>
+                <li>Die Schöpfung.¹ Sozialrevolutionäres Organ für das sozialistische Neuland. Düsseldorf 1921 –
+                    1924.<br>
+                    Signatur des Instituts für soziale Bewegungen Bochum: ISB SZB 3204.
+                </li>
                 <li>Rheinisch-Westfälische Zeitung. Essen 1883 – 1944.<br>
-                    Signatur der Universitäts- & Landesbibliothek Bonn: ULB ZMF 104.</li>
+                    Signatur der Universitäts- & Landesbibliothek Bonn: ULB ZMF 104.
+                </li>
                 <li>Archivalia des Landesarchiv NRW:<br>
-                    LAV BR 7, BR 9 und BR 31.</li>
+                    LAV BR 7, BR 9 und BR 31.
+                </li>
                 <li>Archivalia des Bundesarchivs:<br>
-                BArch R 58 / 318 und R 58 / 319.</li>
+                    BArch R 58 / 318 und R 58 / 319.
+                </li>
             </ul>
 
             <h3>Literatur</h3>
-            <ul> 
-                <li>Graf, Nelles (Hrsg.), Rudolf Berner, Die unsichtbare Front. Bericht über die illegale Arbeit in Deutschland (1937). Berlin/Köln 1997.</li>
-                <li>Nelles, Linse, Piotrowski, García (Hrsg.), Deutsche AntifaschistInnen in Barcelona 1933-1939. Heidelberg 2013.</li>
-                <li>Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980.</li>
-                
+            <ul>
+                <li>Graf, Nelles (Hrsg.), Rudolf Berner, Die unsichtbare Front. Bericht über die illegale Arbeit in
+                    Deutschland (1937). Berlin/Köln 1997.
+                </li>
+                <li>Nelles, Linse, Piotrowski, García (Hrsg.), Deutsche AntifaschistInnen in Barcelona 1933-1939.
+                    Heidelberg 2013.
+                </li>
+                <li>Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980.
+                </li>
+
             </ul>
 
             <br>
             <br>
             <br>
-            
-<h2>2. Datumsangaben</h2>
-            
-            <p>Datumsangaben in den Beschreibungen sind den angegebenen Quellen entnommen. Es ist jedoch nicht möglich anhand der zu Grunde liegenden Quellen eindeutig zu benennen, von wann bis wann beispielsweise eine Person an einem Wort wohnte. Unsere kleinste Einheit durch die wir einen Zeitraum oder -punkt darstellen ist ein Monat. Für "Nur die Tat" behelfen wir uns deshalb damit, dass wir einem nachweisbaren Datum einen Anfangspunkt einen Monat vor und einen Endpunkt einen Monat nach dem belegbaren Datum wählen.</p>
-            <p>Die dadurch entstehende Ungenauigkeit meinen wir zu Gunsten der Darstellung verschmerzen zu können. Außerdem halten wir es für wahrscheinlich, dass beispielsweise eine Person, die in ein Amt gewählt wurde, dieses nicht nur in dem Monat innehatte, in dem sie gewählt wurde.</p>
-     
-            <br>
-            <br>
-            <br>
-            
-<h2>3. Adressen</h2>
-            
-            <p>Angegebene Adressen bzw. deren Koordinaten basieren auf den Quellenangaben. Nicht immer sind diese Daten eindeutig. Das liegt teils an widersprüchlichen oder unvollständigen Angaben in den Quellen, aber auchn geänderten Straßenverläufen, der Zerstörung, dem Abriss oder Neubau von Gebäuden. Wir versuchen dem anhand der historischen Karten weitestgehend Rechnung zu tragen. Beispielsweise entspräche der Perlengraben 2 aus der Quelle heute etwa dem Karl-Berbuer-Platz 7. Es bietet sich somit an, zwischen den historischen und der aktuellen Karte immer mal wieder hin und her zuwechseln.</p>
-            <p>Einige der Punkte bleiben leider Vermutungen. Sie sind als solche gekennzeichnet. Weil uns die Punkte dennoch als relevant erschienen sind, haben wir sie eingezeichnet und hoffen unsere Angaben in Zukunft präzisieren zu können.</p>
+
+            <h2>2. Datumsangaben</h2>
+
+            <p>Datumsangaben in den Beschreibungen sind den angegebenen Quellen entnommen. Es ist jedoch nicht möglich
+                anhand der zu Grunde liegenden Quellen eindeutig zu benennen, von wann bis wann beispielsweise eine
+                Person an einem Wort wohnte. Unsere kleinste Einheit durch die wir einen Zeitraum oder -punkt darstellen
+                ist ein Monat. Für "Nur die Tat" behelfen wir uns deshalb damit, dass wir einem nachweisbaren Datum
+                einen Anfangspunkt einen Monat vor und einen Endpunkt einen Monat nach dem belegbaren Datum wählen.</p>
+            <p>Die dadurch entstehende Ungenauigkeit meinen wir zu Gunsten der Darstellung verschmerzen zu können.
+                Außerdem halten wir es für wahrscheinlich, dass beispielsweise eine Person, die in ein Amt gewählt
+                wurde, dieses nicht nur in dem Monat innehatte, in dem sie gewählt wurde.</p>
 
             <br>
             <br>
             <br>
-            
-<h2>4. Icons</h2>
-            
-            <img class="float-right ml-1" src="../images/antimil-DSnr8-40-s4.jpg" alt="Card image cap" style="width: 12rem">
-            
-            <p>Die verwendeten Icons für die eingezeichneten Punkte entstammen einem stark vereinfachten heutigen Blickwinkel. Wir haben diese Darstellung vor allem gewählt, um ein intuitives Verständnis zu ermöglichen. Darunter leidet die historische Genauigkeit.</p>
-            <p>So wählten wir für die Antikriegstage das international bekannte Zeichen der Campaign for Nuclear Disarmament, das erst 1958 geschaffen wurde. Wir gehen davon aus, dass es allgemein bekannt ist und den Inhalt der damaligen Veranstaltungen nachempfinbar werden lässt, auch wenn Atomwaffen damals noch nicht erfunden waren. Zeitgenössisch und u.a. auch im Syndikalist als Anstecknadel vertrieben, wäre das Symbol des zerbrochenen Gewehrs.³ Diese Darstellung erwies sich aber als Icon in dieser Auflösung ungeeignet.</p>
-            <p>Weiterhin wählten wir die schwarz-rote Fahne als Symbol für die Maidemonstration. Anhand der vorliegenden Quellen ist nicht nachweisbar, dass diese Fahne seinerzeit benutzt worden ist. Belegbar sind schwarze Fahnen bzw. schwarze Fahnen in deren Mitte eine Flamme oder Fackel abgebildet war.³ Die schwarz-rote Fahne steht jedoch spätestens seit ihrer Verwendung durch die spanische CNT für den Anarchosyndikalismus bzw. ihm nahestehende Gruppen und ist daher aus heutiger Sicht klar verständlich.</p>
+
+            <h2>3. Adressen</h2>
+
+            <p>Angegebene Adressen bzw. deren Koordinaten basieren auf den Quellenangaben. Nicht immer sind diese Daten
+                eindeutig. Das liegt teils an widersprüchlichen oder unvollständigen Angaben in den Quellen, aber auchn
+                geänderten Straßenverläufen, der Zerstörung, dem Abriss oder Neubau von Gebäuden. Wir versuchen dem
+                anhand der historischen Karten weitestgehend Rechnung zu tragen. Beispielsweise entspräche der
+                Perlengraben 2 aus der Quelle heute etwa dem Karl-Berbuer-Platz 7. Es bietet sich somit an, zwischen den
+                historischen und der aktuellen Karte immer mal wieder hin und her zuwechseln.</p>
+            <p>Einige der Punkte bleiben leider Vermutungen. Sie sind als solche gekennzeichnet. Weil uns die Punkte
+                dennoch als relevant erschienen sind, haben wir sie eingezeichnet und hoffen unsere Angaben in Zukunft
+                präzisieren zu können.</p>
 
             <br>
             <br>
-            
-            <p><b>Solltet ihr Fragen, Anmerkungen haben oder wenn euch noch etwas auffällt, was wir bisher nicht berücksichtigt haben, freuen wir uns auf <a href="#kontakt">eure Rückmeldung.</a></b></p>
+            <br>
+
+            <h2>4. Icons</h2>
+
+            <img class="float-right ml-1" src="../images/antimil-DSnr8-40-s4.jpg" alt="Card image cap"
+                 style="width: 12rem">
+
+            <p>Die verwendeten Icons für die eingezeichneten Punkte entstammen einem stark vereinfachten heutigen
+                Blickwinkel. Wir haben diese Darstellung vor allem gewählt, um ein intuitives Verständnis zu
+                ermöglichen. Darunter leidet die historische Genauigkeit.</p>
+            <p>So wählten wir für die Antikriegstage das international bekannte Zeichen der Campaign for Nuclear
+                Disarmament, das erst 1958 geschaffen wurde. Wir gehen davon aus, dass es allgemein bekannt ist und den
+                Inhalt der damaligen Veranstaltungen nachempfinbar werden lässt, auch wenn Atomwaffen damals noch nicht
+                erfunden waren. Zeitgenössisch und u.a. auch im Syndikalist als Anstecknadel vertrieben, wäre das Symbol
+                des zerbrochenen Gewehrs.³ Diese Darstellung erwies sich aber als Icon in dieser Auflösung
+                ungeeignet.</p>
+            <p>Weiterhin wählten wir die schwarz-rote Fahne als Symbol für die Maidemonstration. Anhand der vorliegenden
+                Quellen ist nicht nachweisbar, dass diese Fahne seinerzeit benutzt worden ist. Belegbar sind schwarze
+                Fahnen bzw. schwarze Fahnen in deren Mitte eine Flamme oder Fackel abgebildet war.³ Die schwarz-rote
+                Fahne steht jedoch spätestens seit ihrer Verwendung durch die spanische CNT für den Anarchosyndikalismus
+                bzw. ihm nahestehende Gruppen und ist daher aus heutiger Sicht klar verständlich.</p>
+
+            <br>
+            <br>
+
+            <p><b>Solltet ihr Fragen, Anmerkungen haben oder wenn euch noch etwas auffällt, was wir bisher nicht
+                berücksichtigt haben, freuen wir uns auf <a href="#kontakt">eure Rückmeldung.</a></b></p>
 
             <br>
             <br>
             <br>
-            
-
-            <p><small>¹ Nähere Angaben zu diesen und anderen Publikationen des anarchistischen bzw. Anarchosyndikalistischen Spektrums bei:<br> Bernd Drücke, Zwischen Schreibtisch und Straßenschlacht? Anarchismus und libertäre Presse in Ost- und Westdeutschland. Münster 1988.</small></p>
 
 
-            <p><small>² Siehe bspw.: Der Syndikalist VIII.Jg., Nr. 40, S. 4.</small></p>
-            
-            <p><small>³ Siehe: Reichsministerium für die besetzten Gebiete (Hrsg.), Eingriffe der Besatzungsbehörden in die Rechtspflege im besetzten Rheinland. Berlin 1925, S. 46f.</small></p>
-                
-            </div>
-        
+            <p>
+                <small>¹ Nähere Angaben zu diesen und anderen Publikationen des anarchistischen bzw.
+                    Anarchosyndikalistischen Spektrums bei:<br> Bernd Drücke, Zwischen Schreibtisch und Straßenschlacht?
+                    Anarchismus und libertäre Presse in Ost- und Westdeutschland. Münster 1988.
+                </small>
+            </p>
+
+
+            <p>
+                <small>² Siehe bspw.: Der Syndikalist VIII.Jg., Nr. 40, S. 4.</small>
+            </p>
+
+            <p>
+                <small>³ Siehe: Reichsministerium für die besetzten Gebiete (Hrsg.), Eingriffe der Besatzungsbehörden in
+                    die Rechtspflege im besetzten Rheinland. Berlin 1925, S. 46f.
+                </small>
+            </p>
+
+        </div>
+
     </div>
     <div class="tab-pane" id="kontakt" role="tabpanel">
         kontakt
