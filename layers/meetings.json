@@ -132,6 +132,23 @@
                    "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
     },
         
+    {"type": "Feature",
+     "properties": {
+      "id": 10,
+      "name": "Siedlertag",
+      "adress": "Düsseldorfer Str. 384",
+      "description": ["23. April 1921 freisozialistischer Siedlertag;",
+                     "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
+                     "Unterzeichnet durch <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
+      "icon": "shakehand",
+      "begin": "1921-04-01",
+      "end": "1921-04-30",
+      "sources": ["Der Syndikalist, VIII.Jg., Nr.12, Beilage S.4."]
+                   },
+      "geometry": {"type": "Point",
+                   "coordinates": [ 6.995904, 51.00222, 0.0 ]}
+    },
+        
     {
      "type": "Feature",
      "properties": {

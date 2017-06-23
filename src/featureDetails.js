@@ -40,7 +40,7 @@ function showFeatureDetails(feature) {
 
     for (let descItem of description) {
       let p = document.createElement('p');
-      p.textContent = descItem;
+      p.innerHTML = descItem;
       descContainer.appendChild(p);
     }
 

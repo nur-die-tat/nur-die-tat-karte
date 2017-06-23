@@ -51,9 +51,11 @@
  },
     {"type": "Feature",
      "properties": {
+         "id": 5,
          "name": "Berschel, Heinrich",
          "description": [
-           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender."],
+           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender;",
+           "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>."],
          "icon": "house",
          "adress": "Weidengasse 44",
          "begin": "1921-01-01",
@@ -67,10 +69,11 @@
     
     {"type": "Feature",
      "properties": {
+         "id": 12,
          "name": "Born, Willi",
          "description": [
            "Verantwortlicher für Planung und Unterkünfte während der Antikriegstage 1929.",
-           "trug zu Ausschluss von Eduard Neumann bei, dem Veruntreuung von Geldern vorgeworfen wurde."],
+           "trug zu Ausschluss von <a class='feature-link' data-layer='Personen' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."],
          "icon": "house",
          "adress": "Keupstraße 121",
          "begin": "1929-05-01",
@@ -152,6 +155,24 @@
         "type": "Point",
         "coordinates": [ 7.0014886, 50.9605678, 0.0 ]}
     },
+    
+        {
+    "type": "Feature",
+    "properties": {
+        "id": 4,
+        "name": "Esser, Heinrich",
+        "description": ["nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 zweiter Schriftführer;",
+        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>."],
+        "icon": "house",
+        "adress": "Eigelstein 143",
+        "begin": "1920-12-31",
+        "end": "1921-01-31",
+        "sources": ["Der Syndikalist, IV.Jg., Nr.5, S.8."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 7.0014886, 50.9605678, 0.0 ]}
+    },
         
     {
     "type": "Feature",
@@ -205,10 +226,12 @@
     {
     "type": "Feature",
     "properties": {
+        "id": 1,
         "name": "Kattarius, Wilhelm",
         "description": ["auch: Kartarius, 1920 in wildem Betriebsrat in Knapsack;", 
         "bei Neuwahl des Börsenvorstandes Köln am 05.01.1921 zum Revisor gewählt;",
-        "1922 erneut in wildem Betriebsrat, Verhaftung und Verurteilung zu einem Monat Gefängnis wegen Anzettelns eines wilden Streiks."],
+        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>;",
+        "1922 erneut in wildem Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='Personen' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>Peter König</a>, noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht."],
         "icon": "house",
         "adress": "Heidestraße 176, Hürth",
         "begin": "1920-07-01",
@@ -259,6 +282,28 @@
     {
     "type": "Feature",
     "properties": {
+        "id": 2,
+        "name": "König, Peter",
+        "description": ["nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Schriftführer;",
+        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>;",
+        "04. April 1922 Wahl in wilden Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='Personen' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Wilhelm Kattarius</a>; noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht;",
+        "bei der Verhandlung Sprecher der insg. vier Personen, die von der Besatzung verurteilt wurden."],
+        "icon": "house",
+        "adress": "Aachener Str. 64",
+        "begin": "1921-01-01",
+        "end": "1922-04-30",
+        "sources": ["Der Syndikalist, III.Jg., Nr.5, S.7.",
+        "LAV BR 9, Nr 7871, pag.534, 538, 547, 565."]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [ 6.933697, 50.936726, 0.0 ]
+    }
+ },
+        
+    {
+    "type": "Feature",
+    "properties": {
         "name": "Konitzny, S.",
         "description": "Ab 23.01.1929 Schriftführer der FAU Köln-Süd.",
         "icon": "house",
@@ -293,8 +338,10 @@
     {
     "type": "Feature",
     "properties": {
+        "id": 7,
         "name": "Lieders, Joh.",
-        "description": "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Kassierer.",
+        "description": ["Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Kassierer;",
+        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>."],
         "icon": "house",
         "adress": "Subbelrather Str. 276",
         "begin": "1921-01-01",
@@ -366,6 +413,7 @@
         {
     "type": "Feature",
     "properties": {
+        "id": 11,
         "name": "Neumann, E.",
         "description": ["verantwortlich für Zuschriften bzgl. des Ostertreffens der SAJ 1928; dort Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz Neumann;",
         "verantwortlich für Zuschriften bzgl. des Pfingstreffens 1928;",
@@ -373,7 +421,7 @@
         "nach vollzogener Verschmelzung & Neuwahl am 01.07.1928 wieder Vorsitz der neuen BISt mit Sitz in der Dasselstr.;", 
         "07.10.1928 auf Konferenz der Anarchistischen Jugend Referent über „Die Lage im Bezirk“;",
         "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
-        "Ausschluss im Mai 1929, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."],
+        "Ausschluss im Mai 1929 auf Drängen <a class='feature-link' data-layer='Personen' data-feature='12' href='#'>Borns</a>, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."],
         "icon": "house",
         "adress": "Dasselstr. 14",
         "begin": "1928-03-01",
@@ -425,8 +473,10 @@
     {
      "type": "Feature",
      "properties": {
+         "id": 9,
          "name": "Peukes, Hermann",
-         "description": "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 Revisor.",
+         "description": ["Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 Revisor;",
+         "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>."],
          "icon": "house",
          "adress": "Lessingstr. 61",
          "begin": "1920-12-31",
@@ -567,7 +617,8 @@
      "type": "Feature",
      "properties": {
          "name": "Weingarten, Wilhelm",
-         "description": ["Wahl zum zweiten Kassierer nach Neuwahl des Börsenvorstandes der Arbeiterbörse-Köln am 05.01.1921"],
+         "description": ["Wahl zum zweiten Kassierer nach Neuwahl des Börsenvorstandes der Arbeiterbörse-Köln am 05.01.1921;",
+                        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='6' href='#'>Winkel</a>."],
          "icon": "house",
          "adress": "Wollküche 16",
          "begin": "1920-12-01",
@@ -602,8 +653,10 @@
     {
      "type": "Feature",
      "properties": {
+         "id": 6,
          "name": "Winkel, Eugen",
-         "description": ["Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt."],
+         "description": ["Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt;",
+                        "weitere gewählte Personen: <a class='feature-link' data-layer='Personen' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='Personen' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='Personen' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='Personen' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='Personen' data-feature='8' href='#'>Weingarten</a>."],
          "icon": "house",
          "adress": "Friedrichstr. 61",
          "begin": "1920-12-01",
