@@ -70,7 +70,7 @@
          "name": "Kraftwerk Goldenberg",
          "description": [
            "Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
-           "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='Personen' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>Peter König</a>;",
+           "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
            "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König)."
            ],
          "icon": "strike",
@@ -81,7 +81,7 @@
      },
     "geometry": {
         "type": "Point",
-        "coordinates": [ 6.9889192409572525, 50.94942062480936, 0.0 ] 
+        "coordinates": [ 6.840046, 50.86076, 0.0 ] 
     }
  },  
         
