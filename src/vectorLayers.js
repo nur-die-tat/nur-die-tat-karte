@@ -1,5 +1,5 @@
-import {Observable} from '../node_modules/rxjs/bundles/rx.js';
 import {vectorLayerStyle} from './vectorLayerStyle.js';
+import {vectorLayerMenu} from "./vectorLayerMenu.js";
 
 export function vectorLayers(map) {
   let layers = [
@@ -42,33 +42,7 @@ export function vectorLayers(map) {
     map.addLayer(l);
   }
 
-  showLayerMenu(layers);
+  vectorLayerMenu(layers);
 
   return layers;
 }
-
-function showLayerMenu(layers) {
-  let target = document.querySelector('#vector-layer-selectors');
-
-  for (let l of layers) {
-    let checked = l.getVisible();
-    let container = document.createElement('div');
-    container.classList.add('form-check');
-    container.classList.add('dropdown-item');
-    target.appendChild(container);
-    let label = document.createElement('label');
-    label.classList.add('form-check-label');
-    container.appendChild(label);
-    let checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.classList.add('form-check-input');
-    checkbox.checked = checked;
-    label.appendChild(checkbox);
-    label.innerHTML += '&nbsp;' + l.get('name');
-    label.addEventListener('click', () => {
-      checked = !checked;
-      l.setVisible(checked);
-    });
-  }
-}
-

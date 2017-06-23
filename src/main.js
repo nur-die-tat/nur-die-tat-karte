@@ -48,10 +48,10 @@ let hash = window.location.hash;
 if (hash !== '') {
   let $tab = $(`a[data-toggle="tab"][href="${hash}"]`);
   if ($tab.length === 0) {
-    $(`a[data-toggle="tab"][href="home"]`).tab('show');
+    $(`a[data-toggle="tab"][href="#home"]`).tab('show');
   } else {
     $tab.tab('show');
   }
 } else {
-  $(`a[data-toggle="tab"][href="home"]`).tab('show');
+  $(`a[data-toggle="tab"][href="#home"]`).tab('show');
 }
