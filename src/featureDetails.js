@@ -1,8 +1,11 @@
-export function featureDetails(map) {
-  showFeatureDetails(null);
+import {focusOnFeature} from "./focusOnFeature.js";
+
+export function featureDetails(map, layers) {
   map.on('click', e => {
-    map.forEachFeatureAtPixel(e.pixel, (f, l) => showFeatureDetails(f, l));
-  })
+    map.forEachFeatureAtPixel(e.pixel, (f, l) => {
+      showFeatureDetails(map, layers, f, l)
+    });
+  });
   map.on('pointermove', e => {
     if (map.hasFeatureAtPixel(e.pixel)) {
       map.getViewport().style.cursor = 'pointer';
@@ -19,12 +22,21 @@ function clearElement(element) {
   }
 }
 
-function showFeatureDetails(feature, layer) {
+let activeFeature;
+
+export function showFeatureDetails(map, layers, feature, layer) {
+  if (activeFeature) {
+    activeFeature.set('active', false);
+  }
+
   if (feature === null) {
     document.querySelector('#details')
       .classList.add('hidden');
   }
   else {
+    feature.set('active', true);
+    activeFeature = feature;
+
     document.querySelector('#details')
       .classList.remove('hidden');
 
@@ -45,6 +57,13 @@ function showFeatureDetails(feature, layer) {
       let p = document.createElement('p');
       p.innerHTML = descItem;
       descContainer.appendChild(p);
+    }
+
+    for (let featureLink of descContainer.querySelectorAll('.feature-link')) {
+      featureLink.addEventListener('click', e => {
+        focusOnFeature(map, layers, featureLink.dataset.layer, parseInt(featureLink.dataset.feature));
+        e.preventDefault();
+      });
     }
 
     let sources = feature.get('sources');
