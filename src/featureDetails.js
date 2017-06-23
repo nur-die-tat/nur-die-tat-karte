@@ -1,7 +1,7 @@
 export function featureDetails(map) {
   showFeatureDetails(null);
   map.on('click', e => {
-    map.forEachFeatureAtPixel(e.pixel, f => showFeatureDetails(f));
+    map.forEachFeatureAtPixel(e.pixel, (f, l) => showFeatureDetails(f, l));
   })
   map.on('pointermove', e => {
     if (map.hasFeatureAtPixel(e.pixel)) {
@@ -19,7 +19,7 @@ function clearElement(element) {
   }
 }
 
-function showFeatureDetails(feature) {
+function showFeatureDetails(feature, layer) {
   if (feature === null) {
     document.querySelector('#details-content')
       .classList.add('hidden');
@@ -30,6 +30,9 @@ function showFeatureDetails(feature) {
 
     document.querySelector('#feature-name')
       .textContent = feature.get('name');
+
+    document.querySelector('#layer-name')
+      .textContent = layer.get('name');
 
     let description = feature.get('description');
     description = Array.isArray(description) ? description : [description];
