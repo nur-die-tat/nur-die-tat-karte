@@ -58,9 +58,7 @@
   width: 11px;
   display: inline-block;
   z-index: 2;
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-  cursor: grab;
+  cursor: ew-resize;
 }
 
 .rangeslider-range-between-knobs {
