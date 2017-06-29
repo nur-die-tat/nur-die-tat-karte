@@ -83,7 +83,7 @@ function createGeometryStyle(feature, resolution, geometry) {
       style.setImage(new ol.style.Icon(iconOptions));
     }
 
-    if (resolution < 20) {
+    if (resolution < 10) {
       style.getText().setText(feature.get('name'));
     }
 

@@ -4,7 +4,8 @@ import {imageModal} from "./imageModal.js";
 export function featureDetails(map, layers) {
   map.on('click', e => {
     map.forEachFeatureAtPixel(e.pixel, (f, l) => {
-      showFeatureDetails(map, layers, f, l)
+      showFeatureDetails(map, layers, f, l);
+      return true;
     });
   });
   map.on('pointermove', e => {
