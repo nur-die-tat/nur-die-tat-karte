@@ -1,4 +1,5 @@
 import {focusOnFeature} from "./focusOnFeature.js";
+import {imageModal} from "./imageModal.js";
 
 export function featureDetails(map, layers) {
   map.on('click', e => {
@@ -41,10 +42,10 @@ export function showFeatureDetails(map, layers, feature, layer) {
       .classList.remove('hidden');
 
     document.querySelector('#feature-name')
-      .textContent = feature.get('name');
+      .innerHTML = feature.get('name');
 
     document.querySelector('#layer-name')
-      .textContent = layer.get('name');
+      .innerHTML = layer.get('name');
 
     let description = feature.get('description');
     description = Array.isArray(description) ? description : [description];
@@ -66,6 +67,13 @@ export function showFeatureDetails(map, layers, feature, layer) {
       });
     }
 
+    for (let imageModalLink of descContainer.querySelectorAll('.image-modal')) {
+      imageModalLink.addEventListener('click', e => {
+        imageModal(imageModalLink.querySelector('img').src);
+        e.preventDefault();
+      });
+    }
+      
     let sources = feature.get('sources');
     sources = Array.isArray(sources) ? sources : [sources];
 
@@ -75,7 +83,7 @@ export function showFeatureDetails(map, layers, feature, layer) {
 
     for (let sourcesItem of sources) {
       let li = document.createElement('li');
-      li.textContent = sourcesItem;
+      li.innerHTML = sourcesItem;
       sourcesContainer.appendChild(li);
     }
   }

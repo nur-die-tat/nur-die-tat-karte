@@ -74,13 +74,15 @@
          "description": [
            "Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
            "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
-           "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König)."
+           "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
+           "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>"
            ],
          "icon": "strike",
          "adress": "Deutz-Mülheimer Straße",
          "begin": "1921-01-31",
          "end": "1921-02-28", 
-         "sources": ["Der Syndikalist, III.Jg., Nr.8, Beilage, S.4."]
+         "sources": ["Der Syndikalist, III.Jg., Nr.8, Beilage, S.4.",
+                     "Foto: Wikimedia Commons, <a href='https://de.wikipedia.org/wiki/Kraftwerk_Goldenberg/'>Artikel: Kraftwerk Goldenberg</a>."]
      },
     "geometry": {
         "type": "Point",
@@ -95,7 +97,8 @@
          "description": [
            "29.-31.08.1931 Streik der Notstandsarbeiter (Arbeitsangebot für Erwerbslose);",
            "Der Syndikalist: 'Trotz aller Drohungen der Verwaltung standen bis Montag, dem 31. August, über 2000 Notstandsarbeiter im Streik. Die Straßen der Stadt schwammen im Dreck. Die Müllabfuhr konnte nur unter Polizeischutz geschehen. Die Autos wurden umgeworfen und Sabotageakte dort geübt, wo sie notwendig waren. Die bürgerliche Presse schrieb in Angst von Terror- und Sabotageakten, und überhaupt war ein geordnetes Leben der städtischen Betriebe nur unter polizeilicher Aufsicht möglich. Die Genossen der FAUD standen in vorderster Kampffront, wenn auch die fanatischen „Moskauwiter“ die Syndikalisten am liebsten verwünscht hätten.'",
-           "u.a Umsturz eines Wagens der Müllabfuhr in der Severinstraße."
+           "u.a Umsturz eines Wagens der Müllabfuhr in der Severinstraße.",
+           "<a href='#' class='image-modal'> <img src='../images/RZ LX 208 7.jpg' style='width: 20rem'> </a>"
            ],
          "icon": "strike",
          "adress": "Severinstraße",
