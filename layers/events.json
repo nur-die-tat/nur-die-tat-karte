@@ -29,7 +29,7 @@
     {
      "type": "Feature",
      "properties": {
-         "name": "Antikriegstage",
+         "name": "Antikriegstage '26",
          "description": [
             "31.07.1926",
             " „[...] abends 7 Uhr, Beginn der Feier in Köln-Deutz, Konzertsaal Reimann. Gesang der Kölner Freien Sänger, Vortrag der Genossen Heinrich Melzer, Hans Schmitz und der Genossin Trautchen Kaspers. Rezitation durch Düsseldorfer, Mühlheimer-Ruhr Genossen und Sprechchöre der München-Gladbacher, Elberfelder, Duisburger und Kölner Jugendgenossen.“ ",
@@ -55,7 +55,7 @@
         
     {"type": "Feature",
      "properties": {
-         "name": "Antikriegsabend",
+         "name": "Antikriegsabend '28",
          "description": [
             "„Kriegsdienstgegner! Arbeiter und Arbeiterinnen, alt und jung! Erscheint in Massen uim ANti-Kriegs-Abend in Köln am 25. August , abends 8 Uhr, im Lokal Industriehof, Glockengasse.“",
             ""
@@ -74,9 +74,9 @@
         
     {"type": "Feature",
      "properties": {
-         "name": "Antikriegs-Kundgebung",
+         "name": "Antikriegstage '29",
          "description": [
-            "„Am Samstag den 3. August, abends 7½ Uhr, findet im Saale von Josef Schmidt (früher Reihmann) eine öffentliche Anti-Kriegskundgebung in Köln-Deutz, Deutzer Freiheit 67, statt.“; „Kölner Sprechchor sowie die Kampfbühne (Schwarze Schar), Düsseldorf.“",
+            "Antikriegstage 1929: „Am Samstag den 3. August, abends 7½ Uhr, findet im Saale von Josef Schmidt (früher Reihmann) eine öffentliche Anti-Kriegskundgebung in Köln-Deutz, Deutzer Freiheit 67, statt.“; „Kölner Sprechchor sowie die Kampfbühne (Schwarze Schar), Düsseldorf.“",
             "„Sonntag, den 4. August, morgens 10 Uhr, findet in Köln auf dem Heumarkt (an der Hauptmarkthalle) eine große öffentliche Kundgebung statt, mit anschließender Demonstration durch die innere Stadt. - Nachmittags Verweilen auf den Poller Wiesen.“"
          ],
          "icon": "peace",
@@ -95,7 +95,7 @@
     {
      "type": "Feature",
      "properties": {
-         "name": "Maifeier",
+         "name": "Maifeier '26",
          "description": [
             "01.05.1926",
             "20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"

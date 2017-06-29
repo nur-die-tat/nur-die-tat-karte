@@ -86,7 +86,7 @@
       "name": "„Zum Hirsch“",
       "adress": "Kämmergasse, Köln",
       "description": [ "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
-                       "Vortrag von Augustin Souchy 27.08.1922;",
+                       "Vortrag von <a href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> 27.08.1922;",
                        "Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag;",
                        "vermutliche Lage."],
       "icon": "shakehand",
@@ -121,7 +121,7 @@
       "adress": "Dellbrück",
       "description": ["Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
                       "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
-                      "vermutliche Lage."],
+                      "vermutete Lage."],
       "icon": "camp",
       "begin": "1920-03-01",
       "end": "1920-04-30",
@@ -131,7 +131,7 @@
       "geometry": {"type": "Point",
                    "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
     },
-    
+      
     {"type": "Feature",
      "properties": {
       "id": 13,
@@ -145,7 +145,7 @@
                    },
       "geometry": {"type": "Point",
                    "coordinates": [ 7.18002, 51.06953, 0.0 ]}
-    },
+    },    
         
     {"type": "Feature",
      "properties": {
@@ -153,8 +153,8 @@
       "name": "Siedlertag",
       "adress": "Düsseldorfer Str. 384",
       "description": ["23. April 1921 freisozialistischer Siedlertag;",
-        "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
-        "Unterzeichnet durch <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
+                     "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
+                     "Unterzeichnet durch <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
       "icon": "shakehand",
       "begin": "1921-04-01",
       "end": "1921-04-30",
@@ -164,11 +164,27 @@
                    "coordinates": [ 6.995904, 51.00222, 0.0 ]}
     },
         
+    {"type": "Feature",
+     "properties": {
+      "id": 1,
+      "name": "Vollversammlung",
+      "adress": "Ulrichgasse 6",
+      "description": ["07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns bei Schmitz in der Ulrichgasse;",
+                     "Redner u.a. <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."],
+      "icon": "shakehand",
+      "begin": "1926-07-01",
+      "end": "1926-07-31",
+      "sources": ["Der Syndikalist, VIII.Jg., Nr.23, S.4."]
+                   },
+      "geometry": {"type": "Point",
+                   "coordinates": [ 6.95394, 50.92488, 0.0 ]}
+    },
+        
     {
      "type": "Feature",
      "properties": {
          "name": "Wellershausen",
-         "description": ["Treffen der Rodenkirchener Anarchosyndikalisten."],
+         "description": ["06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."],
          "icon": "shakehand",
          "adress": "Barbarastr. 17, Rodenkirchen",
          "begin": "1926-05-01",

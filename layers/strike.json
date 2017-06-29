@@ -14,9 +14,10 @@
      {
      "type": "Feature",
      "properties": {
+         "id": 2,
          "name": "Chemiewerk",
          "description": [
-           "02.-26.02.1921 Solidaritätsstreik mit Streik in Leverkusen;",
+           "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in Leverkusen</a>;",
            "2027 zu 29 Stimmen für den Streik;",
            "Forderung der Wiedereinstellung zweier Kollegen;",
            "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
@@ -34,16 +35,18 @@
      },
     "geometry": {
         "type": "Point",
-        "coordinates": [ 6.843066, 50.861108, 0.0 ] 
+        "coordinates": [ 6.852422, 50.861975, 0.0 ] 
     }
  },
         
         {
      "type": "Feature",
      "properties": {
+         "id": 1,
          "name": "Farbenfabrik",
          "description": [
            "29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
+           "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Knapsack</a>;",
            "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
            "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen;",
            "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern."
