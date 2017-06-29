@@ -137,11 +137,13 @@
       "id": 13,
       "name": "Ostertreffen",
       "adress": "Lindscheid 14, Wermelskirchen",
-      "description": ["Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>."],
+      "description": ["Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>.",
+                     "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"],
       "icon": "shakehand",
       "begin": "1928-04-01",
       "end": "1928-04-30",
-      "sources": ["Der Syndikalist, X.Jg., Nr.12, S.4."]
+      "sources": ["Der Syndikalist, X.Jg., Nr.12, S.4.",
+                  "Foto: Gemeinfrei."]
                    },
       "geometry": {"type": "Point",
                    "coordinates": [ 7.18002, 51.06953, 0.0 ]}

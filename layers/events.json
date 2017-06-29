@@ -92,6 +92,7 @@
                         { "type": "Point", "coordinates": [ 6.988009134028017, 50.909350012079322, 0.0 ] } ] 
                 } 
     },
+    
     {
      "type": "Feature",
      "properties": {
@@ -108,6 +109,27 @@
      },
     "geometry": {
         "type": "Point", "coordinates": [ 6.999595, 50.931824, 0.0 ] }  
+                 
+    },
+        
+    {
+     "type": "Feature",
+     "properties": {
+         "name": "Versammlung der Notstandsarbeiter",
+         "description": [
+            "öffentliche Versammlung der Notstandsarbeiter im „Maurischen Tempel“ Ende August 1924;",
+            "Die sog. Notstandarbeiten waren privaten Unternehmen übertragen worden, die auf drohende Streiks mit Aussperrungen reagierten. Die FAUD lud daher zu einer Protestveranstaltung ein, die von ca. 1500 besucht wurde.",
+            "<a href='#' class='image-modal'> <img src='http://www.bilderbuch-koeln.de/bilder/k%C3%B6ln_altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_e4d2401762_1200x1600xin.jpeg' style='width: 20rem'> </a>"
+         ],
+         "icon": "meet",
+         "adress": "Vor den Siebenburgen 51",
+         "begin": "1924-08-01",
+         "end": "1924-08-31", 
+         "sources": ["Der Syndikalist, VIII.Jg., Nr.17 S.4.",
+                     "Bild: <a href='http://www.bilderbuch-koeln.de/Fotos/altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_401762'>Bilderbuch Köln, Foto 401762</a>."]
+     },
+    "geometry": {
+        "type": "Point", "coordinates": [ 6.949848, 50.927217, 0.0 ] }  
                  
     }
         

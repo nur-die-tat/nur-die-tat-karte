@@ -15,14 +15,16 @@
      "type": "Feature",
      "properties": {
          "id": 2,
-         "name": "Chemiewerk",
+         "name": "Chemiepark",
          "description": [
            "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in Leverkusen</a>;",
            "2027 zu 29 Stimmen für den Streik;",
            "Forderung der Wiedereinstellung zweier Kollegen;",
            "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
            "Bewertung des Streiks als Tarifbruch durch Zentralgewerkschaften;",
-           "nach erfolgslosen Verhandlungen Wiederaufnahme der Arbeit am 26. Februar."
+           "nach erfolgslosen Verhandlungen Wiederaufnahme der Arbeit am 26. Februar.",
+           "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/2/21/ISK_Knapsack_Carbidabstich.jpg' style='width: 20rem'> </a>",
+           "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/c/c1/ISK_Knapsack_Hoechst_1920er.jpg' style='width: 20rem'> </a>" 
            ],
          "icon": "strike",
          "adress": "Knapsack Chemiewerk",
@@ -31,7 +33,8 @@
          "sources": ["Der Syndikalist, III.Jg., Nr.5, S.4.",
          "Der Syndikalist, III.Jg., Nr.6, S.4.",
          "Der Syndikalist, III.Jg., Nr.15, S.1.", 
-         "LAV BR 7, Nr. 15807."]
+         "LAV BR 7, Nr. 15807.",
+         "Fotos: Wikimedia Commons, <a href='https://de.wikipedia.org/wiki/Chemiepark_Knapsack'>Artikel: Chemiepark Knapsack</a>."]
      },
     "geometry": {
         "type": "Point",

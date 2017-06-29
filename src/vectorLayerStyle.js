@@ -74,7 +74,10 @@ function createGeometryStyle(feature, resolution, geometry) {
           break;
         case 'strike':
           iconOptions.src = '../icons/strike.png';
-          break
+          break;
+        case 'meet':
+          iconOptions.src = '../icons/meet.png';
+          break 
       }
 
       style.setImage(new ol.style.Icon(iconOptions));
