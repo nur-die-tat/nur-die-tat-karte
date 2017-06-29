@@ -49,10 +49,10 @@
          "name": "Farbenfabrik",
          "description": [
            "29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
-           "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Knapsack</a>;",
+           "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v4' data-feature='2' href='#'>Knapsack</a>;",
            "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
-           "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen;",
-           "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern."
+           "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='v1' data-feature='14' href='#'>Sneydn</a>",
+           "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
            "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
            ],
          "icon": "strike",

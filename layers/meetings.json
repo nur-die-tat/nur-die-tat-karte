@@ -156,7 +156,7 @@
       "adress": "Düsseldorfer Str. 384",
       "description": ["23. April 1921 freisozialistischer Siedlertag;",
                      "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
-                     "Unterzeichnet durch <a class='feature-link' data-layer='Personen' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
+                     "Unterzeichnet durch <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
       "icon": "shakehand",
       "begin": "1921-04-01",
       "end": "1921-04-30",
