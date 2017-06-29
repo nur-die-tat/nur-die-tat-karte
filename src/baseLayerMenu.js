@@ -26,7 +26,7 @@ export function baseLayerMenu(layers) {
     checkbox.checked = checked;
     label.appendChild(checkbox);
     label.innerHTML += '&nbsp;' + l.get('name');
-    label.addEventListener('click', () => {
+    label.addEventListener('click', e => {
       if (e.target === label) {
         visibleLayer.setVisible(false);
         l.setVisible(true);
