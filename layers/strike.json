@@ -53,6 +53,7 @@
            "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
            "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen;",
            "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern."
+           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
            ],
          "icon": "strike",
          "adress": "Leverkusen, Farbenfabriken",
@@ -61,7 +62,8 @@
          "sources": ["Der Syndikalist, III.Jg., Nr.5, S.4.",
          "Der Syndikalist, III.Jg., Nr.6, S.4.",
          "Der Syndikalist, III.Jg., Nr.15, S.1.", 
-         "LAV BR 7, Nr. 15807."]
+         "LAV BR 7, Nr. 15807.",
+         "Foto: <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."]
      },
     "geometry": {
         "type": "Point",
