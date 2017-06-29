@@ -34,7 +34,7 @@ body {
 #left-panel {
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 33%;
   float: left;
   height: calc(100% - 150px);
   /*display: inline-block;*/
@@ -54,7 +54,7 @@ body {
 
 #map {
   margin: 0;
-  margin-left: 400px;
+  margin-left: 33%;
   /*width: calc(100% - 250px);*/
   height: calc(100% - 150px);
   /*display: inline;*/
@@ -62,6 +62,18 @@ body {
 
 #left-panel.hidden + #map {
   margin-left: 0;
+}
+
+@media screen and ( max-width: 900px ){
+  #left-panel {
+    width: 300px;
+  }
+  #map {
+    margin-left: 300px;
+  }
+  #left-panel-hide-button {
+    left: 300px;
+  }
 }
 
 #footer {
@@ -88,5 +100,5 @@ body {
 }
 
 #left-panel-hide-button {
-  left: 400px;
+  left: 33%;
 }

@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Nur die Karte</title>
-    <script src="../node_modules/systemjs/dist/system.js"></script>
-    <!--<script src="../node_modules/rxjs/bundles/rx.js"></script>-->
-    <link rel="stylesheet" href="../node_modules/openlayers/dist/ol.css" type="text/css">
-    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
-    <script src="../node_modules/openlayers/dist/ol-debug.js"></script>
-    <script src="../node_modules/proj4/dist/proj4.js"></script>
+
+    <!--<script src="../node_modules/rxjs/bundles/rx.js"></script>-->
+
     <link href="./design.css" rel="stylesheet">
     <link href="./rangeslider.css" rel="stylesheet">
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <link rel="stylesheet" href="../node_modules/openlayers/dist/ol.css" type="text/css">
+    <script src="../node_modules/openlayers/dist/ol-debug.js"></script>
+    <script src="../node_modules/proj4/dist/proj4.js"></script>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/tether/dist/js/tether.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!--<link href="src/design.css" rel="stylesheet">-->
+    <!--<link href="src/rangeslider.css" rel="stylesheet">-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.14/system.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.2.0/ol.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
 </head>
 <body>
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -309,5 +320,16 @@
 
     SystemJS.import('./main.js');
 </script>
+<!--<script type="application/javascript">-->
+    <!--SystemJS.config({-->
+        <!--map: {-->
+            <!--'plugin-babel': 'node_modules/systemjs-plugin-babel/plugin-babel.js',-->
+            <!--'systemjs-babel-build': 'node_modules/systemjs-plugin-babel/systemjs-babel-browser.js'-->
+        <!--},-->
+        <!--transpiler: 'plugin-babel'-->
+    <!--});-->
+
+    <!--SystemJS.import('src/main.js');-->
+<!--</script>-->
 </body>
 </html>
