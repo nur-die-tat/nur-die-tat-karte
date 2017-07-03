@@ -3,6 +3,8 @@
 .tif
 .aux.xml
 
+dist
+
 # Created by https://www.gitignore.io/api/webstorm,node
 
 ### Node ###
