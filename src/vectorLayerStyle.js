@@ -1,3 +1,5 @@
+import ol from 'openlayers';
+
 const pointStyle = new ol.style.Style({
   image: new ol.style.Circle({
     radius: 7.5,
@@ -49,34 +51,34 @@ function createGeometryStyle(feature, resolution, geometry) {
       switch (feature.get('icon')) {
         case 'flagw':
           // iconOptions.anchor = [1, 1]
-          iconOptions.src = '../icons/flagw.png';
+          iconOptions.src = '../images/flagw.png';
           break;
         case 'house':
-          iconOptions.src = '../icons/house.png';
+          iconOptions.src = '../images/house.png';
           break;
         case 'peace':
-          iconOptions.src = '../icons/peace.png';
+          iconOptions.src = '../images/peace.png';
           break;
         case 'sfb':
-          iconOptions.src = '../icons/sfb.png';
+          iconOptions.src = '../images/sfb.png';
           break;
         case 'theater':
-          iconOptions.src = '../icons/theater.png';
+          iconOptions.src = '../images/theater.png';
           break;
         case 'info':
-          iconOptions.src = '../icons/info.png';
+          iconOptions.src = '../images/info.png';
           break;
         case 'shakehand':
-          iconOptions.src = '../icons/shakehand.png';
+          iconOptions.src = '../images/shakehand.png';
           break;
         case 'camp':
-          iconOptions.src = '../icons/camp.png';
+          iconOptions.src = '../images/camp.png';
           break;
         case 'strike':
-          iconOptions.src = '../icons/strike.png';
+          iconOptions.src = '../images/strike.png';
           break;
         case 'meet':
-          iconOptions.src = '../icons/meet.png';
+          iconOptions.src = '../images/meet.png';
           break 
       }
 

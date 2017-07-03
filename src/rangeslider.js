@@ -1,5 +1,7 @@
 import {Subject} from '../node_modules/rxjs/bundles/rx.js';
 
+import './rangeslider.css';
+
 function monthDiff(d1, d2) {
   let months;
   months = (d2.getFullYear() - d1.getFullYear()) * 12;
