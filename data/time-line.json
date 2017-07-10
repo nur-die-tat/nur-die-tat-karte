@@ -1,10 +1,10 @@
 {
-  "start": "1918-10-01",
+  "begin": "1918-10-01",
   "end": "1937-01-01",
   "events": [
     {
       "time": "1918-10-01",
-      "name": "Novemberrevolution / Ende des 1. Weltkriegs"
+      "name": "Novemberrevolution / <br/>Ende des 1. Weltkriegs"
     },
     {
       "time": "1920-03-01",
@@ -16,7 +16,7 @@
     },
     {
       "time": "1926-01-01",
-      "name": "Abzug der britischen Besatzungstruppen"
+      "name": "Abzug der britischen <br/>Besatzungstruppen"
     },
     {
       "time": "1929-10-01",
@@ -24,11 +24,11 @@
     },
     {
       "time": "1933-01-01",
-      "name": "Machtübernahme der Nationalsozialisten"
+      "name": "Machtübernahme der <br/>Nationalsozialisten"
     },
     {
       "time": "1937-01-01",
-      "name": "Zerschlagung der letzten anarchistischen Gruppen"
+      "name": "Zerschlagung der <br/>letzten anarchistischen Gruppen"
     }
   ]
 }

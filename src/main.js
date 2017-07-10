@@ -1,6 +1,6 @@
 import {vectorLayers} from './vectorLayers.js';
 import {featureDetails} from './featureDetails.js';
-import {TimePicker} from './timePicker.js';
+import {TimePicker} from './time-picker/time-picker.js';
 import {map} from './map.js';
 import {baseLayers} from "./baseLayers.js";
 import {positioningHelper, lineHelper} from './positioningHelper.js';
@@ -14,7 +14,7 @@ let m = map();
 baseLayers(m);
 let ls = vectorLayers(m);
 featureDetails(m, ls);
-let tp = new TimePicker(ls);
+let tp = new TimePicker('#footer', 'data/time-line.json', ls);
 
 panelHide(m);
 
