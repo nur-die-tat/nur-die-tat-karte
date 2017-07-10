@@ -85,3 +85,18 @@
   margin-left: 25px;
   display: inline;
 }
+
+.rangeslider-time-events {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  padding: 0;
+}
+
+.rangeslider-time-events li {
+  margin: 0;
+  position: absolute;
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+}
