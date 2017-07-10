@@ -33,7 +33,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap' })
+        loader: ExtractTextPlugin.extract({fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap'})
+      },
+      {
+        test: /\.html$/,
+        use: {
+          loader: 'html-loader',
+          options: {
+            minimize: true
+          }
+        }
       }
     ]
   },
@@ -49,15 +58,15 @@ module.exports = {
       template: 'src/index.html'
     }),
     new CopyWebpackPlugin([
-      { from: 'node_modules/bootstrap/dist', to: 'vendor/bootstrap' },
-      { from: 'node_modules/tether/dist', to: 'vendor/tether' },
-      { from: 'node_modules/jquery/dist', to: 'vendor/jquery' },
-      { from: 'node_modules/openlayers/dist', to: 'vendor/openlayers' },
-      { from: 'node_modules/proj4/dist', to: 'vendor/proj4' },
-      { from: 'images', to: 'images' },
-      { from: 'layers', to: 'layers' },
-      { from: 'icons', to: 'images' },
-      { from: 'data', to: 'data' }
+      {from: 'node_modules/bootstrap/dist', to: 'vendor/bootstrap'},
+      {from: 'node_modules/tether/dist', to: 'vendor/tether'},
+      {from: 'node_modules/jquery/dist', to: 'vendor/jquery'},
+      {from: 'node_modules/openlayers/dist', to: 'vendor/openlayers'},
+      {from: 'node_modules/proj4/dist', to: 'vendor/proj4'},
+      {from: 'images', to: 'images'},
+      {from: 'layers', to: 'layers'},
+      {from: 'icons', to: 'images'},
+      {from: 'data', to: 'data'}
     ])
   ]
 };
