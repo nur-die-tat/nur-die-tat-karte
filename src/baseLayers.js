@@ -2,28 +2,16 @@ import {baseLayerMenu} from "./baseLayerMenu.js";
 
 export function baseLayers(map) {
   let layers = [
-    new ol.layer.Group({
-      name: 'Industrial 1925',
-      layers: [
-        new ol.layer.Tile({
-          source: new ol.source.OSM({
-            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-          })
-        }),
-        new ol.layer.Tile({
-          extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
-          source: new ol.source.TileImage({
-            attributions: '&copy; Stadtarchiv Köln',
-            url: 'http://diekarte.musca.uberspace.de/tiles/1925/{z}/{x}/{y}.png'
-            // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
-          }),
-          maxResolution: 20
-        })
-      ],
-      visible: true
-    }),
-    new ol.layer.Group({
-      name: 'Industrial 1918',
+      new ol.layer.Tile({
+      name: 'moderne Karte',
+      source: new ol.source.OSM({
+      url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+       }),
+       visible: false
+     }),
+      
+      new ol.layer.Group({
+      name: 'Stadtkarte 1918',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM({
@@ -42,13 +30,28 @@ export function baseLayers(map) {
       ],
       visible: false
     }),
-    // new ol.layer.Tile({
-    //   name: 'transport',
-    //   source: new ol.source.OSM({
-    //     url: 'https://{a-c}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-    //   }),
-    //   visible: false
-    // }),
+      
+      new ol.layer.Group({
+      name: 'Stadtkarte 1925',
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM({
+            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+          })
+        }),
+        new ol.layer.Tile({
+          extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
+          source: new ol.source.TileImage({
+            attributions: '&copy; Stadtarchiv Köln',
+            url: 'http://diekarte.musca.uberspace.de/tiles/1925/{z}/{x}/{y}.png'
+            // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
+          }),
+          maxResolution: 20
+        })
+      ],
+      visible: true
+    }),
+    // 
     // new ol.layer.Tile({
     //   name: 'mobile atlas',
     //   source: new ol.source.OSM({
