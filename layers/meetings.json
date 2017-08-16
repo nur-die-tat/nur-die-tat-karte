@@ -1,201 +1,357 @@
 {
-        "type": "FeatureCollection",
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "EPSG:4326"
-          }
-        },
-    
-    
-    "features": [
-    {
-     "type": "Feature",
-     "properties": {
-         "name": "Backhausen",
-         "description": [
-           "Lokal, Treffen der SAJ jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
-           "allgemeine FAU Mitglieder-Vollversamllung am 05.12.1926;" ],
-         "icon": "shakehand",
-         "adress": "Mühlheimer Str. 112, Kalk",
-         "begin": "1926-02-01",
-         "end": "1926-12-31", 
-         "sources": ["Der Syndikalist, VIII.Jg., Nr.8, S.4.",
-                     "Der Syndikalist, VIII.Jg., Nr.46, Beilage S.2."]
-                   },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ]}
-    },
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "EPSG:4326"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Backhausen",
+				"description": [
+					"Lokal, Treffen der SAJ jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
+					"allgemeine FAU Mitglieder-Vollversamllung am 05.12.1926;"
+				],
+				"icon": "shakehand",
+				"adress": "Mühlheimer Str. 112, Kalk",
+				"begin": "1926-02-01",
+				"end": "1926-12-31",
+				"sources": [
+					"Der Syndikalist, VIII.Jg., Nr.8, S.4.",
+					"Der Syndikalist, VIII.Jg., Nr.46, Beilage S.2."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.982799200000045,
+					51.0353676,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Baumbach, Lina",
+				"description": [
+					"Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>;",
+					"Delegierte auf SFB-Reichskonferenz."
+				],
+				"icon": "sfb",
+				"adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
+				"begin": "1921-08-29",
+				"end": "1921-11-30",
+				"sources": [
+					"Die Schöpfung, I.Jg., Nr.40, S.3.",
+					"Die Schöpfung, I.Jg., Nr.72, S.4.",
+					"Die Schöpfung, I.Jg., Nr.88, S.3.",
+					"Die Schöpfung, I.Jg., Nr.90, S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.982799200000045,
+					51.0353676,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "FAU Lokal",
+				"description": [
+					"letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus;",
+					"vermutliche Lage."
+				],
+				"icon": "info",
+				"adress": "Albertusstraße",
+				"begin": "1933-01-01",
+				"end": "1933-01-31",
+				"sources": [
+					"Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 112."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.944645,
+					50.939233,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "FAU Büro",
+				"description": [
+					"Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
+					"„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des 'Syndikalist'“",
+					"vermutliche Lage."
+				],
+				"icon": "info",
+				"adress": "Lichhof 18",
+				"begin": "1931-10-01",
+				"end": "1931-11-31",
+				"sources": [
+					"Der Syndikalist, XIII.Jg., Nr.43, S.3."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.958935,
+					50.934274,
+					0
+				]
+			}
+		},
+		
+        {
+			"type": "Feature",
+			"properties": {
+				"id": 3,
+				"name": "Holweiderhof",
+				"description": [
+					"Lokal Theodor Hochwald;",
+                    "Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
+                    "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>."
+				],
+				"icon": "info",
+				"adress": "Berg. Gladbacher Str. 465",
+				"begin": "1922-06-01",
+				"end": "1922-07-31",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.24, Beilage S.2."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0390766859054565,
+                    50.968417238899846,
+					0
+				]
+			}
+		},
         
-       {
-     "type": "Feature",
-     "properties": {
-         "name": "Baumbach, Lina",
-         "description": [
-           "Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB);",
-           "Delegierte auf SFB-Reichskonferenz." ],
-         "icon": "sfb",
-         "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
-         "begin": "1921-08-29",
-         "end": "1921-11-30", 
-         "sources": ["Die Schöpfung, I.Jg., Nr.40, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.72, S.4.",
-                     "Die Schöpfung, I.Jg., Nr.88, S.3.",
-                     "Die Schöpfung, I.Jg., Nr.90, S.4."]
-     },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.982799200000045, 51.0353676, 0.0 ] 
-    }
- },
-        
-    {"type": "Feature",
-     "properties": {
-         "name": "FAU Lokal",
-         "description": ["letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus;",
-                         "vermutete Adresse."],
-         "icon": "info",
-         "adress": "Albertusstraße",
-         "begin": "1933-01-01",
-         "end": "1933-01-31", 
-         "sources": ["Theissen, Walter, Wilhelms: Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 112."]
-                   },
-    "geometry": {"type": "Point",
-                 "coordinates": [ 6.944645, 50.939233, 0.0 ]}
-    },
-    
-    {"type": "Feature",
-     "properties": {
-         "name": "FAU Büro",
-         "description": ["Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
-                         "„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des „Syndikalist“",
-                         "vermutliche Lage."],
-         "icon": "info",
-         "adress": "Lichhof 18",
-         "begin": "1931-10-01",
-         "end": "1931-11-31", 
-         "sources": ["Der Syndikalist, XIII.Jg., Nr.43, S.3."]
-                   },
-    "geometry": {"type": "Point",
-                 "coordinates": [ 6.958935, 50.934274, 0.0 ]}
-    },
-        
-    {"type": "Feature",
-     "properties": {
-      "name": "„Zum Hirsch“",
-      "adress": "Kämmergasse, Köln",
-      "description": [ "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
-                       "Vortrag von <a href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> 27.08.1922;",
-                       "Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag;",
-                       "vermutliche Lage."],
-      "icon": "shakehand",
-      "begin": "1922-08-01",
-      "end": "1923-08-31",
-      "sources": ["Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
-                  "Der Syndikalist, V.Jg., Nr.30, S.4.",
-                  "Der Syndikalist, V.Jg., Nr.35, S.4."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 6.9525188, 50.9331915, 0.0 ]}
-    },
-        
-    {"type": "Feature",
-     "properties": {
-      "name": "„Witwe Dropp“",
-      "adress": "Siegburger Straße, Deutz",
-      "description": ["Börsenlokal: Deutz, Siegbergerhof; Börsensitzungen jeden 2. Do. ab 24.08.1922;",
-                      "grob vermutete Lage."],
-      "icon": "info",
-      "begin": "1922-08-01",
-      "end": "1922-09-30",
-      "sources": ["Der Syndikalist, IV.Jg., Nr.33, S.4."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 6.970847, 50.932437, 0.0 ]}
-    },    
-
-    {"type": "Feature",
-     "properties": {
-      "name": "Lager Dellbrück",
-      "adress": "Dellbrück",
-      "description": ["Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
-                      "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
-                      "vermutete Lage."],
-      "icon": "camp",
-      "begin": "1920-03-01",
-      "end": "1920-04-30",
-      "sources": ["Der Polizeipräsident am 20.04.1920. LAV BR 9, Nr.7871, pag.5f.",
-                  "Interalliierte Rheinland-Kommission am 22.04.1920, LAV BR 9, Nr.7871, pag.8."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 7.059874534606934, 50.98122506489544, 0.0 ]}
-    },
-      
-    {"type": "Feature",
-     "properties": {
-      "id": 13,
-      "name": "Ostertreffen",
-      "adress": "Lindscheid 14, Wermelskirchen",
-      "description": ["Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>.",
-                     "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"],
-      "icon": "shakehand",
-      "begin": "1928-04-01",
-      "end": "1928-04-30",
-      "sources": ["Der Syndikalist, X.Jg., Nr.12, S.4.",
-                  "Foto: Gemeinfrei."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 7.18002, 51.06953, 0.0 ]}
-    },    
-        
-    {"type": "Feature",
-     "properties": {
-      "id": 10,
-      "name": "Siedlertag",
-      "adress": "Düsseldorfer Str. 384",
-      "description": ["23. April 1921 freisozialistischer Siedlertag;",
-                     "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
-                     "Unterzeichnet durch <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, Vogt, Kluth."],
-      "icon": "shakehand",
-      "begin": "1921-04-01",
-      "end": "1921-04-30",
-      "sources": ["Der Syndikalist, VIII.Jg., Nr.12, Beilage S.4."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 6.995904, 51.00222, 0.0 ]}
-    },
-        
-    {"type": "Feature",
-     "properties": {
-      "id": 1,
-      "name": "Vollversammlung",
-      "adress": "Ulrichgasse 6",
-      "description": ["07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns bei Schmitz in der Ulrichgasse;",
-                     "Redner u.a. <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."],
-      "icon": "shakehand",
-      "begin": "1926-07-01",
-      "end": "1926-07-31",
-      "sources": ["Der Syndikalist, VIII.Jg., Nr.23, S.4."]
-                   },
-      "geometry": {"type": "Point",
-                   "coordinates": [ 6.95394, 50.92488, 0.0 ]}
-    },
-        
-    {
-     "type": "Feature",
-     "properties": {
-         "name": "Wellershausen",
-         "description": ["06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."],
-         "icon": "shakehand",
-         "adress": "Barbarastr. 17, Rodenkirchen",
-         "begin": "1926-05-01",
-         "end": "1926-07-31", 
-         "sources": ["Der Syndikalist, VIII.Jg., Nr.23, S.4."]
-     },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [ 6.995635, 50.89356, 0.0 ]}
-    }
- ]
+        {
+			"type": "Feature",
+			"properties": {
+				"id": 2,
+				"name": "Innungshaus Willi Schilling",
+				"description": [
+					"Zahl- und Diskutierabend der Ortsgruppe Mülheim jeden Samstag 7 Uhr;",
+					"Es luden ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>;",
+					"vermutliche Lage."
+				],
+				"icon": "info",
+				"adress": "Oskarstraße",
+				"begin": "1922-01-01",
+				"end": "1922-01-31",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.2, Beilage S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.999760866165161,
+					50.956909544786704,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "„Zum Hirsch“",
+				"adress": "Kämmergasse, Köln",
+				"description": [
+					"Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
+					"Vortrag von <a target='_blank' href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> 27.08.1922;",
+					"Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag;",
+					"vermutliche Lage."
+				],
+				"icon": "shakehand",
+				"begin": "1922-08-01",
+				"end": "1923-08-31",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
+					"Der Syndikalist, V.Jg., Nr.30, S.4.",
+					"Der Syndikalist, V.Jg., Nr.35, S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9525188,
+					50.9331915,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "„Witwe Dropp“",
+				"adress": "Siegburger Straße, Deutz",
+				"description": [
+					"Börsenlokal: Deutz, Siegbergerhof; Börsensitzungen jeden 2. Do. ab 24.08.1922;",
+					"grob vermutete Lage."
+				],
+				"icon": "info",
+				"begin": "1922-08-01",
+				"end": "1922-09-30",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.33, S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.970847,
+					50.932437,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lager Dellbrück",
+				"adress": "Dellbrück",
+				"description": [
+					"Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
+					"zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
+					"vermutete Lage."
+				],
+				"icon": "camp",
+				"begin": "1920-03-01",
+				"end": "1920-04-30",
+				"sources": [
+					"Der Polizeipräsident am 20.04.1920. LAV BR 9, Nr.7871, pag.5f.",
+					"Interalliierte Rheinland-Kommission am 22.04.1920, LAV BR 9, Nr.7871, pag.8."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.059874534606934,
+					50.98122506489544,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 13,
+				"name": "Ostertreffen",
+				"adress": "Lindscheid 14, Wermelskirchen",
+				"description": [
+					"Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>.",
+					"<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
+				],
+				"icon": "shakehand",
+				"begin": "1928-04-01",
+				"end": "1928-04-30",
+				"sources": [
+					"Der Syndikalist, X.Jg., Nr.12, S.4.",
+					"Foto: Gemeinfrei."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.18002,
+					51.06953,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 10,
+				"name": "Siedlertag",
+				"adress": "Düsseldorfer Str. 384",
+				"description": [
+					"23. April 1921 freisozialistischer Siedlertag;",
+					"Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
+					"Unterzeichnet durch <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, Vogt, Kluth."
+				],
+				"icon": "shakehand",
+				"begin": "1921-04-01",
+				"end": "1921-04-30",
+				"sources": [
+					"Der Syndikalist, VIII.Jg., Nr.12, Beilage S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.995904,
+					51.00222,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1,
+				"name": "Vollversammlung",
+				"adress": "Ulrichgasse 6",
+				"description": [
+					"07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns bei Schmitz in der Ulrichgasse;",
+					"Redner u.a. <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."
+				],
+				"icon": "shakehand",
+				"begin": "1926-07-01",
+				"end": "1926-07-31",
+				"sources": [
+					"Der Syndikalist, VIII.Jg., Nr.23, S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95394,
+					50.92488,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Wellershausen",
+				"description": [
+					"06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."
+				],
+				"icon": "shakehand",
+				"adress": "Barbarastr. 17, Rodenkirchen",
+				"begin": "1926-05-01",
+				"end": "1926-07-31",
+				"sources": [
+					"Der Syndikalist, VIII.Jg., Nr.23, S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.995635,
+					50.89356,
+					0
+				]
+			}
+		}
+	]
 }

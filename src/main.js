@@ -5,6 +5,7 @@ import {map} from './map.js';
 import {baseLayers} from "./baseLayers.js";
 import {positioningHelper, lineHelper} from './positioningHelper.js';
 import {panelHide} from "./panelHide.js";
+import {createImageModalLinks} from "./imageModal.js";
 
 import './design.css';
 
@@ -58,3 +59,5 @@ if (hash !== '') {
 } else {
   $(`a[data-toggle="tab"][href="#home"]`).tab('show');
 }
+
+createImageModalLinks(document.body);

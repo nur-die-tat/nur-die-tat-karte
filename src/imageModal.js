@@ -1,4 +1,9 @@
-export function imageModal (imagesrc) {
-    $('#imageModal .modal-body img').prop("src", imagesrc);
-    $('#imageModal').modal('show');
+export function createImageModalLinks (target) {
+    for (let imageModalLink of target.querySelectorAll('.image-modal')) {
+        imageModalLink.addEventListener('click', e => {
+            $('#imageModal .modal-body img').prop("src", imageModalLink.querySelector('img').src);
+            $('#imageModal').modal('show');
+            e.preventDefault();
+        });
+    }  
 }

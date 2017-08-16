@@ -1,5 +1,5 @@
 import {focusOnFeature} from "./focusOnFeature.js";
-import {imageModal} from "./imageModal.js";
+import {createImageModalLinks} from "./imageModal.js";
 
 export function featureDetails(map, layers) {
   map.on('click', e => {
@@ -68,12 +68,7 @@ export function showFeatureDetails(map, layers, feature, layer) {
       });
     }
 
-    for (let imageModalLink of descContainer.querySelectorAll('.image-modal')) {
-      imageModalLink.addEventListener('click', e => {
-        imageModal(imageModalLink.querySelector('img').src);
-        e.preventDefault();
-      });
-    }
+    createImageModalLinks(descContainer);
       
     let sources = feature.get('sources');
     sources = Array.isArray(sources) ? sources : [sources];
