@@ -26,9 +26,7 @@ export class TimePicker {
 
     this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
 
-    this.stepSize = this.rangeBackground.clientWidth / this.diff;
-
-    // this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
+    this.stepSize = (this.rangeBackground.clientWidth - 18) / this.diff; // cheat
 
     this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
     this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
@@ -38,7 +36,8 @@ export class TimePicker {
     this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
 
     this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
-    this.eventsContainer = this.target.querySelector('.rangeslider-time-events');
+    this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
+    this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
 
     this.setLeft(0);
     this.setRight(this.diff);
@@ -47,30 +46,18 @@ export class TimePicker {
     this.attachBetweenKnobListeners();
 
     this.createLineMarkers();
+    this.createYearMarkers();
     this.createEventMarkers();
   }
 
   update() {
     if (this.rangeBackground) {
       this.stepSize = this.rangeBackground.clientWidth / this.diff;
-      //this.rangeBackground.style['background-image'] = `repeating-linear-gradient(90deg, transparent, transparent ${this.stepSize - 1}px, black  ${this.stepSize - 1}px, black  ${this.stepSize}px)`;
       this.setLeft(this.leftStep);
       this.setRight(this.rightStep);
-      this.createEventMarkers();
       this.createLineMarkers();
-    }
-  }
-
-  createLineMarkers() {
-    // clear
-    while (this.lineMarkerContainer.lastChild) {
-      this.lineMarkerContainer.removeChild(this.lineMarkerContainer.lastChild);
-    }
-
-    for (let i = 1; i < this.diff; i++) {
-      let li = document.createElement('li');
-      li.style['left'] = i * this.stepSize - 1 + 'px';
-      this.lineMarkerContainer.appendChild(li);
+      this.createYearMarkers();
+      this.createEventMarkers();
     }
   }
 
@@ -193,52 +180,102 @@ export class TimePicker {
     }
   }
 
-  createEventMarkers() {
-    for (let event of this.events) {
-      let eventNode = document.createElement('li');
-      eventNode.innerHTML = event.name;
+  createLineMarkers() {
+    // clear
+    while (this.lineMarkerContainer.lastChild) {
+      this.lineMarkerContainer.removeChild(this.lineMarkerContainer.lastChild);
+    }
 
-      this.eventsContainer.appendChild(eventNode);
-
-      let steps = monthDiff(this.begin, new Date(event.time));
-      eventNode.style.left = (25 + steps * this.stepSize - eventNode.clientWidth / 2) + 'px';
+    for (let i = 1; i < this.diff; i++) {
+      let li = document.createElement('li');
+      li.style.left = i * this.stepSize - 1 + 'px';
+      this.lineMarkerContainer.appendChild(li);
     }
   }
 
-  // createNumberMarkers() {
-  //   if (this.markerContainer) {
-  //     this.element.removeChild(this.markerContainer);
-  //   }
-  //   this.markerContainer = document.createElement('div');
-  //   this.element.appendChild(this.markerContainer);
-  //   this.markerContainer.classList.add('rangeslider-yearmarker-container');
-  //
-  //   let date = new Date(this.begin);
-  //   let steps = 0;
-  //   let lastLeft = -Infinity;
-  //
-  //   while (date <= this.end) {
-  //     if (date.getMonth() === 0) {
-  //       let yearNode = document.createElement('div');
-  //       this.markerContainer.appendChild(yearNode);
-  //       yearNode.classList.add('rangeslider-yearmarker');
-  //       yearNode.textContent = date.getFullYear();
-  //
-  //       let newLeft = steps * this.stepSize - yearNode.offsetWidth / 2;
-  //
-  //       if (newLeft - lastLeft > yearNode.offsetWidth) {
-  //         yearNode.style.left = newLeft + 'px';
-  //         lastLeft = newLeft;
-  //       }
-  //       else {
-  //         this.markerContainer.removeChild(yearNode);
-  //       }
-  //     }
-  //
-  //     steps++;
-  //     date.setMonth(date.getMonth() + this.gridSize);
-  //   }
-  // }
+  createYearMarkers() {
+    while (this.yearMarkersContainer.lastChild) {
+      this.yearMarkersContainer.removeChild(this.yearMarkersContainer.lastChild);
+    }
+
+    let date = new Date(this.begin);
+    let steps = 0;
+    let lastLeft = -Infinity;
+    let overlap = 25;
+
+    while (date <= this.end) {
+      if (date.getMonth() === 0) {
+        let yearNode = document.createElement('div');
+        this.yearMarkersContainer.appendChild(yearNode);
+        yearNode.textContent = date.getFullYear();
+
+        let left = steps * this.stepSize - yearNode.clientWidth / 2 - overlap;
+
+        if (left - lastLeft > yearNode.clientWidth) {
+          yearNode.style.left = left + 'px';
+          lastLeft = left;
+          this.yearMarkersContainer.style.height =
+            Math.max(this.yearMarkersContainer.clientHeight, yearNode.clientHeight) + 'px';
+        }
+        else {
+          this.yearMarkersContainer.removeChild(yearNode);
+        }
+      }
+
+      steps++;
+      date.setMonth(date.getMonth() + 1);
+    }
+  }
+
+  createEventMarkers() {
+    while (this.eventArrowsContainer.lastChild) {
+      this.eventArrowsContainer.removeChild(this.eventArrowsContainer.lastChild);
+    }
+    while (this.eventTextsContainer.lastChild) {
+      this.eventTextsContainer.removeChild(this.eventTextsContainer.lastChild);
+    }
+
+    let spacing = 10;
+    let overlap = 25;
+    let lastTextRight = -overlap;
+    for (let event of this.events) {
+      let steps = monthDiff(this.begin, new Date(event.time));
+
+      let eventArrow = document.createElement('img');
+      eventArrow.src = '../../images/arrow.png';
+      this.eventArrowsContainer.appendChild(eventArrow);
+      eventArrow.style.left = (steps * this.stepSize - 6) + 'px'; // arrow.png is 11px wide
+
+      let eventText = document.createElement('li');
+      eventText.innerHTML = event.name;
+      this.eventTextsContainer.appendChild(eventText);
+      let left = steps * this.stepSize - eventText.clientWidth / 2;
+      if (left < -overlap) {
+        left = -overlap;
+      } else if (left < lastTextRight) {
+        left = lastTextRight + spacing;
+      }
+      eventText.style.left = left + 'px';
+      lastTextRight = left + eventText.clientWidth;
+    }
+
+    let maxRight = this.eventTextsContainer.clientWidth + overlap;
+    let nextTextLeft = maxRight;
+    for (let i = this.events.length -1; i>= 0; i--) {
+      let eventText = this.eventTextsContainer.childNodes[i];
+      let left = eventText.offsetLeft;
+      let right = left + eventText.clientWidth;
+      if (right > maxRight) {
+        left = maxRight - eventText.clientWidth;
+      } else if (right > nextTextLeft) {
+        left = nextTextLeft - spacing - eventText.clientWidth;
+      } else {
+        break;
+      }
+      eventText.style.left = left + 'px';
+      let nextTextLeft = left;
+    }
+  }
 }
 
 

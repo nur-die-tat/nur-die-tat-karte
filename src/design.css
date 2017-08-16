@@ -14,6 +14,11 @@ body {
   position: absolute;
 }
 
+.navbar {
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
 .tab-content {
   position: relative;
   width: 100%;

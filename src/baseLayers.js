@@ -52,6 +52,16 @@ export function baseLayers(map) {
       visible: true
     }),
     // 
+    //   name: 'test',
+    //   // extent: [761390, 6597471, 795931, 6628039],
+    //   source: new ol.source.TileImage({
+    //     // attributions: '&copy; Stadtarchiv Köln',
+    //     // url: 'http://diekarte.musca.uberspace.de/tiles/1918/{z}/{x}/{y}.png'
+    //     url: 'http://localhost/nur-die-tat-karte-tiles/putzger/{z}/{x}/{y}.png'
+    //   }),
+    //   visible: false
+    // })
+    // new ol.layer.Tile({
     // new ol.layer.Tile({
     //   name: 'mobile atlas',
     //   source: new ol.source.OSM({

@@ -14,8 +14,9 @@
 
 .rangeslider-range-background {
   position: relative;
+  padding: 0;
+  top: 20px;
   margin: 10px 25px;
-
   border: 1px black solid;
   border-radius: 3px;
   height: 10px;
@@ -55,9 +56,6 @@
   position: absolute;
   margin-top: -6px;
   margin-left: -6px;
-  /*border: 1px black solid;*/
-  /*border-radius: 3px;*/
-  /*background-color: white;*/
   height: 20px;
   width: 11px;
   display: inline-block;
@@ -76,27 +74,47 @@
   cursor: grab;
 }
 
-.rangeslider-yearmarker-container {
-  margin: 10px 25px;
-}
-
-.rangeslider-yearmarker {
+.rangeslider-yearmarkers {
   position: absolute;
-  margin-left: 25px;
-  display: inline;
-}
-
-.rangeslider-time-events {
-  position: absolute;
+  margin: 0;
   left: 25px;
   right: 25px;
   padding: 0;
 }
 
-.rangeslider-time-events li {
+.rangeslider-yearmarkers div {
+  position: absolute;
+  display: inline;
+  font-size: 12px;
+}
+
+.rangeslider-event-arrows {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+  left: 0;
+}
+
+.rangeslider-event-arrows img {
+  margin: 0;
+  position: absolute;
+  display: inline;
+}
+
+.rangeslider-event-texts {
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  right: 25px;
+  padding: 0;
+}
+
+.rangeslider-event-texts li {
   margin: 0;
   position: absolute;
   list-style: none;
   display: inline;
   font-size: 12px;
+  white-space: nowrap;
 }
