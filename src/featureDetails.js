@@ -1,10 +1,11 @@
 import {focusOnFeature} from "./focusOnFeature.js";
 import {imageModal} from "./imageModal.js";
 
-export function featureDetails(map, layers) {
+export function featureDetails(map, layers, timePicker) {
   map.on('click', e => {
     map.forEachFeatureAtPixel(e.pixel, (f, l) => {
       showFeatureDetails(map, layers, f, l);
+      timePicker.setFeature(new Date(f.get('begin')), new Date(f.get('end')), f.get('icon'));
       return true;
     });
   });

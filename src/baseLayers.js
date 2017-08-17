@@ -22,7 +22,7 @@ export function baseLayers(map) {
           extent: [761390, 6597471, 795931, 6628039],
           source: new ol.source.TileImage({
             attributions: '&copy; Stadtarchiv Köln',
-            url: 'http://diekarte.musca.uberspace.de/tiles/1918/{z}/{x}/{y}.png'
+            url: 'http://www.die-karte.org/tiles/1918/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1918/{z}/{x}/{y}.png'
           }),
           maxResolution: 20
@@ -43,7 +43,7 @@ export function baseLayers(map) {
           extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
           source: new ol.source.TileImage({
             attributions: '&copy; Stadtarchiv Köln',
-            url: 'http://diekarte.musca.uberspace.de/tiles/1925/{z}/{x}/{y}.png'
+            url: 'http://www.die-karte.org/tiles/1925/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
           }),
           maxResolution: 20

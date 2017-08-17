@@ -5,6 +5,7 @@ import html from './time-picker.html';
 import './rangeslider.css';
 
 import {addMonths, monthDiff} from "./time-helper";
+import {ICONS} from "../icons";
 
 export class TimePicker {
   constructor(targetSelector, configFile, layers) {
@@ -22,43 +23,54 @@ export class TimePicker {
   }
 
   init() {
-    this.diff = monthDiff(this.begin, this.end);
-
     this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
-
-    this.stepSize = (this.rangeBackground.clientWidth - 18) / this.diff; // cheat
-
     this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
     this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
-
     this.betweenKnobs = this.target.querySelector('.rangeslider-range-between-knobs');
-
     this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
-
     this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
     this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
     this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
+    this.featureRange = this.target.querySelector('.rangeslider-feature-range');
+    this.featureIcon = this.target.querySelector('.rangeslider-feature-icon');
 
-    this.setLeft(0);
-    this.setRight(this.diff);
+    this.diff = monthDiff(this.begin, this.end);
+    this.leftStep = 0;
+    this.rightStep = this.diff;
+
+    this.update();
     this.attachLeftKnobListeners();
     this.attachRightKnobListeners();
     this.attachBetweenKnobListeners();
-
-    this.createLineMarkers();
-    this.createYearMarkers();
-    this.createEventMarkers();
   }
 
   update() {
     if (this.rangeBackground) {
-      this.stepSize = this.rangeBackground.clientWidth / this.diff;
+      this.width = this.rangeBackground.clientWidth + 2; // compensate for border
+      this.stepSize = this.width / this.diff;
       this.setLeft(this.leftStep);
       this.setRight(this.rightStep);
       this.createLineMarkers();
       this.createYearMarkers();
       this.createEventMarkers();
     }
+  }
+
+  setFeature(begin, end, iconId) {
+    this.featureRange.classList.remove('hidden');
+    this.featureIcon.classList.remove('hidden');
+
+    let stepsLeft = monthDiff(this.begin, begin);
+    let stepsRight = monthDiff(this.begin, end);
+
+    let left = stepsLeft * this.stepSize;
+    let right = this.width - stepsRight * this.stepSize;
+
+    this.featureRange.style.left = left + 'px';
+    this.featureRange.style.right = right + 'px';
+
+    this.featureIcon.src = ICONS[iconId];
+    this.featureIcon.style.left = (left + this.width - right) / 2 - this.featureIcon.clientWidth / 2 + 'px';
   }
 
   setLeft(step) {
@@ -81,7 +93,7 @@ export class TimePicker {
 
   adjustBetweenKnobs() {
     this.betweenKnobs.style.left = this.leftStep * this.stepSize + 'px';
-    this.betweenKnobs.style.right = this.rangeBackground.clientWidth - this.rightStep * this.stepSize + 'px';
+    this.betweenKnobs.style.right = this.width - this.rightStep * this.stepSize + 'px';
   }
 
   attachLeftKnobListeners() {
@@ -166,11 +178,17 @@ export class TimePicker {
   }
 
   adjustLayers() {
+    let begin = new Date(this.begin);
+    begin.setMonth(begin.getMonth() + this.leftStep);
+    let end = new Date(this.begin);
+    end.setMonth(end.getMonth() + this.rightStep);
+
     for (let l of this.layers) {
       for (let f of l.getSource().getFeatures()) {
         let fBegin = new Date(f.get('begin'));
         let fEnd = new Date(f.get('end'));
-        if ((fBegin >= this.begin && fBegin <= this.end) || (fEnd >= this.begin && fEnd <= this.end)) {
+        if ((fBegin >= begin && fBegin <= end) || (fEnd >= begin && fEnd <= end)
+            || (fBegin < begin && fEnd > end)) {
           f.set('hidden', false);
         }
         else {
@@ -186,10 +204,21 @@ export class TimePicker {
       this.lineMarkerContainer.removeChild(this.lineMarkerContainer.lastChild);
     }
 
+    let date = new Date(this.begin);
+    date.setMonth(date.getMonth() + 1);
+
     for (let i = 1; i < this.diff; i++) {
       let li = document.createElement('li');
       li.style.left = i * this.stepSize - 1 + 'px';
+      if (date.getMonth() === 0) {
+        li.classList.add('rangeslider-ruler-year');
+      } else if (date.getMonth() % 4) {
+        li.classList.add('rangeslider-ruler-quarter');
+      } else {
+        li.classList.add('rangeslider-ruler-month');
+      }
       this.lineMarkerContainer.appendChild(li);
+      date.setMonth(date.getMonth() + 1);
     }
   }
 
@@ -201,21 +230,18 @@ export class TimePicker {
     let date = new Date(this.begin);
     let steps = 0;
     let lastLeft = -Infinity;
-    let overlap = 25;
 
     while (date <= this.end) {
       if (date.getMonth() === 0) {
         let yearNode = document.createElement('div');
-        this.yearMarkersContainer.appendChild(yearNode);
         yearNode.textContent = date.getFullYear();
+        this.yearMarkersContainer.appendChild(yearNode);
 
-        let left = steps * this.stepSize - yearNode.clientWidth / 2 - overlap;
+        let left = steps * this.stepSize - yearNode.clientWidth / 2;
 
         if (left - lastLeft > yearNode.clientWidth) {
           yearNode.style.left = left + 'px';
           lastLeft = left;
-          this.yearMarkersContainer.style.height =
-            Math.max(this.yearMarkersContainer.clientHeight, yearNode.clientHeight) + 'px';
         }
         else {
           this.yearMarkersContainer.removeChild(yearNode);
@@ -244,7 +270,7 @@ export class TimePicker {
       let eventArrow = document.createElement('img');
       eventArrow.src = '../../images/arrow.png';
       this.eventArrowsContainer.appendChild(eventArrow);
-      eventArrow.style.left = (steps * this.stepSize - 6) + 'px'; // arrow.png is 11px wide
+      eventArrow.style.left = (steps * this.stepSize) + 'px';
 
       let eventText = document.createElement('li');
       eventText.innerHTML = event.name;
