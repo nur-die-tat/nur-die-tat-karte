@@ -1,4 +1,6 @@
 .rangeslider, .rangeslider * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -10,76 +12,16 @@
 
 .rangeslider {
   position: relative;
-}
-
-.rangeslider-range-background {
-  position: relative;
-  padding: 0;
-  top: 20px;
-  margin: 10px 25px;
-  border: 1px black solid;
-  border-radius: 3px;
-  height: 10px;
-  overflow: visible;
-  z-index: 0;
-}
-
-.rangeslider-ruler, .rangeslider-ruler li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
-}
-
-.rangeslider-ruler li {
-  width: 1px;
-  height: 4px;
-  background-color: black;
-}
-
-.rangeslider-ruler li:nth-child(3n) {
-  width: 1px;
-  height: 5px;
-  background-color: black;
-}
-
-.rangeslider-ruler li:nth-child(12n) {
-  width: 1px;
-  height: 8px;
-  background-color: black;
-}
-
-.rangeslider-range-knob {
-  position: absolute;
-  margin-top: -6px;
-  margin-left: -6px;
-  height: 20px;
-  width: 11px;
-  display: inline-block;
-  z-index: 2;
-  cursor: ew-resize;
-}
-
-.rangeslider-range-between-knobs {
-  position: absolute;
-  margin: 0;
-  height: 8px;
-  background-color: rgba(220, 20, 60, 0.4);
-  z-index: 1;
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-  cursor: grab;
+  padding: 0 25px;
+  width: 100%;
 }
 
 .rangeslider-yearmarkers {
-  position: absolute;
-  margin: 0;
-  left: 25px;
-  right: 25px;
-  padding: 0;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 5px;
 }
 
 .rangeslider-yearmarkers div {
@@ -88,30 +30,103 @@
   font-size: 12px;
 }
 
-.rangeslider-event-arrows {
+.rangeslider-feature-icon {
   position: absolute;
-  margin: 0;
-  padding: 0;
-  top: 10px;
-  left: 0;
+  margin-left: 25px; /* compensate missing padding */
+  bottom: 21px; /* size of range background and arrows */
+}
+
+.rangeslider-range-background {
+  position: relative;
+  width: 100%;
+  border: 1px black solid;
+  border-radius: 3px;
+  height: 10px;
+  overflow: visible;
+  z-index: 1;
+}
+
+.rangeslider-ruler {
+  position: relative;
+  width: 100%;
+}
+
+.rangeslider-ruler li {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+}
+
+.rangeslider-ruler li {
+  width: 1px;
+  background-color: black;
+}
+
+.rangeslider-ruler-year {
+  height: 8px;
+}
+
+.rangeslider-ruler-quarter {
+  height: 5px;
+}
+
+.rangeslider-ruler-month {
+  height: 4px;
+}
+
+.rangeslider-range-knob {
+  position: absolute;
+  /* image size */
+  height: 20px;
+  width: 11px;
+  /* focus */
+  margin-top: -6px;
+  margin-left: -6px;
+  display: inline-block;
+  z-index: 4;
+  cursor: ew-resize;
+}
+
+.rangeslider-range-between-knobs {
+  position: absolute;
+  height: 8px;
+  background-color: rgba(220, 20, 60, 0.4);
+  z-index: 2;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.rangeslider-feature-range {
+  position: absolute;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.rangeslider-event-arrows {
+  position: relative;
+  width: 100%;
+  height: 11px;
+  z-index: 0;
 }
 
 .rangeslider-event-arrows img {
-  margin: 0;
   position: absolute;
   display: inline;
+  /* image size */
+  width: 11px;
+  height: 11px;
+  /* focus */
+  margin-left: -6px;
 }
 
 .rangeslider-event-texts {
-  position: absolute;
-  margin: 0;
-  left: 25px;
-  right: 25px;
-  padding: 0;
+  position: relative;
+  width: 100%;
 }
 
 .rangeslider-event-texts li {
-  margin: 0;
   position: absolute;
   list-style: none;
   display: inline;
