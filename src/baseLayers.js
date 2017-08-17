@@ -2,19 +2,18 @@ import {baseLayerMenu} from "./baseLayerMenu.js";
 
 export function baseLayers(map) {
   let layers = [
-      new ol.layer.Tile({
+    new ol.layer.Tile({
       name: 'moderne Karte',
-      source: new ol.source.OSM({
-      url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-       }),
-       visible: false
-     }),
-      
-      new ol.layer.Group({
-      name: 'Stadtkarte 1918',
+      source: new ol.source.OSM(),
+      visible: false
+    }),
+
+    new ol.layer.Group({
+      name: 'Stadtkarte 1918 (h&ouml;here Zoomstufen)',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM({
+            attributions: 'Maps &copy; <a href="http://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
             url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
           })
         }),
@@ -30,12 +29,13 @@ export function baseLayers(map) {
       ],
       visible: false
     }),
-      
-      new ol.layer.Group({
-      name: 'Stadtkarte 1925',
+
+    new ol.layer.Group({
+      name: 'Stadtkarte 1925 (h&ouml;here Zoomstufen)',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM({
+            attributions: 'Maps &copy; <a href="http://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
             url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
           })
         }),

@@ -100,8 +100,9 @@
 .rangeslider-feature-range {
   position: absolute;
   height: 8px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 3;
+  pointer-events: none;
 }
 
 .rangeslider-event-arrows {
