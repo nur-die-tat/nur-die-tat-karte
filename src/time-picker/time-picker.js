@@ -6,6 +6,7 @@ import './rangeslider.css';
 
 import {addMonths, monthDiff} from "./time-helper";
 import {ICONS} from "../icons";
+import {mouseMoveListener} from "./mouse-move-listener";
 
 export class TimePicker {
   constructor(targetSelector, configFile, layers) {
@@ -13,6 +14,7 @@ export class TimePicker {
     this.target.innerHTML = html;
 
     this.layers = layers;
+    this.clickTime_ = 20;
 
     $.getJSON(configFile, config => {
       this.begin = new Date(config.begin);
@@ -42,11 +44,12 @@ export class TimePicker {
     this.attachLeftKnobListeners();
     this.attachRightKnobListeners();
     this.attachBetweenKnobListeners();
+    this.attachBackgroundListeners();
   }
 
   update() {
     if (this.rangeBackground) {
-      this.width = this.rangeBackground.clientWidth + 2; // compensate for border
+      this.width = this.rangeBackground.clientWidth; // compensate for border
       this.stepSize = this.width / this.diff;
       this.setLeft(this.leftStep);
       this.setRight(this.rightStep);
@@ -97,84 +100,68 @@ export class TimePicker {
   }
 
   attachLeftKnobListeners() {
-    let mouseDown = false;
-
     let startStep;
-    let startX;
 
-    this.leftKnob.addEventListener('mousedown', e => {
-      startStep = this.leftStep;
-      startX = e.screenX;
-      mouseDown = true;
-      e.stopImmediatePropagation();
-      e.preventDefault();
-    });
-
-    document.addEventListener('mousemove', e => {
-      if (mouseDown) {
-        let x = e.screenX - startX;
-        this.setLeft(startStep + Math.round(x / this.stepSize));
-      }
-    });
-
-    document.addEventListener('mouseup', () => {
-      mouseDown = false;
-    });
+    mouseMoveListener(this.leftKnob)
+      .onMoveStart(e => {
+        startStep = this.leftStep;
+      })
+      .onMove(e => {
+        this.setLeft(startStep + Math.round(e.diffX / this.stepSize));
+      })
+      .onClick(e => {
+        this.doClick(e);
+      });
   }
 
   attachRightKnobListeners() {
-    let mouseDown = false;
-
     let startStep;
-    let startX;
 
-    this.rightKnob.addEventListener('mousedown', e => {
-      startStep = this.rightStep;
-      startX = e.screenX;
-      mouseDown = true;
-      e.stopImmediatePropagation();
-      e.preventDefault();
-    });
-
-    document.addEventListener('mousemove', e => {
-      if (mouseDown) {
-        let x = e.screenX - startX;
-        this.setRight(startStep + Math.round(x / this.stepSize));
-      }
-    });
-
-    document.addEventListener('mouseup', () => {
-      mouseDown = false;
-    });
+    mouseMoveListener(this.rightKnob)
+      .onMoveStart(e => {
+        startStep = this.rightStep;
+      })
+      .onMove(e => {
+        this.setRight(startStep + Math.round(e.diffX / this.stepSize));
+      })
+      .onClick(e => {
+        this.doClick(e);
+      });
   }
 
   attachBetweenKnobListeners() {
-    let mouseDown = false;
-
     let startLeft;
     let startRight;
-    let startX;
 
-    this.betweenKnobs.addEventListener('mousedown', e => {
-      mouseDown = true;
-      startLeft = this.leftStep;
-      startRight = this.rightStep;
-      startX = e.screenX;
-      e.preventDefault();
-    });
-
-    document.addEventListener('mousemove', e => {
-      if (mouseDown) {
-        let x = e.screenX - startX;
-        let move = Math.round(x / this.stepSize);
+    mouseMoveListener(this.betweenKnobs)
+      .onMoveStart(e => {
+        startLeft = this.leftStep;
+        startRight = this.rightStep;
+      })
+      .onMove(e => {
+        let move = Math.round(e.diffX / this.stepSize);
         this.setLeft(startLeft + move);
         this.setRight(startRight + move);
-      }
-    });
+      })
+      .onClick(e => {
+        this.doClick(e);
+      });
+  }
 
-    document.addEventListener('mouseup', () => {
-      mouseDown = false;
-    });
+  attachBackgroundListeners() {
+    mouseMoveListener(this.rangeBackground)
+      .onClick(e => this.doClick(e));
+  }
+
+  doClick(e) {
+    let offset = this.rangeBackground.offsetLeft + document.querySelector('#footer').offsetLeft;
+    let clickStep = Math.round((e.clientX - offset) / this.stepSize);
+    if (Math.abs(this.leftStep - clickStep) <= Math.abs(this.rightStep - clickStep)) {
+      this.setLeft(clickStep);
+    } else {
+      this.setRight(clickStep);
+    }
+    e.stopImmediatePropagation();
   }
 
   adjustLayers() {
