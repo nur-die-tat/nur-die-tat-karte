@@ -61,4 +61,6 @@ if (hash !== '') {
   $(`a[data-toggle="tab"][href="#home"]`).tab('show');
 }
 
+window.scrollTo(0, 0);
+
 createImageModalLinks(document.body);
