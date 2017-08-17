@@ -41,7 +41,7 @@ body {
   padding: 0;
   width: 33%;
   float: left;
-  height: calc(100% - 60px);
+  height: calc(100% - 100px);
   /*display: inline-block;*/
 }
 
@@ -60,9 +60,7 @@ body {
 #map {
   margin: 0;
   margin-left: 33%;
-  /*width: calc(100% - 250px);*/
-  height: calc(100% - 60px);
-  /*display: inline;*/
+  height: calc(100% - 100px);
 }
 
 #left-panel.hidden + #map {
@@ -82,7 +80,7 @@ body {
 }
 
 #footer {
-  height: 50px;
+  height: 100px;
   margin: 0;
 }
 

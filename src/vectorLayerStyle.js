@@ -1,4 +1,5 @@
 import ol from 'openlayers';
+import {ICONS} from "./icons";
 
 const pointStyle = new ol.style.Style({
   image: new ol.style.Circle({
@@ -48,39 +49,7 @@ function createGeometryStyle(feature, resolution, geometry) {
         color: feature.get('active') ? 'rgba(255,128,128,0)' : undefined
       };
 
-      switch (feature.get('icon')) {
-        case 'flagw':
-          // iconOptions.anchor = [1, 1]
-          iconOptions.src = '../images/flagw.png';
-          break;
-        case 'house':
-          iconOptions.src = '../images/house.png';
-          break;
-        case 'peace':
-          iconOptions.src = '../images/peace.png';
-          break;
-        case 'sfb':
-          iconOptions.src = '../images/sfb.png';
-          break;
-        case 'theater':
-          iconOptions.src = '../images/theater.png';
-          break;
-        case 'info':
-          iconOptions.src = '../images/info.png';
-          break;
-        case 'shakehand':
-          iconOptions.src = '../images/shakehand.png';
-          break;
-        case 'camp':
-          iconOptions.src = '../images/camp.png';
-          break;
-        case 'strike':
-          iconOptions.src = '../images/strike.png';
-          break;
-        case 'meet':
-          iconOptions.src = '../images/meet.png';
-          break 
-      }
+      iconOptions.src = ICONS[feature.get('icon')];
 
       style.setImage(new ol.style.Icon(iconOptions));
     }
