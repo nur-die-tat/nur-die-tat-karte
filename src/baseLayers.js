@@ -4,27 +4,39 @@ export function baseLayers(map) {
   let layers = [
     new ol.layer.Tile({
       name: 'moderne Karte',
-      source: new ol.source.OSM(),
-      visible: false
+      source: new ol.source.OSM({
+        attributions: [
+          'Karte &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+          'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
+        ]
+      }),
+      visible: false,
+      zIndex: 0
     }),
 
     new ol.layer.Group({
       name: 'Stadtkarte 1918 (h&ouml;here Zoomstufen)',
       layers: [
         new ol.layer.Tile({
-          source: new ol.source.OSM({
-            attributions: 'Maps &copy; <a href="http://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-          })
-        }),
-        new ol.layer.Tile({
           extent: [761390, 6597471, 795931, 6628039],
           source: new ol.source.TileImage({
-            attributions: '&copy; Stadtarchiv Köln',
+            attributions: 'hist. Karte &copy; Stadtarchiv Köln',
             url: 'http://www.die-karte.org/tiles/1918/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1918/{z}/{x}/{y}.png'
           }),
-          maxResolution: 20
+          maxResolution: 20,
+          zIndex: 1
+        }),
+        new ol.layer.Tile({
+          source: new ol.source.OSM({
+            attributions: [
+                'Karte &copy; <a href="http://www.thunderforest.com">Thunderforest</a>',
+                'Daten &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+                'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
+              ],
+            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+          }),
+          zIndex: 0
         })
       ],
       visible: false
@@ -34,19 +46,25 @@ export function baseLayers(map) {
       name: 'Stadtkarte 1925 (h&ouml;here Zoomstufen)',
       layers: [
         new ol.layer.Tile({
-          source: new ol.source.OSM({
-            attributions: 'Maps &copy; <a href="http://www.thunderforest.com">Thunderforest</a>, Data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-          })
-        }),
-        new ol.layer.Tile({
           extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
           source: new ol.source.TileImage({
-            attributions: '&copy; Stadtarchiv Köln',
+            attributions: 'hist. Karte &copy; Stadtarchiv Köln',
             url: 'http://www.die-karte.org/tiles/1925/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
           }),
-          maxResolution: 20
+          maxResolution: 20,
+          zIndex: 1
+        }),
+        new ol.layer.Tile({
+          source: new ol.source.OSM({
+            attributions: [
+              'Karte &copy; <a href="http://www.thunderforest.com">Thunderforest</a>',
+              'Daten &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+              'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
+            ],
+            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
+          }),
+          zIndex: 0
         })
       ],
       visible: true

@@ -10,34 +10,38 @@ export function vectorLayers(map) {
         url: '../layers/persons.json',
         format: new ol.format.GeoJSON()
       }),
-      visible: true
+      visible: true,
+      zIndex: 2
     }),
     new ol.layer.Vector({
-        id: 'v2',
+      id: 'v2',
       name: 'Veranstaltungen',
       source: new ol.source.Vector({
         url: '../layers/events.json',
         format: new ol.format.GeoJSON()
       }),
-      visible: true
+      visible: true,
+      zIndex: 2
     }),
     new ol.layer.Vector({
-        id: 'v3',
+      id: 'v3',
       name: 'Treffpunkte',
       source: new ol.source.Vector({
         url: '../layers/meetings.json',
         format: new ol.format.GeoJSON()
       }),
-      visible: true
+      visible: true,
+      zIndex: 2
     }),
     new ol.layer.Vector({
-        id: 'v4',
+      id: 'v4',
       name: 'Arbeitskämpfe',
       source: new ol.source.Vector({
         url: '../layers/strike.json',
         format: new ol.format.GeoJSON()
       }),
-      visible: true
+      visible: true,
+      zIndex: 2
     })
   ];
 

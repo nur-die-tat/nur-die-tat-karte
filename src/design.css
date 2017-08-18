@@ -84,6 +84,16 @@ body {
   margin: 0;
 }
 
+#footer-background {
+  background-color: #f7f7f7;
+  position: absolute;
+  top: calc(100% - 100px);
+  left: -15px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .hidden {
   display: none;
 }

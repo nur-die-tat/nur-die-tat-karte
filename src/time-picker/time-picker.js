@@ -272,7 +272,7 @@ export class TimePicker {
       lastTextRight = left + eventText.clientWidth;
     }
 
-    let maxRight = this.eventTextsContainer.clientWidth + overlap;
+    let maxRight = this.eventTextsContainer.clientWidth + 2 * overlap;
     let nextTextLeft = maxRight;
     for (let i = this.events.length -1; i>= 0; i--) {
       let eventText = this.eventTextsContainer.childNodes[i];
