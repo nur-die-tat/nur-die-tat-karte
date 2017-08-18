@@ -39,26 +39,30 @@ window.addEventListener('resize', () => {
   }
 });
 
-$('a[data-toggle="tab"][href="#karte"]')
+$('a[data-toggle="tab"][data-target="#karte-tab"]')
   .on('shown.bs.tab', updateSizes)
   .on('hide.bs.tab', resetSizes);
 
 $('a[data-toggle="tab"]')
   .on('show.bs.tab', function() {
-    window.location.hash = $(this).attr('href');
+    window.location.hash = $(this).data('target').slice(0, -4);
   });
 
-let hash = window.location.hash;
-
-if (hash !== '') {
-  let $tab = $(`a[data-toggle="tab"][href="${hash}"]`);
+function showTab(hash) {
+  let $tab = $(`a[data-toggle="tab"][data-target="${hash}"]`);
   if ($tab.length === 0) {
-    $(`a[data-toggle="tab"][href="#home"]`).tab('show');
+    $(`a[data-toggle="tab"][data-target="#home-tab"]`).tab('show');
   } else {
     $tab.tab('show');
   }
+}
+
+let hash = window.location.hash;
+
+if (hash === '') {
+  showTab('#home-tab');
 } else {
-  $(`a[data-toggle="tab"][href="#home"]`).tab('show');
+  showTab(hash + '-tab');
 }
 
 createImageModalLinks(document.body);
