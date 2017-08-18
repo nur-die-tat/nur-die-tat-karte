@@ -4,8 +4,7 @@ import {createImageModalLinks} from "./imageModal.js";
 export function featureDetails(map, layers, timePicker) {
   map.on('click', e => {
     map.forEachFeatureAtPixel(e.pixel, (f, l) => {
-      showFeatureDetails(map, layers, f, l);
-      timePicker.setFeature(new Date(f.get('begin')), new Date(f.get('end')), f.get('icon'));
+      showFeatureDetails(map, layers, timePicker, f, l);
       return true;
     });
   });
@@ -27,7 +26,7 @@ function clearElement(element) {
 
 let activeFeature;
 
-export function showFeatureDetails(map, layers, feature, layer) {
+export function showFeatureDetails(map, layers, timePicker, feature, layer) {
   if (activeFeature) {
     activeFeature.set('active', false);
   }
@@ -35,10 +34,13 @@ export function showFeatureDetails(map, layers, feature, layer) {
   if (feature === null) {
     document.querySelector('#details')
       .classList.add('hidden');
+    timePicker.setFeature(null);
   }
   else {
     feature.set('active', true);
     activeFeature = feature;
+
+    timePicker.setFeature(new Date(f.get('begin')), new Date(f.get('end')), f.get('icon'));
 
     document.querySelector('#details')
       .classList.remove('hidden');
@@ -64,7 +66,7 @@ export function showFeatureDetails(map, layers, feature, layer) {
 
     for (let featureLink of descContainer.querySelectorAll('.feature-link')) {
       featureLink.addEventListener('click', e => {
-        focusOnFeature(map, layers, featureLink.dataset.layer, parseInt(featureLink.dataset.feature));
+        focusOnFeature(map, layers, timePicker, featureLink.dataset.layer, parseInt(featureLink.dataset.feature));
         e.preventDefault();
       });
     }
