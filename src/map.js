@@ -43,5 +43,11 @@ export function createMap() {
     .on('shown.bs.tab', updateSizes)
     .on('hide.bs.tab', resetSizes);
 
+  window.addEventListener('resize', () => {
+    if ($('#karte-tab').is(':visible')) {
+      updateSizes();
+    }
+  });
+
   return map;
 }

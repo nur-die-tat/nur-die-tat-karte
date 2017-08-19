@@ -12,12 +12,6 @@ export function tabs() {
 
   createImageModalLinks(document.body);
 
-  window.addEventListener('resize', () => {
-    if ($('#karte-tab').is(':visible')) {
-      updateSizes();
-    }
-  });
-
   $('a[data-toggle="tab"]')
     .on('show.bs.tab', function () {
       let target = $(this).data('target');

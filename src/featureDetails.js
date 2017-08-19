@@ -40,7 +40,7 @@ export function showFeatureDetails(map, layers, timePicker, feature, layer) {
     feature.set('active', true);
     activeFeature = feature;
 
-    timePicker.setFeature(new Date(f.get('begin')), new Date(f.get('end')), f.get('icon'));
+    timePicker.setFeature(new Date(feature.get('begin')), new Date(feature.get('end')), feature.get('icon'));
 
     document.querySelector('#details')
       .classList.remove('hidden');
