@@ -1,6 +1,4 @@
 import $ from 'jquery';
-import {Subject} from '../../node_modules/rxjs/bundles/rx.js';
-
 import html from './time-picker.html';
 import './rangeslider.css';
 
