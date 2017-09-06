@@ -34,15 +34,6 @@ module.exports = {
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap'})
-      },
-      {
-        test: /\.html$/,
-        use: {
-          loader: 'html-loader',
-          options: {
-            minimize: true
-          }
-        }
       }
     ]
   },

@@ -1,10 +1,10 @@
 import {createMap} from './map';
-import {tabs} from './pages/tabs';
+import {tabs} from './tabs';
 
 import './design.css';
 
 $('a[data-toggle="tab"][data-target="#karte-tab"]')
-  .one('show.bs.tab', () => {
+  .one('loaded.tab', () => {
     createMap();
   });
 

@@ -50,5 +50,7 @@ export function createMap() {
     }
   });
 
+  updateSizes();
+
   return map;
 }
