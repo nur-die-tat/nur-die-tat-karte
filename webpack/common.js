@@ -55,7 +55,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: 'src/index.html',
+      favicon: 'images/favicon.ico'
     }),
     new CopyWebpackPlugin([
       {from: 'node_modules/bootstrap/dist', to: 'vendor/bootstrap'},
