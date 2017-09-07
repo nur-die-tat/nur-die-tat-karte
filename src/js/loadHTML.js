@@ -1,3 +1,4 @@
+import {createImageModalLinks} from "./imageModal";
 let loaded = [];
 
 export function loadHTML(targetSelector, url) {
@@ -8,7 +9,9 @@ export function loadHTML(targetSelector, url) {
       xhr.responseType = 'text';
       xhr.addEventListener('load', function () {
         loaded.push(url);
-        document.querySelector(targetSelector).innerHTML = this.response;
+        let target = document.querySelector(targetSelector);
+        target.innerHTML = this.response;
+        createImageModalLinks(target);
         resolve();
       });
       xhr.send();

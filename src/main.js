@@ -1,7 +1,7 @@
-import {createMap} from './map';
-import {tabs} from './tabs';
+import {createMap} from './js/map';
+import {tabs} from './js/tabs';
 
-import './design.css';
+import './css/design.css';
 
 $('a[data-toggle="tab"][data-target="#karte-tab"]')
   .one('loaded.tab', () => {

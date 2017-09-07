@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import htmlUrl from 'file-loader?name=assets/[name].[ext]!../../html/time-picker.html';
-import './rangeslider.css';
+import '../../css/rangeslider.css';
 
 import {addMonths, monthDiff} from "./time-helper";
 import {ICONS} from "../icons";

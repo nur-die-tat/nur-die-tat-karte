@@ -1,7 +1,7 @@
 'use strict';
 
 import {expect} from 'chai';
-import {createMove, createScaling, angle, createRotation, calculateExtent} from '../src/calculateExtent';
+import {createMove, createScaling, angle, createRotation, calculateExtent} from '../src/js/calculateExtent';
 
 
 describe('createMove from [1,1] to [3,4]', function() {

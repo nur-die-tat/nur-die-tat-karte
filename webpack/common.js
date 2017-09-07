@@ -46,7 +46,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'src/html/index.html',
       favicon: 'images/favicon.ico'
     }),
     new CopyWebpackPlugin([
