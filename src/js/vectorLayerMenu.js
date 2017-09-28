@@ -1,6 +1,7 @@
 export function vectorLayerMenu(layers) {
-  let target = document.querySelector('#vector-layer-selectors');
+  let target = document.querySelector('#themen-dropdown .dropdown-menu');
 
+  let clicked = false;
   for (let l of layers) {
     let checked = l.getVisible();
     let container = document.createElement('div');
@@ -18,12 +19,21 @@ export function vectorLayerMenu(layers) {
     label.appendChild(checkbox);
     label.innerHTML += '&nbsp;' + l.get('name');
     label.addEventListener('click', e => {
-      if (e.target === label) {
+      if (e.target.tagName === 'INPUT') {
         checked = !checked;
         l.setVisible(checked);
+        clicked = true;
       }
     });
   }
+
+  $('#themen-dropdown').on('hide.bs.dropdown', e => {
+    if (clicked) {
+      e.preventDefault();
+      e.stopPropagation();
+      clicked = false;
+    }
+  });
 
   // hack for strange behaviour that removes checked state
   setTimeout(() => {
