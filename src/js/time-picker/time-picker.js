@@ -292,5 +292,3 @@ export class TimePicker {
     }
   }
 }
-
-

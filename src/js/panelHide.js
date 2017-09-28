@@ -1,19 +1,46 @@
-export function panelHide(map) {
-  let leftPanel = document.querySelector('#left-panel');
-  let hideButton = document.querySelector('#left-panel-hide-button');
-  let showButton = document.querySelector('#left-panel-show-button');
+import {Subject} from "rxjs/Subject";
 
-  hideButton.addEventListener('click', () => {
-    hideButton.classList.add('hidden');
-    showButton.classList.remove('hidden');
-    leftPanel.classList.add('hidden');
-    map.updateSize();
-  });
+export class PanelHide {
+  constructor () {
+    this.leftPanel = document.querySelector('#left-panel');
+    this.hideButton = document.querySelector('#left-panel-hide-button');
+    this.showButton = document.querySelector('#left-panel-show-button');
 
-  showButton.addEventListener('click', () => {
-    hideButton.classList.remove('hidden');
-    showButton.classList.add('hidden');
-    leftPanel.classList.remove('hidden');
-    map.updateSize();
-  });
+    this.visible = true;
+
+    this.hideButton.addEventListener('click', () => {
+      this.hideButton.classList.add('hidden');
+      this.showButton.classList.remove('hidden');
+      this.leftPanel.classList.add('hidden');
+      this.visible = false;
+      this.update();
+      this.toggleSubject.next('hide');
+    });
+
+    this.showButton.addEventListener('click', () => {
+      this.hideButton.classList.remove('hidden');
+      this.showButton.classList.add('hidden');
+      this.leftPanel.classList.remove('hidden');
+      this.visible = true;
+      this.update();
+      this.toggleSubject.next('show');
+    });
+
+    this.toggleSubject = new Subject();
+
+    this.update();
+  }
+
+  getToggleObservable () {
+    return this.toggleSubject.asObservable();
+  }
+
+  update () {
+    if (this.visible) {
+      this.hideButton.style.left = this.leftPanel.clientWidth + 'px';
+
+      this.showButton.style.top = this.hideButton.style.top
+        = this.leftPanel.clientHeight / 2 + 'px';
+    }
+  }
 }
