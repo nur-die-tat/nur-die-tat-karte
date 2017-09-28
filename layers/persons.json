@@ -856,6 +856,57 @@
 				]
 			}
 		},
+        {
+			"type": "Feature",
+			"properties": {
+				"name": "Robens, Josef",
+				"description": [
+					"1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
+					"keine Festnahme."
+				],
+				"icon": "house",
+				"adress": "Schartgasse 6",
+				"begin": "1932-12-01",
+				"end": "1936-12-31",
+				"sources": [
+					"BArch R 58 / 319, pag. 31."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.949406,
+					50.931164,
+					0
+				]
+			}
+		},
+        {
+			"type": "Feature",
+			"properties": {
+				"name": "Rohland, Wilhelm",
+				"description": [
+					"am 30.01.19211 Wahl zum Kassierer der Agitationskommission Köln-Solingen;",
+                    "Verantwortlicher für Sammlung von Geldern nach Sitzung a 13.02.1921;",
+                    "rief zur Reorganisierung der Kölner Gruppen auf."
+				],
+				"icon": "house",
+				"adress": "Eisholzweg 127, Leverkusen",
+				"begin": "1921-01-01",
+				"end": "1922-01-31",
+				"sources": [
+					"BArch R 58 / 319, pag. 31."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.949406,
+					50.931164,
+					0
+				]
+			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
