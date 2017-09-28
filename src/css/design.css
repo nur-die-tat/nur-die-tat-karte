@@ -63,6 +63,24 @@ body {
   height: calc(100% - 100px);
 }
 
+.zoom {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.zoom button:hover {
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+.zoom button {
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
 #left-panel.hidden + #map {
   margin-left: 0;
 }

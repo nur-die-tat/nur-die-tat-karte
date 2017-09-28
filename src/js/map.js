@@ -11,6 +11,9 @@ export function createMap() {
   let map = new ol.Map({
     target: 'map',
     controls: ol.control.defaults({
+      zoomOptions: {
+        className: 'zoom'
+      },
       attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
         collapsible: false
       })
