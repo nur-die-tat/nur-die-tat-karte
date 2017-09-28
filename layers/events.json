@@ -17,7 +17,7 @@
 					"<a class='feature-link' data-layer='v2' data-feature='2' href='#'>Abendveranstaltung</a> in Kalk (Humboldt-Kolonie)."
 				],
 				"icon": "flagw",
-				"adress": "Bergischer Ring, Köln-Mühlheim",
+				"address": "Bergischer Ring, Köln-Mühlheim",
 				"begin": "1926-05-01",
 				"end": "1926-05-01",
 				"sources": [
@@ -88,7 +88,7 @@
 					"„Nachmittags [Versammlung] auf den Poller Wiesen.“"
 				],
 				"icon": "peace",
-				"adress": " ",
+				"address": null,
 				"begin": "1926-07-31",
 				"end": "1926-08-01",
 				"sources": [
@@ -135,7 +135,7 @@
 					""
 				],
 				"icon": "peace",
-				"adress": " ",
+				"address": null,
 				"begin": "1928-08-01",
 				"end": "1928-08-31",
 				"sources": [
@@ -165,7 +165,7 @@
 					"„Sonntag, den 4. August, morgens 10 Uhr, findet in Köln auf dem Heumarkt (an der Hauptmarkthalle) eine große öffentliche Kundgebung statt, mit anschließender Demonstration durch die innere Stadt. - Nachmittags Verweilen auf den Poller Wiesen.“"
 				],
 				"icon": "peace",
-				"adress": " ",
+				"address": null,
 				"begin": "1929-08-01",
 				"end": "1929-08-31",
 				"sources": [
@@ -212,7 +212,7 @@
 					"nach der <a class='feature-link' data-layer='v2' data-feature='1' href='#'>Demonstration</a> um 20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
 				],
 				"icon": "theater",
-				"adress": "Wattstr. 15",
+				"address": "Wattstr. 15, Köln",
 				"begin": "1926-05-01",
 				"end": "1926-05-01",
 				"sources": [
@@ -238,7 +238,7 @@
 					"<a href='#' class='image-modal'> <img src='http://www.bilderbuch-koeln.de/bilder/k%C3%B6ln_altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_e4d2401762_1200x1600xin.jpeg' style='width: 20rem'> </a>"
 				],
 				"icon": "meet",
-				"adress": "Vor den Siebenburgen 51",
+				"address": "Vor den Siebenburgen 51, Köln",
 				"begin": "1924-08-01",
 				"end": "1924-08-31",
 				"sources": [

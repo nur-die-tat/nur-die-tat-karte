@@ -12,7 +12,7 @@
 			"name": "xxxxxxxxxxxx",
 			"description": "xxxxxxxxxxxx, xxxxxxx",
 			"icon": "house",
-			"adress": "xxxxxxxxxxxxxxxxxxx xy, xxxxxxxxxxx",
+			"address": "xxxxxxxxxxxxxxxxxxx xy, xxxxxxxxxxx",
 			"begin": "1923-08-01",
 			"end": "1923-09-30",
 			"sources": [
@@ -39,7 +39,7 @@
 					"<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
 				],
 				"icon": "sfb",
-				"adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
+				"address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
 				"begin": "1921-08-29",
 				"end": "1921-11-30",
 				"sources": [
@@ -69,7 +69,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
 				],
 				"icon": "house",
-				"adress": "Weidengasse 44",
+				"address": "Weidengasse 44, Köln",
 				"begin": "1921-01-01",
 				"end": "1921-01-31",
 				"sources": [
@@ -95,7 +95,7 @@
 					"trug zu Ausschluss von <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."
 				],
 				"icon": "house",
-				"adress": "Keupstraße 121",
+				"address": "Keupstraße 121, Köln",
 				"begin": "1929-05-01",
 				"end": "1929-09-30",
 				"sources": [
@@ -124,7 +124,7 @@
                     "verantwortlich für Anschriften an die Syndikalistisch-Anarchistische Jugend 1926."
 				],
 				"icon": "house",
-				"adress": "Buschfeldstraße 106¹, Köln-Hohlweide",
+				"address": "Buschfeldstraße 106¹, Köln-Hohlweide",
 				"begin": "1922-06-01",
 				"end": "1926-03-31",
 				"sources": [
@@ -150,7 +150,7 @@
                     "Deligierter Kölns auf der Tagung der Agitations-Kommission Rheinland am 23. & 27.04."
 				],
 				"icon": "house",
-				"adress": "Karthäuser Hof 3, Köln-Mülheim",
+				"address": "Karthäuser Hof 3, Köln-Mülheim",
 				"begin": "1922-01-01",
 				"end": "1922-01-31",
 				"sources": [
@@ -177,7 +177,7 @@
 					"auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf."
 				],
 				"icon": "house",
-				"adress": "Perlengraben 4, Köln",
+				"address": "Perlengraben 4, Köln",
 				"begin": "1923-7-01",
 				"end": "1925-04-30",
 				"sources": [
@@ -206,7 +206,7 @@
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>."
 				],
 				"icon": "house",
-				"adress": "Bleichstr. 4, Mülheim",
+				"address": "Bleichstr. 4, Mülheim",
 				"begin": "1922-01-01",
 				"end": "1922-01-31",
 				"sources": [
@@ -233,7 +233,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
 				],
 				"icon": "house",
-				"adress": "Eigelstein 143",
+				"address": "Eigelstein 143, Köln",
 				"begin": "1920-12-31",
 				"end": "1921-01-31",
 				"sources": [
@@ -253,7 +253,7 @@
 			"type": "Feature",
 			"properties": {
 				"name": "Faßbender, Gerhard",
-				"adress": "Deutscher Ring 64",
+				"address": "Deutscher Ring 64, Köln",
 				"description": "Wurde 1921 ausgeschlossen, weil er eine 16-stündige Schicht schob. Das wurde als unsolidarisch gewertet, da es den Arbeitsplatz anderer gefährdete.",
 				"icon": "house",
 				"begin": "1921-03-01",
@@ -275,7 +275,7 @@
 			"type": "Feature",
 			"properties": {
 				"name": "Forsch",
-				"adress": "Hackländerstr 30, Ehrenfeld",
+				"address": "Hackländerstr 30, Ehrenfeld, Köln",
 				"description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
 				"icon": "house",
 				"begin": "1923-09-01",
@@ -303,7 +303,7 @@
                     "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>."
 				],
                 "icon": "house",
-				"adress": "Vinzenzstr. 16-18",
+				"address": "Vinzenzstr. 16-18, Köln",
 				"begin": "1922-06-01",
 				"end": "1922-07-31",
 				"sources": [
@@ -328,7 +328,7 @@
 					"keine Festnahme."
 				],
 				"icon": "house",
-				"adress": "Am Wiesengrund 16, Köln-Dünnwald",
+				"address": "Am Wiesengrund 16, Köln-Dünnwald",
 				"begin": "1932-12-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -356,7 +356,7 @@
 					"1922 erneut in wildem Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='v4' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>, noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht."
 				],
 				"icon": "house",
-				"adress": "Heidestraße 176, Hürth",
+				"address": "Heidestraße 176, Hürth",
 				"begin": "1920-07-01",
 				"end": "1923-03-31",
 				"sources": [
@@ -384,7 +384,7 @@
 					"vermuteter Wohnort."
 				],
 				"icon": "house",
-				"adress": "Günestraße 16",
+				"address": "Günestraße 16, Köln",
 				"begin": "1932-12-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -406,7 +406,7 @@
 				"name": "Klein, Wilhelm",
 				"description": "Kreisbörse Köln (FAUD), Geschäftsleitung.",
 				"icon": "house",
-				"adress": "Buchforststr. 106, Kalk",
+				"address": "Buchforststr. 106, Kalk",
 				"begin": "1924-01-01",
 				"end": "1924-01-31",
 				"sources": [
@@ -434,7 +434,7 @@
 					"bei der Verhandlung Sprecher der insg. vier Personen, die von der Besatzung verurteilt wurden."
 				],
 				"icon": "house",
-				"adress": "Aachener Str. 64",
+				"address": "Aachener Str. 64, Köln",
 				"begin": "1921-01-01",
 				"end": "1922-04-30",
 				"sources": [
@@ -457,7 +457,7 @@
 				"name": "Konitzny, S.",
 				"description": "Ab 23.01.1929 Schriftführer der FAU Köln-Süd.",
 				"icon": "house",
-				"adress": "Loreleystr. 10-12",
+				"address": "Loreleystr. 10-12, Köln",
 				"begin": "1929-01-01",
 				"end": "1929-03-31",
 				"sources": [
@@ -482,7 +482,7 @@
 					"keine Festnahme."
 				],
 				"icon": "house",
-				"adress": "Wahlenstr. 35, Köln-Ehrenfeld",
+				"address": "Wahlenstr. 35, Köln-Ehrenfeld",
 				"begin": "1932-12-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -508,7 +508,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
 				],
 				"icon": "house",
-				"adress": "Subbelrather Str. 276",
+				"address": "Subbelrather Str. 276, Köln",
 				"begin": "1921-01-01",
 				"end": "1921-02-28",
 				"sources": [
@@ -530,7 +530,7 @@
 				"name": "List, Wilhelm",
 				"description": "Verantwortlich für Anfragen eines Quartiers zur Bauarbeiterkonferenz 15.-17.09.1928 in Köln.",
 				"icon": "house",
-				"adress": "Wilhelmstr. 45",
+				"address": "Wilhelmstr. 45, Köln",
 				"begin": "1928-08-01",
 				"end": "1928-09-30",
 				"sources": [
@@ -559,7 +559,7 @@
 					"Flucht nach Schweden, Internierung 1940."
 				],
 				"icon": "house",
-				"adress": "Rolshoverstr. 2, Kalk",
+				"address": "Rolshoverstr. 2, Kalk",
 				"begin": "1928-08-01",
 				"end": "1936-01-01",
 				"sources": [
@@ -592,7 +592,7 @@
 					"trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
 				],
 				"icon": "house",
-				"adress": "Kurzestr. 7, Kalk",
+				"address": "Kurzestr. 7, Kalk",
 				"begin": "1922-06-01",
 				"end": "1922-07-31",
 				"sources": [
@@ -623,7 +623,7 @@
 					"trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
 				],
 				"icon": "house",
-				"adress": "Engelstr. 8",
+				"address": "Engelstr. 8, Köln",
 				"begin": "1926-11-01",
 				"end": "1929-01-31",
 				"sources": [
@@ -652,7 +652,7 @@
                     "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>."
 				],
 				"icon": "house",
-				"adress": "Bergisch Gladbacher Str. 711",
+				"address": "Bergisch Gladbacher Str. 711, Köln",
 				"begin": "1922-06-01",
 				"end": "1922-07-31",
 				"sources": [
@@ -683,7 +683,7 @@
 					"Ausschluss im Mai 1929 auf Drängen <a class='feature-link' data-layer='v1' data-feature='12' href='#'>Borns</a>, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."
 				],
 				"icon": "house",
-				"adress": "Dasselstr. 14",
+				"address": "Dasselstr. 14, Köln",
 				"begin": "1928-03-01",
 				"end": "1929-05-31",
 				"sources": [
@@ -716,7 +716,7 @@
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>."
 				],
 				"icon": "house",
-				"adress": "Deutz-Mülheimer Str. 230, Deutz",
+				"address": "Deutz-Mülheimer Str. 230, Deutz",
 				"begin": "1922-01-01",
 				"end": "1922-01-31",
 				"sources": [
@@ -738,7 +738,7 @@
 				"name": "Osterberg",
 				"description": "Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
 				"icon": "house",
-				"adress": "Ehrenfeldgürtel 81, Ehrenfeld",
+				"address": "Ehrenfeldgürtel 81, Ehrenfeld",
 				"begin": "1923-08-01",
 				"end": "1923-09-30",
 				"sources": [
@@ -764,7 +764,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
 				],
 				"icon": "house",
-				"adress": "Lessingstr. 61",
+				"address": "Lessingstr. 61, Köln",
 				"begin": "1920-12-31",
 				"end": "1921-01-31",
 				"sources": [
@@ -790,7 +790,7 @@
 					"keine Festnahme."
 				],
 				"icon": "house",
-				"adress": "Merowingerstraße 67",
+				"address": "Merowingerstraße 67, Köln",
 				"begin": "1929-01-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -815,7 +815,7 @@
 					"Ab 23.01.1929 Erster Vorsitzender FAU Köln-Süd."
 				],
 				"icon": "house",
-				"adress": "Vorgebirgstr. 23",
+				"address": "Vorgebirgstr. 23, Köln",
 				"begin": "1929-01-01",
 				"end": "1929-02-28",
 				"sources": [
@@ -840,7 +840,7 @@
 					"keine Festnahme."
 				],
 				"icon": "house",
-				"adress": "Schartgasse 6",
+				"address": "Schartgasse 6, Köln",
 				"begin": "1932-12-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -870,7 +870,7 @@
 					"im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft."
 				],
 				"icon": "house",
-				"adress": "An Lyskirchen 6",
+				"address": "An Lyskirchen 6, Köln",
 				"begin": "1932-01-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -897,7 +897,7 @@
 					"keine Festnahme."
 				],
 				"icon": "house",
-				"adress": "Beethovenstr. 18",
+				"address": "Beethovenstr. 18, Köln",
 				"begin": "1929-12-01",
 				"end": "1936-12-31",
 				"sources": [
@@ -921,7 +921,7 @@
 					"Wahl zum Schriftführer des Agitationskomitees Köln-Solingen 30.01.1921."
 				],
 				"icon": "house",
-				"adress": "Birkengartenstr. 1",
+				"address": "Birkengartenstr. 1, Köln",
 				"begin": "1921-01-01",
 				"end": "1921-02-28",
 				"sources": [
@@ -947,7 +947,7 @@
 					"vermuteter Wohnort."
 				],
 				"icon": "house",
-				"adress": "Hauptstr. 51, Ohligs-Mehrscheidt",
+				"address": "Hauptstr. 51, Ohligs-Mehrscheidt",
 				"begin": "1921-01-01",
 				"end": "1921-03-31",
 				"sources": [
@@ -973,7 +973,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
 				],
 				"icon": "house",
-				"adress": "Wollküche 16",
+				"address": "Wollküche 16, Köln",
 				"begin": "1920-12-01",
 				"end": "1921-02-28",
 				"sources": [
@@ -1001,7 +1001,7 @@
 					"Ausschluss im September 1923."
 				],
 				"icon": "house",
-				"adress": "Danzierstraße 117",
+				"address": "Danzierstraße 117, Köln",
 				"begin": "1922-01-01",
 				"end": "1923-09-30",
 				"sources": [
@@ -1023,7 +1023,7 @@
 			"type": "Feature",
 			"properties": {
 				"name": "Windhoff, Carl",
-				"adress": "Grafenberger Allee 257",
+				"address": "Grafenberger Allee 257, Köln",
 				"description": "1922 Leiter der Agitationskommission Rheinland.",
 				"icon": "house",
 				"begin": "1922-02-01",
@@ -1051,7 +1051,7 @@
 					"weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>."
 				],
 				"icon": "house",
-				"adress": "Friedrichstr. 61",
+				"address": "Friedrichstr. 61, Köln",
 				"begin": "1920-12-01",
 				"end": "1921-02-28",
 				"sources": [
@@ -1077,7 +1077,7 @@
 					"verantwortlich für Anmeldungen/Unterkünfte für die <a class='feature-link' data-layer='v2' data-feature='3' href='#'>Antikriegstage am 31.07. & 01.08.1926</a>."
 				],
 				"icon": "house",
-				"adress": "K.-Höhenberg, Frankfurterstr. 294",
+				"address": "K.-Höhenberg, Frankfurterstr. 294",
 				"begin": "1925-06-01",
 				"end": "1926-09-30",
 				"sources": [

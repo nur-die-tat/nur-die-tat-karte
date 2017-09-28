@@ -16,7 +16,7 @@
 					"allgemeine FAU Mitglieder-Vollversamllung am 05.12.1926;"
 				],
                 "icon": "shakehand",
-                "adress": "Mühlheimer Str. 112, Kalk",
+                "address": "Mühlheimer Str. 112, Kalk, Köln",
                 "begin": "1926-02-01",
                 "end": "1926-12-31",
                 "sources": [
@@ -42,7 +42,7 @@
 					"Delegierte auf SFB-Reichskonferenz."
 				],
                 "icon": "sfb",
-                "adress": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
+                "address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf, Köln",
                 "begin": "1921-08-29",
                 "end": "1921-11-30",
                 "sources": [
@@ -70,7 +70,7 @@
 					"vermutliche Lage."
 				],
                 "icon": "info",
-                "adress": "Albertusstraße",
+                "address": "Albertusstraße, Köln",
                 "begin": "1933-01-01",
                 "end": "1933-01-31",
                 "sources": [
@@ -96,7 +96,7 @@
 					"vermutliche Lage."
 				],
                 "icon": "info",
-                "adress": "Lichhof 18",
+                "address": "Lichhof 18, Köln",
                 "begin": "1931-10-01",
                 "end": "1931-11-31",
                 "sources": [
@@ -124,7 +124,7 @@
                     "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>."
 				],
                 "icon": "info",
-                "adress": "Berg. Gladbacher Str. 465",
+                "address": "Berg. Gladbacher Str. 465, Köln",
                 "begin": "1922-06-01",
                 "end": "1922-07-31",
                 "sources": [
@@ -152,7 +152,7 @@
 					"vermutliche Lage."
 				],
                 "icon": "info",
-                "adress": "Oskarstraße",
+                "address": "Oskarstraße, Köln",
                 "begin": "1922-01-01",
                 "end": "1922-01-31",
                 "sources": [
@@ -172,7 +172,7 @@
             "type": "Feature",
             "properties": {
                 "name": "„Zum Hirsch“",
-                "adress": "Kämmergasse, Köln",
+                "address": "Kämmergasse, Köln, Köln",
                 "description": [
 					"Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
 					"Vortrag von <a target='_blank' href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> 27.08.1922;",
@@ -201,9 +201,9 @@
             "type": "Feature",
             "properties": {
                 "name": "„Witwe Dropp“",
-                "adress": "Siegburger Straße, Deutz",
+                "address": "Siegburger Straße, Deutz",
                 "description": [
-					"Auch „Tropp“;"
+					"Auch „Tropp“;",
                     "Organisationstreffen der Arbeiter-Börse „Groß-Köln“ 27.03., 09.04., 27.04., 07.05.1922;",
                     "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: Bunse, Wiefels, Morawitz, Zander. Im Kontrollgremium: Greuling, Müller und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
                     "Börsenlokal der FAU Köln in Deutz, 'Siegburgerhof'; Börsensitzungen jeden zweiten Donnerstag ab 24.08.1922;",
@@ -230,7 +230,7 @@
             "type": "Feature",
             "properties": {
                 "name": "„Witwe Laurenz“",
-                "adress": "Kalk-Mülheimer Straße 337, Köln",
+                "address": "Kalk-Mülheimer Straße 337, Köln",
                 "description": [
 					"Restaurant „Witwe Laurenz“;",
                     "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch Rohland.",
@@ -260,7 +260,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Lager Dellbrück",
-                "adress": "Dellbrück",
+                "address": "Dellbrück, Köln",
                 "description": [
 					"Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
 					"zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
@@ -288,7 +288,7 @@
             "properties": {
                 "id": 13,
                 "name": "Ostertreffen",
-                "adress": "Lindscheid 14, Wermelskirchen",
+                "address": "Lindscheid 14, Wermelskirchen",
                 "description": [
 					"Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>.",
 					"<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
@@ -315,7 +315,7 @@
             "properties": {
                 "id": 10,
                 "name": "Siedlertag",
-                "adress": "Düsseldorfer Str. 384",
+                "address": "Düsseldorfer Str. 384, Köln",
                 "description": [
 					"23. April 1921 freisozialistischer Siedlertag;",
 					"Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
@@ -342,7 +342,7 @@
             "properties": {
                 "id": 1,
                 "name": "Vollversammlung",
-                "adress": "Ulrichgasse 6",
+                "address": "Ulrichgasse 6, Köln",
                 "description": [
 					"07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns bei Schmitz in der Ulrichgasse;",
 					"Redner u.a. <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."
@@ -371,7 +371,7 @@
 					"06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."
 				],
                 "icon": "shakehand",
-                "adress": "Barbarastr. 17, Rodenkirchen",
+                "address": "Barbarastr. 17, Rodenkirchen",
                 "begin": "1926-05-01",
                 "end": "1926-07-31",
                 "sources": [

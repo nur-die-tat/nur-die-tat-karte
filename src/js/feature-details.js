@@ -25,7 +25,14 @@ export class FeatureDetails {
       else {
         map.getViewport().style.cursor = 'auto';
       }
-    })
+    });
+
+    this.detailsElement = document.querySelector('#details');
+    this.featureNameElement = document.querySelector('#feature-name');
+    this.layerNameElement = document.querySelector('#layer-name');
+    this.featureDescriptionElement = document.querySelector('#feature-description');
+    this.featureAddressElement = document.querySelector('#feature-address');
+    this.featureSourcesElement = document.querySelector('#feature-sources');
   }
 
   focusOnFeatureByIds (featureId, layerId) {
@@ -51,45 +58,48 @@ export class FeatureDetails {
 
       this.timePicker.setFeature(new Date(feature.get('begin')), new Date(feature.get('end')), feature.get('icon'));
 
-      document.querySelector('#details').classList.remove('hidden');
+      this.detailsElement.classList.remove('hidden');
 
-      document.querySelector('#feature-name').innerHTML = feature.get('name');
+      this.featureNameElement.innerHTML = feature.get('name');
 
-      document.querySelector('#layer-name').innerHTML = layer.get('name');
+      this.layerNameElement.innerHTML = layer.get('name');
+
+      if (feature.get('address')) {
+        this.featureAddressElement.classList.remove('hidden');
+        this.featureAddressElement.innerHTML = feature.get('address');
+      } else {
+        this.featureAddressElement.classList.add('hidden');
+      }
 
       let description = feature.get('description');
       description = Array.isArray(description) ? description : [description];
 
-      let descContainer = document.querySelector('#feature-description');
-
-      clearElement(descContainer);
+      clearElement(this.featureDescriptionElement);
 
       for (let descItem of description) {
         let p = document.createElement('p');
         p.innerHTML = descItem;
-        descContainer.appendChild(p);
+        this.featureDescriptionElement.appendChild(p);
       }
 
-      for (let featureLink of descContainer.querySelectorAll('.feature-link')) {
+      for (let featureLink of this.featureDescriptionElement.querySelectorAll('.feature-link')) {
         featureLink.addEventListener('click', e => {
           this.focusOnFeatureByIds(parseInt(featureLink.dataset.feature), featureLink.dataset.layer);
           e.preventDefault();
         });
       }
 
-      createImageModalLinks(descContainer);
+      createImageModalLinks(this.featureDescriptionElement);
 
       let sources = feature.get('sources');
       sources = Array.isArray(sources) ? sources : [sources];
 
-      let sourcesContainer = document.querySelector('#feature-sources');
-
-      clearElement(sourcesContainer);
+      clearElement(this.featureSourcesElement);
 
       for (let sourcesItem of sources) {
         let li = document.createElement('li');
         li.innerHTML = sourcesItem;
-        sourcesContainer.appendChild(li);
+        this.featureSourcesElement.appendChild(li);
       }
     }
   }
