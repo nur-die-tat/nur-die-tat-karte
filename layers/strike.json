@@ -80,6 +80,31 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": 1,
+				"name": "Humboldt-Deutzmotoren",
+				"description": [
+					"Streiks und Aussperrungen bei der Maschinen- & Lokomotivbaufirma Humboldt unter Beteiligung der FAU-Ortsgruppe Köln-Kalk."
+				],
+				"icon": "strike",
+				"adress": "",
+				"begin": "1922-03-01",
+				"end": "1922-03-31",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.10, Beilage S.4."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.923159658908844,
+                    50.952650029285664,
+					0
+				]
+			}
+		},
+        {
+			"type": "Feature",
+			"properties": {
 				"id": 3,
 				"name": "Kraftwerk Goldenberg",
 				"description": [

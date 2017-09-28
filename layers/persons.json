@@ -146,14 +146,16 @@
 			"properties": {
 				"name": "Bunse",
 				"description": [
-					"Erster Vorsitzender der neu konstituierten Arbeiterbörse Groß-Köln."
+					"Erster Vorsitzender der neu konstituierten Arbeiterbörse Groß-Köln;",
+                    "Deligierter Kölns auf der Tagung der Agitations-Kommission Rheinland am 23. & 27.04."
 				],
 				"icon": "house",
 				"adress": "Karthäuser Hof 3, Köln-Mülheim",
 				"begin": "1922-01-01",
 				"end": "1922-01-31",
 				"sources": [
-					"Der Syndikalist, IV.Jg., Beilage S.6."
+					"Der Syndikalist, IV.Jg., Beilage S.6.",
+                    "Die Schöpfung, I.Jg., Nr. 136, S.3."
 				]
 			},
 			"geometry": {
@@ -996,7 +998,7 @@
 					"Vorsitzender FAU Köln-Mülheim;",
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>;",
 					"stellvertretender Vorsitzender der Arbeiterbörse Groß-Köln nach deren Neukonstituierungsversuch im April 1922;",
-					"Ausschluss 1923."
+					"Ausschluss im September 1923."
 				],
 				"icon": "house",
 				"adress": "Danzierstraße 117",
@@ -1013,6 +1015,28 @@
 				"coordinates": [
 					7.001008,
 					50.959385,
+					0
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Windhoff, Carl",
+				"adress": "Grafenberger Allee 257",
+				"description": "1922 Leiter der Agitationskommission Rheinland.",
+				"icon": "house",
+				"begin": "1922-02-01",
+				"end": "1922-03-30",
+				"sources": [
+					"Der Syndikalist, IV.Jg., Nr.9, S.6."
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.815820336341858,
+                    51.23333586486648,
 					0
 				]
 			}
