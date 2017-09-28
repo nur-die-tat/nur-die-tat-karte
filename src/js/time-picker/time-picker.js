@@ -1,23 +1,27 @@
 import $ from 'jquery';
-import html from './time-picker.html';
-import './rangeslider.css';
+import htmlUrl from 'file-loader?name=assets/[name].[ext]!../../html/time-picker.html';
+import '../../css/rangeslider.css';
 
 import {addMonths, monthDiff} from "./time-helper";
 import {ICONS} from "../icons";
 import {mouseMoveListener} from "./mouse-move-listener";
+import {loadHTML} from "../loadHTML";
 
 export class TimePicker {
   constructor(targetSelector, configFile, layers) {
-    this.target = document.querySelector(targetSelector);
-    this.target.innerHTML = html;
-
     this.layers = layers;
     this.clickTime_ = 20;
 
-    $.getJSON(configFile, config => {
-      this.begin = new Date(config.begin);
-      this.end = new Date(config.end);
-      this.events = config.events;
+    this.target = document.querySelector(targetSelector);
+
+    Promise.all([
+      loadHTML(targetSelector, htmlUrl),
+      $.getJSON(configFile, config => {
+        this.begin = new Date(config.begin);
+        this.end = new Date(config.end);
+        this.events = config.events;
+      })
+    ]).then(() => {
       this.init();
     });
   }
