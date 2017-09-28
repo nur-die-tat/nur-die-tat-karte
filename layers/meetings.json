@@ -66,11 +66,10 @@
             "properties": {
                 "name": "FAU Lokal",
                 "description": [
-					"letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus;",
-					"vermutliche Lage."
+					"letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus."
 				],
                 "icon": "info",
-                "address": "Albertusstraße, Köln",
+                "address": "Albertusstraße, Köln (Lage geschätzt)",
                 "begin": "1933-01-01",
                 "end": "1933-01-31",
                 "sources": [
@@ -92,11 +91,10 @@
                 "name": "FAU Büro",
                 "description": [
 					"Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
-					"„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des 'Syndikalist'“",
-					"vermutliche Lage."
+					"„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des 'Syndikalist'“."
 				],
                 "icon": "info",
-                "address": "Lichhof 18, Köln",
+                "address": "Lichhof 18, Köln (vermutliche Lage)",
                 "begin": "1931-10-01",
                 "end": "1931-11-31",
                 "sources": [
@@ -148,11 +146,10 @@
                 "name": "Innungshaus Willi Schilling",
                 "description": [
 					"Zahl- und Diskutierabend der Ortsgruppe Mülheim jeden Samstag 7 Uhr;",
-					"Es luden ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>;",
-					"vermutliche Lage."
+					"Es luden ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>."
 				],
                 "icon": "info",
-                "address": "Oskarstraße, Köln",
+                "address": "Oskarstraße, Köln (Lage geschätzt)",
                 "begin": "1922-01-01",
                 "end": "1922-01-31",
                 "sources": [
@@ -172,12 +169,11 @@
             "type": "Feature",
             "properties": {
                 "name": "„Zum Hirsch“",
-                "address": "Kämmergasse, Köln, Köln",
+                "address": "Kämmergasse, Köln (Lage geschätzt)",
                 "description": [
 					"Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
 					"Vortrag von <a target='_blank' href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> 27.08.1922;",
-					"Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag;",
-					"vermutliche Lage."
+					"Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag."
 				],
                 "icon": "shakehand",
                 "begin": "1922-08-01",
@@ -200,14 +196,14 @@
         {
             "type": "Feature",
             "properties": {
+                "id": 5,
                 "name": "„Witwe Dropp“",
-                "address": "Siegburger Straße, Deutz",
+                "address": "Siegburger Straße, Deutz (Lage geschätzt)",
                 "description": [
 					"Auch „Tropp“;",
                     "Organisationstreffen der Arbeiter-Börse „Groß-Köln“ 27.03., 09.04., 27.04., 07.05.1922;",
-                    "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: Bunse, Wiefels, Morawitz, Zander. Im Kontrollgremium: Greuling, Müller und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
-                    "Börsenlokal der FAU Köln in Deutz, 'Siegburgerhof'; Börsensitzungen jeden zweiten Donnerstag ab 24.08.1922;",
-					"grob vermutete Lage."
+                    "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
+                    "Börsenlokal der FAU Köln in Deutz, 'Siegburgerhof'; Börsensitzungen jeden zweiten Donnerstag ab 24.08.1922."
 				],
                 "icon": "info",
                 "begin": "1922-03-01",
@@ -229,18 +225,21 @@
         {
             "type": "Feature",
             "properties": {
+                "id": 4,
                 "name": "„Witwe Laurenz“",
                 "address": "Kalk-Mülheimer Straße 337, Köln",
                 "description": [
 					"Restaurant „Witwe Laurenz“;",
-                    "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch Rohland.",
+                    "ab Juni 1921 Versammlungen jeden Samstag 19 Uhr;",
+                    "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='v1' data-feature='23' href='#'>Rohland</a>.",
                     "Vollversammlung Köln-Mülheim am 10.12.1922;",
                     "mehrere Versammlungen der Föderation der Metall- und Industriearbeiter Köln und Umgebung."
 				],
                 "icon": "info",
-                "begin": "1922-03-01",
+                "begin": "1921-06-01",
                 "end": "1922-03-31",
                 "sources": [
+                    "Der Syndikalist, III.Jg., Nr.23, S.4.",
                     "Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
                     "Der Syndikalist, IV.Jg., Nr.48, Beilage S.4.",
                     "Die Schöpfung, I.Jg., Nr. 22, S.4.",
@@ -260,11 +259,10 @@
             "type": "Feature",
             "properties": {
                 "name": "Lager Dellbrück",
-                "address": "Dellbrück, Köln",
+                "address": "Dellbrück, Köln (Lage geschätzt)",
                 "description": [
 					"Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
-					"zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland;",
-					"vermutete Lage."
+					"zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland."
 				],
                 "icon": "camp",
                 "begin": "1920-03-01",

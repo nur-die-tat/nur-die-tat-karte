@@ -80,13 +80,13 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": 1,
+				"id": 4,
 				"name": "Humboldt-Deutzmotoren",
 				"description": [
 					"Streiks und Aussperrungen bei der Maschinen- & Lokomotivbaufirma Humboldt unter Beteiligung der FAU-Ortsgruppe Köln-Kalk."
 				],
 				"icon": "strike",
-				"address": "",
+				"address": "Dillenburger Str. 106, Köln",
 				"begin": "1922-03-01",
 				"end": "1922-03-31",
 				"sources": [
@@ -96,8 +96,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.923159658908844,
-                    50.952650029285664,
+					7.011959552764893,
+                    50.933746993956355,
 					0
 				]
 			}
