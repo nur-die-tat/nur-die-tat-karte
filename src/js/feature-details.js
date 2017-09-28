@@ -1,16 +1,22 @@
 import {createImageModalLinks} from "./imageModal";
-
-function clearElement(element) {
-  while (element.hasChildNodes()) {
-    element.removeChild(element.lastChild);
-  }
-}
+import {clearElement} from "./utils";
+import {vectorLayerStyle} from "./vectorLayerStyle";
 
 export class FeatureDetails {
   constructor (map, vectorLayers, timePicker) {
     this.map = map;
     this.vectorLayers = vectorLayers;
     this.timePicker = timePicker;
+
+    this.highlightSource = new ol.source.Vector({
+      features: []
+    });
+
+    this.map.addLayer(new ol.layer.Vector({
+      source: this.highlightSource,
+      style: vectorLayerStyle,
+      zIndex: 10
+    }));
 
     map.on('click', e => {
       map.forEachFeatureAtPixel(e.pixel, (f, l) => {
@@ -45,6 +51,7 @@ export class FeatureDetails {
   showFeatureDetails(feature, layer) {
     if (this.activeFeature) {
       this.activeFeature.set('active', false);
+      this.highlightSource.clear();
     }
 
     if (feature === null) {
@@ -54,6 +61,9 @@ export class FeatureDetails {
     }
     else {
       feature.set('active', true);
+
+      this.highlightSource.addFeature(feature);
+
       this.activeFeature = feature;
 
       this.timePicker.setFeature(new Date(feature.get('begin')), new Date(feature.get('end')), feature.get('icon'));

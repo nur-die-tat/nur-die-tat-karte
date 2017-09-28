@@ -6,6 +6,7 @@ import {addMonths, monthDiff} from "./time-helper";
 import {ICONS} from "../icons";
 import {mouseMoveListener} from "./mouse-move-listener";
 import {loadHTML} from "../loadHTML";
+import {clearElement} from "../utils";
 
 export class TimePicker {
   constructor(targetSelector, configFile, layers) {
@@ -188,10 +189,7 @@ export class TimePicker {
   }
 
   createLineMarkers() {
-    // clear
-    while (this.lineMarkerContainer.lastChild) {
-      this.lineMarkerContainer.removeChild(this.lineMarkerContainer.lastChild);
-    }
+    clearElement(this.lineMarkerContainer);
 
     let date = new Date(this.begin);
     date.setMonth(date.getMonth() + 1);
@@ -212,9 +210,7 @@ export class TimePicker {
   }
 
   createYearMarkers() {
-    while (this.yearMarkersContainer.lastChild) {
-      this.yearMarkersContainer.removeChild(this.yearMarkersContainer.lastChild);
-    }
+    clearElement(this.yearMarkersContainer);
 
     let date = new Date(this.begin);
     let steps = 0;
@@ -243,12 +239,8 @@ export class TimePicker {
   }
 
   createEventMarkers() {
-    while (this.eventArrowsContainer.lastChild) {
-      this.eventArrowsContainer.removeChild(this.eventArrowsContainer.lastChild);
-    }
-    while (this.eventTextsContainer.lastChild) {
-      this.eventTextsContainer.removeChild(this.eventTextsContainer.lastChild);
-    }
+    clearElement(this.eventArrowsContainer);
+    clearElement(this.eventTextsContainer);
 
     let spacing = 10;
     let overlap = 25;
