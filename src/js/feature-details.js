@@ -31,7 +31,7 @@ export class FeatureDetails {
   focusOnFeatureByIds (featureId, layerId) {
     let layer = this.vectorLayers.find(l => l.get('id') === layerId);
     let feature = layer.getSource().getFeatures().find(f => f.get('id') === featureId);
-    this.map.getView().setCenter(ol.extent.getCenter(feature.getGeometry().getExtent()));
+    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()) });
     this.showFeatureDetails(feature, layer);
   }
 
