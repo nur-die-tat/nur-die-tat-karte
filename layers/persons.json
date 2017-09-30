@@ -208,7 +208,7 @@
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>."
 				],
                 "icon": "house",
-                "address": "Bleichstr. 4, Mülheim",
+                "address": "Bleichstr. 4, Köln-Mülheim",
                 "begin": "1922-01-01",
                 "end": "1922-01-31",
                 "sources": [
@@ -277,7 +277,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Forsch",
-                "address": "Hackländerstr 30, Ehrenfeld, Köln",
+                "address": "Hackländerstr 30, Köln-Ehrenfeld",
                 "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
                 "icon": "house",
                 "begin": "1923-09-01",
@@ -330,7 +330,7 @@
 					"keine Festnahme."
 				],
                 "icon": "house",
-                "address": "Am Wiesengrund 16, Köln-Dünnwald",
+                "address": "Am Wiesengrund 16, Köln/Dünnwald",
                 "begin": "1932-12-01",
                 "end": "1936-12-31",
                 "sources": [
@@ -408,7 +408,7 @@
                 "name": "Klein, Wilhelm",
                 "description": "Kreisbörse Köln (FAUD), Geschäftsleitung.",
                 "icon": "house",
-                "address": "Buchforststr. 106, Kalk",
+                "address": "Buchforststr. 106, Köln-Kalk",
                 "begin": "1924-01-01",
                 "end": "1924-01-31",
                 "sources": [
@@ -561,7 +561,7 @@
 					"Flucht nach Schweden, Internierung 1940."
 				],
                 "icon": "house",
-                "address": "Rolshoverstr. 2, Kalk",
+                "address": "Rolshoverstr. 2, Köln-Kalk",
                 "begin": "1928-08-01",
                 "end": "1936-01-01",
                 "sources": [
@@ -594,7 +594,7 @@
 					"trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
 				],
                 "icon": "house",
-                "address": "Kurzestr. 7, Kalk",
+                "address": "Kurzestr. 7, Köln-Kalk",
                 "begin": "1922-04-01",
                 "end": "1922-07-31",
                 "sources": [
@@ -723,7 +723,7 @@
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>."
 				],
                 "icon": "house",
-                "address": "Deutz-Mülheimer Str. 230, Deutz",
+                "address": "Deutz-Mülheimer Str. 230, Köln-Deutz",
                 "begin": "1922-01-01",
                 "end": "1922-01-31",
                 "sources": [
@@ -745,7 +745,7 @@
                 "name": "Osterberg",
                 "description": "Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
                 "icon": "house",
-                "address": "Ehrenfeldgürtel 81, Ehrenfeld",
+                "address": "Ehrenfeldgürtel 81, Köln-Ehrenfeld",
                 "begin": "1923-08-01",
                 "end": "1923-09-30",
                 "sources": [
@@ -985,7 +985,7 @@
 					"vermuteter Wohnort."
 				],
                 "icon": "house",
-                "address": "Hauptstr. 51, Ohligs-Mehrscheidt",
+                "address": "Hauptstr. 51, Leverkusen (Ohligs-Mehrscheidt)",
                 "begin": "1921-01-01",
                 "end": "1921-03-31",
                 "sources": [
@@ -1061,7 +1061,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Windhoff, Carl",
-                "address": "Grafenberger Allee 257, Köln",
+                "address": "Grafenberger Allee 257, Düsseldorf",
                 "description": "1922 Leiter der Agitationskommission Rheinland.",
                 "icon": "house",
                 "begin": "1922-02-01",
@@ -1116,7 +1116,7 @@
 					"verantwortlich für Anmeldungen/Unterkünfte für die <a class='feature-link' data-layer='v2' data-feature='3' href='#'>Antikriegstage am 31.07. & 01.08.1926</a>."
 				],
                 "icon": "house",
-                "address": "K.-Höhenberg, Frankfurterstr. 294",
+                "address": "Frankfurterstr. 294, Köln-Höhenberg",
                 "begin": "1922-04-01",
                 "end": "1926-09-30",
                 "sources": [
