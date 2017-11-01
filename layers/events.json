@@ -203,12 +203,34 @@
 			}
 		},
 		{
+      "type": "Feature",
+      "properties": {
+        "name": "Kunstabend",
+        "description": ["Revolutionärer Kunstabend der Freien Jugend Mengede am 20.08.1921 um 20:30 Uhr im Lokal Fr. Bank;",
+                        "am nächsten Tag Mitgliederversammlung für Mengede, Oestrich, Gropenbruch und Schwiringshausen morgens um 9:30 Uhr;",     
+                        "etwaige Lage in der Friedrichstraße.",
+                        "<a href='#' class='image-modal'> <img src='../images/DSc_I_29_4.jpg' style='width: 20rem'> </a>"],
+        "icon": "theater",
+        "address": "Friedrichstraße o.A., Oestrich/Mengede, Dortmund",
+        "begin": "1921-08-01",
+        "end": "1921-08-31",
+        "sources": "Die Schöpfung, I.Jg., Nr. 29, S.4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.336640954017638,
+          51.58854128818258
+        ]
+      }
+    },
+        {
 			"type": "Feature",
 			"properties": {
 				"id": 2,
 				"name": "Maifeier '26",
 				"description": [
-					"01.05.1926",
+					"Maifeier am 01.05.1926;",
 					"nach der <a class='feature-link' data-layer='v2' data-feature='1' href='#'>Demonstration</a> um 20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
 				],
 				"icon": "theater",

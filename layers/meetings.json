@@ -230,10 +230,9 @@
                 "address": "Kalk-Mülheimer Straße 337, Köln",
                 "description": [
 					"Restaurant „Witwe Laurenz“;",
-                    "ab Juni 1921 Versammlungen jeden Samstag 19 Uhr;",
+                    "ab Juni 1921 Versammlungen der Föderation der Metall- und Industriearbeiter Köln und Umgebung jeden Samstag 19 Uhr;",
                     "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='v1' data-feature='23' href='#'>Rohland</a>.",
-                    "Vollversammlung Köln-Mülheim am 10.12.1922;",
-                    "mehrere Versammlungen der Föderation der Metall- und Industriearbeiter Köln und Umgebung."
+                    "Vollversammlung Köln-Mülheim am 10.12.1922."
 				],
                 "icon": "info",
                 "begin": "1921-06-01",
@@ -243,6 +242,7 @@
                     "Der Syndikalist, IV.Jg., Nr.33, Beilage S.4.",
                     "Der Syndikalist, IV.Jg., Nr.48, Beilage S.4.",
                     "Die Schöpfung, I.Jg., Nr. 22, S.4.",
+                    "Die Schöpfung, I.Jg., Nr. 28, S.4.",
                     "Die Schöpfung, I.Jg., Nr. 82, S.4."
                     ]
             },
@@ -308,6 +308,27 @@
 				]
             }
 		},
+
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Siedlergruppe „Freie Erde“",
+                "description": "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons",
+                "icon": "shakehand",
+                "address": "Kaiserswertherstr. 42, Düsseldorf",
+                "begin": "1921-08-01",
+                "end": "1921-09-30",
+                "sources": "Die Schöpfung, I.Jg., Nr. 29, S.4."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.777169704437255,
+                    51.23896509018048
+                ]
+            }
+    },
+
         {
             "type": "Feature",
             "properties": {

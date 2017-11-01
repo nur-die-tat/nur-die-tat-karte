@@ -34,7 +34,7 @@
             "properties": {
                 "name": "Baumbach, Lina",
                 "description": [
-					"Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB);",
+					"Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB), jeden Dienstag um 20:00 Uhr;",
 					"Delegierte für Köln auf SFB-Reichskonferenz im Oktober 1921.",
 					"<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
 				],
@@ -144,7 +144,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": 24, 
+                "id": 24,
                 "name": "Bunse",
                 "description": [
 					"Erster Vorsitzender der neu konstituierten Arbeiterbörse Groß-Köln;",
@@ -631,7 +631,7 @@
                 "begin": "1926-11-01",
                 "end": "1929-01-31",
                 "sources": [
-					
+
                     "Der Syndikalist, VII.Jg., Nr.46, S.4.",
 					"Der Syndikalist, VIII.Jg., Nr.1, S.4.",
 					"Der Syndikalist, VIII.Jg., Nr.30, Beilage S.4.",
@@ -1062,12 +1062,16 @@
             "properties": {
                 "name": "Windhoff, Carl",
                 "address": "Grafenberger Allee 257, Düsseldorf",
-                "description": "1922 Leiter der Agitationskommission Rheinland.",
+                "description": ["1882-1940. U.a. Redner auf dem 13. Kongress der FAUD. In hitziger Debatte sprach sich Windhoff sowohl gegen die Betätigung in Parteien aus, als auch gegen die Arbeitsweise von als individual-anarchistisch angesehenen Gruppen. Zu letzteren gehörten insbesondere auch diverse Kölner Gruppen. Tatsächlich distanzierte sich die FAUD in Folge des Kongresses von Parteipolitik und die meisten individualanarchistischen Gruppen zerfielen. Beides führte jedoch auch für die FAUD zu einem starken Mitgliederschwund.",
+                "Ab 1922 Leiter der Agitationskommission Rheinland.",
+                "Im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke Festnahme im Januar 1937 und Verurteilung zu drei Jahren Haft."],
                 "icon": "house",
-                "begin": "1922-02-01",
-                "end": "1922-03-30",
+                "begin": "1921-10-01",
+                "end": "1937-01-30",
                 "sources": [
-					"Der Syndikalist, IV.Jg., Nr.9, S.6."
+                    "Die Schöpfung, I.Jg. Nr.78, S.3.",
+					"Der Syndikalist, IV.Jg., Nr.9, S.6.",
+                    "Rübner, Freiheit und Brot, Berlin/Köln 1994, S. 40."
 				]
             },
             "geometry": {
