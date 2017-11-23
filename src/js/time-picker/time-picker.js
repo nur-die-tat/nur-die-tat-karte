@@ -66,8 +66,8 @@ export class TimePicker {
     this.featureRange.classList.remove('hidden');
     this.featureIcon.classList.remove('hidden');
 
-    let stepsLeft = monthDiff(this.begin, begin);
-    let stepsRight = monthDiff(this.begin, end);
+    let stepsLeft = monthDiff(this.begin, minDate(this.begin, begin));
+    let stepsRight = monthDiff(this.begin, maxDate(this.end, end));
 
     let left = stepsLeft * this.stepSize;
     let right = this.width - stepsRight * this.stepSize;

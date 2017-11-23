@@ -18,3 +18,11 @@ export function addMonths(d1, months) {
   date.setMonth(m % 12);
   return date;
 }
+
+export function minDate(d1, d2) {
+  return (d1 < d2) ? d1 : d2;
+}
+
+export function maxDate(d1, d2) {
+  return (d1 > d2) ? d1 : d2;
+}
