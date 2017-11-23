@@ -208,7 +208,7 @@
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>."
 				],
                 "icon": "house",
-                "address": "Bleichstr. 4, Köln-Mülheim",
+                "address": "Bleichstr. 4, Köln-Mülheim (vermutete Lage)",
                 "begin": "1922-01-01",
                 "end": "1922-01-31",
                 "sources": [
@@ -225,6 +225,29 @@
 				]
             }
 		},
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Enders, Albert",
+                "description": ["Verantwortlicher für Düsseldorfer Druckerpresse und zur Beantwortung von Anfragen aus dem Rest Rheinland-Westfalens.",
+                "Lage des Wohnortes vermutet"],
+                "icon": "house",
+                "address": "Erkrather Str. 113, Düsseldorf",
+                "begin": "1926-04-01",
+                "end": "1926-04-30",
+                "sources": [
+				"Der Syndikalist, VIII.Jg., Nr.16, Beilage S.4."
+			]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+				6.805880069732666,
+          51.2217864081497,
+				0
+			]
+            }
+    },
         {
             "type": "Feature",
             "properties": {
@@ -383,7 +406,7 @@
                 "description": [
 					"1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
 					"keine Festnahme;",
-					"vermuteter Wohnort."
+					"vermuteter Lage."
 				],
                 "icon": "house",
                 "address": "Günestraße 16, Köln",
@@ -1067,7 +1090,7 @@
                 "Im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke Festnahme im Januar 1937 und Verurteilung zu drei Jahren Haft."],
                 "icon": "house",
                 "begin": "1921-10-01",
-                "end": "1937-01-30",
+                "end": "1936-12-31",
                 "sources": [
                     "Die Schöpfung, I.Jg. Nr.78, S.3.",
 					"Der Syndikalist, IV.Jg., Nr.9, S.6.",

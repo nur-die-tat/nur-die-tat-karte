@@ -155,15 +155,21 @@
 					"Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
 					"wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
 					"am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
-					"<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>"
+                    "<a href='#' class='image-modal'> <img src='../images/Cologne Post.JPG' style='width: 20rem'> </a>",
+                    "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
+					"<a href='#' class='image-modal'> <img src='../images/Cologne Post cut.JPG' style='width: 20rem'> </a>",
+                    "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung vergrößert",
+                    "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>",
+                    "Kraftwerk Goldenberg im Baujahr acht Jahre zuvor"
 				],
                 "icon": "strike",
-                "address": "Deutz-Mülheimer Straße, Köln",
+                "address": "Goldenbergstraße, Köln",
                 "begin": "1922-04-01",
-                "end": "1921-04-30",
+                "end": "1922-04-30",
                 "sources": [
 					"Der Syndikalist, III.Jg., Nr.8, Beilage, S.4.",
-					"Foto: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Kraftwerk_Goldenberg/'>Artikel: Kraftwerk Goldenberg</a>."
+					"Digitalisat der Cologne Post: LAV BR 9, 7871, 547.",
+                    "Foto: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Kraftwerk_Goldenberg/'>Artikel: Kraftwerk Goldenberg</a>."
 				]
             },
             "geometry": {
