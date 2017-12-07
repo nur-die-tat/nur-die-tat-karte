@@ -2,7 +2,7 @@ import $ from 'jquery';
 import htmlUrl from 'file-loader?name=assets/[name].[ext]!../../html/time-picker.html';
 import '../../css/rangeslider.css';
 
-import {addMonths, monthDiff} from "./time-helper";
+import {addMonths, monthDiff, minDate, maxDate} from "./time-helper";
 import {ICONS} from "../icons";
 import {mouseMoveListener} from "./mouse-move-listener";
 import {loadHTML} from "../loadHTML";
@@ -66,8 +66,8 @@ export class TimePicker {
     this.featureRange.classList.remove('hidden');
     this.featureIcon.classList.remove('hidden');
 
-    let stepsLeft = monthDiff(this.begin, minDate(this.begin, begin));
-    let stepsRight = monthDiff(this.begin, maxDate(this.end, end));
+    let stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
+    let stepsRight = monthDiff(this.begin, minDate(this.end, end));
 
     let left = stepsLeft * this.stepSize;
     let right = this.width - stepsRight * this.stepSize;

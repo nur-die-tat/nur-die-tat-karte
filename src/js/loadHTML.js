@@ -1,4 +1,5 @@
 import {createImageModalLinks} from "./imageModal";
+import {createTabLinks} from "./tabs";
 let loaded = [];
 
 export function loadHTML(targetSelector, url) {
@@ -12,6 +13,7 @@ export function loadHTML(targetSelector, url) {
         let target = document.querySelector(targetSelector);
         target.innerHTML = this.response;
         createImageModalLinks(target);
+        createTabLinks(target);
         resolve();
       });
       xhr.send();

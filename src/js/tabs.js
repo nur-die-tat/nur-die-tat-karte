@@ -40,3 +40,19 @@ export function tabs() {
     showTab(hash + '-tab');
   }
 }
+
+export function createTabLinks(target) {
+  for (let tabLink of target.querySelectorAll('a')) {
+    let href = tabLink.getAttribute('href');
+    if (href[0] == '#' && href.length > 1) {
+      tabLink.addEventListener('click', e => {
+        let $tab = $(`a[data-toggle="tab"][data-target="${href}"]`);
+        if ($tab.length === 0) {
+          $(`a[data-toggle="tab"][data-target="#home-tab"]`).tab('show');
+        } else {
+          $tab.tab('show');
+        }
+      });
+    }
+  }
+}
