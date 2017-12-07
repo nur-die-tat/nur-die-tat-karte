@@ -8,5 +8,7 @@ export const ICONS = {
   'shakehand': '../images/shakehand.png',
   'camp': '../images/camp.png',
   'strike': '../images/strike.png',
-  'meet': '../images/meet.png'
+  'meet': '../images/meet.png',
+  'sfbmeet': '../images/sfbmeet.png'
+    
 };

@@ -32,10 +32,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": 25,
                 "name": "Baumbach, Lina",
                 "description": [
-					"Gründung und wöchentliche Treffen des Wiesdorfer Syndikalistischen Frauenbundes (SFB), jeden Dienstag um 20:00 Uhr;",
-					"Delegierte für Köln auf SFB-Reichskonferenz im Oktober 1921.",
+					"Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
+					"Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='v3' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
 					"<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
 				],
                 "icon": "sfb",
@@ -204,7 +205,7 @@
                 "id": 16,
                 "name": "Canje, Jean",
                 "description": [
-					"Schriftführer, verantwortlich für Zuschriften zwecks Neuaufbau der Köln-Mülheimer Gruppen;",
+					"Schriftführer, verantwortlich für Zuschriften zwecks Neuaufbau der Köln-Mülheimer Gruppen im Januar 1922;",
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>."
 				],
                 "icon": "house",
@@ -213,7 +214,7 @@
                 "end": "1922-01-31",
                 "sources": [
 					"Der Syndikalist, IV.Jg., Nr.2, Beilage S.4.",
-					"Der Syndikalist, IV.Jg., Nr.3, S.4."
+					"Der Syndikalist, IV.Jg., Nr.3, Beilage S.4."
 				]
             },
             "geometry": {
@@ -1024,6 +1025,34 @@
 				]
             }
 		},
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 26,
+                "name": "Steinberg, Gottfried",
+                "description": [
+					"Kassierer der FAU Köln-Mülheim im Juli 1922.",
+                    "Auf Halbjahresversammlung ins Amt gewählt zusammen mit <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels.</a>"
+				],
+                "icon": "house",
+                "address": "Hardenbergstraße 53, Köln-Mülheim",
+                "begin": "1922-07-01",
+                "end": "1922-07-31",
+                "sources": [
+					"Der Syndikalist, IV.Jg., Nr.31, Beilage S.4."
+				]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					6.997435390949249,
+                    50.957348822074316,
+					0
+				]
+            }
+		},
+
         {
             "type": "Feature",
             "properties": {
@@ -1056,13 +1085,15 @@
                 "id": 18,
                 "name": "Wiefels, Jakob",
                 "description": [
-					"Vorsitzender FAU Köln-Mülheim;",
+					"im Januar 1922 Vorsitzender FAU Köln-Mülheim;",
+                    "Die Gruppe hatte sich als Antwort auf den Zerfallsprozess im Zuge der ideologischen Streitigkeiten mit sog. Individualanarchist*innen als „auf der Grundlage der Prinzipienerklärung des Syndikalisten“ fußend erklärt.",
 					"lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>;",
 					"stellvertretender Vorsitzender der Arbeiterbörse Groß-Köln nach deren Neukonstituierungsversuch im April 1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt.",
-					"Ausschluss im September 1923."
+                    "als Vorsitzender bei Halbjahresversammlung wiedergewählt, gemeinsam mit Kassierer <a class='feature-link' data-layer='v1' data-feature='26' href='#'>Steinberg</a>;",
+					"Ausschluss im September 1923 wegen „unkollegialen und unsyndikalistischen Verhaltens“; nähere Gründe unklar, möglicherweise letzte Zeichen des Zerfalls im Ideologiestreit."
 				],
                 "icon": "house",
-                "address": "Danzierstraße 117, Köln",
+                "address": "Danziger Straße 117, Köln",
                 "begin": "1922-01-01",
                 "end": "1923-09-30",
                 "sources": [

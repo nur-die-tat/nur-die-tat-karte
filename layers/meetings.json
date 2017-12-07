@@ -12,8 +12,8 @@
             "properties": {
                 "name": "Backhausen",
                 "description": [
-					"Lokal, Treffen der SAJ jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
-					"allgemeine FAU Mitglieder-Vollversamllung am 05.12.1926;"
+					"Lokal, Treffen der Syndikalistisch-Anarchistischen Jugend (SAJ) jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
+					"allgemeine FAU Mitglieder-Vollversamllung am Sonntag, den 05. Dezember 1926;"
 				],
                 "icon": "shakehand",
                 "address": "Mühlheimer Str. 112, Kalk, Köln",
@@ -27,8 +27,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					6.982799200000045,
-					51.0353676,
+					7.001721560955048,
+                    50.942122062906925,
 					0
 				]
             }
@@ -38,18 +38,20 @@
             "properties": {
                 "name": "Baumbach, Lina",
                 "description": [
-					"Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>;",
-					"Delegierte auf SFB-Reichskonferenz."
+					"Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
+					"Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='v3' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+					"<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
 				],
                 "icon": "sfb",
-                "address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf, Köln",
+                "address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
                 "begin": "1921-08-29",
                 "end": "1921-11-30",
                 "sources": [
 					"Die Schöpfung, I.Jg., Nr.40, S.3.",
 					"Die Schöpfung, I.Jg., Nr.72, S.4.",
 					"Die Schöpfung, I.Jg., Nr.88, S.3.",
-					"Die Schöpfung, I.Jg., Nr.90, S.4."
+					"Die Schöpfung, I.Jg., Nr.90, S.4.",
+					"Foto: Arbeiterhäuser in der Nobelstraße 1907, Nähe Adolf-Bayerstr, <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
 				]
             },
             "geometry": {
@@ -119,14 +121,16 @@
                 "description": [
 					"Lokal Theodor Hochwald;",
                     "Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
-                    "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>."
+                    "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>.",
+                    "Im Juni 1922 gesammelte Solidaritätsbeiträge: 2000,- Mark."
 				],
                 "icon": "info",
                 "address": "Berg. Gladbacher Str. 465, Köln",
                 "begin": "1922-06-01",
                 "end": "1922-07-31",
                 "sources": [
-					"Der Syndikalist, IV.Jg., Nr.24, Beilage S.2."
+					"Der Syndikalist, IV.Jg., Nr.24, Beilage S.2.",
+                    "Der Syndikalist, IV.Jg., Nr.28, Beilage S.4."
 				]
             },
             "geometry": {
@@ -327,8 +331,30 @@
                     51.23896509018048
                 ]
             }
-    },
+        },
 
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "name": "SFB-Reichskonferenz",
+                "description": ["Reichskonferenz des Syndikalistischen Frauenbundes am 15. Oktober 1921 im Lokal Reuter;",
+                               "Anwesende:",
+                               "<a class='feature-link' data-layer='v1' data-feature='25' href='#'>Lina Baumbach</a> für Köln-Wiesdorf;"],
+                "icon": "sfbmeet",
+                "address": "Adlerstraße 44, Düsseldorf",
+                "begin": "1921-10-15",
+                "end": "1921-10-15",
+                "sources": "Der Frauenbund, Nr. 1, S. 2 (als Beilage zum Syndikalist)."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.777169704437255,
+                    51.23896509018048
+                ]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
@@ -356,6 +382,7 @@
 				]
             }
 		},
+
         {
             "type": "Feature",
             "properties": {
