@@ -387,17 +387,23 @@
             "type": "Feature",
             "properties": {
                 "id": 1,
-                "name": "Vollversammlung",
+                "name": "Lokal Schmitz",
                 "address": "Ulrichgasse 6, Köln",
                 "description": [
-					"07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns bei Schmitz in der Ulrichgasse;",
-					"Redner u.a. <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."
+					"20.12.1925 „Versammlung aller antiautoritären Genossen Groß-Kölns“;",
+                    "10.01.1926 2. Versammlung Antiautoritärer; Themen: Aktionsausschuss (Weber), „Die gegenseitige Hilfe“ (Heckers), „Das 'Ich' in der Zeit - oder nach der Revolution“ (Kluth);",
+                    "31.01.1926 „Versammlung der zu einer Arbeitsgemeinschaft zusammengeschlossenen Anarchisten und Syndikalisten“;",
+                    "21.02.1926 „Zusammenkunft[...], um zu verwirklichen, was die Kölner Genossen sich in einer Arbeitsgemeinschaft zum Ziel gesteckt haben.“",
+                    "07.03.1926 Zusammenkunft „Arbeitsgemeinschaft aller antiautoritären Menschen von Köln und Umgegend“, 10h; „Themen: 1.Flugblätter, 2.Kropotkin-Abend, 3.Verschiedenes“;",                    "07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns;",
+					"Redner u.a. auch <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."
 				],
                 "icon": "shakehand",
-                "begin": "1926-07-01",
+                "begin": "1925-12-01",
                 "end": "1926-07-31",
                 "sources": [
-					"Der Syndikalist, VIII.Jg., Nr.23, S.4."
+					"Der Syndikalist, VIII.Jg., Nr.1, S.4.",
+                    "Der Syndikalist, VIII.Jg., Nr.7, S.4.",
+                    "Der Syndikalist, VIII.Jg., Nr.23, S.4."
 				]
             },
             "geometry": {
