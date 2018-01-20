@@ -201,7 +201,28 @@
 					}
 				]
             }
-		},
+		}, {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedenkveranstaltung für „Märzgefallene“",
+                "description": ["XX.XX.1926 Gedenken an Gefallene der sogenannten Roten Ruhrarmee von 1920.",
+                        "Aufruf durch die SAJ XYZ. Treffpunkt für Reisende von außerhalb Bahnhof Wesel, dann gemeinsamer Zug zum Massengrab.",
+                        "Auf dem jüdischen (West-)Friedhof an der Esplanade wurden am XX.XX.1920 sieben getötete Aufständische von der Sicherheitspolizei verscharrt. Zum einen hielten die nationalistischen Kräfte eine ordentliche Beerdigung der wahrscheinlich außergerichtlich Exekutierten nicht für nötig. Zum anderen war ihnen, wegen ihres antisemitischen Ressentiments, der seit 1891 nicht mehr belegte jüdische Friedhof gerade recht zu diesem Zweck. Ähnliches ereignete sich bei einer Mehrzahl jüdischer Friedhöfe im Aufstandsgebiet.",
+                        "<a href='#' class='image-modal'> <img src='../images/DSc_I_29_4.jpg' style='width: 20rem'> </a>"],
+                "icon": "grave",
+                "address": "Esplanade, Wesel",
+                "begin": "1926-08-01",
+                "end": "1926-08-31",
+                "sources": "Der Syndikalist, VIII. Jg.  xxxxxxxxx"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+          6.609247326850891,
+          51.6532491160809
+        ]
+            }
+},
         {
             "type": "Feature",
             "properties": {
