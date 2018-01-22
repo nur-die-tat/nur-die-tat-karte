@@ -205,15 +205,17 @@
             "type": "Feature",
             "properties": {
                 "name": "Gedenkveranstaltung für „Märzgefallene“",
-                "description": ["XX.XX.1926 Gedenken an Gefallene der sogenannten Roten Ruhrarmee von 1920.",
-                        "Aufruf durch die SAJ XYZ. Treffpunkt für Reisende von außerhalb Bahnhof Wesel, dann gemeinsamer Zug zum Massengrab.",
-                        "Auf dem jüdischen (West-)Friedhof an der Esplanade wurden am XX.XX.1920 sieben getötete Aufständische von der Sicherheitspolizei verscharrt. Zum einen hielten die nationalistischen Kräfte eine ordentliche Beerdigung der wahrscheinlich außergerichtlich Exekutierten nicht für nötig. Zum anderen war ihnen, wegen ihres antisemitischen Ressentiments, der seit 1891 nicht mehr belegte jüdische Friedhof gerade recht zu diesem Zweck. Ähnliches ereignete sich bei einer Mehrzahl jüdischer Friedhöfe im Aufstandsgebiet.",
-                        "<a href='#' class='image-modal'> <img src='../images/DSc_I_29_4.jpg' style='width: 20rem'> </a>"],
+                "description": ["21.03.1926 Gedenken an Tote der sogenannten Roten Ruhrarmee von 1920 in Wesel.",
+                        "Aufruf durch die Bezirksinformationsstelle der Syndikalistisch-Anarchistischen Jugend Rheinland, der FAUD und „FAK“ (möglicherweise =<a href='https://de.wikipedia.org/wiki/F%C3%B6deration_Kommunistischer_Anarchisten_Deutschlands'>FKAD</a>).",
+                        "Treffpunkt für Reisende von außerhalb war der Bahnhof Wesel, dann gemeinsamer Zug zum „Massengrab“.",
+                        "Hintergrund: Auf dem jüdischen (West-)Friedhof an der Esplanade in Wesel wurden Anfang April 1920 sieben getötete Aufständische von der Sicherheitspolizei verscharrt. Die nationalistischen Kräfte hatten kein Interesse an einer ordentlichen Beerdigung von außergerichtlich Exekutierten. Auf Grund des verbreiteten antisemitischen Ressentiments, war ihnen der seit 1891 nicht mehr belegte jüdische Friedhof gerade recht zu diesem Zweck. Ähnliches ereignete sich auf dem jüdischen Friedhof in Mülheim-Holthausen."
+                        ],
                 "icon": "grave",
                 "address": "Esplanade, Wesel",
-                "begin": "1926-08-01",
-                "end": "1926-08-31",
-                "sources": "Der Syndikalist, VIII. Jg.  xxxxxxxxx"
+                "begin": "1926-03-21",
+                "end": "1926-03-21",
+                "sources": ["Der Syndikalist, VIII.Jg., Nr. 10, Beilage S.4.",
+                            "Erhard Lucas, Märzrevolution 1920, Bd.3, Frankfurt 1978, S. 368."]
             },
             "geometry": {
                 "type": "Point",
