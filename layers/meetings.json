@@ -34,7 +34,7 @@
         "name": "Baumbach, Lina",
         "description": [
           "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
-          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='v3' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "sfb",
@@ -117,7 +117,7 @@
         "description": [
           "Lokal Theodor Hochwald;",
           "Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
-          "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>.",
+          "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>.",
           "Im Juni 1922 gesammelte Solidaritätsbeiträge: 2000,- Mark."
         ],
         "icon": "info",
@@ -145,7 +145,7 @@
         "name": "Innungshaus Willi Schilling",
         "description": [
           "Zahl- und Diskutierabend der Ortsgruppe Mülheim jeden Samstag 7 Uhr;",
-          "Es luden ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>."
+          "Es luden ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='persons' data-feature='16' href='#'>Canje</a>."
         ],
         "icon": "info",
         "address": "Oskarstraße, Köln (Lage geschätzt)",
@@ -202,7 +202,7 @@
         "description": [
           "Auch „Tropp“;",
           "Organisationstreffen der Arbeiter-Börse „Groß-Köln“ 27.03., 09.04., 27.04., 07.05.1922;",
-          "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
+          "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
           "Börsenlokal der FAU Köln in Deutz, 'Siegburgerhof'; Börsensitzungen jeden zweiten Donnerstag ab 24.08.1922."
         ],
         "icon": "info",
@@ -231,7 +231,7 @@
         "description": [
           "Restaurant „Witwe Laurenz“;",
           "ab Juni 1921 Versammlungen der Föderation der Metall- und Industriearbeiter Köln und Umgebung jeden Samstag 19 Uhr;",
-          "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='v1' data-feature='23' href='#'>Rohland</a>.",
+          "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='persons' data-feature='23' href='#'>Rohland</a>.",
           "Vollversammlung Köln-Mülheim am 10.12.1922."
         ],
         "icon": "info",
@@ -289,7 +289,7 @@
         "name": "Ostertreffen",
         "address": "Lindscheid 14, Wermelskirchen",
         "description": [
-          "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Neumann</a>.",
+          "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Neumann</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "shakehand",
@@ -337,7 +337,7 @@
         "description": [
           "Reichskonferenz des Syndikalistischen Frauenbundes am 15. Oktober 1921 im Lokal Reuter;",
           "Anwesende:",
-          "<a class='feature-link' data-layer='v1' data-feature='25' href='#'>Lina Baumbach</a> für Köln-Wiesdorf;"
+          "<a class='feature-link' data-layer='persons' data-feature='25' href='#'>Lina Baumbach</a> für Köln-Wiesdorf;"
         ],
         "icon": "sfbmeet",
         "address": "Adlerstraße 44, Düsseldorf",
@@ -362,7 +362,7 @@
         "description": [
           "23. April 1921 freisozialistischer Siedlertag;",
           "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
-          "Unterzeichnet durch <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, Vogt, Kluth."
+          "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth."
         ],
         "icon": "shakehand",
         "begin": "1921-04-01",
@@ -393,7 +393,7 @@
           "21.02.1926 „Zusammenkunft[...], um zu verwirklichen, was die Kölner Genossen sich in einer Arbeitsgemeinschaft zum Ziel gesteckt haben.“",
           "07.03.1926 Zusammenkunft „Arbeitsgemeinschaft aller antiautoritären Menschen von Köln und Umgegend“, 10h; „Themen: 1.Flugblätter, 2.Kropotkin-Abend, 3.Verschiedenes“;",
           "07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns;",
-          "Redner u.a. auch <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Morawitz</a>."
+          "Redner u.a. auch <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>."
         ],
         "icon": "shakehand",
         "begin": "1925-12-01",

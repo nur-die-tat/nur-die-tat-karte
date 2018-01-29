@@ -7,7 +7,7 @@
         "name": "Baumbach, Lina",
         "description": [
           "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
-          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='v3' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "sfb",
@@ -36,9 +36,9 @@
           "*6.4.1906 in Solingen, ✝11.11.1966 in Stockholm.",
           "Seit 1927/28 in der FAUD in Wuppertal;",
           "zeitweise am Wohnort Verwaltung der Leihbibliothek der FAU Wuppertal mit ca. 1000 Bänden;",
-          "Benner referierte noch Anfang 1933 über die Geschichte der syndikalistischen Bewegungen auf einem Schulungstreffen in Düsseldorf. Protokollant der Veranstaltung war <a class='feature-link' data-layer='v1' data-feature='13' href='#'>Hans Saballa</a>.",
+          "Benner referierte noch Anfang 1933 über die Geschichte der syndikalistischen Bewegungen auf einem Schulungstreffen in Düsseldorf. Protokollant der Veranstaltung war <a class='feature-link' data-layer='persons' data-feature='13' href='#'>Hans Saballa</a>.",
           "Verhaftung 1933, wegen Aufruf zum Streik; mehrere Stationen in verschiedenen Gefängnissen und Konzentrationslagern; Unter anderem traf er im KZ Oranienburg kurzzeitig auf <a href='https://de.wikipedia.org/wiki/Erich_M%C3%BChsam'>Erich Mühsam</a>(Wikipedia-Link). Entlassung im Februar 1934;",
-          "ein Jahr später Flucht nach Amsterdam; dort Arbeit mit der Gruppe Deutscher Anarcho-Syndikalisten (DAS), wie u.a. auch <a class='feature-link' data-layer='v1' data-feature='10' href='#'>Karl Lösaus</a>;",
+          "ein Jahr später Flucht nach Amsterdam; dort Arbeit mit der Gruppe Deutscher Anarcho-Syndikalisten (DAS), wie u.a. auch <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Karl Lösaus</a>;",
           "in Spanien bei der Kolonne Durruti;",
           "1938 Migration nach Schweden, dort auf Druck der Nazis zwischenzeitlich abermals in Haft. 1949 Rückkehr nach Wuppertal und aktiv in der Föderation Freiheitlicher Sozialisten (FFS), der Nachfolgeorganisation der FAUD; ab 1950 bis zum Lebensende wieder in Schweden."
         ],
@@ -66,7 +66,7 @@
         "name": "Berschel, Heinrich",
         "description": [
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
         "icon": "house",
         "address": "Weidengasse 44, Köln",
@@ -92,7 +92,7 @@
         "name": "Born, Willi",
         "description": [
           "Verantwortlicher für Planung und Unterkünfte während der Antikriegstage 1929.",
-          "trug zu Ausschluss von <a class='feature-link' data-layer='v1' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."
+          "trug zu Ausschluss von <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."
         ],
         "icon": "house",
         "address": "Keupstraße 121, Köln",
@@ -119,8 +119,8 @@
         "name": "Boske, Albert",
         "description": [
           "möglicherweise zwei Personen: senior und junior;",
-          "stellvertretender Obmann der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='v3' data-feature='3' href='#'>Holweiderhof</a>);",
-          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>;",
+          "stellvertretender Obmann der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
+          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>;",
           "verantwortlich für Anschriften an die Syndikalistisch-Anarchistische Jugend 1926."
         ],
         "icon": "house",
@@ -148,7 +148,7 @@
         "name": "Bunse",
         "description": [
           "Erster Vorsitzender der neu konstituierten Arbeiterbörse Groß-Köln;",
-          "1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt.",
+          "1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt.",
           "Deligierter Kölns auf der Tagung der Agitations-Kommission Rheinland am 23. & 27.04."
         ],
         "icon": "house",
@@ -207,7 +207,7 @@
         "name": "Canje, Jean",
         "description": [
           "Schriftführer, verantwortlich für Zuschriften zwecks Neuaufbau der Köln-Mülheimer Gruppen im Januar 1922;",
-          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>."
+          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='meetings' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='17' href='#'>Nußbaum</a>."
         ],
         "icon": "house",
         "address": "Bleichstr. 4, Köln-Mülheim (vermutete Lage)",
@@ -261,7 +261,7 @@
         "name": "Esser, Heinrich",
         "description": [
           "nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 zweiter Schriftführer;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
         "icon": "house",
         "address": "Eigelstein 143, Köln",
@@ -334,8 +334,8 @@
       "properties": {
         "name": "Herl, Reiner",
         "description": [
-          "Schriftführer der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='v3' data-feature='3' href='#'>Holweiderhof</a>);",
-          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>."
+          "Schriftführer der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
+          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>."
         ],
         "icon": "house",
         "address": "Vinzenzstr. 16-18, Köln",
@@ -389,8 +389,8 @@
         "description": [
           "auch: Kartarius, 1920 in wildem Betriebsrat in Knapsack;",
           "bei Neuwahl des Börsenvorstandes Köln am 05.01.1921 zum Revisor gewählt;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>;",
-          "1922 erneut in wildem Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='v4' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>, noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>;",
+          "1922 erneut in wildem Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='strike' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='persons' data-feature='2' href='#'>Peter König</a>, noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht."
         ],
         "icon": "house",
         "address": "Heidestraße 176, Hürth",
@@ -470,8 +470,8 @@
         "name": "König, Peter",
         "description": [
           "nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Schriftführer;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>;",
-          "04. April 1922 Wahl in wilden Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='v4' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a>; noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht;",
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>;",
+          "04. April 1922 Wahl in wilden Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='strike' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Wilhelm Kattarius</a>; noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht;",
           "bei der Verhandlung Sprecher der insg. vier Personen, die von der Besatzung verurteilt wurden."
         ],
         "icon": "house",
@@ -550,7 +550,7 @@
         "name": "Lieders, Joh.",
         "description": [
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Kassierer;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
         "icon": "house",
         "address": "Subbelrather Str. 276, Köln",
@@ -600,8 +600,8 @@
         "name": "Lösaus, Karl Adolf",
         "description": [
           "Schreiner, *09.07.1907 in Wiesbaden;",
-          "nach 1933 Untergrundarbeit mit <a class='feature-link' data-layer='v1' data-feature='13' href='#'>Grete Saballa</a>;",
-          "Emigration in die Niederlande, Dunkerque, dort bei Zentralstelle der Deutschen Anarchosyndikalisten, wie u.a. auch <a class='feature-link' data-layer='v1' data-feature='27' href='#'>Fritz Benner</a>;",
+          "nach 1933 Untergrundarbeit mit <a class='feature-link' data-layer='persons' data-feature='13' href='#'>Grete Saballa</a>;",
+          "Emigration in die Niederlande, Dunkerque, dort bei Zentralstelle der Deutschen Anarchosyndikalisten, wie u.a. auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a>;",
           "1936-1937 im Spanischen Bürgerkrieg, Batterie 'Sacco & Vanzetti';",
           "Flucht nach Schweden, Internierung 1940."
         ],
@@ -631,11 +631,11 @@
         "name": "Morawitz, Johann",
         "description": [
           "auch Jean Morawitz;",
-          "Kassierer der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='v3' data-feature='3' href='#'>Holweiderhof</a>);",
-          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>;",
-          "vor 1926 Umzug aus der Kurzestr. 7 in die <a class='feature-link' data-layer='v1' data-feature='3' href='#'>Engelstr. 8</a>;",
-          "lud ein zu <a class='feature-link' data-layer='v3' data-feature='1' href='#'>Vollversammlung bei      Schmitz</a> in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage;",
-          "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='v2' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
+          "Kassierer der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
+          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>;",
+          "vor 1926 Umzug aus der Kurzestr. 7 in die <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Engelstr. 8</a>;",
+          "lud ein zu <a class='feature-link' data-layer='meetings' data-feature='1' href='#'>Vollversammlung bei      Schmitz</a> in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage;",
+          "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='events' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
           "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
         ],
         "icon": "house",
@@ -664,11 +664,11 @@
         "description": [
           "auch Jean Morawitz;",
           "Kassierer der Metallarbeiter Köln (Treffen im Holweiderhof);",
-          "1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> Groß-Kölns zum Schriftführer gewählt, neben <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt.",
-          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a>;",
-          "vor 1926 Umzug aus der <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Kurzestr. 7</a> in die Engelstr. 8;",
-          "lud ein zu <a class='feature-link' data-layer='v3' data-feature='1' href='#'>Vollversammlung bei      Schmitz</a> in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage;",
-          "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='v2' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
+          "1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> Groß-Kölns zum Schriftführer gewählt, neben <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt.",
+          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>;",
+          "vor 1926 Umzug aus der <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Kurzestr. 7</a> in die Engelstr. 8;",
+          "lud ein zu <a class='feature-link' data-layer='meetings' data-feature='1' href='#'>Vollversammlung bei      Schmitz</a> in der Ulrichgasse 6; hielt dort Vortrag über Wirtschaftslage;",
+          "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='events' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
           "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
         ],
         "icon": "house",
@@ -697,9 +697,9 @@
       "properties": {
         "name": "Müller, Heinz",
         "description": [
-          "1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> in Kontrollkommission gewählt für den Vorstand Groß-Kölns: <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium außerdem: Greuling und Watt.",
-          "Obmann der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='v3' data-feature='3' href='#'>Holweiderhof</a>);",
-          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='v1' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='v1' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>."
+          "1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> in Kontrollkommission gewählt für den Vorstand Groß-Kölns: <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium außerdem: Greuling und Watt.",
+          "Obmann der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
+          "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>."
         ],
         "icon": "house",
         "address": "Bergisch Gladbacher Str. 711, Köln",
@@ -725,13 +725,13 @@
       "properties": {
         "name": "Neumann, E.",
         "description": [
-          "verantwortlich für Zuschriften bzgl. des <a class='feature-link' data-layer='v3' data-feature='13' href='#'>Ostertreffens der SAJ 1928</a>; dort Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz Neumann;",
+          "verantwortlich für Zuschriften bzgl. des <a class='feature-link' data-layer='meetings' data-feature='13' href='#'>Ostertreffens der SAJ 1928</a>; dort Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz Neumann;",
           "verantwortlich für Zuschriften bzgl. des Pfingstreffens 1928;",
           "Referent auf gemeinsamer Konferenz von ASJ Rheinland & SAJ Rheinland zum Thema Verschmelzungsfrage;",
           "nach vollzogener Verschmelzung & Neuwahl am 01.07.1928 wieder Vorsitz der neuen BISt mit Sitz in der Dasselstr.;",
           "07.10.1928 auf Konferenz der Anarchistischen Jugend Referent über „Die Lage im Bezirk“;",
           "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
-          "Ausschluss im Mai 1929 auf Drängen <a class='feature-link' data-layer='v1' data-feature='12' href='#'>Borns</a>, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."
+          "Ausschluss im Mai 1929 auf Drängen <a class='feature-link' data-layer='persons' data-feature='12' href='#'>Borns</a>, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."
         ],
         "icon": "house",
         "address": "Dasselstr. 14, Köln",
@@ -764,7 +764,7 @@
         "name": "Nußbaum, Georg",
         "description": [
           "Kassierer 1922;",
-          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>."
+          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='meetings' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='16' href='#'>Canje</a>."
         ],
         "icon": "house",
         "address": "Deutz-Mülheimer Str. 230, Köln-Deutz",
@@ -814,7 +814,7 @@
         "name": "Peukes, Hermann",
         "description": [
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 Revisor;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
         "icon": "house",
         "address": "Lessingstr. 61, Köln",
@@ -923,7 +923,7 @@
         "description": [
           "am 30.01.1921 Wahl zum Kassierer der Agitationskommission Köln-Solingen;",
           "Verantwortlicher für Sammlung von Geldern nach Sitzung a 13.02.1921;",
-          "lud zu <a class='feature-link' data-layer='v3' data-feature='4' href='#'>Versammlung</a> bei Laurenz ein;",
+          "lud zu <a class='feature-link' data-layer='meetings' data-feature='4' href='#'>Versammlung</a> bei Laurenz ein;",
           "rief zur Reorganisierung der Kölner Gruppen auf."
         ],
         "icon": "house",
@@ -955,8 +955,8 @@
           "auch: Greta & Hans;",
           "*16.11.1907 in Köln und *16.10.1904 in Ratibor;",
           "Kölner ASJ Mitglieder;",
-          "Hans protokollierte noch 1933 eine Schulungsveranstaltung, bei der auch <a class='feature-link' data-layer='v1' data-feature='27' href='#'>Fritz Benner</a> referierte (siehe Ausschnitt unten).",
-          "nach 1933 Kurierdienste und Verteilung 'staatsfeindlicher Schriften', u.a. 'Esst deutsche Bananen', 'Neuer Vorwärts', 'Internationale Revue', in Zusammenarbeit mit <a class='feature-link' data-layer='v1' data-feature='10' href='#'>Lösaus</a>;",
+          "Hans protokollierte noch 1933 eine Schulungsveranstaltung, bei der auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a> referierte (siehe Ausschnitt unten).",
+          "nach 1933 Kurierdienste und Verteilung 'staatsfeindlicher Schriften', u.a. 'Esst deutsche Bananen', 'Neuer Vorwärts', 'Internationale Revue', in Zusammenarbeit mit <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Lösaus</a>;",
           "Untergrundvernetzung mit Julius Nolden in Duisburg;",
           "im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft.",
           "<a href='#' class='image-modal'> <img src='../images/AE 6, S.4 (Saballa).jpg' style='width: 5rem'> </a>"
@@ -1041,7 +1041,7 @@
       "properties": {
         "name": "Sneydn",
         "description": [
-          "auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; wegen Agitation zu illegalem <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in den Farbenfabriken in Leverkusen</a> Anfang 1921, kurzzeitig in Haft;",
+          "auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; wegen Agitation zu illegalem <a class='feature-link' data-layer='strike' data-feature='1' href='#'>Streik in den Farbenfabriken in Leverkusen</a> Anfang 1921, kurzzeitig in Haft;",
           "vermuteter Wohnort."
         ],
         "icon": "house",
@@ -1068,7 +1068,7 @@
         "name": "Steinberg, Gottfried",
         "description": [
           "Kassierer der FAU Köln-Mülheim im Juli 1922.",
-          "Auf Halbjahresversammlung ins Amt gewählt zusammen mit <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels.</a>"
+          "Auf Halbjahresversammlung ins Amt gewählt zusammen mit <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels.</a>"
         ],
         "icon": "house",
         "address": "Hardenbergstraße 53, Köln-Mülheim",
@@ -1094,7 +1094,7 @@
         "name": "Weingarten, Wilhelm",
         "description": [
           "Wahl zum zweiten Kassierer nach Neuwahl des Börsenvorstandes der Arbeiterbörse-Köln am 05.01.1921;",
-          "weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='6' href='#'>Winkel</a>."
+          "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
         "icon": "house",
         "address": "Wollküche 16, Köln",
@@ -1121,9 +1121,9 @@
         "description": [
           "im Januar 1922 Vorsitzender FAU Köln-Mülheim;",
           "Die Gruppe hatte sich als Antwort auf den Zerfallsprozess im Zuge der ideologischen Streitigkeiten mit sog. Individualanarchist*innen als „auf der Grundlage der Prinzipienerklärung des Syndikalisten“ fußend erklärt.",
-          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='v3' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='v1' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='v1' data-feature='16' href='#'>Canje</a>;",
-          "stellvertretender Vorsitzender der Arbeiterbörse Groß-Köln nach deren Neukonstituierungsversuch im April 1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='v1' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt.",
-          "als Vorsitzender bei Halbjahresversammlung wiedergewählt, gemeinsam mit Kassierer <a class='feature-link' data-layer='v1' data-feature='26' href='#'>Steinberg</a>;",
+          "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='meetings' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='persons' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='persons' data-feature='16' href='#'>Canje</a>;",
+          "stellvertretender Vorsitzender der Arbeiterbörse Groß-Köln nach deren Neukonstituierungsversuch im April 1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt.",
+          "als Vorsitzender bei Halbjahresversammlung wiedergewählt, gemeinsam mit Kassierer <a class='feature-link' data-layer='persons' data-feature='26' href='#'>Steinberg</a>;",
           "Ausschluss im September 1923 wegen „unkollegialen und unsyndikalistischen Verhaltens“; nähere Gründe unklar, möglicherweise letzte Zeichen des Zerfalls im Ideologiestreit."
         ],
         "icon": "house",
@@ -1181,7 +1181,7 @@
       "properties": {
         "name": "Winkel, Eugen",
         "description": [
-          "Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt;</br>weitere gewählte Personen: <a class='feature-link' data-layer='v1' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='v1' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='v1' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='v1' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='v1' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='v1' data-feature='8' href='#'>Weingarten</a>."
+          "Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt;</br>weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>."
         ],
         "icon": "house",
         "address": "Friedrichstr. 61, Köln",
@@ -1206,9 +1206,9 @@
       "properties": {
         "name": "Zander, Mathias",
         "description": [
-          "1922 bei <a class='feature-link' data-layer='v3' data-feature='5' href='#'>Versammlung</a> Groß-Kölns zum Kassierer gewählt, neben <a class='feature-link' data-layer='v1' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='v1' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='v1' data-feature='22' href='#'>Morawitz</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='v1' data-feature='19' href='#'>Müller</a> und Watt.",
+          "1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> Groß-Kölns zum Kassierer gewählt, neben <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt.",
           "1925 Mitbegründer der Kalker Anarchistisch-Syndikalistischen Jugend;",
-          "verantwortlich für Anmeldungen/Unterkünfte für die <a class='feature-link' data-layer='v2' data-feature='3' href='#'>Antikriegstage am 31.07. & 01.08.1926</a>."
+          "verantwortlich für Anmeldungen/Unterkünfte für die <a class='feature-link' data-layer='events' data-feature='3' href='#'>Antikriegstage am 31.07. & 01.08.1926</a>."
         ],
         "icon": "house",
         "address": "Frankfurterstr. 294, Köln-Höhenberg",

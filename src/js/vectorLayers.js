@@ -4,7 +4,7 @@ import {vectorLayerMenu} from "./vectorLayerMenu.js";
 export function vectorLayers(map) {
   let layers = [
     new ol.layer.Vector({
-      id: 'v1',
+      id: 'persons',
       name: 'Personen',
       source: new ol.source.Vector({
         url: '../layers/persons.json',
@@ -14,7 +14,7 @@ export function vectorLayers(map) {
       zIndex: 2
     }),
     new ol.layer.Vector({
-      id: 'v2',
+      id: 'events',
       name: 'Veranstaltungen',
       source: new ol.source.Vector({
         url: '../layers/events.json',
@@ -24,7 +24,7 @@ export function vectorLayers(map) {
       zIndex: 2
     }),
     new ol.layer.Vector({
-      id: 'v3',
+      id: 'meetings',
       name: 'Treffpunkte',
       source: new ol.source.Vector({
         url: '../layers/meetings.json',
@@ -34,7 +34,7 @@ export function vectorLayers(map) {
       zIndex: 2
     }),
     new ol.layer.Vector({
-      id: 'v4',
+      id: 'strike',
       name: 'Arbeitskämpfe',
       source: new ol.source.Vector({
         url: '../layers/strike.json',

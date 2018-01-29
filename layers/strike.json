@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Buchdruckerstreik (Versammlung)",
-        "description": "Eine außerordentliche Versammlung des Verbandes der Buchdrucker im Gürzenich beschließt am Sonntag, den 24.07.1921 die Arbeitsniederlegung ab dem nächsten Tag. Gefordert ist eine wöchentliche Lohnzulage von 100 Mark. (siehe auch <a class='feature-link' data-layer='v4' data-feature='6' href='#'>Druckerei Hemmersbach)</a>",
+        "description": "Eine außerordentliche Versammlung des Verbandes der Buchdrucker im Gürzenich beschließt am Sonntag, den 24.07.1921 die Arbeitsniederlegung ab dem nächsten Tag. Gefordert ist eine wöchentliche Lohnzulage von 100 Mark. (siehe auch <a class='feature-link' data-layer='strike' data-feature='6' href='#'>Druckerei Hemmersbach)</a>",
         "icon": "strike",
         "address": "Martinstraße 29-37, 50667 Köln",
         "begin": "1921-07-25",
@@ -25,7 +25,7 @@
       "type": "Feature",
       "properties": {
         "name": "Buchdruckerstreik (Ende)",
-        "description": "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='v4' data-feature='5' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)",
+        "description": "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='strike' data-feature='5' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)",
         "icon": "strike",
         "address": "Thielenstraße 18, 50825 Köln",
         "begin": "1921-08-01",
@@ -46,7 +46,7 @@
       "properties": {
         "name": "Chemiepark",
         "description": [
-          "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in Leverkusen</a>;",
+          "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='strike' data-feature='1' href='#'>Streik in Leverkusen</a>;",
           "2027 zu 29 Stimmen für den Streik;",
           "Forderung der Wiedereinstellung zweier Kollegen;",
           "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
@@ -83,9 +83,9 @@
         "name": "Farbenfabrik",
         "description": [
           "29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
-          "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v4' data-feature='2' href='#'>Knapsack</a>;",
+          "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='strike' data-feature='2' href='#'>Knapsack</a>;",
           "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
-          "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='v1' data-feature='14' href='#'>Sneydn</a>",
+          "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='persons' data-feature='14' href='#'>Sneydn</a>",
           "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
         ],
@@ -142,7 +142,7 @@
         "name": "Kraftwerk Goldenberg",
         "description": [
           "Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
-          "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
+          "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='persons' data-feature='2' href='#'>Peter König</a>;",
           "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
           "<a href='#' class='image-modal'> <img src='../images/Cologne Post.JPG' style='width: 20rem'> </a>",
           "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
