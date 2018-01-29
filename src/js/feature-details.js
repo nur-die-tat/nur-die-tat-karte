@@ -43,7 +43,7 @@ export class FeatureDetails {
 
   focusOnFeatureByIds (featureId, layerId) {
     let layer = this.vectorLayers.find(l => l.get('id') === layerId);
-    let feature = layer.getSource().getFeatures().find(f => f.get('id') === featureId);
+    let feature = layer.getSource().getFeatures().find(f => f.getId() === featureId);
     this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()) });
     this.showFeatureDetails(feature, layer);
   }
@@ -58,8 +58,7 @@ export class FeatureDetails {
       document.querySelector('#details')
         .classList.add('hidden');
       this.timePicker.setFeature(null);
-    }
-    else {
+    } else {
       feature.set('active', true);
 
       this.highlightSource.addFeature(feature);
