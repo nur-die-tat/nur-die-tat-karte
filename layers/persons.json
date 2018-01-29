@@ -6,7 +6,7 @@
       "properties": {
         "name": "Baumbach, Lina",
         "description": [
-          "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
+          "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes, SFB (Wikipedia-Link)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
           "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
         ],
@@ -33,11 +33,11 @@
       "properties": {
         "name": "Benner, Fritz",
         "description": [
-          "*6.4.1906 in Solingen, ✝11.11.1966 in Stockholm.",
-          "Seit 1927/28 in der FAUD in Wuppertal;",
+          "*06.04.1906 in Solingen, ✝11.11.1966 in Stockholm; Riemendreher; Bruder von <a class='feature-link' data-layer='persons' data-feature='45' href='#'>Willi Benner</a>;",
+          "seit 1927/28 in der FAUD in Wuppertal;",
           "zeitweise am Wohnort Verwaltung der Leihbibliothek der FAU Wuppertal mit ca. 1000 Bänden;",
           "Benner referierte noch Anfang 1933 über die Geschichte der syndikalistischen Bewegungen auf einem Schulungstreffen in Düsseldorf. Protokollant der Veranstaltung war <a class='feature-link' data-layer='persons' data-feature='13' href='#'>Hans Saballa</a>.",
-          "Verhaftung 1933, wegen Aufruf zum Streik; mehrere Stationen in verschiedenen Gefängnissen und Konzentrationslagern; Unter anderem traf er im KZ Oranienburg kurzzeitig auf <a href='https://de.wikipedia.org/wiki/Erich_M%C3%BChsam'>Erich Mühsam</a>(Wikipedia-Link). Entlassung im Februar 1934;",
+          "Verhaftung 1933, wegen Aufruf zum Streik; mehrere Stationen in verschiedenen Gefängnissen und Konzentrationslagern; Unter anderem traf er im KZ Oranienburg kurzzeitig auf <a href='https://de.wikipedia.org/wiki/Erich_M%C3%BChsam'>Erich Mühsam</a> (Wikipedia-Link). Entlassung im Februar 1934;",
           "ein Jahr später Flucht nach Amsterdam; dort Arbeit mit der Gruppe Deutscher Anarcho-Syndikalisten (DAS), wie u.a. auch <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Karl Lösaus</a>;",
           "in Spanien bei der Kolonne Durruti;",
           "1938 Migration nach Schweden, dort auf Druck der Nazis zwischenzeitlich abermals in Haft. 1949 Rückkehr nach Wuppertal und aktiv in der Föderation Freiheitlicher Sozialisten (FFS), der Nachfolgeorganisation der FAUD; ab 1950 bis zum Lebensende wieder in Schweden."
@@ -955,7 +955,7 @@
           "auch: Greta & Hans;",
           "*16.11.1907 in Köln und *16.10.1904 in Ratibor;",
           "Kölner ASJ Mitglieder;",
-          "Hans protokollierte noch 1933 eine Schulungsveranstaltung, bei der auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a> referierte (siehe Ausschnitt unten).",
+          "Hans protokollierte noch 1933 eine Schulungsveranstaltung, bei der auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a> (ggf. auch dessen Bruder <a class='feature-link' data-layer='persons' data-feature='45' href='#'>Willi</a>) referierte (siehe Ausschnitt unten).",
           "nach 1933 Kurierdienste und Verteilung 'staatsfeindlicher Schriften', u.a. 'Esst deutsche Bananen', 'Neuer Vorwärts', 'Internationale Revue', in Zusammenarbeit mit <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Lösaus</a>;",
           "Untergrundvernetzung mit Julius Nolden in Duisburg;",
           "im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft.",
@@ -1227,6 +1227,82 @@
         ]
       },
       "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benner, Willi",
+        "description": [
+          "*08.10.1907 in Barmen; Maler;",
+          "Bruder von <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a>;",
+          "02.05.1933 bis 04.04.1934 Schutzhaft u.a. im KZ Börgermoor, KZ Kemna, und im Gefängnis Wuppertal."
+        ],
+        "icon": "house",
+        "address": "Gronau Str 48, Wuppertal-Barmen",
+        "begin": "1933-01-01",
+        "end": "1945-01-01",
+        "sources": [
+          "<a href='http://www.fau-duesseldorf.org/archiv/menschen/namensliste'>FAU Düsseldorf</a>;",
+          "R. Theissen, P. Walter, J. Wilhelms, Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 128f."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.175279259681702,
+          51.26524807939187
+        ]
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dereschewitz, Gustav",
+        "description": [
+          "*15.08.1906 in Delmenhorst; Fabrikarbeiter;",
+          "Mitglied der Syndikalistisch-anarchistischen Jugend Deutschlands (SAJD);",
+          "am Oberlandesgericht Hamm wegen Vorbereitung zum Hochverrat zu 14 Monaten Schutzhaft/Gefängnis verurteilt, 04.03.1935 - 08.10.1935 u.a. im KZ Esterwegen."
+        ],
+        "icon": "house",
+        "address": "Saurenhaus 6, Wuppertal-Vohwinkel ",
+        "begin": "1935-01-01",
+        "end": "1935-03-01",
+        "sources": [
+          "<a href='http://www.fau-duesseldorf.org/archiv/menschen/namensliste'>FAU Düsseldorf</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.085771262645721,
+          51.257773998165625
+        ]
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erlach, Jettchen",
+        "description": [
+          "*14.03.1904; Hausfrau;",
+          "aktiv bei der Syndikalistisch-anarchistischen Jugend Deutschlands (SAJD);",
+          "im Dezember 1938 vermutlich in Haft."
+        ],
+        "icon": "house",
+        "address": "Grünewalder Berg 48, Wuppertal-Elberfeld",
+        "begin": "1933-01-01",
+        "end": "1945-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.135958075523376,
+          51.25680545091325
+        ]
+      },
+      "id": 47
     }
   ]
 }
