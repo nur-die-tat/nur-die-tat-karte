@@ -1,17 +1,9 @@
 {
-    "type": "FeatureCollection",
-    "crs": {
-        "type": "name",
-        "properties": {
-            "name": "EPSG:4326"
-        }
-    },
-    "features": [
-        
-        {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-        "id": 5,
         "name": "Buchdruckerstreik (Versammlung)",
         "description": "Eine außerordentliche Versammlung des Verbandes der Buchdrucker im Gürzenich beschließt am Sonntag, den 24.07.1921 die Arbeitsniederlegung ab dem nächsten Tag. Gefordert ist eine wöchentliche Lohnzulage von 100 Mark. (siehe auch <a class='feature-link' data-layer='v4' data-feature='6' href='#'>Druckerei Hemmersbach)</a>",
         "icon": "strike",
@@ -26,214 +18,214 @@
           6.958385109901428,
           50.936596884002036
         ]
-      }
+      },
+      "id": 5
     },
-        
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 6,
-                "name": "Buchdruckerstreik (Ende)",
-                "description": "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='v4' data-feature='5' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)",
-                "icon": "strike",
-                "address": "Thielenstraße 18, 50825 Köln",
-                "begin": "1921-08-01",
-                "end": "1921-08-30",
-                "sources": "Die Schöpfung, I.Jg., Nr. 25, S.4."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.913986504077911,
-                    50.95503919077864
-                ]
-            }
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buchdruckerstreik (Ende)",
+        "description": "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='v4' data-feature='5' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)",
+        "icon": "strike",
+        "address": "Thielenstraße 18, 50825 Köln",
+        "begin": "1921-08-01",
+        "end": "1921-08-30",
+        "sources": "Die Schöpfung, I.Jg., Nr. 25, S.4."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.913986504077911,
+          50.95503919077864
+        ]
+      },
+      "id": 6
     },
-        
-        
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 2,
-                "name": "Chemiepark",
-                "description": [
-					"02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in Leverkusen</a>;",
-					"2027 zu 29 Stimmen für den Streik;",
-					"Forderung der Wiedereinstellung zweier Kollegen;",
-					"zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
-					"Bewertung des Streiks als Tarifbruch durch Zentralgewerkschaften;",
-					"nach erfolgslosen Verhandlungen Wiederaufnahme der Arbeit am 26. Februar.",
-					"<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/2/21/ISK_Knapsack_Carbidabstich.jpg' style='width: 20rem'> </a>",
-					"<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/c/c1/ISK_Knapsack_Hoechst_1920er.jpg' style='width: 20rem'> </a>"
-				],
-                "icon": "strike",
-                "address": "Knapsack Chemiewerk, Köln",
-                "begin": "1921-01-31",
-                "end": "1921-02-28",
-                "sources": [
-					"Der Syndikalist, III.Jg., Nr.5, S.4.",
-					"Der Syndikalist, III.Jg., Nr.6, S.4.",
-					"Der Syndikalist, III.Jg., Nr.15, S.1.",
-					"LAV BR 7, Nr. 15807.",
-					"Fotos: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Chemiepark_Knapsack'>Artikel: Chemiepark Knapsack</a>."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					6.852422,
-					50.861975,
-					0
-				]
-            }
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 1,
-                "name": "Farbenfabrik",
-                "description": [
-					"29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
-					"etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v4' data-feature='2' href='#'>Knapsack</a>;",
-					"Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
-					"ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='v1' data-feature='14' href='#'>Sneydn</a>",
-					"Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
-					"<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
-				],
-                "icon": "strike",
-                "address": "Leverkusen, Farbenfabriken",
-                "begin": "1921-01-01",
-                "end": "1921-02-28",
-                "sources": [
-					"Der Syndikalist, III.Jg., Nr.5, S.4.",
-					"Der Syndikalist, III.Jg., Nr.6, S.4.",
-					"Der Syndikalist, III.Jg., Nr.15, S.1.",
-					"LAV BR 7, Nr. 15807.",
-					"Foto: <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					6.983657,
-					51.018118,
-					0
-				]
-            }
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 4,
-                "name": "Humboldt-Deutzmotoren",
-                "description": [
-					"Streiks und Aussperrungen bei der Maschinen- & Lokomotivbaufirma Humboldt unter Beteiligung der FAU-Ortsgruppe Köln-Kalk."
-				],
-                "icon": "strike",
-                "address": "Dillenburger Str. 106, Köln",
-                "begin": "1922-03-01",
-                "end": "1922-03-31",
-                "sources": [
-					"Der Syndikalist, IV.Jg., Nr.10, Beilage S.4."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					7.011959552764893,
-                    50.933746993956355,
-					0
-				]
-            }
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": 3,
-                "name": "Kraftwerk Goldenberg",
-                "description": [
-					"Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
-					"wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
-					"am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
-                    "<a href='#' class='image-modal'> <img src='../images/Cologne Post.JPG' style='width: 20rem'> </a>",
-                    "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
-					"<a href='#' class='image-modal'> <img src='../images/Cologne Post cut.JPG' style='width: 20rem'> </a>",
-                    "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung vergrößert",
-                    "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>",
-                    "Kraftwerk Goldenberg im Baujahr acht Jahre zuvor"
-				],
-                "icon": "strike",
-                "address": "Goldenbergstraße, Köln",
-                "begin": "1922-04-01",
-                "end": "1922-04-30",
-                "sources": [
-					"Der Syndikalist, III.Jg., Nr.8, Beilage, S.4.",
-					"Digitalisat der Cologne Post: LAV BR 9, 7871, 547.",
-                    "Foto: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Kraftwerk_Goldenberg/'>Artikel: Kraftwerk Goldenberg</a>."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					6.840046,
-					50.86076,
-					0
-				]
-            }
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Notstandsarbeiter",
-                "description": [
-					"29.-31.08.1931 Streik der Notstandsarbeiter (Arbeitsangebot für Erwerbslose);",
-					"Der Syndikalist: 'Trotz aller Drohungen der Verwaltung standen bis Montag, dem 31. August, über 2000 Notstandsarbeiter im Streik. Die Straßen der Stadt schwammen im Dreck. Die Müllabfuhr konnte nur unter Polizeischutz geschehen. Die Autos wurden umgeworfen und Sabotageakte dort geübt, wo sie notwendig waren. Die bürgerliche Presse schrieb in Angst von Terror- und Sabotageakten, und überhaupt war ein geordnetes Leben der städtischen Betriebe nur unter polizeilicher Aufsicht möglich. Die Genossen der FAUD standen in vorderster Kampffront, wenn auch die fanatischen „Moskauwiter“ die Syndikalisten am liebsten verwünscht hätten.'",
-					"u.a Umsturz eines Wagens der Müllabfuhr in der Severinstraße.",
-					"<a href='#' class='image-modal'> <img src='../images/RZ_LX_208_7.jpg' style='width: 20rem'> </a>"
-				],
-                "icon": "strike",
-                "address": "Severinstraße, Köln",
-                "begin": "1931-08-01",
-                "end": "1931-09-30",
-                "sources": [
-					"Der Syndikalist, XIII.Jg., Nr.38, S.3.",
-					"Rheinische Zeitung, LX.Jg., Nr.208, S.7."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					6.957799,
-					50.927484,
-					0
-				]
-            }
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Van der Zypen & Charlier",
-                "description": [
-					"Streik bei der Waggonfabrik Van der Zypen & Charlier;",
-					"Versuche des zentralgewerkschaftlichen Betriebsrats Arbeiter von Austritt aus FAUD zu überzeugen; Versuch eines Betriebsratsmitglieds Syndikalisten von Lohnaufbesserungen auszuschließen;",
-					"schließlich Einigung zwischen Betriebsrat und Firma auf leichte Lohnerhöhung."
-				],
-                "icon": "strike",
-                "address": "Deutz-Mülheimer Straße, Köln",
-                "begin": "1921-01-31",
-                "end": "1921-02-28",
-                "sources": [
-					"Der Syndikalist, III.Jg., Nr.8, Beilage, S.4."
-				]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					6.9889192409572525,
-					50.94942062480936,
-					0
-				]
-            }
-		}
-	]
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chemiepark",
+        "description": [
+          "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='v4' data-feature='1' href='#'>Streik in Leverkusen</a>;",
+          "2027 zu 29 Stimmen für den Streik;",
+          "Forderung der Wiedereinstellung zweier Kollegen;",
+          "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
+          "Bewertung des Streiks als Tarifbruch durch Zentralgewerkschaften;",
+          "nach erfolgslosen Verhandlungen Wiederaufnahme der Arbeit am 26. Februar.",
+          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/2/21/ISK_Knapsack_Carbidabstich.jpg' style='width: 20rem'> </a>",
+          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/c/c1/ISK_Knapsack_Hoechst_1920er.jpg' style='width: 20rem'> </a>"
+        ],
+        "icon": "strike",
+        "address": "Knapsack Chemiewerk, Köln",
+        "begin": "1921-01-31",
+        "end": "1921-02-28",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4.",
+          "Der Syndikalist, III.Jg., Nr.6, S.4.",
+          "Der Syndikalist, III.Jg., Nr.15, S.1.",
+          "LAV BR 7, Nr. 15807.",
+          "Fotos: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Chemiepark_Knapsack'>Artikel: Chemiepark Knapsack</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.852422,
+          50.861975,
+          0
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Farbenfabrik",
+        "description": [
+          "29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
+          "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='v4' data-feature='2' href='#'>Knapsack</a>;",
+          "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
+          "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='v1' data-feature='14' href='#'>Sneydn</a>",
+          "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
+          "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
+        ],
+        "icon": "strike",
+        "address": "Leverkusen, Farbenfabriken",
+        "begin": "1921-01-01",
+        "end": "1921-02-28",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4.",
+          "Der Syndikalist, III.Jg., Nr.6, S.4.",
+          "Der Syndikalist, III.Jg., Nr.15, S.1.",
+          "LAV BR 7, Nr. 15807.",
+          "Foto: <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.983657,
+          51.018118,
+          0
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Humboldt-Deutzmotoren",
+        "description": [
+          "Streiks und Aussperrungen bei der Maschinen- & Lokomotivbaufirma Humboldt unter Beteiligung der FAU-Ortsgruppe Köln-Kalk."
+        ],
+        "icon": "strike",
+        "address": "Dillenburger Str. 106, Köln",
+        "begin": "1922-03-01",
+        "end": "1922-03-31",
+        "sources": [
+          "Der Syndikalist, IV.Jg., Nr.10, Beilage S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.011959552764893,
+          50.933746993956355,
+          0
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kraftwerk Goldenberg",
+        "description": [
+          "Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
+          "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='v1' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='v1' data-feature='2' href='#'>Peter König</a>;",
+          "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
+          "<a href='#' class='image-modal'> <img src='../images/Cologne Post.JPG' style='width: 20rem'> </a>",
+          "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
+          "<a href='#' class='image-modal'> <img src='../images/Cologne Post cut.JPG' style='width: 20rem'> </a>",
+          "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung vergrößert",
+          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>",
+          "Kraftwerk Goldenberg im Baujahr acht Jahre zuvor"
+        ],
+        "icon": "strike",
+        "address": "Goldenbergstraße, Köln",
+        "begin": "1922-04-01",
+        "end": "1922-04-30",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.8, Beilage, S.4.",
+          "Digitalisat der Cologne Post: LAV BR 9, 7871, 547.",
+          "Foto: Wikimedia Commons, <a target='_blank' href='https://de.wikipedia.org/wiki/Kraftwerk_Goldenberg/'>Artikel: Kraftwerk Goldenberg</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.840046,
+          50.86076,
+          0
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Notstandsarbeiter",
+        "description": [
+          "29.-31.08.1931 Streik der Notstandsarbeiter (Arbeitsangebot für Erwerbslose);",
+          "Der Syndikalist: 'Trotz aller Drohungen der Verwaltung standen bis Montag, dem 31. August, über 2000 Notstandsarbeiter im Streik. Die Straßen der Stadt schwammen im Dreck. Die Müllabfuhr konnte nur unter Polizeischutz geschehen. Die Autos wurden umgeworfen und Sabotageakte dort geübt, wo sie notwendig waren. Die bürgerliche Presse schrieb in Angst von Terror- und Sabotageakten, und überhaupt war ein geordnetes Leben der städtischen Betriebe nur unter polizeilicher Aufsicht möglich. Die Genossen der FAUD standen in vorderster Kampffront, wenn auch die fanatischen „Moskauwiter“ die Syndikalisten am liebsten verwünscht hätten.'",
+          "u.a Umsturz eines Wagens der Müllabfuhr in der Severinstraße.",
+          "<a href='#' class='image-modal'> <img src='../images/RZ_LX_208_7.jpg' style='width: 20rem'> </a>"
+        ],
+        "icon": "strike",
+        "address": "Severinstraße, Köln",
+        "begin": "1931-08-01",
+        "end": "1931-09-30",
+        "sources": [
+          "Der Syndikalist, XIII.Jg., Nr.38, S.3.",
+          "Rheinische Zeitung, LX.Jg., Nr.208, S.7."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.957799,
+          50.927484,
+          0
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van der Zypen & Charlier",
+        "description": [
+          "Streik bei der Waggonfabrik Van der Zypen & Charlier;",
+          "Versuche des zentralgewerkschaftlichen Betriebsrats Arbeiter von Austritt aus FAUD zu überzeugen; Versuch eines Betriebsratsmitglieds Syndikalisten von Lohnaufbesserungen auszuschließen;",
+          "schließlich Einigung zwischen Betriebsrat und Firma auf leichte Lohnerhöhung."
+        ],
+        "icon": "strike",
+        "address": "Deutz-Mülheimer Straße, Köln",
+        "begin": "1921-01-31",
+        "end": "1921-02-28",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.8, Beilage, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9889192409572525,
+          50.94942062480936,
+          0
+        ]
+      },
+      "id": 8
+    }
+  ]
 }
