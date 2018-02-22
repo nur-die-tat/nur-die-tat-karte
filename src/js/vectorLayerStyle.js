@@ -16,8 +16,8 @@ const pointStyle = new ol.style.Style({
     offsetX: 20,
     offsetY: -20,
     stroke: new ol.style.Stroke({
-      color: 'white',
-      width: 4
+      color: 'White',
+      width: 6
     })
   }),
   zIndex: 2

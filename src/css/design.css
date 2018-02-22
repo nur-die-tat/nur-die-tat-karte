@@ -125,3 +125,7 @@ body {
   //border-radius: 50%;
   z-index: 1;
 }
+
+.smaller-list-text li {
+    font-size: 12px; 
+}

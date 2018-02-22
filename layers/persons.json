@@ -8,14 +8,15 @@
         "description": [
           "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes, SFB (Wikipedia-Link)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
           "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
-          "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>"
+          "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>",
+          "Foto: Arbeiterhäuser in der Nobelstraße 1907, Nähe Adolf-Bayerstr, <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
         ],
         "icon": "sfb",
         "address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
         "begin": "1921-08-29",
         "end": "1921-11-30",
         "sources": [
-          "Die Schöpfung, I.Jg., Nr.40, S.3.</br>Die Schöpfung, I.Jg., Nr.72, S.4.</br>Die Schöpfung, I.Jg., Nr.88, S.3.</br>Die Schöpfung, I.Jg., Nr.90, S.4.</br>Foto: Arbeiterhäuser in der Nobelstraße 1907, Nähe Adolf-Bayerstr, <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
+          "Die Schöpfung, I.Jg., Nr.40, S.3.</br>Die Schöpfung, I.Jg., Nr.72, S.4.</br>Die Schöpfung, I.Jg., Nr.88, S.3.</br>Die Schöpfung, I.Jg., Nr.90, S.4."
         ]
       },
       "geometry": {
@@ -40,7 +41,9 @@
           "Verhaftung 1933, wegen Aufruf zum Streik; mehrere Stationen in verschiedenen Gefängnissen und Konzentrationslagern; Unter anderem traf er im KZ Oranienburg kurzzeitig auf <a href='https://de.wikipedia.org/wiki/Erich_M%C3%BChsam'>Erich Mühsam</a> (Wikipedia-Link). Entlassung im Februar 1934;",
           "ein Jahr später Flucht nach Amsterdam; dort Arbeit mit der Gruppe Deutscher Anarcho-Syndikalisten (DAS), wie u.a. auch <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Karl Lösaus</a>;",
           "in Spanien bei der Kolonne Durruti;",
-          "1938 Migration nach Schweden, dort auf Druck der Nazis zwischenzeitlich abermals in Haft. 1949 Rückkehr nach Wuppertal und aktiv in der Föderation Freiheitlicher Sozialisten (FFS), der Nachfolgeorganisation der FAUD; ab 1950 bis zum Lebensende wieder in Schweden."
+          "1938 Migration nach Schweden, dort auf Druck der Nazis zwischenzeitlich abermals in Haft. 1949 Rückkehr nach Wuppertal und aktiv in der Föderation Freiheitlicher Sozialisten (FFS), der Nachfolgeorganisation der FAUD; ab 1950 bis zum Lebensende wieder in Schweden.",
+          "<a href='#' class='image-modal'> <img src='https://search.socialhistory.org/Cover/Show?author=&callnumber=BG+A37%2F571-2&size=small&title=%5BPhoto.%5D+CNT+%28Espa%C3%B1a%29%2C&pid=30051000534435&publication=pictoright' style='width: 20rem'> </a>",
+          "Foto: Internationale Milizionäre der Kolonne Durruti, <a href='https://search.socialhistory.org/Record/776313'> International Institute of Social History (IISH)</a> (keine höhere Auflösung)."
         ],
         "icon": "house",
         "address": "Haspeler Schulstr. 19, Wuppertal-Barmen",
@@ -602,8 +605,10 @@
           "Schreiner, *09.07.1907 in Wiesbaden;",
           "nach 1933 Untergrundarbeit mit <a class='feature-link' data-layer='persons' data-feature='13' href='#'>Grete Saballa</a>;",
           "Emigration in die Niederlande, Dunkerque, dort bei Zentralstelle der Deutschen Anarchosyndikalisten, wie u.a. auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a>;",
-          "1936-1937 im Spanischen Bürgerkrieg, Batterie 'Sacco & Vanzetti';",
-          "Flucht nach Schweden, Internierung 1940."
+          "1936-1937 im Spanischen Bürgerkrieg, Bataillon 'Sacco & Vanzetti';",
+          "Flucht nach Schweden, Internierung 1940.",
+          "<a href='#' class='image-modal'> <img src='http://www.memoriambook.com/pagine/galleria/57bc8979376c9/batalloncnt620x330.jpg' style='width: 20rem'> </a>",
+          "Foto: Milizionäre des Bataillons 'Sacco & Vanzetti', auf <a href='http://www.memoriambook.com/memoriam.php?id=57bc8979376c9'>memoriambook.com</a> (Eintrag über Nicola Sacco)."
         ],
         "icon": "house",
         "address": "Rolshoverstr. 2, Köln-Kalk",
