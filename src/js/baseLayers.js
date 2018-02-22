@@ -28,6 +28,16 @@ export function baseLayers(map) {
           zIndex: 1
         }),
         new ol.layer.Tile({
+          // extent: [761390, 6597471, 795931, 6628039],
+          source: new ol.source.TileImage({
+            attributions: 'hist. Karte: LAV NRW',
+            url: 'http://www.die-karte.org/tiles/200000/{z}/{x}/{y}.png'
+          }),
+          minResolution: 20,
+          maxResolution: 160,
+          zIndex: 1
+        }),
+        new ol.layer.Tile({
           source: new ol.source.OSM({
             attributions: [
                 'Karte &copy; <a href="http://www.thunderforest.com">Thunderforest</a>',
@@ -53,6 +63,16 @@ export function baseLayers(map) {
             // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
           }),
           maxResolution: 20,
+          zIndex: 1
+        }),
+        new ol.layer.Tile({
+          // extent: [761390, 6597471, 795931, 6628039],
+          source: new ol.source.TileImage({
+            attributions: 'hist. Karte: LAV NRW',
+            url: 'http://www.die-karte.org/tiles/200000/{z}/{x}/{y}.png'
+          }),
+          minResolution: 20,
+          maxResolution: 160,
           zIndex: 1
         }),
         new ol.layer.Tile({
