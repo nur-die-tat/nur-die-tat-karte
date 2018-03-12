@@ -7,7 +7,7 @@
         "name": "Baumbach, Lina",
         "description": [
           "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes, SFB (Wikipedia-Link)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
-          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "Delegierte für Köln-Wiesdorf (12 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>",
           "Foto: Arbeiterhäuser in der Nobelstraße 1907, Nähe Adolf-Bayerstr, <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
         ],
@@ -234,19 +234,17 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "Enders, Albert",
-        "description": [
-          "Verantwortlicher für Düsseldorfer Druckerpresse und zur Beantwortung von Anfragen aus dem Rest Rheinland-Westfalens.",
-          "Lage des Wohnortes vermutet"
-        ],
+        "description": "[\"Verantwortlicher für Düsseldorfer Druckerpresse und zur Beantwortung von Anfragen aus dem Rest Rheinland-Westfalens.\",\"Lage des Wohnortes vermutet\"]",
         "icon": "house",
         "address": "Erkrather Str. 113, Düsseldorf",
         "begin": "1926-04-01",
         "end": "1926-04-30",
-        "sources": [
-          "Der Syndikalist, VIII.Jg., Nr.16, Beilage S.4."
-        ],
-        "id": null
+        "sources": "[\"Der Syndikalist, VIII.Jg., Nr.16, Beilage S.4.\"]",
+        "id": "null"
       },
       "geometry": {
         "type": "Point",
@@ -1247,7 +1245,7 @@
         "begin": "1933-01-01",
         "end": "1945-01-01",
         "sources": [
-          "<a href='http://www.fau-duesseldorf.org/archiv/menschen/namensliste'>FAU Düsseldorf</a>;",
+          "<a href='http://www.fau-duesseldorf.org/archiv/menschen/namensliste'>FAU Düsseldorf</a> (12.03.2018);",
           "R. Theissen, P. Walter, J. Wilhelms, Anarcho-Syndikalistischer Widerstand an Rhein und Ruhr. Meppen 1980, S. 128f."
         ]
       },
@@ -1298,7 +1296,10 @@
         "icon": "house",
         "address": "Grünewalder Berg 48, Wuppertal-Elberfeld",
         "begin": "1933-01-01",
-        "end": "1945-01-01"
+        "end": "1945-01-01",
+        "sources": [
+          "<a href='http://www.fau-duesseldorf.org/archiv/menschen/namensliste'>FAU Düsseldorf</a>."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1308,6 +1309,331 @@
         ]
       },
       "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wörndl, Henriette",
+        "description": [
+          "Delegierte für Düsseldorf (50 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
+        ],
+        "icon": "sfb",
+        "address": "Krahestr. 20, Düsseldorf",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.801762878894806,
+          51.224438873971046
+        ]
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gerlach, Fränze",
+        "description": [
+          "Delegierte für Düsseldorf (50 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
+        ],
+        "icon": "sfb",
+        "address": "Ruhrtalstr. 2, Düsseldorf",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.810445189476012,
+          51.22074318623632
+        ]
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Witkop, Milly",
+        "description": [
+          "(auch Milly Witkop-Rocker oder Milly Rocker);",
+          "",
+          "Delegierte für Groß-Berlin (208 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
+        ],
+        "icon": "sfb",
+        "address": "Kirchhofstr. 3, Berlin-Neukölln",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.443376421928406,
+          52.473373725972365
+        ]
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barwich, Hertha & Franz",
+        "description": [
+          "Hertha als Delegierte für Berlin-Lankwitz (26 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "",
+          "Franz als Vertreter der Geschäftskommission der FAUD bei <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf. ",
+          "",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Alsenstr. 6 (?), Berlin-Steglitz",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.331066966056824,
+          52.463461893594285
+        ]
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ludwig, Anna",
+        "description": [
+          "Delegierte für Berlin-Oberschöneweide(104 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Helmholtzstr. 105 (?), Berlin-Oberschöneweide",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.510622084140778,
+          52.46721054764587
+        ]
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bungert, Therese",
+        "description": [
+          "Delegierte für Mülheim-Ruhr (55 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Bruchstr. 32 (?), Mülheim-Ruhr",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.891072392463683,
+          51.435741553283066
+        ]
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leimkühler, Gertrud",
+        "description": [
+          "Delegierte für Friemersheim (14 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Am Damm 25 (?), Friemersheim",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.70789361000061,
+          51.38218731123947
+        ]
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wehner, Wilhelm",
+        "description": [
+          "Delegierter für den SFB Schweinfurt (24 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf. Gründung der Ortsgruppe des SFB erst Anfang des Monats, nach Agitation durch Winkler."
+        ],
+        "icon": "sfb",
+        "address": "Luitpoldstr. 34, Schweinfurt",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.223135054111479,
+          50.04057505136769
+        ]
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siewert, Luise",
+        "description": [
+          "Delegierte für Duisburg (20 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
+        ],
+        "icon": "sfb",
+        "address": "Bachstr. 26, Duisburg",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7527079582214355,
+          51.42264404321583
+        ]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melzer, Heinz",
+        "description": [
+          "Delegierter für Stettin (23 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Unterwiek 12a (heute Jana z Kolna), Stettin\n",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.571669101715086,
+          53.43321369305609
+        ]
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zehner, Emil",
+        "description": [
+          "Delegierter für Erfurt (43 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "York (heute Rosa-Luxemburg) Straße 48, Erfurt",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.029345393180847,
+          50.98952303340295
+        ]
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berendonk, Traudchen",
+        "description": [
+          "Zu Gast auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "address": "Semperstr. 13, Essen",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0261430740356445,
+          51.44566586785169
+        ]
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "Steinmetzstr. 72, Berlin-Neukölln",
+        "begin": "1921-10-01",
+        "end": "1921-10-31",
+        "name": "Winkler, Max",
+        "description": [
+          "Als Redner zu Gast auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "(grobe Lage)"
+        ],
+        "icon": "sfb",
+        "sources": [
+          "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.364090323448181,
+          52.49719482063513
+        ]
+      },
+      "id": 61
     }
   ]
 }
