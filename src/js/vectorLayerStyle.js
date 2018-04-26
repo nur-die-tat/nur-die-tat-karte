@@ -10,7 +10,7 @@ const pointStyle = new ol.style.Style({
     })
   }),
   text: new ol.style.Text({
-    font: '14px sans-serif',
+    font: '18px \'Josefin Slab\', serif',
     textAlign: 'left',
     textBaseline: 'middle',
     offsetX: 20,

@@ -46,7 +46,7 @@ export function createTabLinks(target) {
     let href = tabLink.getAttribute('href');
     if (href[0] == '#' && href.length > 1) {
       tabLink.addEventListener('click', e => {
-        let $tab = $(`a[data-toggle="tab"][data-target="${href}"]`);
+        let $tab = $(`a[data-toggle="tab"][data-target="${href}-tab"]`);
         if ($tab.length === 0) {
           $(`a[data-toggle="tab"][data-target="#home-tab"]`).tab('show');
         } else {
