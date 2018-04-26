@@ -32,6 +32,10 @@ module.exports = {
         loader: 'file-loader?name=images/[name].[ext]'
       },
       {
+        test: /\.(ttf)$/,
+        loader: 'file-loader?name=fonts/[name].[ext]'
+      },
+      {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap'})
       }
