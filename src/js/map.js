@@ -27,10 +27,11 @@ export function createMap() {
   baseLayers(map);
   let vectorLayers_ = vectorLayers(map);
   let timePicker = new TimePicker('#footer', 'data/time-line.json', vectorLayers_);
-  let features = new FeatureDetails(map, vectorLayers_, timePicker);
+  map.set('featureDetails', new FeatureDetails(map, vectorLayers_, timePicker));
   let panelHide = new PanelHide();
 
   window.map = map;
+  window.dispatchEvent(new CustomEvent('map.created'));
 
   let updateSizes = () => {
     $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());

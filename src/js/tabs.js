@@ -21,6 +21,9 @@ export function tabs() {
       window.location.hash = target.slice(0, -4);
       loadHTML(target, urls[target])
         .then(() => $(this).trigger('loaded.tab'));
+    })
+    .on('shown.bs.tab', function () {
+      window.scrollTo(0,0);
     });
 
   function showTab(target) {

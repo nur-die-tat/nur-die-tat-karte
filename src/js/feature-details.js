@@ -39,13 +39,23 @@ export class FeatureDetails {
     this.featureDescriptionElement = document.querySelector('#feature-description');
     this.featureAddressElement = document.querySelector('#feature-address');
     this.featureSourcesElement = document.querySelector('#feature-sources');
+
+    if (window.query.hasOwnProperty('layer') && window.query.hasOwnProperty('feature')) {
+      this.focusOnFeatureByIds(parseInt(window.query['feature']), window.query['layer']);
+    }
   }
 
   focusOnFeatureByIds (featureId, layerId) {
     let layer = this.vectorLayers.find(l => l.get('id') === layerId);
     let feature = layer.getSource().getFeatures().find(f => f.getId() === featureId);
-    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()) });
-    this.showFeatureDetails(feature, layer);
+    if (!feature) {
+      setTimeout(function () {
+        this.focusOnFeatureByIds(featureId, layerId);
+      }.bind(this), 200);
+    } else {
+      this.map.getView().animate({center: ol.extent.getCenter(feature.getGeometry().getExtent())});
+      this.showFeatureDetails(feature, layer);
+    }
   }
 
   showFeatureDetails(feature, layer) {
@@ -58,6 +68,7 @@ export class FeatureDetails {
       document.querySelector('#details')
         .classList.add('hidden');
       this.timePicker.setFeature(null);
+      window.query.search = '';
     } else {
       feature.set('active', true);
 
@@ -110,6 +121,8 @@ export class FeatureDetails {
         li.innerHTML = sourcesItem;
         this.featureSourcesElement.appendChild(li);
       }
+
+      window.query.search = `layer=${layer.get('id')}&feature=${feature.getId()}`;
     }
   }
 }

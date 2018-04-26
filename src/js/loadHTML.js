@@ -1,8 +1,9 @@
 import {createImageModalLinks} from "./imageModal";
 import {createTabLinks} from "./tabs";
+import {createFeatureLinks} from './featureLinks';
 let loaded = [];
 
-export function loadHTML(targetSelector, url) {
+export function loadHTML(targetSelector, url, featureDetails) {
   return new Promise(resolve => {
     if (loaded.indexOf(url) < 0) {
       let xhr = new XMLHttpRequest();
@@ -14,6 +15,7 @@ export function loadHTML(targetSelector, url) {
         target.innerHTML = this.response;
         createImageModalLinks(target);
         createTabLinks(target);
+        createFeatureLinks(target);
         resolve();
       });
       xhr.send();
