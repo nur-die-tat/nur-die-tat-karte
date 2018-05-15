@@ -1,6 +1,8 @@
 import {createImageModalLinks} from "./imageModal";
 import {clearElement} from "./utils";
 import {vectorLayerStyle} from "./vectorLayerStyle";
+import {setMapQuery} from "./pages";
+import {eventChannel} from "./eventChannel";
 
 export class FeatureDetails {
   constructor (map, vectorLayers, timePicker) {
@@ -40,9 +42,9 @@ export class FeatureDetails {
     this.featureAddressElement = document.querySelector('#feature-address');
     this.featureSourcesElement = document.querySelector('#feature-sources');
 
-    if (window.query.hasOwnProperty('layer') && window.query.hasOwnProperty('feature')) {
-      this.focusOnFeatureByIds(parseInt(window.query['feature']), window.query['layer']);
-    }
+    eventChannel.addEventListener('mapQuery', function (e) {
+      this.focusOnFeatureByIds(parseInt(e.detail['feature']), e.detail['layer']);
+    }.bind(this));
   }
 
   focusOnFeatureByIds (featureId, layerId) {
@@ -68,7 +70,7 @@ export class FeatureDetails {
       document.querySelector('#details')
         .classList.add('hidden');
       this.timePicker.setFeature(null);
-      window.query.search = '';
+      setMapQuery(null, null)
     } else {
       feature.set('active', true);
 
@@ -122,7 +124,7 @@ export class FeatureDetails {
         this.featureSourcesElement.appendChild(li);
       }
 
-      window.query.search = `layer=${layer.get('id')}&feature=${feature.getId()}`;
+      setMapQuery(feature.getId(), layer.get('id'));
     }
   }
 }

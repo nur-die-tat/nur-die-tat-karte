@@ -1,19 +1,12 @@
-import {createMap} from './js/map';
-import {tabs} from './js/tabs';
-
 import './css/design.css';
-
-const query = {};
-for (let keyVal of window.location.search.substr(1).split('&')) {
-  const [key, val] = keyVal.split('=');
-  query[key] = val;
-}
-window.query = query;
+import {createMap} from './js/map';
+import {createImageModalLinks} from "./js/imageModal";
+import {initPages} from "./js/pages";
 
 $('a[data-toggle="tab"][data-target="#karte-tab"]')
   .one('loaded.tab', () => {
     createMap();
   });
 
-tabs();
-
+createImageModalLinks(document.body);
+initPages();

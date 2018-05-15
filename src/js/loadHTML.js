@@ -1,5 +1,5 @@
 import {createImageModalLinks} from "./imageModal";
-import {createTabLinks} from "./tabs";
+import {createTabLinks} from "./pages";
 import {createFeatureLinks} from './featureLinks';
 let loaded = [];
 
