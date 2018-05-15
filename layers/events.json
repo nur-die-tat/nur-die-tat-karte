@@ -18,7 +18,6 @@
         ]
       },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
             "type": "Point",
@@ -183,7 +182,8 @@
               ]
             ]
           }
-        ]
+        ],
+        "type": "GeometryCollection"
       },
       "id": 1
     },
@@ -209,7 +209,6 @@
         ]
       },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
             "type": "Point",
@@ -235,7 +234,8 @@
               0
             ]
           }
-        ]
+        ],
+        "type": "GeometryCollection"
       },
       "id": 3
     },
@@ -255,7 +255,6 @@
         ]
       },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
             "type": "Point",
@@ -265,7 +264,8 @@
               0
             ]
           }
-        ]
+        ],
+        "type": "GeometryCollection"
       },
       "id": 4
     },
@@ -286,7 +286,6 @@
         ]
       },
       "geometry": {
-        "type": "GeometryCollection",
         "geometries": [
           {
             "type": "Point",
@@ -312,7 +311,8 @@
               0
             ]
           }
-        ]
+        ],
+        "type": "GeometryCollection"
       },
       "id": 5
     },
@@ -423,6 +423,32 @@
         ]
       },
       "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lokal Schmitz",
+        "description": [
+          "Sonnwendfeier am Freitag, den 21.01.1928. Eine \"Anzahl Gegenstände\" wurde dort liegengelassen und konnte Mittwochs zwischen 18-20 Uhr abgeholt werden.",
+          "\"Gründungsversammlung eines Proletarischen Gesangvereins\" am Sonntag den 22.01.1928.",
+          "Das Lokal blieb darüber hinaus Anlaufstelle für Arbeitsrechtsberatungen und für (neue) \"Kollegen\"."
+        ],
+        "icon": "meet",
+        "address": "Königstr. Ecke Neue Linnerstr, Krefeld",
+        "begin": "1928-01-01",
+        "end": "1928-03-01",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg, Nr.3, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.564247906208038,
+          51.331960727708804
+        ]
+      },
+      "id": 10
     }
   ]
 }

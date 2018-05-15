@@ -10,5 +10,9 @@ export const ICONS = {
     'strike': '../images/strike.png',
     'meet': '../images/meet.png',
     'sfbmeet': '../images/sfbmeet.png',
-    'grave': '../images/grave.png'
+    'grave': '../images/grave.png',
+    'lecture': '../images/lecture.png',
+    'construct': '../images/construct.png',
+    'metal': '../images/metal.png',
+    'seed': '../images/seed.png'
 };

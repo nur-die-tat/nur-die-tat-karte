@@ -9,7 +9,7 @@
           "Lokal, Treffen der Syndikalistisch-Anarchistischen Jugend (SAJ) jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
           "allgemeine FAU Mitglieder-Vollversamllung am Sonntag, den 05. Dezember 1926;"
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "address": "Mühlheimer Str. 112, Kalk, Köln",
         "begin": "1926-02-01",
         "end": "1926-12-31",
@@ -175,7 +175,7 @@
           "Vortrag von <a target='_blank' href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> (Wikipedia-Link) 27.08.1922;",
           "Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag."
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "begin": "1922-08-01",
         "end": "1923-08-31",
         "sources": [
@@ -292,7 +292,7 @@
           "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Neumann</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "begin": "1928-04-01",
         "end": "1928-04-30",
         "sources": [
@@ -315,7 +315,7 @@
       "properties": {
         "name": "Siedlergruppe „Freie Erde“",
         "description": "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons",
-        "icon": "shakehand",
+        "icon": "seed",
         "address": "Kaiserswertherstr. 42, Düsseldorf",
         "begin": "1921-08-01",
         "end": "1921-09-30",
@@ -384,7 +384,7 @@
           "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
           "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth."
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "begin": "1921-04-01",
         "end": "1921-04-30",
         "sources": [
@@ -415,7 +415,7 @@
           "07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns;",
           "Redner u.a. auch <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>."
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "begin": "1925-12-01",
         "end": "1926-07-31",
         "sources": [
@@ -441,7 +441,7 @@
         "description": [
           "06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."
         ],
-        "icon": "shakehand",
+        "icon": "meet",
         "address": "Barbarastr. 17, Rodenkirchen",
         "begin": "1926-05-01",
         "end": "1926-07-31",
@@ -458,6 +458,85 @@
         ]
       },
       "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bauarbeiterkonferenz",
+        "description": [
+          "Sonntag, den 28.02.1926 \"Konferenz der Bauarbeiter von Rheinland-Westfalen\";",
+          "Bitte um Entsenung von mandatierten Delegierten (auch Metallarbeiter)."
+        ],
+        "icon": "construct",
+        "address": "Lokal von der Warth am Marientor, Duisburg (grobe Lage)",
+        "begin": "1926-02-28",
+        "end": "1926-02-28",
+        "sources": [
+          "Der Syndikalist, VIII.Jg., Nr.4, Beilage S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.755931973457336,
+          51.431295309363
+        ]
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "\"Kurier-Verlag\"",
+        "description": [
+          "\"Kurier-Verlag\" in dem ab Januar 1928 wöchentlich der \"Rheinisch-Westfälische Kurier. Sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\" erschien. Für den Druck zeichnete der hier wohnhafte Leonhard Kleefeld verantwortlich. Die FAUD in der Region erkannte die Publikation als ihr regionales Organ an.",
+          "Verantwortlich für den Inhalt zeichnete <a class='feature-link' data-layer='persons' data-feature='62' href='#'>Johannes Gerlach</a>.",
+          "<a href='#' class='image-modal'> <img src='../images/Kurier1928nr25s1.jpg' style='width: 20rem'> </a>"
+        ],
+        "icon": "lecture",
+        "address": "Mindener Straße 17, Düsseldorf",
+        "begin": "1928-01-07",
+        "end": "1928-06-23",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.1, S. 1.",
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.25, S. 1."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805437505245209,
+          51.215516641330254
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Versammlungsraum",
+        "description": [
+          "Metallarbeiterversammlung Sonntag, den 22.01.1928 ab 10 Uhr Versammlung der Metallarbeiter von Düsseldorf.",
+          "\"Tagesordnung sehr reichlich.\"",
+          "",
+          "Treffen der Syndikalistisch-Anarchistischen Jugend jeden Mittwoch um 20 Uhr im Hof."
+        ],
+        "icon": "meet",
+        "address": "Ackerstr. 154, Düsseldorf",
+        "begin": "1928-01-22",
+        "end": "1928-01-22",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.2, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.806832253932953,
+          51.2297870165702
+        ]
+      },
+      "id": 24
     }
   ]
 }
