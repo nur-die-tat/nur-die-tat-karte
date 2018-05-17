@@ -465,7 +465,7 @@
         "name": "Bauarbeiterkonferenz",
         "description": [
           "Sonntag, den 28.02.1926 \"Konferenz der Bauarbeiter von Rheinland-Westfalen\";",
-          "Bitte um Entsenung von mandatierten Delegierten (auch Metallarbeiter)."
+          "Bitte um Entsendung von mandatierten Delegierten (auch Metallarbeiter)."
         ],
         "icon": "construct",
         "address": "Lokal von der Warth am Marientor, Duisburg (grobe Lage)",
@@ -519,7 +519,9 @@
           "Metallarbeiterversammlung Sonntag, den 22.01.1928 ab 10 Uhr Versammlung der Metallarbeiter von Düsseldorf.",
           "\"Tagesordnung sehr reichlich.\"",
           "",
-          "Treffen der Syndikalistisch-Anarchistischen Jugend jeden Mittwoch um 20 Uhr im Hof."
+          "Treffen der Syndikalistisch-Anarchistischen Jugend jeden Mittwoch um 20 Uhr im Hof.",
+          "",
+          "Jahresgeneralversammlung der Bauarbeiterföderation Ortsgruppe Düsseldorf."
         ],
         "icon": "meet",
         "address": "Ackerstr. 154, Düsseldorf",
@@ -537,6 +539,60 @@
         ]
       },
       "id": 24
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Treffen der Ortsgruppe Eller",
+        "description": [
+          "Regelmäßige Treffen der Ortsgruppe Eller bei „Maas“;",
+          "Unter anderem Jahresgeneralversammlung, Funktionärssitzung, Mitgliederversammlung."
+        ],
+        "icon": "meet",
+        "address": "Hildener Straße, Düsseldorf",
+        "begin": "1928-01-21",
+        "end": "1928-03-04",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.3, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.889886856079102,
+          51.161018412873226
+        ]
+      },
+      "id": 1526590979780
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kurse des proletarischen Gesundheitsdiensts",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S.4.",
+          "https://de.wikipedia.org/wiki/Proletarischer_Gesundheitsdienst",
+          "http://www.geschichtevonunten.de/01_sek-lit/organisationen/uebergreifend/d-ruebner-pgd.htm"
+        ],
+        "description": [
+          "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
+          "",
+          "Der PGD beschäftigte sich mit den Themen Erste Hilfe, Haus- und Krankenhilfe und Unfallverhütung. Das Ziel war eine bessere Erstversorgung verunglückter Arbeiter, das durch Schulungen für eben jene erreicht werden sollte.",
+          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Nachdem jedoch im Rahmen der Einheitsfrontpolitik im Jahre 1926 nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund übergewechselt waren konsolidierte sich der PGD ab dem Jahre 1928 als antiautoritäre, FAUD-nahe Organisation."
+        ],
+        "icon": "meet",
+        "address": "Hildener Straße, Düsseldorf",
+        "begin": "1928-01-28",
+        "end": "1928-02-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.884758472442627,
+          51.16111261061143
+        ]
+      },
+      "id": 1526592443184
     }
   ]
 }
