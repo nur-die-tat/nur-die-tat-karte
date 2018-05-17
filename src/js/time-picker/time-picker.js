@@ -62,6 +62,11 @@ export class TimePicker {
     }
   }
 
+  unsetFeature() {
+    this.featureRange.classList.add('hidden');
+    this.featureIcon.classList.add('hidden');
+  }
+
   setFeature(begin, end, iconId) {
     this.featureRange.classList.remove('hidden');
     this.featureIcon.classList.remove('hidden');

@@ -66,11 +66,12 @@ export class FeatureDetails {
       this.highlightSource.clear();
     }
 
-    if (feature === null) {
+    if (feature === null || this.activeFeature === feature) {
+      this.activeFeature = null;
       document.querySelector('#details')
         .classList.add('hidden');
-      this.timePicker.setFeature(null);
-      setMapQuery(null, null)
+      this.timePicker.unsetFeature();
+      setMapQuery(null, null);
     } else {
       feature.set('active', true);
 
