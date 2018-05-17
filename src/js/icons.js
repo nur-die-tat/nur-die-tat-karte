@@ -14,5 +14,8 @@ export const ICONS = {
     'lecture': '../images/lecture.png',
     'construct': '../images/construct.png',
     'metal': '../images/metal.png',
-    'seed': '../images/seed.png'
+    'seed': '../images/seed.png',
+    'farm2': '../images/farm2.png',
+    'farm1': '../images/farm1.png'
+
 };

@@ -5,7 +5,7 @@ export function vectorLayers(map) {
   let layers = [
     new ol.layer.Vector({
       id: 'persons',
-      name: 'Personen',
+      name: 'Wohnorte',
       source: new ol.source.Vector({
         url: '../layers/persons.json',
         format: new ol.format.GeoJSON()

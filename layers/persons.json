@@ -1660,6 +1660,89 @@
         ]
       },
       "id": 62
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rosinke, Anton",
+        "icon": "house",
+        "address": "Friedrich-Engels-Straße 14, Düsseldorf (Siedlung Freiheit)",
+        "end": "1937-01-31",
+        "begin": "1919-11-01",
+        "description": [
+          "* 1881, † 14.02.1937",
+          "Anton Rosinke, Schmied, Wanderarbeiter und Fabrikarbeiter war langjähriger anarchosyndikalistischer Aktivist (in FAUD und FKAD). Unter anderem engagierte er sich mit seiner Tochter und freien Jugendgruppen und der \"Freien Sängergemeinschaft\", die auch in der Düsseldorfer \"Siedlung Freie Erde\" auftrat.",
+          "Im verbliebenen Haus der Siedlung kam er bis zu seiner Verhaftung Ende Januar 1937 unter. Einige Wochen später wurde Rosinke in Haft ermordet.",
+          ""
+        ],
+        "sources": [
+          "<a href='https://stolpersteinmap.de/#18/51.21095/6.86347'>Stolperstein am Wohnort</a>.",
+          "<a href='http://www.lokalkompass.de/duesseldorf/politik/anton-rosinke-1881-1937-zum-80-jahrestag-seiner-ermordung-durch-gestapo-folter-im-duesseldorfer-polizeipraesidium-am-14-februar-1937-d735194.html'>Kurzbiografie</a> der heutigen FAU Düsseldorf anlässlich einer Gedenkveranstaltung 2017."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8635717034339905,
+          51.210623882921155
+        ]
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siedlung Freie Erde",
+        "icon": "farm2",
+        "address": "Eller Forst / \"Hildener Banden\" (grobe Lage)",
+        "begin": "1921-07-06",
+        "end": "1923-03-31",
+        "sources": [
+          "Rekittke, Becker <a href=\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
+          "Foto: privat/Josefine Müller, im Artikel der <a href=\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\">FAU Düsseldorf</a>."
+        ],
+        "description": [
+          "Von <a href=\"https://de.wikipedia.org/wiki/Gustav_Landauer\">Gustav Landauer</a> (Wikipedia) inspiriert bauten Anarchist*innen der Gegend hier auf einem besetzten Waldstück eine kleine Siedlung auf. Ein <a class='feature-link' data-layer='meetings' data-feature='20' href='#'>ausgelagertes Treffen</a> fand zudem in der Innenstadt statt. Sie diente als Wohn-, Treff- und Veranstaltungsort.",
+          "Unter anderem wirkten <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>, der Maler <a href=\"https://de.wikipedia.org/wiki/Gert_Heinrich_Wollheim\">Gert Heinrich Wollheim</a> (Wikipedia) sowie <a class='feature-link' data-layer='persons' data-feature='65' href='#'>Anne Kutschke und ihr Mann Waldemar</a>. Das Siedlungskollektiv ging 1923 auseinander, die Kutschkes blieben jedoch noch Jahre wohnhaft.",
+          "<a href='#' class='image-modal'> <img src='../images/freieerde.jpg' style='width: 20rem'> </a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.875724792480469,
+          51.19887040170452
+        ]
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haus Freie Erde",
+        "icon": "farm1",
+        "address": "Eller Forst / \"Hildener Banden\" (grobe Lage)",
+        "begin": "1923-03-31",
+        "end": "1972-06-06",
+        "sources": [
+          "Rekittke, Becker <a href=\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
+          "Artikel der <a href=\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\">FAU Düsseldorf</a>.",
+          "Foto: Freie Erde, im <a href=\"https://rp-online.de/nrw/staedte/duesseldorf/stadtteile/unterbach/freie-erde_aid-17889231\">Artikel der RP</a>."
+        ],
+        "description": [
+          "Nach Auseinandergehen des <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlungskollektivs</a> 1923 blieben Anne Kutschke († 1968) und ihr Mann Waldemar († 1970) im \"Haus Freie Erde\" wohnhaft. Während des Nationalsozialismus konnten sie dort eine Jüdin und einen Syndikalisten verstecken.",
+          "Wenige Jahre nach ihrem Tode wurde das Haus abgerissen. Ihre Tochte Josefine Müller war zuvor in die benachbarte Siedlung Freiheit umgezogen.",
+          "<a href='#' class='image-modal'> <img src='../images/kutschke.jpg' style='width: 20rem'> </a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.877355575561523,
+          51.20091411627207
+        ]
+      },
+      "id": 65
     }
   ]
 }
