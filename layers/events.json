@@ -449,6 +449,109 @@
         ]
       },
       "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vortragsreihe \"Gott, Staat, Anarchie\"",
+        "description": [
+          "15. & 29. März sowie 12. April 1922",
+          "Vortrags-Abende der Föderation kommunistischer Anarchisten Deutschlands (FKAD) zum Thema: \"Gott, Staat, Anarchie\" mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>"
+        ],
+        "icon": "meet",
+        "address": "Stephansbrücke 38, Magdeburg (grobe Lage)",
+        "begin": "1922-03-15",
+        "end": "1922-04-12",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.64349615573883,
+          52.13173293955536
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volksversammlung FKAD",
+        "description": [
+          "12. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD) im Lokal Holsteinisches Haus zum Thema \"Anarchismus und Revolution\".",
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
+        ],
+        "icon": "meet",
+        "address": "Kohlöfen 16, Hamburg",
+        "begin": "1923-06-12",
+        "end": "1923-06-12",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.980494379997253,
+          53.55245452054326
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volksversammlung FKAD",
+        "description": [
+          "13. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  bei Struwe zum Thema \"Mensch Staat und Gesellschaft\".",
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
+        ],
+        "icon": "meet",
+        "begin": "1923-06-13",
+        "end": "1923-06-13",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "address": "Billhorner Deich 59, Hamburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.041562914848328,
+          53.53507900507763
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volksversammlung FKAD",
+        "description": [
+          "14. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  in Barmbek zum Thema \"Proletarische Diktatur\".",
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a>."
+        ],
+        "icon": "meet",
+        "address": "Bachstraße 87, Hambrug",
+        "begin": "1923-06-14",
+        "end": "1923-06-14",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.024190247058868,
+          53.5774358522731
+        ]
+      },
+      "id": 14
     }
   ]
 }

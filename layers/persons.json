@@ -1700,8 +1700,8 @@
         "begin": "1921-07-06",
         "end": "1923-03-31",
         "sources": [
-          "Rekittke, Becker <a href=\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
-          "Foto: privat/Josefine Müller, im Artikel der <a href=\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\">FAU Düsseldorf</a>."
+          "\"Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.\",",
+          "          \"Foto: privat/Josefine Müller, im Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>.\""
         ],
         "description": [
           "Von <a href=\"https://de.wikipedia.org/wiki/Gustav_Landauer\">Gustav Landauer</a> (Wikipedia) inspiriert bauten Anarchist*innen der Gegend hier auf einem besetzten Waldstück eine kleine Siedlung auf. Ein <a class='feature-link' data-layer='meetings' data-feature='20' href='#'>ausgelagertes Treffen</a> fand zudem in der Innenstadt statt. Die Siedlung diente als Wohn-, Treff- und Veranstaltungsort.",
@@ -1727,9 +1727,9 @@
         "begin": "1923-03-31",
         "end": "1972-06-06",
         "sources": [
-          "Rekittke, Becker <a href=\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
-          "Artikel der <a href=\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\">FAU Düsseldorf</a>.",
-          "Foto: Freie Erde, im <a href=\"https://rp-online.de/nrw/staedte/duesseldorf/stadtteile/unterbach/freie-erde_aid-17889231\">Artikel der RP</a>."
+          "\"Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.\",",
+          "          \"Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>.\",",
+          "          \"Foto: Freie Erde, im <a href=\\\"https://rp-online.de/nrw/staedte/duesseldorf/stadtteile/unterbach/freie-erde_aid-17889231\\\">Artikel der RP</a>.\""
         ],
         "description": [
           "Nach Auseinandergehen des <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlungskollektivs</a> 1923 blieben Anne Kutschke († 1968) und ihr Mann Waldemar († 1970) im \"Haus Freie Erde\" wohnhaft. Während des Nationalsozialismus konnten sie dort eine Jüdin und einen Syndikalisten verstecken.",
@@ -1769,6 +1769,43 @@
         ]
       },
       "id": 1539287953233
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cahn, Berthold",
+        "description": [
+          "*16.05.1871 Langenlonsheim bei Bad Kreuznach,",
+          "✝November 1938 oder 28.05.1942.",
+          "",
+          "ab Ende des 19. Jh. in Berlin; zeitweise als Lagerarbeiter und Hausdiener tätig; 1903 laut Polizeibericht erstmals bei einem anarchistischen Treffen, zunächst sehr kritisch eingestellt; ab Mai 1904 dann offenbar überzeugter Verfechter anarchistischer Ideen.",
+          "",
+          "Cahn übernahm mehrfach Ämter in verschiedenen Organisationen, wie dem \"Verein freiheitlicher Sozialisten Berlins und Umgebung\", trat reichsweit als Redner in Erscheinung und veröffentlichte Artikel und Gedichte. Während des Ersten Weltkrieges befand er sich mehrfach in Haft. Im Juni 1919 Verhaftung wohl bei einer Vortragsreise in Schlesien und Inhaftierung für drei Monate. ",
+          "",
+          "Spätestens ab 1919 war er sowohl bei Föderation Kommunistischer Anarchisten Deutschlands (FKAD) als der auch Freien Vereinigung deutscher Gewerkschaften (FVdG) bzw. dann der Freien Arbeiter-Union Deutschlands (FAUD) aktiv. Nach Rudolf Rocker war Cahn bis 1933 der meistbeschäftigter Redner der FAUD. 1931 bis '32 führte er die Geschäftsstelle der Zeitung \"Der freie Arbeiter\".",
+          "",
+          "Redner auf Veranstaltungen (Beispiele):",
+          "<ul><li>1922 Magdeburg, 15. & 29. März sowie 12. April, <a class='feature-link' data-layer='events' data-feature='11' href='#'>\"Gott, Staat, Anarchie\"</a></li><li>1923 Hamburg, 12. Juni, <a class='feature-link' data-layer='events' data-feature='12' href='#'>\"Anarchismus und Revolution\"</a>; 13. Juni <a class='feature-link' data-layer='events' data-feature='13' href='#'>\"Mensch, Staat und Gesellschaft\"</a>; 14. Juni <a class='feature-link' data-layer='events' data-feature='14' href='#'>\"Proletarische Diktatur\"</a></li><li>1925 Berlin, 06. Januar, Öffentliche Versammlung der Syndikalisten & Anarchisten mit dem Thema: \"Heraus mit den politischen Gefangenen\"</li><li>1929 Berlin, 08. Dezember, \"Satyrischer Abend\"</li><li>1930 Werder (Havel), Juni und 2. August, Kundgebungen gegen die \"internationale Reaktion\" und zum Antikriegstag</li><li>1930 Düsseldorf, 8. März, Märzgedenkfeier</li><li>1930 Berlin, 15.-20. März, mehrere Veranstaltungen zum Thema: \"Die freie Liebe\"</li><li>1930 Berlin, 22. März, Märzgedenkfeier</li><li>1931 Berlin, 1. Mai, Demonstration durch Vororte</li><li>1931 Berlin, 25.-27. Dezember, Kongress der FKAD</li></ul>",
+          "",
+          "Laut einer Zeugenaussage Ermordung im November 1938, laut Totenbuch des Konzentrationslagers Sachsenhausen 28.05.1942.",
+          ""
+        ],
+        "icon": "house",
+        "address": "Wadzeckstraße 4, Berlin",
+        "begin": "1918-10-01",
+        "end": "1937-01-31",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.415760397911072,
+          52.525229810560624
+        ]
+      },
+      "id": 66
     }
   ]
 }
