@@ -262,7 +262,7 @@
         "name": "Lager Dellbrück",
         "address": "Dellbrück, Köln (Lage geschätzt)",
         "description": [
-          "Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R.                      durch Syndikalisten und Anarchisten mitgetragen worden war;",
+          "Auffanglager für Flüchtlinge nach Niederschlagung des Aufstandes der „Roten Ruhr-Armee“, der insb. in Mühlheim a.d.R. durch Syndikalisten und Anarchisten mitgetragen worden war;",
           "zeitweise 5000 Menschen auf der Flucht im besetzten Rheinland."
         ],
         "icon": "camp",
@@ -314,7 +314,11 @@
       "type": "Feature",
       "properties": {
         "name": "Siedlergruppe „Freie Erde“",
-        "description": "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons",
+        "description": [
+          "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons.",
+          "Die <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung</a> bestand 1921 bis 1923.",
+          "Auch in Köln gab es <a class='feature-link' data-layer='meetings' data-feature='10' href='#'>eine Initiative zum Siedlertag</a>."
+        ],
         "icon": "seed",
         "address": "Kaiserswertherstr. 42, Düsseldorf",
         "begin": "1921-08-01",
@@ -382,7 +386,8 @@
         "description": [
           "23. April 1921 freisozialistischer Siedlertag;",
           "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
-          "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth."
+          "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth.",
+          "Ein ähnliches Projekt bestand mit der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung Freie Erde</a> in Düsseldorf."
         ],
         "icon": "meet",
         "begin": "1921-04-01",

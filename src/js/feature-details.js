@@ -82,6 +82,7 @@ export class FeatureDetails {
       this.timePicker.setFeature(new Date(feature.get('begin')), new Date(feature.get('end')), feature.get('icon'));
 
       this.detailsElement.classList.remove('hidden');
+      this.detailsElement.scrollTop=0;
 
       this.featureNameElement.innerHTML = feature.get('name');
 

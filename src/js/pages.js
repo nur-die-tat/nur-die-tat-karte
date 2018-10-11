@@ -2,6 +2,7 @@ import anmerkungenUrl from 'file-loader?name=pages/[name].[ext]!../html/anmerkun
 import karteUrl from 'file-loader?name=pages/[name].[ext]!../html/karte.html';
 import homeUrl from 'file-loader?name=pages/[name].[ext]!../html/home.html';
 import kontaktUrl from 'file-loader?name=pages/[name].[ext]!../html/kontakt.html';
+import datenschutzUrl from 'file-loader?name=pages/[name].[ext]!../html/datenschutz.html';
 
 import {loadHTML} from "./loadHTML";
 import {eventChannel} from "./eventChannel";
@@ -10,7 +11,8 @@ export const pages = {
   anmerkungen: anmerkungenUrl,
   karte: karteUrl,
   home: homeUrl,
-  kontakt: kontaktUrl
+  kontakt: kontaktUrl,
+  datenschutz: datenschutzUrl
 };
 
 let mapQuery = {};
