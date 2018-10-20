@@ -1806,6 +1806,54 @@
         ]
       },
       "id": 66
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reinartz, Fritz",
+        "description": [
+          "Vorsitzender des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+        ],
+        "icon": "house",
+        "address": "Eller Str. 169, Düsseldorf",
+        "begin": "1928-01-01",
+        "end": "1928-01-31",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.802516579627991,
+          51.21406835836243
+        ]
+      },
+      "id": 1540048442220
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schmand, Robert",
+        "description": [
+          "Obmann des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+        ],
+        "icon": "house",
+        "address": "Posener Str. 9, Düsseldorf-Eller",
+        "begin": "1928-01-01",
+        "end": "1928-01-31",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.832176446914673,
+          51.2093132343518
+        ]
+      },
+      "id": 1540048706789
     }
   ]
 }

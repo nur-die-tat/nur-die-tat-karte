@@ -582,7 +582,9 @@
         "description": [
           "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
           "Der PGD beschäftigte sich mit den Themen Erste Hilfe, Haus- und Krankenhilfe und Unfallverhütung. Das Ziel war eine bessere Erstversorgung verunglückter Arbeiter, das durch Schulungen für eben jene erreicht werden sollte.",
-          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. Erkennbar ist dies z.B. hier in Düsseldorf auch daran, dass der PGD teilweise die Vereinsräume der FAUD nutzte."
+          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. Erkennbar ist dies z.B. hier in Düsseldorf auch daran, dass der PGD teilweise die Vereinsräume der FAUD nutzte.",
+          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a> Obmann.",
+          ""
         ],
         "icon": "meet",
         "address": "Hildener Straße, Düsseldorf",
@@ -703,6 +705,56 @@
         ]
       },
       "id": 1539289989171
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Generalversammlung PGD",
+        "description": [
+          "Am 14. Januar 1928 fand um 19 Uhr eine Generalversammlung des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienst (PGD)</a> in der noch heute betriebenen Gaststätte Ratte statt.",
+          "",
+          "<a href='#' class='image-modal'> <img src='images/gaststaette_ratte.jpg' style='width: 30rem'> </a>"
+        ],
+        "icon": "meet",
+        "address": "Gumbertstraße 100, Eller",
+        "begin": "1928-01-14",
+        "end": "1928-01-14",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.1, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8364062905311584,
+          51.2024451621048
+        ]
+      },
+      "id": 1540047523972
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbeitsbörse Groß-Düsseldorf",
+        "description": [
+          "Sonntag, 5. Februar 1928: Mitgliederversammlung der Arbeitsbörse Groß-Düsseldorf im Würzburger Hof."
+        ],
+        "icon": "meet",
+        "address": "Ecke Kurfürsten- und Klosterstraße",
+        "begin": "1928-02-05",
+        "end": "1928-02-05",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7929357290267935,
+          51.223960131153284
+        ]
+      },
+      "id": 1540050071455
     }
   ]
 }
