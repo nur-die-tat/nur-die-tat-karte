@@ -74,7 +74,7 @@ function setMapQueryFromSearch(search) {
       const [key, val] = keyVal.split('=');
       mapQuery[key] = val;
     }
-    eventChannel.dispatchEvent(new CustomEvent('mapQuery', {detail: mapQuery}))
+    eventChannel.dispatchMapQuery(mapQuery);
   }
 }
 
@@ -100,7 +100,7 @@ export function initPages() {
   page = window.location.pathname.slice(1) || page;
   search = window.location.search || search;
   if (page === 'karte') {
-    eventChannel.addEventListener('mapCreated', function () {
+    eventChannel.on('mapCreated', function () {
       setMapQueryFromSearch(search);
     });
   }

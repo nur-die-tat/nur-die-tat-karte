@@ -42,22 +42,30 @@ export class FeatureDetails {
     this.featureAddressElement = document.querySelector('#feature-address');
     this.featureSourcesElement = document.querySelector('#feature-sources');
 
-    eventChannel.addEventListener('mapQuery', function (e) {
-      this.focusOnFeatureByIds(parseInt(e.detail['feature']), e.detail['layer']);
-    }.bind(this));
+    eventChannel.on('mapQuery', e => {
+      this.focusOnFeatureByIds(parseInt(e.mapQuery['feature']), e.mapQuery['layer']);
+    });
+
+    this.timePicker.on('click:feature', e => {
+      this.focusOnFeature(e.feature, e.layer);
+    })
   }
 
   focusOnFeatureByIds (featureId, layerId) {
     let layer = this.vectorLayers.find(l => l.get('id') === layerId);
     let feature = layer.getSource().getFeatures().find(f => f.getId() === featureId);
     if (!feature) {
-      setTimeout(function () {
+      setTimeout(() => {
         this.focusOnFeatureByIds(featureId, layerId);
-      }.bind(this), 200);
+      }, 200);
     } else {
-      this.map.getView().animate({center: ol.extent.getCenter(feature.getGeometry().getExtent())});
-      this.showFeatureDetails(feature, layer);
+      this.focusOnFeature(feature, layer)
     }
+  }
+
+  focusOnFeature (feature, layer) {
+    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()) });
+    this.showFeatureDetails(feature, layer);
   }
 
   showFeatureDetails(feature, layer) {
@@ -79,7 +87,7 @@ export class FeatureDetails {
 
       this.activeFeature = feature;
 
-      this.timePicker.setFeature(new Date(feature.get('begin')), new Date(feature.get('end')), feature.get('icon'));
+      this.timePicker.setHighlightFeature(feature);
 
       this.detailsElement.classList.remove('hidden');
       this.detailsElement.scrollTop=0;
