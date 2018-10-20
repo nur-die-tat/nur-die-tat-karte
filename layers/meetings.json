@@ -519,21 +519,22 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Versammlungsraum",
+        "name": "FAUD Versammlungsraum",
         "description": [
-          "Metallarbeiterversammlung Sonntag, den 22.01.1928 ab 10 Uhr Versammlung der Metallarbeiter von Düsseldorf.",
-          "\"Tagesordnung sehr reichlich.\"",
+          "Versammlung der Metallarbeiter Düsseldorf, Sonntag, den 22.01.1928 ab 10 Uhr. \"Tagesordnung sehr reichlich.\"",
           "",
           "Treffen der Syndikalistisch-Anarchistischen Jugend jeden Mittwoch um 20 Uhr im Hof.",
           "",
-          "Jahresgeneralversammlung der Bauarbeiterföderation Ortsgruppe Düsseldorf."
+          "31.01.1928 Jahresgeneralversammlung der Bauarbeiterföderation Ortsgruppe Düsseldorf."
         ],
         "icon": "meet",
         "address": "Ackerstr. 154, Düsseldorf",
         "begin": "1928-01-22",
         "end": "1928-01-22",
         "sources": [
-          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.2, S. 4."
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.2, S. 4.",
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.3, S. 4.",
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S. 4."
         ]
       },
       "geometry": {
@@ -598,6 +599,31 @@
         ]
       },
       "id": 1526592443184
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Verlag Freie Sänger",
+        "address": "Siegstraße 15, Düsseldorf",
+        "icon": "music",
+        "description": [
+          "Verlag der Freien Sängergemeinschaft, bei Paul Mittau.",
+          "Hier konnten Partituren zur Ansicht bestellt werden. Unter anderem gab es Auftritte in der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>\"Siedlung Freie Erde\"</a>. Bei der Sängergemeinschaft engagierte sich auch <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>."
+        ],
+        "begin": "1928-01-01",
+        "end": "1928-02-30",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.2, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.758919954299926,
+          51.21305016464294
+        ]
+      },
+      "id": 1540055254910
     }
   ]
 }

@@ -11,7 +11,7 @@
           "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933696/max/1920/1080/c40bf1a97b554a72d6a4d4695e40996d/Vg/bayer-150-wer-am-rhein2-jpg.jpg' style='width: 20rem'> </a>",
           "Foto: Arbeiterhäuser in der Nobelstraße 1907, Nähe Adolf-Bayerstr, <a href='http://www.ksta.de/region/leverkusen/stadt-leverkusen/--2537576'>Leverkusener Anzeiger</a>."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "3. Stock der Adolf-Bayerstraße 64, Leverkusen-Wiesdorf",
         "begin": "1921-08-29",
         "end": "1921-11-30",
@@ -45,7 +45,7 @@
           "<a href='#' class='image-modal'> <img src='https://search.socialhistory.org/Cover/Show?author=&callnumber=BG+A37%2F571-2&size=small&title=%5BPhoto.%5D+CNT+%28Espa%C3%B1a%29%2C&pid=30051000534435&publication=pictoright' style='width: 20rem'> </a>",
           "Foto: Internationale Milizionäre der Kolonne Durruti, <a href='https://search.socialhistory.org/Record/776313'> International Institute of Social History (IISH)</a> (keine höhere Auflösung)."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Haspeler Schulstr. 19, Wuppertal-Barmen",
         "begin": "1928-01-01",
         "end": "1935-01-31",
@@ -71,7 +71,7 @@
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Vorsitzender;",
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Weidengasse 44, Köln",
         "begin": "1921-01-01",
         "end": "1921-01-31",
@@ -97,7 +97,7 @@
           "Verantwortlicher für Planung und Unterkünfte während der Antikriegstage 1929.",
           "trug zu Ausschluss von <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Keupstraße 121, Köln",
         "begin": "1929-05-01",
         "end": "1929-09-30",
@@ -126,7 +126,7 @@
           "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>;",
           "verantwortlich für Anschriften an die Syndikalistisch-Anarchistische Jugend 1926."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Buschfeldstraße 106¹, Köln-Hohlweide",
         "begin": "1922-06-01",
         "end": "1926-03-31",
@@ -154,7 +154,7 @@
           "1922 bei <a class='feature-link' data-layer='meetings' data-feature='5' href='#'>Versammlung</a> in Amt gewählt, neben <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt.",
           "Deligierter Kölns auf der Tagung der Agitations-Kommission Rheinland am 23. & 27.04."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Karthäuser Hof 3, Köln-Mülheim",
         "begin": "1922-01-01",
         "end": "1922-01-31",
@@ -182,7 +182,7 @@
           "Annahme von Zuschriften für Bezirkskonferenz 23.11.1924, dort Redner (u.a. bzgl. Vertagung der Bezirksbörsengründung, wegen zu weniger Anwesenden);",
           "auf 15. Kongress der FAUD (10-13.04.1925 in Dresden) Delegierter für: Barmen, Köln, Remscheid, Solingen, Wirges (Westerwald) Wiesdorf."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Perlengraben 4, Köln",
         "begin": "1923-7-01",
         "end": "1925-04-30",
@@ -212,7 +212,7 @@
           "Schriftführer, verantwortlich für Zuschriften zwecks Neuaufbau der Köln-Mülheimer Gruppen im Januar 1922;",
           "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='meetings' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='17' href='#'>Nußbaum</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Bleichstr. 4, Köln-Mülheim (vermutete Lage)",
         "begin": "1922-01-01",
         "end": "1922-01-31",
@@ -244,7 +244,7 @@
           "",
           ""
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Erkrather Str. 113, Düsseldorf (grobe Lage)",
         "begin": "1926-04-01",
         "end": "1928-02-30",
@@ -272,7 +272,7 @@
           "nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 zweiter Schriftführer;",
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Eigelstein 143, Köln",
         "begin": "1920-12-31",
         "end": "1921-01-31",
@@ -296,7 +296,7 @@
         "name": "Faßbender, Gerhard",
         "address": "Deutscher Ring 64, Köln",
         "description": "Wurde 1921 ausgeschlossen, weil er eine 16-stündige Schicht schob. Das wurde als unsolidarisch gewertet, da es den Arbeitsplatz anderer gefährdete.",
-        "icon": "house",
+        "icon": "home",
         "begin": "1921-03-01",
         "end": "1921-04-30",
         "sources": [
@@ -320,7 +320,7 @@
         "name": "Forsch",
         "address": "Hackländerstr 30, Köln-Ehrenfeld",
         "description": "Föderation der Bauarbeiter (FAUD), Schriftführer.",
-        "icon": "house",
+        "icon": "home",
         "begin": "1923-09-01",
         "end": "1923-09-30",
         "sources": [
@@ -346,7 +346,7 @@
           "Schriftführer der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
           "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Vinzenzstr. 16-18, Köln",
         "begin": "1922-06-01",
         "end": "1922-07-31",
@@ -372,7 +372,7 @@
           "1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
           "keine Festnahme."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Am Wiesengrund 16, Köln/Dünnwald",
         "begin": "1932-12-01",
         "end": "1936-12-31",
@@ -401,7 +401,7 @@
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>;",
           "1922 erneut in wildem Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='strike' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='persons' data-feature='2' href='#'>Peter König</a>, noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Heidestraße 176, Hürth",
         "begin": "1920-07-01",
         "end": "1923-03-31",
@@ -430,7 +430,7 @@
           "keine Festnahme;",
           "vermuteter Lage."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Günestraße 16, Köln",
         "begin": "1932-12-01",
         "end": "1936-12-31",
@@ -454,7 +454,7 @@
       "properties": {
         "name": "Klein, Wilhelm",
         "description": "Kreisbörse Köln (FAUD), Geschäftsleitung.",
-        "icon": "house",
+        "icon": "home",
         "address": "Buchforststr. 106, Köln-Kalk",
         "begin": "1924-01-01",
         "end": "1924-01-31",
@@ -483,7 +483,7 @@
           "04. April 1922 Wahl in wilden Betriebsrat für 900 Steikende im <a class='feature-link' data-layer='strike' data-feature='3' href='#'>Kraftwerk Goldenberg</a>, gemeinsam mit <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Wilhelm Kattarius</a>; noch am gleichen Tag Verhaftung und später Verurteilung zu einem Monat Gefängnis, wegen Anzettelns eines wilden Streiks durch britisches Militärgericht;",
           "bei der Verhandlung Sprecher der insg. vier Personen, die von der Besatzung verurteilt wurden."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Aachener Str. 64, Köln",
         "begin": "1921-01-01",
         "end": "1922-04-30",
@@ -507,7 +507,7 @@
       "properties": {
         "name": "Konitzny, S.",
         "description": "Ab 23.01.1929 Schriftführer der FAU Köln-Süd.",
-        "icon": "house",
+        "icon": "home",
         "address": "Loreleystr. 10-12, Köln",
         "begin": "1929-01-01",
         "end": "1929-03-31",
@@ -534,7 +534,7 @@
           "1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
           "keine Festnahme."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Wahlenstr. 35, Köln-Ehrenfeld",
         "begin": "1932-12-01",
         "end": "1936-12-31",
@@ -561,7 +561,7 @@
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 erster Kassierer;",
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Subbelrather Str. 276, Köln",
         "begin": "1921-01-01",
         "end": "1921-02-28",
@@ -584,7 +584,7 @@
       "properties": {
         "name": "List, Wilhelm",
         "description": "Verantwortlich für Anfragen eines Quartiers zur Bauarbeiterkonferenz 15.-17.09.1928 in Köln.",
-        "icon": "house",
+        "icon": "home",
         "address": "Wilhelmstr. 45, Köln",
         "begin": "1928-08-01",
         "end": "1928-09-30",
@@ -616,7 +616,7 @@
           "<a href='#' class='image-modal'> <img src='http://www.memoriambook.com/pagine/galleria/57bc8979376c9/batalloncnt620x330.jpg' style='width: 20rem'> </a>",
           "Foto: Milizionäre des Bataillons 'Sacco & Vanzetti', auf <a href='http://www.memoriambook.com/memoriam.php?id=57bc8979376c9'>memoriambook.com</a> (Eintrag über Nicola Sacco)."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Rolshoverstr. 2, Köln-Kalk",
         "begin": "1928-08-01",
         "end": "1936-01-01",
@@ -649,7 +649,7 @@
           "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='events' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
           "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Kurzestr. 7, Köln-Kalk",
         "begin": "1922-04-01",
         "end": "1922-07-31",
@@ -682,7 +682,7 @@
           "nahm Plakat- u. Flugblattbestellungen für <a class='feature-link' data-layer='events' data-feature='3'                 href='#'>Antikriegstage 1926</a> entgegen;",
           "trat aus, nachdem ihm vorgeworfen wurde Gelder veruntreut zu haben."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Engelstr. 8, Köln",
         "begin": "1926-11-01",
         "end": "1929-01-31",
@@ -712,7 +712,7 @@
           "Obmann der Metallarbeiter Köln (Treffen im <a class='feature-link' data-layer='meetings' data-feature='3' href='#'>Holweiderhof</a>);",
           "gemeinsam in Vorstand der Metallarbeiter gewählt mit <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Bergisch Gladbacher Str. 711, Köln",
         "begin": "1922-04-01",
         "end": "1922-07-31",
@@ -744,7 +744,7 @@
           "hielt Bericht über Lage in Köln auf 7. Reichkongress der SAJD 25.-26.12.1928 in Halle; berichtete hier von 7 Gruppen im Rheinland, Einrichtung einer Bücherstube, dramatische Vorführungen, einer Kampfbühne und diverser Propagandatätigkeiten.",
           "Ausschluss im Mai 1929 auf Drängen <a class='feature-link' data-layer='persons' data-feature='12' href='#'>Borns</a>, nachdem Neumann ein Darlehen bei der FAU aufnahm und sich dann davon machte."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Dasselstr. 14, Köln",
         "begin": "1928-03-01",
         "end": "1929-05-31",
@@ -777,7 +777,7 @@
           "Kassierer 1922;",
           "lud ein zum wöchentlichen Treffen im <a class='feature-link' data-layer='meetings' data-feature='2' href='#'>Lokal Innungshaus Willi Schilling</a> im Januar 1922; es luden außerdem ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='16' href='#'>Canje</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Deutz-Mülheimer Str. 230, Köln-Deutz",
         "begin": "1922-01-01",
         "end": "1922-01-31",
@@ -800,7 +800,7 @@
       "properties": {
         "name": "Osterberg",
         "description": "Föderation der Bauarbeiter (FAUD), 1. Kassierer.",
-        "icon": "house",
+        "icon": "home",
         "address": "Ehrenfeldgürtel 81, Köln-Ehrenfeld",
         "begin": "1923-08-01",
         "end": "1923-09-30",
@@ -827,7 +827,7 @@
           "Nach Neuwahl des Vorstandes der Arbeiterbörse Köln am 05.01.1921 Revisor;",
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Lessingstr. 61, Köln",
         "begin": "1920-12-31",
         "end": "1921-01-31",
@@ -854,7 +854,7 @@
           "1937 von der Gestapo als Kölner Anarchosyndikalist registriert;",
           "keine Festnahme."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Merowingerstraße 67, Köln",
         "begin": "1929-01-01",
         "end": "1936-12-31",
@@ -881,7 +881,7 @@
         "description": [
           "Ab 23.01.1929 Erster Vorsitzender FAU Köln-Süd."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Vorgebirgstr. 23, Köln",
         "begin": "1929-01-01",
         "end": "1929-02-28",
@@ -908,7 +908,7 @@
           "1937 von der Gestapo als Kölner Anarchosyndikalist (aktiv vor 1933) registriert;",
           "keine Festnahme."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Schartgasse 6, Köln",
         "begin": "1932-12-01",
         "end": "1936-12-31",
@@ -937,7 +937,7 @@
           "lud zu <a class='feature-link' data-layer='meetings' data-feature='4' href='#'>Versammlung</a> bei Laurenz ein;",
           "rief zur Reorganisierung der Kölner Gruppen auf."
         ],
-        "icon": "house",
+        "icon": "home",
         "adress": "Eisholzweg 127, Leverkusen (Lage grob geschätzt)",
         "begin": "1921-01-01",
         "end": "1922-01-31",
@@ -973,7 +973,7 @@
           "im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft.",
           "<a href='#' class='image-modal'> <img src='../images/AE 6, S.4 (Saballa).jpg' style='width: 5rem'> </a>"
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "An Lyskirchen 6, Köln",
         "begin": "1932-01-01",
         "end": "1936-12-31",
@@ -1003,7 +1003,7 @@
           "laut Gestapo 1929 zum Kassierer Groß-Kölns gewählt;",
           "keine Festnahme."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Beethovenstr. 18, Köln",
         "begin": "1929-12-01",
         "end": "1936-12-31",
@@ -1029,7 +1029,7 @@
         "description": [
           "Wahl zum Schriftführer des Agitationskomitees Köln-Solingen 30.01.1921."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Birkengartenstr. 1, Köln",
         "begin": "1921-01-01",
         "end": "1921-02-28",
@@ -1056,7 +1056,7 @@
           "auch Sneiden; Wahl zum Agitationsleiter des Agitationskomitees Köln-Solingen 30.01.1921; wegen Agitation zu illegalem <a class='feature-link' data-layer='strike' data-feature='1' href='#'>Streik in den Farbenfabriken in Leverkusen</a> Anfang 1921, kurzzeitig in Haft;",
           "vermuteter Wohnort."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Hauptstr. 51, Leverkusen (Ohligs-Mehrscheidt)",
         "begin": "1921-01-01",
         "end": "1921-03-31",
@@ -1082,7 +1082,7 @@
           "Kassierer der FAU Köln-Mülheim im Juli 1922.",
           "Auf Halbjahresversammlung ins Amt gewählt zusammen mit <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels.</a>"
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Hardenbergstraße 53, Köln-Mülheim",
         "begin": "1922-07-01",
         "end": "1922-07-31",
@@ -1108,7 +1108,7 @@
           "Wahl zum zweiten Kassierer nach Neuwahl des Börsenvorstandes der Arbeiterbörse-Köln am 05.01.1921;",
           "weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='6' href='#'>Winkel</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Wollküche 16, Köln",
         "begin": "1920-12-01",
         "end": "1921-02-28",
@@ -1138,7 +1138,7 @@
           "als Vorsitzender bei Halbjahresversammlung wiedergewählt, gemeinsam mit Kassierer <a class='feature-link' data-layer='persons' data-feature='26' href='#'>Steinberg</a>;",
           "Ausschluss im September 1923 wegen „unkollegialen und unsyndikalistischen Verhaltens“; nähere Gründe unklar, möglicherweise letzte Zeichen des Zerfalls im Ideologiestreit."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Danziger Straße 117, Köln",
         "begin": "1922-01-01",
         "end": "1923-09-30",
@@ -1168,7 +1168,7 @@
           "Ab 1922 Leiter der Agitationskommission Rheinland.",
           "Im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke Festnahme im Januar 1937 und Verurteilung zu drei Jahren Haft."
         ],
-        "icon": "house",
+        "icon": "home",
         "begin": "1921-10-01",
         "end": "1936-12-31",
         "sources": [
@@ -1195,7 +1195,7 @@
         "description": [
           "Bei Neuwahl des Börsenvorstandes Kölns am 05.01.1921 zum zweiten Vorsitzenden gewählt;</br>weitere gewählte Personen: <a class='feature-link' data-layer='persons' data-feature='5' href='#'>Berschel</a>, <a class='feature-link' data-layer='persons' data-feature='4' href='#'>Esser</a>, <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Kattarius</a>, <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, <a class='feature-link' data-layer='persons' data-feature='7' href='#'>Lieders</a>, <a class='feature-link' data-layer='persons' data-feature='9' href='#'>Peukes</a>, <a class='feature-link' data-layer='persons' data-feature='8' href='#'>Weingarten</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Friedrichstr. 61, Köln",
         "begin": "1920-12-01",
         "end": "1921-02-28",
@@ -1222,7 +1222,7 @@
           "1925 Mitbegründer der Kalker Anarchistisch-Syndikalistischen Jugend;",
           "verantwortlich für Anmeldungen/Unterkünfte für die <a class='feature-link' data-layer='events' data-feature='3' href='#'>Antikriegstage am 31.07. & 01.08.1926</a>."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Frankfurterstr. 294, Köln-Höhenberg",
         "begin": "1922-04-01",
         "end": "1926-09-30",
@@ -1249,7 +1249,7 @@
           "Bruder von <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a>;",
           "02.05.1933 bis 04.04.1934 Schutzhaft u.a. im KZ Börgermoor, KZ Kemna, und im Gefängnis Wuppertal."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Gronau Str 48, Wuppertal-Barmen",
         "begin": "1933-01-01",
         "end": "1945-01-01",
@@ -1276,7 +1276,7 @@
           "Mitglied der Syndikalistisch-anarchistischen Jugend Deutschlands (SAJD);",
           "am Oberlandesgericht Hamm wegen Vorbereitung zum Hochverrat zu 14 Monaten Schutzhaft/Gefängnis verurteilt, 04.03.1935 - 08.10.1935 u.a. im KZ Esterwegen."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Saurenhaus 6, Wuppertal-Vohwinkel ",
         "begin": "1935-01-01",
         "end": "1935-03-01",
@@ -1302,7 +1302,7 @@
           "aktiv bei der Syndikalistisch-anarchistischen Jugend Deutschlands (SAJD);",
           "im Dezember 1938 vermutlich in Haft."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Grünewalder Berg 48, Wuppertal-Elberfeld",
         "begin": "1933-01-01",
         "end": "1945-01-01",
@@ -1326,7 +1326,7 @@
         "description": [
           "Delegierte für Düsseldorf (50 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Krahestr. 20, Düsseldorf",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1350,7 +1350,7 @@
         "description": [
           "Delegierte für Düsseldorf (50 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Ruhrtalstr. 2, Düsseldorf",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1376,7 +1376,7 @@
           "",
           "Delegierte für Groß-Berlin (208 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Kirchhofstr. 3, Berlin-Neukölln",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1402,7 +1402,7 @@
           "",
           "Franz als Vertreter der Geschäftskommission der FAUD bei <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf. "
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Alsenstr. 6, Berlin-Steglitz (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1426,7 +1426,7 @@
         "description": [
           "Delegierte für Berlin-Oberschöneweide (104 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Helmholtzstr. 105, Berlin-Oberschöneweide (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1450,7 +1450,7 @@
         "description": [
           "Delegierte für Mülheim-Ruhr (55 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Bruchstr. 32, Mülheim-Ruhr (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1474,7 +1474,7 @@
         "description": [
           "Delegierte für Friemersheim (14 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Am Damm 25, Friemersheim (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1498,7 +1498,7 @@
         "description": [
           "Delegierter für den SFB Schweinfurt (24 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf. Gründung der Ortsgruppe des SFB erst Anfang des Monats, nach Agitation durch Winkler."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Luitpoldstr. 34, Schweinfurt",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1522,7 +1522,7 @@
         "description": [
           "Delegierte für Duisburg (20 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Bachstr. 26, Duisburg",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1546,7 +1546,7 @@
         "description": [
           "Delegierter für Stettin (23 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Unterwiek 12a (heute Jana z Kolna), Stettin (vermutete Lage)\n",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1570,7 +1570,7 @@
         "description": [
           "Delegierter für Erfurt (43 Mitglieder) auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "York (heute Rosa-Luxemburg) Straße 48, Erfurt (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1594,7 +1594,7 @@
         "description": [
           "Zu Gast auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "address": "Semperstr. 13, Essen (vermutete Lage)",
         "begin": "1921-10-01",
         "end": "1921-10-31",
@@ -1622,7 +1622,7 @@
           "Redakteur bei \"Der Syndikalist\";",
           "als Redner zu Gast auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf."
         ],
-        "icon": "sfb",
+        "icon": "sfbhome",
         "sources": [
           "Der Frauenbund, I.Jg., Nr. 1, 1921, S. 2."
         ]
@@ -1643,7 +1643,7 @@
         "description": [
           "Verantwortlicher für den Inhalt des \"Rheinisch Westfälischen Kuriers\", der im <a class='feature-link' data-layer='meetings' data-feature='23' href='#'>\"Kurier Verlag\"</a> erschien."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Kempgensweg 72, Düsseldorf",
         "begin": "1928-01-07",
         "end": "1928-06-23",
@@ -1665,13 +1665,13 @@
       "type": "Feature",
       "properties": {
         "name": "Rosinke, Anton",
-        "icon": "house",
+        "icon": "home",
         "address": "Friedrich-Engels-Straße 14, Düsseldorf (Siedlung Freiheit)",
         "end": "1937-01-31",
         "begin": "1919-11-01",
         "description": [
           "* 1881, † 14.02.1937",
-          "Anton Rosinke, Schmied, Wanderarbeiter und Fabrikarbeiter war langjähriger anarchosyndikalistischer Aktivist (in FAUD und FKAD). Unter anderem engagierte er sich mit seiner Tochter und freien Jugendgruppen und der \"Freien Sängergemeinschaft\", die auch in der Düsseldorfer \"Siedlung Freie Erde\" auftrat.",
+          "Anton Rosinke, Schmied, Wanderarbeiter und Fabrikarbeiter war langjähriger anarchosyndikalistischer Aktivist (in FAUD und FKAD). Unter anderem engagierte er sich mit seiner Tochter und freien Jugendgruppen und der <a class='feature-link' data-layer='meetings' data-feature='1540055254910' href='#'>\"Freien Sängergemeinschaft\"</a>, die auch in der Düsseldorfer <a class='feature-link' data-layer='persons' data-feature='64' href='#'>\"Siedlung Freie Erde\"</a> auftrat.",
           "Im verbliebenen Haus der Siedlung kam er bis zu seiner Verhaftung Ende Januar 1937 unter. Einige Wochen später wurde Rosinke in Haft ermordet.",
           ""
         ],
@@ -1698,12 +1698,12 @@
         "begin": "1921-07-06",
         "end": "1923-03-31",
         "sources": [
-          "\"Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.\",",
-          "          \"Foto: privat/Josefine Müller, im Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>.\""
+          "Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
+          "Foto: privat/Josefine Müller, im Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>."
         ],
         "description": [
-          "Von <a href=\"https://de.wikipedia.org/wiki/Gustav_Landauer\">Gustav Landauer</a> (Wikipedia) inspiriert bauten Anarchist*innen der Gegend hier auf einem besetzten Waldstück eine kleine Siedlung auf. Ein <a class='feature-link' data-layer='meetings' data-feature='20' href='#'>ausgelagertes Treffen</a> fand zudem in der Innenstadt statt. Die Siedlung diente als Wohn-, Treff- und Veranstaltungsort.",
-          "Unter anderem wirkten hier <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>, der Maler <a href=\"https://de.wikipedia.org/wiki/Gert_Heinrich_Wollheim\">Gert Heinrich Wollheim</a> (Wikipedia) sowie <a class='feature-link' data-layer='persons' data-feature='65' href='#'>Anne Kutschke und ihr Mann Waldemar</a>. Das Siedlungskollektiv ging 1923 auseinander, die Kutschkes blieben jedoch noch Jahre wohnhaft.",
+          "Von <a href=\"https://de.wikipedia.org/wiki/Gustav_Landauer\">Gustav Landauer</a> (Wikipedia) inspiriert bauten Anarchist*innen der Gegend hier auf einem besetzten Waldstück eine kleine Siedlung auf. Ein <a class='feature-link' data-layer='meetings' data-feature='20' href='#'>ausgelagertes Treffen</a> fand zudem in der Innenstadt statt. Die Siedlung diente als Wohn-, Treff- und Veranstaltungsort. U.a. trat dort die <a class='feature-link' data-layer='meetings' data-feature='1540055254910' href='#'>\"Freien Sängergemeinschaft\"</a> auf.",
+          "Hier wirkten <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>, der Maler <a href=\"https://de.wikipedia.org/wiki/Gert_Heinrich_Wollheim\">Gert Heinrich Wollheim</a> (Wikipedia) sowie <a class='feature-link' data-layer='persons' data-feature='65' href='#'>Anne Kutschke und ihr Mann Waldemar</a>. Das Siedlungskollektiv ging 1923 auseinander, die Kutschkes blieben jedoch noch Jahre wohnhaft.",
           "<a href='#' class='image-modal'> <img src='../images/freieerde.jpg' style='width: 20rem'> </a>"
         ]
       },
@@ -1725,9 +1725,9 @@
         "begin": "1923-03-31",
         "end": "1972-06-06",
         "sources": [
-          "\"Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.\",",
-          "          \"Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>.\",",
-          "          \"Foto: Freie Erde, im <a href=\\\"https://rp-online.de/nrw/staedte/duesseldorf/stadtteile/unterbach/freie-erde_aid-17889231\\\">Artikel der RP</a>.\""
+          "Rekittke, Becker <a href=\\\"https://archiv.squat.net/duesseldorf/Dipl_Int-3_2-2.html\\\">Anarcho-SyndikalistInnen und die Siedlung ‘Freie Erde’ 1921-23</a>.",
+          "Artikel der <a href=\\\"https://duesseldorf.fau.org/im-geiste-gustav-landauers-die-freie-erde-in-duesseldorf/\\\">FAU Düsseldorf</a>.",
+          "Foto: Freie Erde, im <a href=\\\"https://rp-online.de/nrw/staedte/duesseldorf/stadtteile/unterbach/freie-erde_aid-17889231\\\">Artikel der RP</a>."
         ],
         "description": [
           "Nach Auseinandergehen des <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlungskollektivs</a> 1923 blieben Anne Kutschke († 1968) und ihr Mann Waldemar († 1970) im \"Haus Freie Erde\" wohnhaft. Während des Nationalsozialismus konnten sie dort eine Jüdin und einen Syndikalisten verstecken.",
@@ -1754,22 +1754,24 @@
           "",
           "ab Ende des 19. Jh. in Berlin; zeitweise als Lagerarbeiter und Hausdiener tätig; 1903 laut Polizeibericht erstmals bei einem anarchistischen Treffen, zunächst sehr kritisch eingestellt; ab Mai 1904 dann offenbar überzeugter Verfechter anarchistischer Ideen.",
           "",
-          "Cahn übernahm mehrfach Ämter in verschiedenen Organisationen, wie dem \"Verein freiheitlicher Sozialisten Berlins und Umgebung\", trat reichsweit als Redner in Erscheinung und veröffentlichte Artikel und Gedichte. Während des Ersten Weltkrieges befand er sich mehrfach in Haft. Im Juni 1919 Verhaftung wohl bei einer Vortragsreise in Schlesien und Inhaftierung für drei Monate. ",
+          "Cahn übernahm mehrfach Ämter in verschiedenen Organisationen, wie dem \"Verein freiheitlicher Sozialisten Berlins und Umgebung\", trat reichsweit als Redner in Erscheinung und veröffentlichte Artikel und Gedichte. Während des Ersten Weltkrieges befand er sich mehrfach in Haft. Im Juni 1919 Verhaftung wohl bei einer Vortragsreise in Schlesien und <a class='feature-link' data-layer='persons' data-feature='1539450432572' href='#'>Inhaftierung</a> für drei Monate. ",
           "",
           "Spätestens ab 1919 war er sowohl bei Föderation Kommunistischer Anarchisten Deutschlands (FKAD) als der auch Freien Vereinigung deutscher Gewerkschaften (FVdG) bzw. dann der Freien Arbeiter-Union Deutschlands (FAUD) aktiv. Nach Rudolf Rocker war Cahn bis 1933 der meistbeschäftigter Redner der FAUD. 1931 bis '32 führte er die Geschäftsstelle der Zeitung \"Der freie Arbeiter\".",
           "",
           "Redner auf Veranstaltungen (Beispiele):",
-          "<ul><li>1922 Magdeburg, 15. & 29. März sowie 12. April, <a class='feature-link' data-layer='events' data-feature='11' href='#'>\"Gott, Staat, Anarchie\"</a></li><li>1923 Hamburg, 12. Juni, <a class='feature-link' data-layer='events' data-feature='12' href='#'>\"Anarchismus und Revolution\"</a>; 13. Juni <a class='feature-link' data-layer='events' data-feature='13' href='#'>\"Mensch, Staat und Gesellschaft\"</a>; 14. Juni <a class='feature-link' data-layer='events' data-feature='14' href='#'>\"Proletarische Diktatur\"</a></li><li>1925 Berlin, 06. Januar, Öffentliche Versammlung der Syndikalisten & Anarchisten mit dem Thema: \"Heraus mit den politischen Gefangenen\"</li><li>1929 Berlin, 08. Dezember, \"Satyrischer Abend\"</li><li>1930 Werder (Havel), Juni und 2. August, Kundgebungen gegen die \"internationale Reaktion\" und zum Antikriegstag</li><li>1930 Düsseldorf, 8. März, Märzgedenkfeier</li><li>1930 Berlin, 15.-20. März, mehrere Veranstaltungen zum Thema: \"Die freie Liebe\"</li><li>1930 Berlin, 22. März, Märzgedenkfeier</li><li>1931 Berlin, 1. Mai, Demonstration durch Vororte</li><li>1931 Berlin, 25.-27. Dezember, Kongress der FKAD</li></ul>",
-          "",
-          "Laut einer Zeugenaussage Ermordung im November 1938, laut Totenbuch des Konzentrationslagers Sachsenhausen 28.05.1942.",
-          ""
+          "<ul><li>1919 Berlin, 1. Mai im <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Circus Busch</a></li><li>1922 Magdeburg, 15. & 29. März sowie 12. April, <a class='feature-link' data-layer='events' data-feature='11' href='#'>\"Gott, Staat, Anarchie\"</a></li><li>1923 Hamburg, 12. Juni, <a class='feature-link' data-layer='events' data-feature='12' href='#'>\"Anarchismus und Revolution\"</a>; 13. Juni <a class='feature-link' data-layer='events' data-feature='13' href='#'>\"Mensch, Staat und Gesellschaft\"</a>; 14. Juni <a class='feature-link' data-layer='events' data-feature='14' href='#'>\"Proletarische Diktatur\"</a></li><li>1925 Berlin, 06. Januar, Öffentliche Versammlung der Syndikalisten & Anarchisten mit dem Thema: \"Heraus mit den politischen Gefangenen\"</li><li>1929 Berlin, 08. Dezember, \"Satyrischer Abend\"</li><li>1930 Werder (Havel), Juni und 2. August, Kundgebungen gegen die \"internationale Reaktion\" und zum Antikriegstag</li><li>1930 Düsseldorf, 8. März, Märzgedenkfeier</li><li>1930 Berlin, 15.-20. März, mehrere Veranstaltungen zum Thema: \"Die freie Liebe\"</li><li>1930 Berlin, 22. März, Märzgedenkfeier</li><li>1931 Berlin, 1. Mai, Demonstration durch Vororte</li><li>1931 Berlin, 25.-27. Dezember, Kongress der FKAD</li></ul>",
+          "Anfang der Dreißigerjahre beherbergte Cahn in seiner Wohnung <a class='feature-link' data-layer='persons' data-feature='1540047210405' href='#'>Fritz Scherer</a>. Beiden wurden im Nationalsozialismus \"staatsfeindliche\" Schriften zur Last gelegt.",
+          "Scherer berichtete später er habe gehört, dass Cahn im November 1938 ermordet wurde. Laut Totenbuch des Konzentrationslagers Sachsenhausen wurde er am 28.05.1942 erschossen.",
+          "<a href='#' class='image-modal'> <img src='../images/Cahn_Scherer.jpg' style='width: 20rem'> </a>",
+          "Cahn und Scherer ca. 1931 in der gemeinsamen Wohnung."
         ],
-        "icon": "house",
+        "icon": "home",
         "address": "Wadzeckstraße 4, Berlin",
         "begin": "1918-10-01",
         "end": "1937-01-31",
         "sources": [
-          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>.",
+          "<a href=\"https://bakuninhuette.de/termin/anarchistische-erinnerungsarbeit-ein-stolperstein-fuer-berthold-cahn/\">Anarchistische Erinnerungsarbeit – Ein Stolperstein für Berthold Cahn</a> (Website der Bakuninhütte)."
         ]
       },
       "geometry": {
@@ -1780,6 +1782,65 @@
         ]
       },
       "id": 66
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Festung Glatz",
+        "icon": "prison",
+        "address": "Grodzisko 1, 57-300 Kłodzko, Polen (heutige Adresse)",
+        "begin": "1919-06-01",
+        "end": "1919-09-30",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 28. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "description": [
+          "Ab Juni 1919 war <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> hier drei Monate lang in \"Schutzhaft\", nachdem er in Breslau wohl bei einer Vortragsreise verhaftet worden war."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.653320789337158,
+          50.44129242570891
+        ]
+      },
+      "id": 1539450432572
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scherer, Fritz",
+        "description": [
+          "*13.05.1903 Berlin;",
+          "†14.03.1988 ebenda",
+          "",
+          "Wanderarbeiter & Buchbinder;",
+          "in den Zwanzigerjahren bei der Anarchistischen Vereinigung Berlin und der FAUD;",
+          "November 1930 bis Mai 1931 Hüttenwart der <a class='feature-link' data-layer='events' data-feature='1540049600340' href='#'>Bakuninhütte</a>; danach Mitbewohner von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "Beiden wurden im Nationalsozialismus \"staatsfeindliche\" Schriften zur Last gelegt. Beide wurden verhaftet, Scherer kam jedoch wieder frei und wurde Feuerwehrmann.",
+          "Auch in der DDR blieb er aktiv für den Anarchismus und musste schließlich nach West-Berlin fliehen.",
+          "<a href='#' class='image-modal'> <img src='../images/Cahn_Scherer.jpg' style='width: 20rem'> </a>",
+          "Cahn und Scherer ca. 1931 in der gemeinsamen Wohnung."
+        ],
+        "icon": "home",
+        "address": "Wadzeckstraße 4, Berlin",
+        "begin": "1931-06-01",
+        "end": "1937-01-31",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>.",
+          "<a href=\"https://de.wikipedia.org/wiki/Fritz_Scherer_(Anarchist)\">Fritz Scherer</a> (Wikipedia).",
+          "<a href=\"https://bakuninhuette.de/termin/anarchistische-erinnerungsarbeit-ein-stolperstein-fuer-berthold-cahn/\">Anarchistische Erinnerungsarbeit – Ein Stolperstein für Berthold Cahn</a> (Website der Bakuninhütte)."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.415800631046295,
+          52.525177590106864
+        ]
+      },
+      "id": 1540047210405
     }
   ]
 }

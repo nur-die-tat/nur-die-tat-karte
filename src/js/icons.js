@@ -16,6 +16,11 @@ export const ICONS = {
     'metal': '../images/metal.png',
     'seed': '../images/seed.png',
     'farm2': '../images/farm2.png',
-    'farm1': '../images/farm1.png'
-
+    'farm1': '../images/farm1.png',
+    'prison': '../images/prison.png',
+    'circus': '../images/circus.png',
+    'bakuninh': '../images/bakuninh.png',
+    'home': '../images/home.png',
+    'sfbhome': '../images/sfbhome.png',
+    'music': '../images/music.png'
 };

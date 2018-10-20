@@ -537,7 +537,7 @@
           "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a>."
         ],
         "icon": "meet",
-        "address": "Bachstraße 87, Hambrug",
+        "address": "Bachstraße 87, Hamburg",
         "begin": "1923-06-14",
         "end": "1923-06-14",
         "sources": [
@@ -552,6 +552,62 @@
         ]
       },
       "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Circus Busch",
+        "description": [
+          "1. Mai 1919 große Veranstaltung bei der u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auftrat.",
+          "Im Jahr zuvor, am 10.09.1918 hatte hier der Vollzugsrat der Berliner Arbeiter- und Soldatenräte getagt."
+        ],
+        "icon": "circus",
+        "address": "Burgstraße, gegenüber der Alten Börse. Das Gebäude wurde 1937 abgerissen.",
+        "begin": "1919-05-01",
+        "end": "1919-05-01",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 28. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.400208950042725,
+          52.521528532166876
+        ]
+      },
+      "id": 1539451538049
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bakuninhütte",
+        "description": [
+          "Ab 1919 von Mitgliedern der FAUD gegründete Schutzhütte, ab 1927 ausgebaut. Der fungierte über Jahre als offener Treffpunkt, wo auch kollektiv Land bebaut wurde.",
+          "<a class='feature-link' data-layer='persons' data-feature='1540047210405' href='#'>Fritz Scherer</a> fungierte zwischenzeitlich als Hüttenwart.",
+          "Im Nationalsozialismus von der SS genutzt, nach dem Krieg von FDJ, SED und Volkspolizei.",
+          "2006 renoviert durch den \"Wanderverein Bakuninhütte e. V. Meiningen\" und seit 2015 anerkanntes Kulturdenkmal.",
+          "",
+          "<a href='#' class='image-modal'> <img src='../images/bakuninh1920.jpg' style='width: 20rem'> </a>",
+          "©<a href=\"https://bakuninhuette.de/geschichte/epoche-ab-1920/\"<a>Bakuninhütte</a>"
+        ],
+        "address": "bei Meiningen auf dem Berg Hohe Maas.",
+        "begin": "1919-03-01",
+        "end": "1937-01-31",
+        "sources": [
+          "<a href=\"https://bakuninhuette.de/geschichte/\"<a>Die Bakuninhütte im Wandel der Zeit</a> (Website des Wanderverein Bakuninhütte e.V.).",
+          "<a href=\"https://de.wikipedia.org/wiki/Bakuninh%C3%BCtte>/a>Bakuninhütte\"</a> (Wikipedia)."
+        ],
+        "icon": "bakuninh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.462315678596497,
+          50.562784922123285
+        ]
+      },
+      "id": 1540049600340
     }
   ]
 }
