@@ -1,9 +1,9 @@
 {
   "begin": "1918-10-01",
-  "end": "1937-01-01",
+  "end": "1937-02-01",
   "events": [
     {
-      "time": "1918-10-01",
+      "time": "1918-11-01",
       "name": "Novemberrevolution /<br/>Ende 1. Weltkrieg"
     },
     {
@@ -27,7 +27,7 @@
       "name": "Machtübernahme der <br/>Nationalsozialisten"
     },
     {
-      "time": "1937-01-01",
+      "time": "1937-02-01",
       "name": "Zerschlagung der letzten <br/>anarchistischen Gruppen"
     }
   ]

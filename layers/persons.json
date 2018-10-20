@@ -1164,7 +1164,9 @@
         "name": "Windhoff, Carl",
         "address": "Grafenberger Allee 257, Düsseldorf",
         "description": [
-          "1882-1940. U.a. Redner auf dem 13. Kongress der FAUD. In hitziger Debatte sprach sich Windhoff sowohl gegen die Betätigung in Parteien aus, als auch gegen die Arbeitsweise von als individual-anarchistisch angesehenen Gruppen. Zu letzteren gehörten insbesondere auch diverse Kölner Gruppen. Tatsächlich distanzierte sich die FAUD in Folge des Kongresses von Parteipolitik und die meisten individualanarchistischen Gruppen zerfielen. Beides führte jedoch auch für die FAUD zu einem starken Mitgliederschwund.",
+          "1882-1940.",
+          "U.a. Eine der zentralen Figuren der <a class='feature-link' data-layer='meetings' data-feature='1539281837723' href='#'>Gründungskonferenz der FAU Rheinland-Westfalen</a> im Jahre 1919.",
+          "Redner auf dem 13. Kongress der FAUD. In hitziger Debatte sprach sich Windhoff sowohl gegen die Betätigung in Parteien aus, als auch gegen die Arbeitsweise von als individual-anarchistisch angesehenen Gruppen. Zu letzteren gehörten insbesondere auch diverse Kölner Gruppen. Tatsächlich distanzierte sich die FAUD in Folge des Kongresses von Parteipolitik und die meisten individualanarchistischen Gruppen zerfielen. Beides führte jedoch auch für die FAUD zu einem starken Mitgliederschwund.",
           "Ab 1922 Leiter der Agitationskommission Rheinland.",
           "Im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke Festnahme im Januar 1937 und Verurteilung zu drei Jahren Haft."
         ],
@@ -1747,6 +1749,30 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Jülich, G.",
+        "description": [
+          "Kassierer der FAUD Essen (1921)"
+        ],
+        "icon": "home",
+        "address": "Leipziger Str. 73, Essen",
+        "begin": "1921-02-01",
+        "end": "1921-02-28",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.971501111984253,
+          51.44419140091356
+        ]
+      },
+      "id": 1539287953233
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cahn, Berthold",
         "description": [
           "*16.05.1871 Langenlonsheim bei Bad Kreuznach,",
@@ -1796,7 +1822,7 @@
         ],
         "description": [
           "Ab Juni 1919 war <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> hier drei Monate lang in \"Schutzhaft\", nachdem er in Breslau wohl bei einer Vortragsreise verhaftet worden war."
-        ]
+                    ]
       },
       "geometry": {
         "type": "Point",
@@ -1836,11 +1862,59 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.415800631046295,
+                      13.415800631046295,
           52.525177590106864
         ]
       },
       "id": 1540047210405
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reinartz, Fritz",
+        "description": [
+          "Vorsitzender des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+        ],
+        "icon": "home",
+        "address": "Eller Str. 169, Düsseldorf",
+        "begin": "1928-01-01",
+        "end": "1928-01-31",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.802516579627991,
+          51.21406835836243
+        ]
+      },
+      "id": 1540048442220
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schmand, Robert",
+        "description": [
+          "Obmann des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+        ],
+        "icon": "home",
+        "address": "Posener Str. 9, Düsseldorf-Eller",
+        "begin": "1928-01-01",
+        "end": "1928-01-31",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.832176446914673,
+          51.2093132343518
+        ]
+      },
+      "id": 1540048706789
     }
   ]
 }

@@ -549,7 +549,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Treffen der Ortsgruppe Eller",
+        "name": "Ortsgruppe Eller",
         "description": [
           "Regelmäßige Treffen der Ortsgruppe Eller bei „Maas“;",
           "Unter anderem Jahresgeneralversammlung, Funktionärssitzung, Mitgliederversammlung."
@@ -574,7 +574,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kurse des proletarischen Gesundheitsdiensts",
+        "name": "Proletarischer Gesundheitsdienst",
         "sources": [
           "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S.4.",
           "https://de.wikipedia.org/wiki/Proletarischer_Gesundheitsdienst",
@@ -582,9 +582,10 @@
         ],
         "description": [
           "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
-          "",
           "Der PGD beschäftigte sich mit den Themen Erste Hilfe, Haus- und Krankenhilfe und Unfallverhütung. Das Ziel war eine bessere Erstversorgung verunglückter Arbeiter, das durch Schulungen für eben jene erreicht werden sollte.",
-          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Nachdem jedoch im Rahmen der Einheitsfrontpolitik im Jahre 1926 nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund übergewechselt waren konsolidierte sich der PGD ab dem Jahre 1928 als antiautoritäre, FAUD-nahe Organisation."
+          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. Erkennbar ist dies z.B. hier in Düsseldorf auch daran, dass der PGD teilweise die Vereinsräume der FAUD nutzte.",
+          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a> Obmann.",
+          ""
         ],
         "icon": "meet",
         "address": "Hildener Straße, Düsseldorf",
@@ -624,6 +625,162 @@
         ]
       },
       "id": 1540055254910
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gründung FAU Rheinland-Westfalen",
+        "icon": "meet",
+        "address": "Flinger Steinweg (heute Schadowstraße), Düsseldorf",
+        "begin": "1919-09-15",
+        "end": "1919-09-16",
+        "sources": [
+          "Der Syndikalist, I.Jg., Nr.42, S.1"
+        ],
+        "description": [
+          "Am 15. und 16. September des Jahres 1919 fand im Rittersaal der (alten) Tonhalle in Düsseldorf die „Verschmelzungskonferenz der linksrheinischen Gewerkschaftsgruppen Rheinlands und Westfalen“ statt. Einberufen war die Konferenz von der „Freien Vereinigung“ um sich gemeinsam besser gegen die Unterdrückung durch die sozialdemokratische Partei und die Zentralgewerkschaften zu Wehr setzen zu können. Teil nahmen außerdem die „Allgemeine Arbeiter-Union Essen“, die „Allgemeine deutsche Arbeiter-Union Düsseldorf“, die „Bergarbeiter-Union“ und der „Allgemeine Arbeiter-Verband“. Im Laufe der Konferenz schlossen sich die Gewerkschaften zur der „Freien Arbeiter-Union für Rheinland und Westfalen“ zusammen.",
+          "",
+          "Als bedeutenster Beitrag zur Gründung einer Förderation wurde im Nachhinein ein Redebeitrag Rudolf Rockers angesehen. Dieser behandelte die „Verschmelzungsfrage im Licht der geschichtlichen Entwicklung der internationalen Arbeiterbewegung“. Programmatisch wurde an das Programm des 7. und 9. Syndikalistenkongresses 1906 und 1910 angeknüpft. Den neu gewählten Namen verkündete <a class='feature-link' data-layer='persons' data-feature='44' href='#'>Carl Windhoff</a>.",
+          "",
+          "Später ging die „Freien Arbeiter-Union für Rheinland und Westfalen“ in der „Freien Arbeiter-Union Deutschland“ auf.",
+          "",
+          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alte_st%C3%A4dtische_Tonhalle_in_D%C3%BCsseldorf%2C_1863%2C_Erweiterung_von_1889_bis_1892%2C_Architekten_Hermann_vom_Endt_und_Bruno_Schmitz%2C_Stadtbaumeister_Eberhard_Westhofen_und_Stadtbaurat_Peiffhoven%2C_1894.jpg/978px-thumbnail.jpg' style='width: 30rem'> </a>",
+          "Die (alte) Tonhalle in Düsseldorf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.787008047103882,
+          51.22728939038727
+        ]
+      },
+      "id": 1539281837723
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wirtschaft A. Ader",
+        "description": [
+          "Mitgliederversammlung der FAUD Essen.",
+          "Kassierer war zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='1539287953233' href='#'>G. Jülich</a>."
+        ],
+        "icon": "meet",
+        "address": "Kastanienallee 85",
+        "begin": "1921-06-02",
+        "end": "1921-06-02",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.00802206993103,
+          51.4589472977323
+        ]
+      },
+      "id": 1539287403344
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ortsgruppe Eschweiler",
+        "description": [
+          "Generalversammlung der Föderation der Metallarbeiter im Lokal von Wilhelm Lowens.",
+          "",
+          "<span style='font-style: italic'>„Tagesordnung: 1. Geschäfts- und Kassenbericht. 2. Neuwahl des Vorstandes. 3. Vortrag des Genossen Müller. 4. Familienabend. 5. Verschiedenes.<br>Wir erwarten, daß jedes Mitglied erscheint. Als Ausweis dient Mitgliedsbuch. Frauen herzlich willkommen.“</span>"
+        ],
+        "icon": "meet",
+        "address": "Burgstraße 60",
+        "begin": "1921-02-13",
+        "end": "1921-02-13",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.258781850337982,
+          50.811888950405184
+        ]
+      },
+      "id": 1539289221874
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Versammlung Freie Gemeinschaft Solidarität",
+        "description": [
+          "Versammlung in Willerts Gesellschaftshaus zum Thema „Die Arbeitsschule als Aufbau der kommunistischen Gesellschaft“ Referiert hat Heinrich Vogeler aus Worpswede."
+        ],
+        "icon": "meet",
+        "address": "Kohlhöfen 27",
+        "begin": "1921-02-15",
+        "end": "1921-02-15",
+        "sources": [
+          "Der Syndikalist, III.Jg., Nr.5, S.4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.97982919216156,
+          53.553177947216454
+        ]
+      },
+      "id": 1539289989171
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Generalversammlung PGD",
+        "description": [
+          "Am 14. Januar 1928 fand um 19 Uhr eine Generalversammlung des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienst (PGD)</a> in der noch heute betriebenen Gaststätte Ratte statt.",
+          "",
+          "<a href='#' class='image-modal'> <img src='images/gaststaette_ratte.jpg' style='width: 30rem'> </a>"
+        ],
+        "icon": "meet",
+        "address": "Gumbertstraße 100, Eller",
+        "begin": "1928-01-14",
+        "end": "1928-01-14",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.1, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8364062905311584,
+          51.2024451621048
+        ]
+      },
+      "id": 1540047523972
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbeitsbörse Groß-Düsseldorf",
+        "description": [
+          "Sonntag, 5. Februar 1928: Mitgliederversammlung der Arbeitsbörse Groß-Düsseldorf im Würzburger Hof."
+        ],
+        "icon": "meet",
+        "address": "Ecke Kurfürsten- und Klosterstraße",
+        "begin": "1928-02-05",
+        "end": "1928-02-05",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7929357290267935,
+          51.223960131153284
+        ]
+      },
+      "id": 1540050071455
     }
   ]
 }
