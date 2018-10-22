@@ -453,7 +453,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Vortragsreihe \"Gott, Staat, Anarchie\"",
+        "name": "Vortragsreihe Gott, Staat, Anarchie",
         "description": [
           "15. & 29. März sowie 12. April 1922",
           "Vortrags-Abende der Föderation kommunistischer Anarchisten Deutschlands (FKAD) zum Thema: \"Gott, Staat, Anarchie\" mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>"
@@ -558,8 +558,10 @@
       "properties": {
         "name": "Circus Busch",
         "description": [
-          "1. Mai 1919 große Veranstaltung bei der u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auftrat.",
-          "Im Jahr zuvor, am 10.09.1918 hatte hier der Vollzugsrat der Berliner Arbeiter- und Soldatenräte getagt."
+          "Am 10.11.1918 hatte hier die Vollversammlung der Berliner Arbeiter- und Soldatenräte getagt und den <a class='feature-link' data-layer='events' data-feature='1540235706811' href='#'>Vollzugsrat</a> gewählt. (Wohl ohne Beteiligung Antiautoritärer.)",
+          "Am 1. Mai 1919 fand eine große Mai-Veranstaltung statt, bei der u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auftrat.",
+          "<a href='#' class='image-modal'> <img src='../images/Circus_Busch_(Berlin).jpg' style='width: 20rem'> </a>",
+          "Foto: Wikimedia, <a href=\"https://de.wikipedia.org/wiki/Circus_Busch-Roland\">zum Wiki-Artikel</a>"
         ],
         "icon": "circus",
         "address": "Burgstraße, gegenüber der Alten Börse. Das Gebäude wurde 1937 abgerissen.",
@@ -608,6 +610,117 @@
         ]
       },
       "id": 1540049600340
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boeker´s Festsäle",
+        "description": [
+          "Am 3. Februar 1919 hatte hier der Vollzugsrat der Berliner <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Arbeiter- und Soldatenräte</a> getagt. (Wohl ohne Beteiligung Antiautoritärer.)",
+          "Zum 7. Januar 1925 ludt die Arbeitsbörse Groß-Berlin der FAUD hier zu einer Versammlung unter dem Titel \"Heraus mit den politischen Gefangenen!\" Die Eröffnung hielt Erich Mühsam. Als weitere Redner traten Rudolf Rocker, <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> und Viktor Fraenkl auf.",
+          "<a href='#' class='image-modal'> <img src='../images/boekersfestsaal.jpg' style='width: 20rem'> </a>",
+          "Werbe-Postkarte aus den Zwanzigerjahren"
+        ],
+        "icon": "meet",
+        "address": "Weberstr. 17, Berlin.\nDie Straße wurde 1963 endgültig aufgehoben,",
+        "begin": "1925-01-07",
+        "end": "1925-01-07",
+        "sources": [
+          "Groß-Berliner Arbeiter- und Soldatenräte in der Revolution 1918/19, S. 528.",
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 32. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.426365852355957,
+          52.5211955976589
+        ]
+      },
+      "id": 1540235706811
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kundgebung & Demo",
+        "address": "Marktplatz, Werder (Havel) und Demonstration nach Glindow.",
+        "begin": "1930-06-01",
+        "end": "1930-08-02",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 28. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "icon": "flagw",
+        "description": [
+          "Kundgebungen auf dem Marktplatz und Demonstration nach Glindow mit \"Kapelle, Fahnen und Transparenten\".",
+          "Im Juni 1930 \"Gegen die internationale Reaktion\" mit 250 Personen.",
+          "Am 02.08.1930 zum Antikriegstag mit bis zu 70 Personen, davon etwa die Hälfte aus Berlin hinzugekommen. Mit dabei auch die <a href=\"https://de.wikipedia.org/wiki/Schwarze_Scharen\">Schwarzen Scharen</a> (Wiki-Link).",
+          "Auf beiden Veranstaltungen trat <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> als Redner auf."
+        ]
+      },
+      "geometry": {
+          "geometries": [
+          {
+            "type": "Point",
+              "coordinates": [
+                  12.94165849685669,
+                  52.37940278999042
+        ]
+      }, {
+            "type": "LineString",
+            "coordinates": [
+          [
+            12.940864562988281,
+            52.37878879795971
+          ],
+          [
+            12.937806844711302,
+            52.37745927129134
+          ],
+          [
+            12.930436134338379,
+            52.37550747982694
+          ],
+          [
+            12.925693988800049,
+            52.37397480458923
+          ],
+          [
+            12.916252613067627,
+            52.37113200970318
+          ],
+          [
+            12.916080951690674,
+            52.37094859729828
+          ],
+          [
+            12.911145687103271,
+            52.37067347726293
+          ],
+          [
+            12.910737991333008,
+            52.368066302344
+          ],
+          [
+            12.909815311431885,
+            52.366166505113
+          ],
+          [
+            12.909879684448242,
+            52.36524933238065
+          ],
+          [
+            12.909708023071289,
+            52.36464660850309
+          ]
+        ]
+      } 
+     ],
+         "type": "GeometryCollection"
+      },
+         "id": 1540238806794
+    
     }
+              
+
   ]
 }

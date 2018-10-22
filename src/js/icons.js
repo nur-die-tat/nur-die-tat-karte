@@ -22,5 +22,6 @@ export const ICONS = {
     'bakuninh': '../images/bakuninh.png',
     'home': '../images/home.png',
     'sfbhome': '../images/sfbhome.png',
-    'music': '../images/music.png'
+    'music': '../images/music.png',
+    'medicine': '../images/medicine.png'
 };

@@ -168,7 +168,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "„Zum Hirsch“",
+        "name": "Zum Hirsch",
         "address": "Kämmergasse, Köln (Lage geschätzt)",
         "description": [
           "Lokal „Zum Hirsch“ Besitzer Reetz in der Kämmergasse;",
@@ -197,7 +197,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "„Witwe Dropp“",
+        "name": "Witwe Dropp",
         "address": "Siegburger Straße, Deutz (Lage geschätzt)",
         "description": [
           "Auch „Tropp“;",
@@ -226,7 +226,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "„Witwe Laurenz“",
+        "name": "Witwe Laurenz",
         "address": "Kalk-Mülheimer Straße 337, Köln",
         "description": [
           "Restaurant „Witwe Laurenz“;",
@@ -313,7 +313,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Siedlergruppe „Freie Erde“",
+        "name": "Siedlergruppe Freie Erde",
         "description": [
           "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons.",
           "Die <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung</a> bestand 1921 bis 1923.",
@@ -492,9 +492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "\"Kurier-Verlag\"",
+        "name": "Kurier-Verlag",
         "description": [
-          "\"Kurier-Verlag\" in dem ab Januar 1928 wöchentlich der \"Rheinisch-Westfälische Kurier. Sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\" erschien. Für den Druck zeichnete der hier wohnhafte Leonhard Kleefeld verantwortlich. Die FAUD in der Region erkannte die Publikation als ihr regionales Organ an.",
+          "\"Kurier-Verlag\" in dem ab Januar 1928 wöchentlich der \"Rheinisch-Westfälische Kurier - Sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\" erschien. Für den Druck zeichnete der hier wohnhafte Leonhard Kleefeld verantwortlich. Die FAUD in der Region erkannte die Publikation als ihr regionales Organ an.",
           "Verantwortlich für den Inhalt zeichnete <a class='feature-link' data-layer='persons' data-feature='62' href='#'>Johannes Gerlach</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Kurier1928nr25s1.jpg' style='width: 20rem'> </a>"
         ],
@@ -549,12 +549,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ortsgruppe Eller",
+        "name": "bei Maas, FAU Eller",
         "description": [
           "Regelmäßige Treffen der Ortsgruppe Eller bei „Maas“;",
           "Unter anderem Jahresgeneralversammlung, Funktionärssitzung, Mitgliederversammlung."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Hildener Straße, Düsseldorf",
         "begin": "1928-01-21",
         "end": "1928-03-04",
@@ -583,12 +583,12 @@
         "description": [
           "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
           "Der PGD beschäftigte sich mit den Themen Erste Hilfe, Haus- und Krankenhilfe und Unfallverhütung. Das Ziel war eine bessere Erstversorgung verunglückter Arbeiter, das durch Schulungen für eben jene erreicht werden sollte.",
-          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. Erkennbar ist dies z.B. hier in Düsseldorf auch daran, dass der PGD teilweise die Vereinsräume der FAUD nutzte.",
-          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a> Obmann.",
+          "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. So nutzte der PGD teilweise die Vereinsräume der FAUD.",
+          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a>, Obmann.",
           ""
         ],
-        "icon": "meet",
-        "address": "Hildener Straße, Düsseldorf",
+        "icon": "medicine",
+        "address": "Hildener Straße, Düsseldorf-Benrath",
         "begin": "1928-01-28",
         "end": "1928-02-18"
       },
@@ -625,7 +625,7 @@
         ]
       },
       "id": 1540055254910
-     },
+    },
     {
       "type": "Feature",
       "properties": {
@@ -666,7 +666,7 @@
           "Kassierer war zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='1539287953233' href='#'>G. Jülich</a>."
         ],
         "icon": "meet",
-        "address": "Kastanienallee 85",
+        "address": "Kastanienallee 85, Essen",
         "begin": "1921-06-02",
         "end": "1921-06-02",
         "sources": [
@@ -692,7 +692,7 @@
           "<span style='font-style: italic'>„Tagesordnung: 1. Geschäfts- und Kassenbericht. 2. Neuwahl des Vorstandes. 3. Vortrag des Genossen Müller. 4. Familienabend. 5. Verschiedenes.<br>Wir erwarten, daß jedes Mitglied erscheint. Als Ausweis dient Mitgliedsbuch. Frauen herzlich willkommen.“</span>"
         ],
         "icon": "meet",
-        "address": "Burgstraße 60",
+        "address": "Burgstraße 60, Eschweiler",
         "begin": "1921-02-13",
         "end": "1921-02-13",
         "sources": [
@@ -713,10 +713,10 @@
       "properties": {
         "name": "Versammlung Freie Gemeinschaft Solidarität",
         "description": [
-          "Versammlung in Willerts Gesellschaftshaus zum Thema „Die Arbeitsschule als Aufbau der kommunistischen Gesellschaft“ Referiert hat Heinrich Vogeler aus Worpswede."
+          "Versammlung in Willerts Gesellschaftshaus zum Thema „Die Arbeitsschule als Aufbau der kommunistischen Gesellschaft“. Referiert hat Heinrich Vogeler aus Worpswede."
         ],
         "icon": "meet",
-        "address": "Kohlhöfen 27",
+        "address": "Kohlhöfen 27, Hamburg",
         "begin": "1921-02-15",
         "end": "1921-02-15",
         "sources": [

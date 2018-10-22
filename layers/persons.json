@@ -1785,7 +1785,7 @@
           "Spätestens ab 1919 war er sowohl bei Föderation Kommunistischer Anarchisten Deutschlands (FKAD) als der auch Freien Vereinigung deutscher Gewerkschaften (FVdG) bzw. dann der Freien Arbeiter-Union Deutschlands (FAUD) aktiv. Nach Rudolf Rocker war Cahn bis 1933 der meistbeschäftigter Redner der FAUD. 1931 bis '32 führte er die Geschäftsstelle der Zeitung \"Der freie Arbeiter\".",
           "",
           "Redner auf Veranstaltungen (Beispiele):",
-          "<ul><li>1919 Berlin, 1. Mai im <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Circus Busch</a></li><li>1922 Magdeburg, 15. & 29. März sowie 12. April, <a class='feature-link' data-layer='events' data-feature='11' href='#'>\"Gott, Staat, Anarchie\"</a></li><li>1923 Hamburg, 12. Juni, <a class='feature-link' data-layer='events' data-feature='12' href='#'>\"Anarchismus und Revolution\"</a>; 13. Juni <a class='feature-link' data-layer='events' data-feature='13' href='#'>\"Mensch, Staat und Gesellschaft\"</a>; 14. Juni <a class='feature-link' data-layer='events' data-feature='14' href='#'>\"Proletarische Diktatur\"</a></li><li>1925 Berlin, 06. Januar, Öffentliche Versammlung der Syndikalisten & Anarchisten mit dem Thema: \"Heraus mit den politischen Gefangenen\"</li><li>1929 Berlin, 08. Dezember, \"Satyrischer Abend\"</li><li>1930 Werder (Havel), Juni und 2. August, Kundgebungen gegen die \"internationale Reaktion\" und zum Antikriegstag</li><li>1930 Düsseldorf, 8. März, Märzgedenkfeier</li><li>1930 Berlin, 15.-20. März, mehrere Veranstaltungen zum Thema: \"Die freie Liebe\"</li><li>1930 Berlin, 22. März, Märzgedenkfeier</li><li>1931 Berlin, 1. Mai, Demonstration durch Vororte</li><li>1931 Berlin, 25.-27. Dezember, Kongress der FKAD</li></ul>",
+          "<ul><li>1919 Berlin, 1. Mai im <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Circus Busch</a></li><li>1922 Magdeburg, 15. & 29. März sowie 12. April, <a class='feature-link' data-layer='events' data-feature='11' href='#'>\"Gott, Staat, Anarchie\"</a></li><li>1923 Hamburg, 12. Juni, <a class='feature-link' data-layer='events' data-feature='12' href='#'>\"Anarchismus und Revolution\"</a>; 13. Juni <a class='feature-link' data-layer='events' data-feature='13' href='#'>\"Mensch, Staat und Gesellschaft\"</a>; 14. Juni <a class='feature-link' data-layer='events' data-feature='14' href='#'>\"Proletarische Diktatur\"</a></li><li>1925 Berlin, 06. Januar, Öffentliche Versammlung der Syndikalisten & Anarchisten mit dem Thema: <a class='feature-link' data-layer='events' data-feature='1540235706811' href='#'>\"Heraus mit den politischen Gefangenen\"</a></li><li>1929 Berlin, 08. Dezember, \"Satyrischer Abend\"</li><li>1930 Werder (Havel), Juni und 2. August, <a class='feature-link' data-layer='events' data-feature='1540238806794' href='#'>Kundgebungen und Demonstrationen</a> gegen die \"internationale Reaktion\" und zum Antikriegstag</li><li>1930 Düsseldorf, 8. März, Märzgedenkfeier</li><li>1930 Berlin, 15.-20. März, mehrere Veranstaltungen zum Thema: \"Die freie Liebe\"</li><li>1930 Berlin, 22. März, Märzgedenkfeier</li><li>1931 Berlin, 1. Mai, Demonstration durch Vororte</li><li>1931 Berlin, 25.-27. Dezember, Kongress der FKAD</li></ul>",
           "Anfang der Dreißigerjahre beherbergte Cahn in seiner Wohnung <a class='feature-link' data-layer='persons' data-feature='1540047210405' href='#'>Fritz Scherer</a>. Beiden wurden im Nationalsozialismus \"staatsfeindliche\" Schriften zur Last gelegt.",
           "Scherer berichtete später er habe gehört, dass Cahn im November 1938 ermordet wurde. Laut Totenbuch des Konzentrationslagers Sachsenhausen wurde er am 28.05.1942 erschossen.",
           "<a href='#' class='image-modal'> <img src='../images/Cahn_Scherer.jpg' style='width: 20rem'> </a>",
@@ -1822,7 +1822,7 @@
         ],
         "description": [
           "Ab Juni 1919 war <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> hier drei Monate lang in \"Schutzhaft\", nachdem er in Breslau wohl bei einer Vortragsreise verhaftet worden war."
-                    ]
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1862,7 +1862,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-                      13.415800631046295,
+          13.415800631046295,
           52.525177590106864
         ]
       },
