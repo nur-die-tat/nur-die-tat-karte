@@ -1,35 +1,35 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Maidemonstration",
-        "description": [
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maidemonstration",
+                "description": [
           "Demonstration zum 1. Mai 1926 von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt, Karten 10 Pfennig;",
           "<a class='feature-link' data-layer='events' data-feature='2' href='#'>Abendveranstaltung</a> in Kalk (Humboldt-Kolonie)."
         ],
-        "icon": "flagw",
-        "address": "Bergischer Ring, Köln-Mühlheim",
-        "begin": "1926-05-01",
-        "end": "1926-05-01",
-        "sources": [
+                "icon": "flagw",
+                "address": "Bergischer Ring, Köln-Mühlheim",
+                "begin": "1926-05-01",
+                "end": "1926-05-01",
+                "sources": [
           "Der Syndikalist, VIII.Jg., Nr.17 S.4."
         ]
-      },
-      "geometry": {
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
+            },
+            "geometry": {
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               7.001815,
               50.958214,
               0
             ]
           },
-          {
-            "type": "LineString",
-            "coordinates": [
+                    {
+                        "type": "LineString",
+                        "coordinates": [
               [
                 7.0014519231677435,
                 50.95823941170548,
@@ -183,15 +183,15 @@
             ]
           }
         ],
-        "type": "GeometryCollection"
-      },
-      "id": 1
+                "type": "GeometryCollection"
+            },
+            "id": 1
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Antikriegstage '26",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antikriegstage '26",
+                "description": [
           "31.07.1926, Anfragen im Vorfeld an <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>, Plakat- u. Flugblattbestellungen an <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>;",
           " „[...] abends 7 Uhr, Beginn der Feier in Köln-Deutz, Konzertsaal Reimann. Gesang der Kölner Freien Sänger, Vortrag der Genossen Heinrich Melzer, Hans Schmitz und der Genossin Trautchen Kaspers. Rezitation durch Düsseldorfer, Mühlheimer-Ruhr Genossen und Sprechchöre der München-Gladbacher, Elberfelder, Duisburger und Kölner Jugendgenossen.“ ",
           "01.08.1926",
@@ -199,475 +199,475 @@
           "Ab Mittag versammelte sich der nationalistische 'Jungdeutschen Orden' ebenfalls auf dem Neumarkt. Der Syndikalist: „Entfaltet die schwarzen Fahnen in dem heiligen Köln, daß alle Spießer aufschrecken und der Schatten des Kölner Doms verscheucht werde, den alle Pfaffen notwendig haben, um ihr schändliches Menschenvernichtungswerk ausüben zu können.“ Tatsächlich kam es zu mehreren Zusammenstößen in der Innenstadt sowie Schüssen auf ein Auto abreisender Jungdeutscher. Laut Presseberichten waren v.a. kommunistische Gruppen für beides verantwortlich.",
           "„Nachmittags [Versammlung] auf den Poller Wiesen.“"
         ],
-        "icon": "peace",
-        "address": null,
-        "begin": "1926-07-31",
-        "end": "1926-08-01",
-        "sources": [
+                "icon": "peace",
+                "address": null,
+                "begin": "1926-07-31",
+                "end": "1926-08-01",
+                "sources": [
           "Der Syndikalist, VIII.Jg., Nr.30 Beilage, S.4.",
           "Rheinisch-Westfälische Zeitung, CLXXXIV.Jg., Nr.76, S.1f."
         ]
-      },
-      "geometry": {
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
+            },
+            "geometry": {
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.947688,
               50.936385,
               0
             ]
           },
-          {
-            "type": "Point",
-            "coordinates": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.983463764190674,
               50.91142188619926,
               0
             ]
           },
-          {
-            "type": "Point",
-            "coordinates": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.987778,
               50.934722,
               0
             ]
           }
         ],
-        "type": "GeometryCollection"
-      },
-      "id": 3
+                "type": "GeometryCollection"
+            },
+            "id": 3
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Antikriegsabend '28",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antikriegsabend '28",
+                "description": [
           "„Kriegsdienstgegner! Arbeiter und Arbeiterinnen, alt und jung! Erscheint in Massen am Anti-Kriegs-Abend in Köln am 25. August, abends 8 Uhr, im Lokal Industriehof, Glockengasse.“"
         ],
-        "icon": "peace",
-        "address": null,
-        "begin": "1928-08-01",
-        "end": "1928-08-31",
-        "sources": [
+                "icon": "peace",
+                "address": null,
+                "begin": "1928-08-01",
+                "end": "1928-08-31",
+                "sources": [
           "Der Syndikalist, X.Jg., Nr.33, S.4."
         ]
-      },
-      "geometry": {
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
+            },
+            "geometry": {
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.972193121910094,
               50.936874088185604,
               0
             ]
           }
         ],
-        "type": "GeometryCollection"
-      },
-      "id": 4
+                "type": "GeometryCollection"
+            },
+            "id": 4
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Antikriegstage '29",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antikriegstage '29",
+                "description": [
           "Antikriegstage 1929: „Am Samstag den 3. August, abends 7½ Uhr, findet im Saale von Josef Schmidt (früher Reihmann) eine öffentliche Anti-Kriegskundgebung in Köln-Deutz, Deutzer Freiheit 67, statt.“; „Kölner Sprechchor sowie die Kampfbühne (Schwarze Schar), Düsseldorf.“",
           "„Sonntag, den 4. August, morgens 10 Uhr, findet in Köln auf dem Heumarkt (an der Hauptmarkthalle) eine große öffentliche Kundgebung statt, mit anschließender Demonstration durch die innere Stadt. - Nachmittags Verweilen auf den Poller Wiesen.“"
         ],
-        "icon": "peace",
-        "address": null,
-        "begin": "1929-08-01",
-        "end": "1929-08-31",
-        "sources": [
+                "icon": "peace",
+                "address": null,
+                "begin": "1929-08-01",
+                "end": "1929-08-31",
+                "sources": [
           "Der Syndikalist, XI.Jg., Nr.28, S.4."
         ]
-      },
-      "geometry": {
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
+            },
+            "geometry": {
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.973162,
               50.936835,
               0
             ]
           },
-          {
-            "type": "Point",
-            "coordinates": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.961004,
               50.936506,
               0
             ]
           },
-          {
-            "type": "Point",
-            "coordinates": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
               6.984150409698486,
               50.91077246495721,
               0
             ]
           }
         ],
-        "type": "GeometryCollection"
-      },
-      "id": 5
+                "type": "GeometryCollection"
+            },
+            "id": 5
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Gedenkveranstaltung für „Märzgefallene“",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gedenkveranstaltung für „Märzgefallene“",
+                "description": [
           "21.03.1926 Gedenken an Tote der sogenannten Roten Ruhrarmee von 1920 in Wesel.",
           "Aufruf durch die Bezirksinformationsstelle der Syndikalistisch-Anarchistischen Jugend Rheinland, der FAUD und „FAK“, möglicherweise gleichbedeutend mit der <a href='https://de.wikipedia.org/wiki/F%C3%B6deration_Kommunistischer_Anarchisten_Deutschlands'>FKAD</a> (Wikipedia-Link).",
           "Treffpunkt für Reisende von außerhalb war der Bahnhof Wesel, dann gemeinsamer Zug zum „Massengrab“.",
           "Hintergrund: Auf dem jüdischen (West-)Friedhof an der Esplanade in Wesel wurden Anfang April 1920 sieben getötete Aufständische von der Sicherheitspolizei verscharrt. Die nationalistischen Kräfte hatten kein Interesse an einer ordentlichen Beerdigung von außergerichtlich Exekutierten. Auf Grund des verbreiteten antisemitischen Ressentiments, war ihnen der seit 1891 nicht mehr belegte jüdische Friedhof gerade recht zu diesem Zweck. Ähnliches ereignete sich auf dem jüdischen Friedhof in Mülheim-Holthausen."
         ],
-        "icon": "grave",
-        "address": "Esplanade, Wesel",
-        "begin": "1926-03-21",
-        "end": "1926-03-21",
-        "sources": [
+                "icon": "grave",
+                "address": "Esplanade, Wesel",
+                "begin": "1926-03-21",
+                "end": "1926-03-21",
+                "sources": [
           "Der Syndikalist, VIII.Jg., Nr. 10, Beilage S.4.",
           "Erhard Lucas, Märzrevolution 1920, Bd.3, Frankfurt 1978, S. 368.",
           "<a href='https://www.kuladig.de/Objektansicht.aspx?extid=O-13002-20110705-20'>KuLaDig Eintrag zum Friedhof</a> (abgerufen am 22.01.2018)."
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           6.609247326850891,
           51.6532491160809
         ]
-      },
-      "id": 6
+            },
+            "id": 6
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kunstabend",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kunstabend",
+                "description": [
           "Revolutionärer Kunstabend der Freien Jugend Mengede am 20.08.1921 um 20:30 Uhr im Lokal Fr. Bank;",
           "am nächsten Tag Mitgliederversammlung für Mengede, Oestrich, Gropenbruch und Schwiringshausen morgens um 9:30 Uhr;",
           "etwaige Lage in der Friedrichstraße.",
           "<a href='#' class='image-modal'> <img src='../images/DSc_I_29_4.jpg' style='width: 20rem'> </a>"
         ],
-        "icon": "theater",
-        "address": "Friedrichstraße o.A., Oestrich/Mengede, Dortmund",
-        "begin": "1921-08-01",
-        "end": "1921-08-31",
-        "sources": "Die Schöpfung, I.Jg., Nr. 29, S.4."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+                "icon": "theater",
+                "address": "Friedrichstraße o.A., Oestrich/Mengede, Dortmund",
+                "begin": "1921-08-01",
+                "end": "1921-08-31",
+                "sources": "Die Schöpfung, I.Jg., Nr. 29, S.4."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           7.336640954017638,
           51.58854128818258
         ]
-      },
-      "id": 7
+            },
+            "id": 7
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Maifeier '26",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maifeier '26",
+                "description": [
           "Maifeier am 01.05.1926;",
           "nach der <a class='feature-link' data-layer='events' data-feature='1' href='#'>Demonstration</a> um 20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
         ],
-        "icon": "theater",
-        "address": "Wattstr. 15, Köln",
-        "begin": "1926-05-01",
-        "end": "1926-05-01",
-        "sources": [
+                "icon": "theater",
+                "address": "Wattstr. 15, Köln",
+                "begin": "1926-05-01",
+                "end": "1926-05-01",
+                "sources": [
           "Der Syndikalist, VIII.Jg., Nr.17 S.4."
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           6.999595,
           50.931824,
           0
         ]
-      },
-      "id": 2
+            },
+            "id": 2
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Versammlung der Notstandsarbeiter",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Versammlung der Notstandsarbeiter",
+                "description": [
           "öffentliche Versammlung der Notstandsarbeiter im „Maurischen Tempel“ Ende August 1924;",
           "Die sog. Notstandarbeiten waren privaten Unternehmen übertragen worden, die auf drohende Streiks mit Aussperrungen reagierten. Die FAUD lud daher zu einer Protestveranstaltung ein, die von ca. 1500 besucht wurde.",
           "<a href='#' class='image-modal'> <img src='http://www.bilderbuch-koeln.de/bilder/k%C3%B6ln_altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_e4d2401762_1200x1600xin.jpeg' style='width: 20rem'> </a>"
         ],
-        "icon": "meet",
-        "address": "Vor den Siebenburgen 51, Köln",
-        "begin": "1924-08-01",
-        "end": "1924-08-31",
-        "sources": [
+                "icon": "meet",
+                "address": "Vor den Siebenburgen 51, Köln",
+                "begin": "1924-08-01",
+                "end": "1924-08-31",
+                "sources": [
           "Der Syndikalist, VIII.Jg., Nr.17 S.4.",
           "Bild: <a href='http://www.bilderbuch-koeln.de/Fotos/altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_401762'>Bilderbuch Köln, Foto 401762</a>."
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           6.949848,
           50.927217,
           0
         ]
-      },
-      "id": 8
+            },
+            "id": 8
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lokal Schmitz",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lokal Schmitz",
+                "description": [
           "Sonnwendfeier am Freitag, den 21.01.1928. Eine \"Anzahl Gegenstände\" wurde dort liegengelassen und konnte Mittwochs zwischen 18-20 Uhr abgeholt werden.",
           "\"Gründungsversammlung eines Proletarischen Gesangvereins\" am Sonntag den 22.01.1928.",
           "Das Lokal blieb darüber hinaus Anlaufstelle für Arbeitsrechtsberatungen und für (neue) \"Kollegen\"."
         ],
-        "icon": "meet",
-        "address": "Königstr. Ecke Neue Linnerstr, Krefeld",
-        "begin": "1928-01-01",
-        "end": "1928-03-01",
-        "sources": [
+                "icon": "meet",
+                "address": "Königstr. Ecke Neue Linnerstr, Krefeld",
+                "begin": "1928-01-01",
+                "end": "1928-03-01",
+                "sources": [
           "Rheinisch-Westfälischer Kurier, I.Jg, Nr.3, S.4."
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           6.564247906208038,
           51.331960727708804
         ]
-      },
-      "id": 10
+            },
+            "id": 10
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Vortragsreihe Gott, Staat, Anarchie",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vortragsreihe Gott, Staat, Anarchie",
+                "description": [
           "15. & 29. März sowie 12. April 1922",
           "Vortrags-Abende der Föderation kommunistischer Anarchisten Deutschlands (FKAD) zum Thema: \"Gott, Staat, Anarchie\" mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>"
         ],
-        "icon": "meet",
-        "address": "Stephansbrücke 38, Magdeburg (grobe Lage)",
-        "begin": "1922-03-15",
-        "end": "1922-04-12",
-        "sources": [
+                "icon": "meet",
+                "address": "Stephansbrücke 38, Magdeburg (grobe Lage)",
+                "begin": "1922-03-15",
+                "end": "1922-04-12",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           11.64349615573883,
           52.13173293955536
         ]
-      },
-      "id": 11
+            },
+            "id": 11
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Volksversammlung FKAD",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Volksversammlung FKAD",
+                "description": [
           "12. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD) im Lokal Holsteinisches Haus zum Thema \"Anarchismus und Revolution\".",
           "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
           "Veranstaltungen auch <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
         ],
-        "icon": "meet",
-        "address": "Kohlöfen 16, Hamburg",
-        "begin": "1923-06-12",
-        "end": "1923-06-12",
-        "sources": [
+                "icon": "meet",
+                "address": "Kohlöfen 16, Hamburg",
+                "begin": "1923-06-12",
+                "end": "1923-06-12",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           9.980494379997253,
           53.55245452054326
         ]
-      },
-      "id": 12
+            },
+            "id": 12
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Volksversammlung FKAD",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Volksversammlung FKAD",
+                "description": [
           "13. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  bei Struwe zum Thema \"Mensch Staat und Gesellschaft\".",
           "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
           "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
         ],
-        "icon": "meet",
-        "begin": "1923-06-13",
-        "end": "1923-06-13",
-        "sources": [
+                "icon": "meet",
+                "begin": "1923-06-13",
+                "end": "1923-06-13",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ],
-        "address": "Billhorner Deich 59, Hamburg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+                "address": "Billhorner Deich 59, Hamburg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           10.041562914848328,
           53.53507900507763
         ]
-      },
-      "id": 13
+            },
+            "id": 13
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Volksversammlung FKAD",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Volksversammlung FKAD",
+                "description": [
           "14. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  in Barmbek zum Thema \"Proletarische Diktatur\".",
           "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
           "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a>."
         ],
-        "icon": "meet",
-        "address": "Bachstraße 87, Hamburg",
-        "begin": "1923-06-14",
-        "end": "1923-06-14",
-        "sources": [
+                "icon": "meet",
+                "address": "Bachstraße 87, Hamburg",
+                "begin": "1923-06-14",
+                "end": "1923-06-14",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           10.024190247058868,
           53.5774358522731
         ]
-      },
-      "id": 14
+            },
+            "id": 14
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Circus Busch",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Circus Busch",
+                "description": [
           "Am 10.11.1918 hatte hier die Vollversammlung der Berliner Arbeiter- und Soldatenräte getagt und den <a class='feature-link' data-layer='events' data-feature='1540235706811' href='#'>Vollzugsrat</a> gewählt. (Wohl ohne Beteiligung Antiautoritärer.)",
           "Am 1. Mai 1919 fand eine große Mai-Veranstaltung statt, bei der u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auftrat.",
           "<a href='#' class='image-modal'> <img src='../images/Circus_Busch_(Berlin).jpg' style='width: 20rem'> </a>",
           "Foto: Wikimedia, <a href=\"https://de.wikipedia.org/wiki/Circus_Busch-Roland\">zum Wiki-Artikel</a>"
         ],
-        "icon": "circus",
-        "address": "Burgstraße, gegenüber der Alten Börse. Das Gebäude wurde 1937 abgerissen.",
-        "begin": "1919-05-01",
-        "end": "1919-05-01",
-        "sources": [
+                "icon": "circus",
+                "address": "Burgstraße, gegenüber der Alten Börse. Das Gebäude wurde 1937 abgerissen.",
+                "begin": "1919-05-01",
+                "end": "1919-05-01",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 28. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           13.400208950042725,
           52.521528532166876
         ]
-      },
-      "id": 1539451538049
+            },
+            "id": 1539451538049
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bakuninhütte",
-        "description": [
-          "Ab 1919 von Mitgliedern der FAUD gegründete Schutzhütte, ab 1927 ausgebaut. Der fungierte über Jahre als offener Treffpunkt, wo auch kollektiv Land bebaut wurde.",
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bakuninhütte",
+                "description": [
+          "Auf dem seit 1920 von Anarchist_innen und Anarchosyndikalist_innen genutzten Grundstück errichteten ab 1926 Mitglieder der FAUD eine Schutzhütte. Ab 1927 wurde sie mehrfach zum \"Ferien - und Schulungsheim\" der Bewegung ausgebaut. Sie entstand auf kollektiv bebautem Land und diente über Jahre als offener Treffpunkt.",
           "<a class='feature-link' data-layer='persons' data-feature='1540047210405' href='#'>Fritz Scherer</a> fungierte zwischenzeitlich als Hüttenwart.",
-          "Im Nationalsozialismus von der SS genutzt, nach dem Krieg von FDJ, SED und Volkspolizei.",
-          "2006 renoviert durch den \"Wanderverein Bakuninhütte e. V. Meiningen\" und seit 2015 anerkanntes Kulturdenkmal.",
+          "Im Nationalsozialismus von der SS und privat genutzt, nach dem Krieg von FDJ, Kulturbund und Bereitschaftspolizei.",
+          "Seit 2006 renoviert durch den \"Wanderverein Bakuninhütte e. V. Meiningen\" und seit 2015 anerkanntes Kulturdenkmal.",
           "",
           "<a href='#' class='image-modal'> <img src='../images/bakuninh1920.jpg' style='width: 20rem'> </a>",
           "©<a href=\"https://bakuninhuette.de/geschichte/epoche-ab-1920/\"<a>Bakuninhütte</a>"
         ],
-        "address": "bei Meiningen auf dem Berg Hohe Maas.",
-        "begin": "1919-03-01",
-        "end": "1937-01-31",
-        "sources": [
+                "address": "bei Meiningen auf dem Berg Hohe Maas.",
+                "begin": "1919-03-01",
+                "end": "1937-01-31",
+                "sources": [
           "<a href=\"https://bakuninhuette.de/geschichte/\"<a>Die Bakuninhütte im Wandel der Zeit</a> (Website des Wanderverein Bakuninhütte e.V.).",
-          "<a href=\"https://de.wikipedia.org/wiki/Bakuninh%C3%BCtte>/a>Bakuninhütte\"</a> (Wikipedia)."
+          "<a href=\"https://de.wikipedia.org/wiki/Bakuninh%C3%BCtte\"</a> Bakuninhütte auf Wikipedia."
         ],
-        "icon": "bakuninh"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+                "icon": "bakuninh"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           10.462315678596497,
           50.562784922123285
         ]
-      },
-      "id": 1540049600340
+            },
+            "id": 1540049600340
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boeker´s Festsäle",
-        "description": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Boeker´s Festsäle",
+                "description": [
           "Am 3. Februar 1919 hatte hier der Vollzugsrat der Berliner <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Arbeiter- und Soldatenräte</a> getagt. (Wohl ohne Beteiligung Antiautoritärer.)",
           "Zum 7. Januar 1925 ludt die Arbeitsbörse Groß-Berlin der FAUD hier zu einer Versammlung unter dem Titel \"Heraus mit den politischen Gefangenen!\" Die Eröffnung hielt Erich Mühsam. Als weitere Redner traten Rudolf Rocker, <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> und Viktor Fraenkl auf.",
           "<a href='#' class='image-modal'> <img src='../images/boekersfestsaal.jpg' style='width: 20rem'> </a>",
           "Werbe-Postkarte aus den Zwanzigerjahren"
         ],
-        "icon": "meet",
-        "address": "Weberstr. 17, Berlin.\nDie Straße wurde 1963 endgültig aufgehoben,",
-        "begin": "1925-01-07",
-        "end": "1925-01-07",
-        "sources": [
+                "icon": "meet",
+                "address": "Weberstr. 17, Berlin.\nDie Straße wurde 1963 endgültig aufgehoben,",
+                "begin": "1925-01-07",
+                "end": "1925-01-07",
+                "sources": [
           "Groß-Berliner Arbeiter- und Soldatenräte in der Revolution 1918/19, S. 528.",
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 32. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
           13.426365852355957,
           52.5211955976589
         ]
-      },
-      "id": 1540235706811
+            },
+            "id": 1540235706811
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kundgebung & Demo",
-        "address": "Marktplatz, Werder (Havel) und Demonstration nach Glindow.",
-        "begin": "1930-06-01",
-        "end": "1930-08-02",
-        "sources": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kundgebung & Demo",
+                "address": "Marktplatz, Werder (Havel) und Demonstration nach Glindow.",
+                "begin": "1930-06-01",
+                "end": "1930-08-02",
+                "sources": [
           "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 28. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
         ],
-        "icon": "flagw",
-        "description": [
+                "icon": "flagw",
+                "description": [
           "Kundgebungen auf dem Marktplatz und Demonstration nach Glindow mit \"Kapelle, Fahnen und Transparenten\".",
           "Im Juni 1930 \"Gegen die internationale Reaktion\" mit 250 Personen.",
           "Am 02.08.1930 zum Antikriegstag mit bis zu 70 Personen, davon etwa die Hälfte aus Berlin hinzugekommen. Mit dabei auch die <a href=\"https://de.wikipedia.org/wiki/Schwarze_Scharen\">Schwarzen Scharen</a> (Wiki-Link).",
           "Auf beiden Veranstaltungen trat <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> als Redner auf."
         ]
-      },
-      "geometry": {
-          "geometries": [
-          {
-            "type": "Point",
-              "coordinates": [
+            },
+            "geometry": {
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                   12.94165849685669,
                   52.37940278999042
         ]
       }, {
-            "type": "LineString",
-            "coordinates": [
+                        "type": "LineString",
+                        "coordinates": [
           [
             12.940864562988281,
             52.37878879795971
@@ -713,14 +713,14 @@
             52.36464660850309
           ]
         ]
-      } 
+      }
      ],
-         "type": "GeometryCollection"
-      },
-         "id": 1540238806794
-    
+                "type": "GeometryCollection"
+            },
+            "id": 1540238806794
+
     }
-              
+
 
   ]
 }
