@@ -43,6 +43,10 @@ export const ICONS = {
     normal: '../images/sfbmeet.png',
     active: '../images/sfbmeet-select.png'
   },
+  'sfbmeet2': {
+    normal: '../images/sfbmeet2.png',
+    active: '../images/sfbmeet2-select.png'
+  },
   'grave': {
     normal: '../images/grave.png',
     active: '../images/grave-select.png'
@@ -73,7 +77,7 @@ export const ICONS = {
   },
   'prison': {
   	normal: '../images/prison.png',
-	active: '../images/prison-select.png'
+	  active: '../images/prison-select.png'
   },	
   'circus': {
     normal: '../images/circus.png',
