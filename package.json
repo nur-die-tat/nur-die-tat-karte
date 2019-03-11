@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "lodash": "^4.17.11",
     "openlayers": "^4.0.1",
     "proj4": "^2.4.3",
     "rxjs": "^5.2.0"
@@ -37,7 +38,7 @@
     "rimraf": "^2.6.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0",
+    "webpack-dev-server": "2.11.3",
     "webpack-merge": "^4.1.0"
   }
 }
