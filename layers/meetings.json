@@ -9,7 +9,7 @@
           "Lokal, Treffen der Syndikalistisch-Anarchistischen Jugend (SAJ) jeden Dienstag um 8 Uhr (ab Ende Februar 1926);",
           "allgemeine FAU Mitglieder-Vollversamllung am Sonntag, den 05. Dezember 1926;"
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Mühlheimer Str. 112, Kalk, Köln",
         "begin": "1926-02-01",
         "end": "1926-12-31",
@@ -64,7 +64,7 @@
       "properties": {
         "name": "FAU Lokal",
         "description": [
-          "letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus."
+          "1933 letztes offizielles Lokal der FAU in Köln, vor der Illegalität im Nationalsozialismus."
         ],
         "icon": "info",
         "address": "Albertusstraße, Köln (Lage geschätzt)",
@@ -89,13 +89,13 @@
       "properties": {
         "name": "FAU Büro",
         "description": [
-          "Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
+          "1931 Geschäftsstelle der FAUD in Köln; u.a.: „Föderation der Binnenschiffer für das Rheingebiet, Zahlstelle, Aufnahmen,                      Auskunft.“",
           "„Köln und Umgegend. Telephon 228 614. Sprechstunden 10-12 und 5-7 Uhr. Rechtsauskunft, Leihbibliotek, Buchladen, Lesestube! Jeden Mittwoch 20 Uhr im Sitzungszimmer 11 öffentlicher Diskussionsabend. Jeder hat Zutritt. Eingeladen sind besonders die Leser des 'Syndikalist'“."
         ],
         "icon": "info",
         "address": "Lichhof 18, Köln (vermutliche Lage)",
         "begin": "1931-10-01",
-        "end": "1931-11-31",
+        "end": "1931-11-30",
         "sources": [
           "Der Syndikalist, XIII.Jg., Nr.43, S.3."
         ]
@@ -116,7 +116,7 @@
         "name": "Holweiderhof",
         "description": [
           "Lokal Theodor Hochwald;",
-          "Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
+          "1922 Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
           "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>.",
           "Im Juni 1922 gesammelte Solidaritätsbeiträge: 2000,- Mark."
         ],
@@ -175,7 +175,7 @@
           "Vortrag von <a target='_blank' href='https://de.wikipedia.org/wiki/Augustin_Souchy'>Augustin Souchy</a> (Wikipedia-Link) 27.08.1922;",
           "Mitglieder-Versammlung am 05.08.1923; Treffen der Bauarbeiter jeden 2. Sonntag."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "begin": "1922-08-01",
         "end": "1923-08-31",
         "sources": [
@@ -292,7 +292,7 @@
           "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Neumann</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "begin": "1928-04-01",
         "end": "1928-04-30",
         "sources": [
@@ -363,7 +363,7 @@
           "Agnes Smedley, Berlin, aus New York;",
           "<a class='feature-link' data-layer='persons' data-feature='61' href='#'>Max Winkler</a>, Neu-Kölln, als Referent."
         ],
-        "icon": "sfbmeet",
+        "icon": "sfbmeet2",
         "address": "Adlerstraße 44, Düsseldorf",
         "begin": "1921-10-15",
         "end": "1921-10-15",
@@ -385,15 +385,15 @@
         "address": "Düsseldorfer Str. 384, Köln",
         "description": [
           "23. April 1921 freisozialistischer Siedlertag;",
-          "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu Gründen.",
+          "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu gründen.",
           "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth.",
           "Ein ähnliches Projekt bestand mit der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung Freie Erde</a> in Düsseldorf."
         ],
-        "icon": "meet",
+        "icon": "farm2",
         "begin": "1921-04-01",
         "end": "1921-04-30",
         "sources": [
-          "Der Syndikalist, VIII.Jg., Nr.12, Beilage S.4."
+          "Der Syndikalist, III.Jg., Nr.12, Beilage S.4."
         ]
       },
       "geometry": {
@@ -420,7 +420,7 @@
           "07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns;",
           "Redner u.a. auch <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "begin": "1925-12-01",
         "end": "1926-07-31",
         "sources": [
@@ -446,7 +446,7 @@
         "description": [
           "06.06.1926 Treffen der Rodenkirchener Anarchosyndikalisten bei Wellershausen."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Barbarastr. 17, Rodenkirchen",
         "begin": "1926-05-01",
         "end": "1926-07-31",
@@ -527,7 +527,7 @@
           "",
           "31.01.1928 Jahresgeneralversammlung der Bauarbeiterföderation Ortsgruppe Düsseldorf."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Ackerstr. 154, Düsseldorf",
         "begin": "1928-01-22",
         "end": "1928-01-22",
@@ -584,7 +584,7 @@
           "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
           "Der PGD beschäftigte sich mit den Themen Erste Hilfe, Haus- und Krankenhilfe und Unfallverhütung. Das Ziel war eine bessere Erstversorgung verunglückter Arbeiter, das durch Schulungen für eben jene erreicht werden sollte.",
           "Er war ursprünglich keine rein antiautoritäre Organisation, sondern umfasste ganz im Gegenteil eher KPD-nahe Gruppen. Im Zuge der Einheitsfrontpolitik der KPD im Jahre 1926 wechselten jedoch nahezu alle Ortsgruppen in den Arbeiter-Samariter-Bund über. Die verbliebenen Reste des PGD treten ab dem Jahre 1928 als eher antiautoritäre, FAUD-nahe Organisation auf. Auch von der Polizei wurde der PGD in der Folgezeit als anarchosyndikalistisch bezeichnet. So nutzte der PGD teilweise die Vereinsräume der FAUD.",
-          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a>, Obmann.",
+          "In Düsseldorf fand am 14.01.1928 eine <a class='feature-link' data-layer='meetings' data-feature='1540047523972' href='#'>Generalversammlung</a> statt, <a class='feature-link' data-layer='persons' data-feature='1540048442220' href='#'>Fritz Reinartz</a> war Vorsitzender und <a class='feature-link' data-layer='persons' data-feature='1540048706789' href='#'>Robert Schmand</a> Obmann.",
           ""
         ],
         "icon": "medicine",
@@ -612,7 +612,7 @@
           "Hier konnten Partituren zur Ansicht bestellt werden. Unter anderem gab es Auftritte in der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>\"Siedlung Freie Erde\"</a>. Bei der Sängergemeinschaft engagierte sich auch <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>."
         ],
         "begin": "1928-01-01",
-        "end": "1928-02-30",
+        "end": "1928-02-28",
         "sources": [
           "Rheinisch-Westfälischer Kurier, I.Jg., Nr.2, S.4."
         ]
@@ -630,7 +630,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gründung FAU Rheinland-Westfalen",
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Flinger Steinweg (heute Schadowstraße), Düsseldorf",
         "begin": "1919-09-15",
         "end": "1919-09-16",
@@ -665,7 +665,7 @@
           "Mitgliederversammlung der FAUD Essen.",
           "Kassierer war zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='1539287953233' href='#'>G. Jülich</a>."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Kastanienallee 85, Essen",
         "begin": "1921-06-02",
         "end": "1921-06-02",
@@ -691,7 +691,7 @@
           "",
           "<span style='font-style: italic'>„Tagesordnung: 1. Geschäfts- und Kassenbericht. 2. Neuwahl des Vorstandes. 3. Vortrag des Genossen Müller. 4. Familienabend. 5. Verschiedenes.<br>Wir erwarten, daß jedes Mitglied erscheint. Als Ausweis dient Mitgliedsbuch. Frauen herzlich willkommen.“</span>"
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Burgstraße 60, Eschweiler",
         "begin": "1921-02-13",
         "end": "1921-02-13",
@@ -715,7 +715,7 @@
         "description": [
           "Versammlung in Willerts Gesellschaftshaus zum Thema „Die Arbeitsschule als Aufbau der kommunistischen Gesellschaft“. Referiert hat Heinrich Vogeler aus Worpswede."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Kohlhöfen 27, Hamburg",
         "begin": "1921-02-15",
         "end": "1921-02-15",
@@ -741,7 +741,7 @@
           "",
           "<a href='#' class='image-modal'> <img src='images/gaststaette_ratte.jpg' style='width: 30rem'> </a>"
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Gumbertstraße 100, Eller",
         "begin": "1928-01-14",
         "end": "1928-01-14",
@@ -765,7 +765,7 @@
         "description": [
           "Sonntag, 5. Februar 1928: Mitgliederversammlung der Arbeitsbörse Groß-Düsseldorf im Würzburger Hof."
         ],
-        "icon": "meet",
+        "icon": "shakehand",
         "address": "Ecke Kurfürsten- und Klosterstraße",
         "begin": "1928-02-05",
         "end": "1928-02-05",

@@ -247,7 +247,7 @@
         "icon": "home",
         "address": "Erkrather Str. 113, Düsseldorf (grobe Lage)",
         "begin": "1926-04-01",
-        "end": "1928-02-30",
+        "end": "1928-02-28",
         "sources": [
           "Der Syndikalist, VIII.Jg., Nr.16, Beilage S.4.",
           "Rheinisch-Westfälischer Kurier, I.Jg., Nr.3, S. 4."
@@ -1873,7 +1873,7 @@
       "properties": {
         "name": "Reinartz, Fritz",
         "description": [
-          "Vorsitzender des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+          "1928 Vorsitzender des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a> in Düsseldorf."
         ],
         "icon": "home",
         "address": "Eller Str. 169, Düsseldorf",
@@ -1897,7 +1897,7 @@
       "properties": {
         "name": "Schmand, Robert",
         "description": [
-          "Obmann des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a>."
+          "1928 Obmann des <a class='feature-link' data-layer='meetings' data-feature='1526592443184' href='#'>Proletarischen Gesundheitsdienstes</a> in Düsseldorf."
         ],
         "icon": "home",
         "address": "Posener Str. 9, Düsseldorf-Eller",
