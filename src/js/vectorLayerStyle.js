@@ -45,11 +45,15 @@ function createGeometryStyle(feature, resolution, geometry) {
 
     if (feature.get('icon')) {
       let iconOptions = {
-        anchor: [0.5, 1],
-        color: feature.get('active') ? 'rgba(255,128,128,0)' : undefined
+        anchor: [0.5, 1]
       };
 
-      iconOptions.src = ICONS[feature.get('icon')];
+      if (!feature.get('active')) {
+        iconOptions.src = ICONS[feature.get('icon')].normal;
+      } else {
+        iconOptions.src = ICONS[feature.get('icon')].active;
+      }
+
 
       style.setImage(new ol.style.Icon(iconOptions));
     }

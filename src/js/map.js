@@ -5,6 +5,7 @@ import {vectorLayers} from "./vectorLayers";
 import {FeatureDetails} from "./feature-details";
 import {PanelHide} from "./panelHide";
 import {eventChannel} from "./eventChannel";
+import {showVisibleFeatures} from "./time-picker/showVisibleFeatures";
 
 export function createMap() {
   // proj4.defs("EPSG:31466", "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs");
@@ -31,8 +32,12 @@ export function createMap() {
   map.set('featureDetails', new FeatureDetails(map, vectorLayers_, timePicker));
   let panelHide = new PanelHide();
 
+  map.on('moveend', () => {
+    showVisibleFeatures(timePicker, vectorLayers_, map.getView());
+  });
+
   window.map = map;
-  eventChannel.dispatchEvent(new CustomEvent('mapCreated'));
+  eventChannel.dispatchMapCreated();
 
   let updateSizes = () => {
     $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());

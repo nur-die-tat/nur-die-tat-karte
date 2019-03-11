@@ -1,27 +1,102 @@
 export const ICONS = {
-    'flagw': '../images/flagw.png',
-    'house': '../images/house.png',
-    'peace': '../images/peace.png',
-    'sfb': '../images/sfb.png',
-    'theater': '../images/theater.png',
-    'info': '../images/info.png',
-    'shakehand': '../images/shakehand.png',
-    'camp': '../images/camp.png',
-    'strike': '../images/strike.png',
-    'meet': '../images/meet.png',
-    'sfbmeet': '../images/sfbmeet.png',
-    'grave': '../images/grave.png',
-    'lecture': '../images/lecture.png',
-    'construct': '../images/construct.png',
-    'metal': '../images/metal.png',
-    'seed': '../images/seed.png',
-    'farm2': '../images/farm2.png',
-    'farm1': '../images/farm1.png',
-    'prison': '../images/prison.png',
-    'circus': '../images/circus.png',
-    'bakuninh': '../images/bakuninh.png',
-    'home': '../images/home.png',
-    'sfbhome': '../images/sfbhome.png',
-    'music': '../images/music.png',
-    'medicine': '../images/medicine.png'
+  'flagw': {
+    normal: '../images/flagw.png',
+    active: '../images/flagw-select.png'
+  },
+  'house': {
+    normal: '../images/house.png',
+    active: '../images/house-select.png'
+  },
+  'peace': {
+    normal: '../images/peace.png',
+    active: '../images/peace-select.png'
+  },
+  'sfb': {
+    normal: '../images/sfb.png',
+    active: '../images/sfb-select.png'
+  },
+  'theater': {
+    normal: '../images/theater.png',
+    active: '../images/theater-select.png'
+  },
+  'info': {
+    normal: '../images/info.png',
+    active: '../images/info-select.png'
+  },
+  'shakehand': {
+    normal: '../images/shakehand.png',
+    active: '../images/shakehand-select.png'
+  },
+  'camp': {
+    normal: '../images/camp.png',
+    active: '../images/camp-select.png'
+  },
+  'strike': {
+    normal: '../images/strike.png',
+    active: '../images/strike-select.png'
+  },
+  'meet': {
+    normal: '../images/meet.png',
+    active: '../images/meet-select.png'
+  },
+  'sfbmeet': {
+    normal: '../images/sfbmeet.png',
+    active: '../images/sfbmeet-select.png'
+  },
+  'grave': {
+    normal: '../images/grave.png',
+    active: '../images/grave-select.png'
+  },
+  'lecture': {
+    normal: '../images/lecture.png',
+    active: '../images/lecture-select.png'
+  },
+  'construct': {
+    normal: '../images/construct.png',
+    active: '../images/construct-select.png'
+  },
+  'metal': {
+    normal: '../images/metal.png',
+    active: '../images/metal-select.png'
+  },
+  'seed': {
+    normal: '../images/seed.png',
+    active: '../images/seed-select.png'
+  },
+  'farm2': {
+    normal: '../images/farm2.png',
+    active: '../images/farm2-select.png'
+  },
+  'farm1': {
+    normal: '../images/farm1.png',
+    active: '../images/farm1-select.png'
+  },
+  'prison': {
+  	normal: '../images/prison.png',
+	active: '../images/prison-select.png'
+  },	
+  'circus': {
+    normal: '../images/circus.png',
+    active: '../images/circus-select.png'
+  },
+  'bakuninh': {
+    normal: '../images/bakuninh.png',
+    active: '../images/bakuninh-select.png'
+  },
+  'home': {
+    normal: '../images/home.png',
+    active: '../images/home-select.png'
+  },
+  'sfbhome': {
+    normal: '../images/sfbhome.png',
+    active: '../images/sfbhome-select.png'
+  },
+  'music': {
+    normal: '../images/music.png',
+    active: '../images/music-select.png'
+  },
+  'medicine': {
+    normal: '../images/medicine.png',
+    active: '../images/medicine-select.png'
+  }
 };

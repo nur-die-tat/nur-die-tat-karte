@@ -8,8 +8,9 @@ import {mouseMoveListener} from "./mouse-move-listener";
 import {loadHTML} from "../loadHTML";
 import {clearElement} from "../utils";
 
-export class TimePicker {
+export class TimePicker extends ol.Observable {
   constructor(targetSelector, configFile, layers) {
+    super();
     this.layers = layers;
     this.clickTime_ = 20;
 
@@ -37,7 +38,8 @@ export class TimePicker {
     this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
     this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
     this.featureRange = this.target.querySelector('.rangeslider-feature-range');
-    this.featureIcon = this.target.querySelector('.rangeslider-feature-icon');
+    this.featureHighlightIcon = this.target.querySelector('.rangeslider-feature-highlight-icon');
+    this.featureIcons = this.target.querySelector('.rangeslider-feature-icons');
 
     this.diff = monthDiff(this.begin, this.end);
     this.leftStep = 0;
@@ -67,21 +69,58 @@ export class TimePicker {
     this.featureIcon.classList.add('hidden');
   }
 
-  setFeature(begin, end, iconId) {
+  clearFeatures() {
+    clearElement(this.featureIcons);
+  }
+
+  setFeatures(features, layer) {
+    for (const feature of features) {
+      const begin = new Date(feature.get('begin'));
+      const end = new Date(feature.get('end'));
+      const iconId = feature.get('icon');
+
+      const img = document.createElement('img');
+      const stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
+      const stepsRight = monthDiff(this.begin, minDate(this.end, end));
+
+      const left = stepsLeft * this.stepSize;
+      const right = this.width - stepsRight * this.stepSize;
+
+      img.src = ICONS[iconId].normal;
+      img.title = feature.get('name');
+      img.style.left = (left + this.width - right) / 2 - img.clientWidth / 2 + 10 + 'px';
+
+      img.addEventListener('click', () => {
+        this.dispatchEvent({
+          type: 'click:feature',
+          layer,
+          feature
+        });
+      });
+
+      this.featureIcons.appendChild(img);
+    }
+  }
+
+  setHighlightFeature(feature) {
+    const begin = new Date(feature.get('begin'));
+    const end = new Date(feature.get('end'));
+    const iconId = feature.get('icon');
+
     this.featureRange.classList.remove('hidden');
-    this.featureIcon.classList.remove('hidden');
+    this.featureHighlightIcon.classList.remove('hidden');
 
-    let stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
-    let stepsRight = monthDiff(this.begin, minDate(this.end, end));
+    const stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
+    const stepsRight = monthDiff(this.begin, minDate(this.end, end));
 
-    let left = stepsLeft * this.stepSize;
-    let right = this.width - stepsRight * this.stepSize;
+    const left = stepsLeft * this.stepSize;
+    const right = this.width - stepsRight * this.stepSize;
 
     this.featureRange.style.left = left + 'px';
     this.featureRange.style.right = right + 'px';
 
-    this.featureIcon.src = ICONS[iconId];
-    this.featureIcon.style.left = (left + this.width - right) / 2 - this.featureIcon.clientWidth / 2 + 'px';
+    this.featureHighlightIcon.src = ICONS[iconId].active;
+    this.featureHighlightIcon.style.left = (left + this.width - right) / 2 - this.featureHighlightIcon.clientWidth / 2 + 'px';
   }
 
   setLeft(step) {

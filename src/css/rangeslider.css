@@ -30,10 +30,26 @@
   font-size: 14px;
 }
 
-.rangeslider-feature-icon {
+.rangeslider-feature-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.rangeslider-feature-icons img {
+  position: absolute;
+  bottom: 21px; /* size of range background and arrows */
+}
+
+.rangeslider-feature-icons img:hover {
+  cursor: pointer;
+  z-index: 2;
+}
+
+.rangeslider-feature-highlight-icon {
   position: absolute;
   margin-left: 25px; /* compensate missing padding */
   bottom: 21px; /* size of range background and arrows */
+  z-index: 4;
 }
 
 .rangeslider-range-background {

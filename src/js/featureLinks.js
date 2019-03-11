@@ -12,7 +12,7 @@ export function createFeatureLinks(target) {
         if (window.map instanceof ol.Map) {
           focus(window.map, parseInt(featureLink.dataset.feature), featureLink.dataset.layer);
         } else {
-          eventChannel.addEventListener('mapCreated', function () {
+          eventChannel.on('mapCreated', function () {
             focus(window.map, parseInt(featureLink.dataset.feature), featureLink.dataset.layer);
           });
         }
