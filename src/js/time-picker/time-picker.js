@@ -9,47 +9,46 @@ import {loadHTML} from "../loadHTML";
 import {clearElement} from "../utils";
 
 export class TimePicker extends ol.Observable {
-  constructor(targetSelector, configFile, layers) {
+  constructor(targetSelector, configFile, layers, view) {
     super();
     this.layers = layers;
-    this.clickTime_ = 20;
+    this.view = view;
 
+    this.configFile = configFile;
     this.target = document.querySelector(targetSelector);
+  }
 
-    Promise.all([
-      loadHTML(targetSelector, htmlUrl),
-      $.getJSON(configFile, config => {
+  init() {
+    return Promise.all([
+      loadHTML(this.target, htmlUrl),
+      $.getJSON(this.configFile, config => {
         this.begin = new Date(config.begin);
         this.end = new Date(config.end);
         this.events = config.events;
       })
     ]).then(() => {
-      this.init();
+      this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
+      this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
+      this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
+      this.betweenKnobs = this.target.querySelector('.rangeslider-range-between-knobs');
+      this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
+      this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
+      this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
+      this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
+      this.featureRange = this.target.querySelector('.rangeslider-feature-range');
+      this.featureHighlightIcon = this.target.querySelector('.rangeslider-feature-highlight-icon');
+      this.featureIcons = this.target.querySelector('.rangeslider-feature-icons');
+
+      this.diff = monthDiff(this.begin, this.end);
+      this.leftStep = 0;
+      this.rightStep = this.diff;
+
+      this.update();
+      this.attachLeftKnobListeners();
+      this.attachRightKnobListeners();
+      this.attachBetweenKnobListeners();
+      this.attachBackgroundListeners();
     });
-  }
-
-  init() {
-    this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
-    this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
-    this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
-    this.betweenKnobs = this.target.querySelector('.rangeslider-range-between-knobs');
-    this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
-    this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
-    this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
-    this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
-    this.featureRange = this.target.querySelector('.rangeslider-feature-range');
-    this.featureHighlightIcon = this.target.querySelector('.rangeslider-feature-highlight-icon');
-    this.featureIcons = this.target.querySelector('.rangeslider-feature-icons');
-
-    this.diff = monthDiff(this.begin, this.end);
-    this.leftStep = 0;
-    this.rightStep = this.diff;
-
-    this.update();
-    this.attachLeftKnobListeners();
-    this.attachRightKnobListeners();
-    this.attachBetweenKnobListeners();
-    this.attachBackgroundListeners();
   }
 
   update() {
@@ -75,30 +74,32 @@ export class TimePicker extends ol.Observable {
 
   setFeatures(features, layer) {
     for (const feature of features) {
-      const begin = new Date(feature.get('begin'));
-      const end = new Date(feature.get('end'));
-      const iconId = feature.get('icon');
+      if (this.isFeatureInTimeline(feature)) {
+        const featureBegin = new Date(feature.get('begin'));
+        const featureEnd = new Date(feature.get('end'));
+        const iconId = feature.get('icon');
 
-      const img = document.createElement('img');
-      const stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
-      const stepsRight = monthDiff(this.begin, minDate(this.end, end));
+        const img = document.createElement('img');
+        const stepsLeft = monthDiff(this.begin, maxDate(this.begin, featureBegin));
+        const stepsRight = monthDiff(this.begin, minDate(this.end, featureEnd));
 
-      const left = stepsLeft * this.stepSize;
-      const right = this.width - stepsRight * this.stepSize;
+        const left = stepsLeft * this.stepSize;
+        const right = this.width - stepsRight * this.stepSize;
 
-      img.src = ICONS[iconId].normal;
-      img.title = feature.get('name');
-      img.style.left = (left + this.width - right) / 2 - img.clientWidth / 2 + 10 + 'px';
+        img.src = ICONS[iconId].normal;
+        img.title = feature.get('name');
+        img.style.left = (left + this.width - right) / 2 - img.clientWidth / 2 + 10 + 'px';
 
-      img.addEventListener('click', () => {
-        this.dispatchEvent({
-          type: 'click:feature',
-          layer,
-          feature
+        img.addEventListener('click', () => {
+          this.dispatchEvent({
+            type: 'click:feature',
+            layer,
+            feature
+          });
         });
-      });
 
-      this.featureIcons.appendChild(img);
+        this.featureIcons.appendChild(img);
+      }
     }
   }
 
@@ -130,6 +131,7 @@ export class TimePicker extends ol.Observable {
     this.leftKnob.style.left = step * this.stepSize + 'px';
     this.adjustBetweenKnobs();
     this.adjustLayers();
+    this.showVisibleFeatures();
   }
 
   setRight(step) {
@@ -139,6 +141,7 @@ export class TimePicker extends ol.Observable {
     this.rightKnob.style.left = this.rightStep * this.stepSize + 'px';
     this.adjustBetweenKnobs();
     this.adjustLayers();
+    this.showVisibleFeatures();
   }
 
   adjustBetweenKnobs() {
@@ -211,22 +214,24 @@ export class TimePicker extends ol.Observable {
     e.stopImmediatePropagation();
   }
 
-  adjustLayers() {
-    let begin = new Date(this.begin);
-    begin.setMonth(begin.getMonth() + this.leftStep);
-    let end = new Date(this.begin);
-    end.setMonth(end.getMonth() + this.rightStep);
+  isFeatureInTimeline(feature) {
+    let timelineBegin = new Date(this.begin);
+    timelineBegin.setMonth(timelineBegin.getMonth() + this.leftStep);
+    let timelineEnd = new Date(this.begin);
+    timelineEnd.setMonth(timelineEnd.getMonth() + this.rightStep);
+    let fBegin = new Date(feature.get('begin'));
+    let fEnd = new Date(feature.get('end'));
+    return (fBegin >= timelineBegin && fBegin <= timelineEnd) || (fEnd >= timelineBegin && fEnd <= timelineEnd)
+      || (fBegin < timelineBegin && fEnd > timelineEnd);
+  }
 
-    for (let l of this.layers) {
-      for (let f of l.getSource().getFeatures()) {
-        let fBegin = new Date(f.get('begin'));
-        let fEnd = new Date(f.get('end'));
-        if ((fBegin >= begin && fBegin <= end) || (fEnd >= begin && fEnd <= end)
-            || (fBegin < begin && fEnd > end)) {
-          f.set('hidden', false);
-        }
-        else {
-          f.set('hidden', true);
+  adjustLayers() {
+    for (const layer of this.layers) {
+      for (const feature of layer.getSource().getFeatures()) {
+        if (this.isFeatureInTimeline(feature)) {
+          feature.set('hidden', false);
+        } else {
+          feature.set('hidden', true);
         }
       }
     }
@@ -325,6 +330,14 @@ export class TimePicker extends ol.Observable {
       }
       eventText.style.left = left + 'px';
       let nextTextLeft = left;
+    }
+  }
+
+  showVisibleFeatures() {
+    this.clearFeatures();
+    const extent = this.view.calculateExtent();
+    for (const layer of this.layers) {
+      this.setFeatures(layer.getSource().getFeaturesInExtent(extent), layer);
     }
   }
 }
