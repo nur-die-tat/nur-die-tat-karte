@@ -2,58 +2,8 @@ import {baseLayerMenu} from "./baseLayerMenu.js";
 
 export function baseLayers(map) {
   let layers = [
-    new ol.layer.Tile({
-      name: 'moderne Karte',
-      source: new ol.source.OSM({
-        attributions: [
-          'Karte &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-          'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
-        ]
-      }),
-      visible: false,
-      zIndex: 0
-    }),
-
     new ol.layer.Group({
-      name: 'Stadtkarte 1918 (h&ouml;here Zoomstufen)',
-      layers: [
-        new ol.layer.Tile({
-          extent: [761390, 6597471, 795931, 6628039],
-          source: new ol.source.TileImage({
-            attributions: 'hist. Karte &copy; Stadtarchiv Köln',
-            url: 'http://www.die-karte.org/tiles/1918/{z}/{x}/{y}.png'
-            // url: '../../nur-die-tat-karte-tiles/1918/{z}/{x}/{y}.png'
-          }),
-          maxResolution: 20,
-          zIndex: 1
-        }),
-        new ol.layer.Tile({
-          // extent: [761390, 6597471, 795931, 6628039],
-          source: new ol.source.TileImage({
-            attributions: 'hist. Karte: LAV NRW',
-            url: 'http://www.die-karte.org/tiles/200000/{z}/{x}/{y}.png'
-          }),
-          minResolution: 20,
-          maxResolution: 160,
-          zIndex: 1
-        }),
-        new ol.layer.Tile({
-          source: new ol.source.OSM({
-            attributions: [
-                'Karte &copy; <a href="http://www.thunderforest.com">Thunderforest</a>',
-                'Daten &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-                'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
-              ],
-            url: 'https://{a-c}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=6da7c1d64bc74008b2f01efffd1d20c0'
-          }),
-          zIndex: 0
-        })
-      ],
-      visible: false
-    }),
-
-    new ol.layer.Group({
-      name: 'Stadtkarte 1925 (h&ouml;here Zoomstufen)',
+      name: 'Historische Karten',
       layers: [
         new ol.layer.Tile({
           extent: [762925.976821993, 6600392.669953008, 782254.7852501386, 6625204.937224803],
@@ -62,19 +12,49 @@ export function baseLayers(map) {
             url: 'http://www.die-karte.org/tiles/1925/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
           }),
-          maxResolution: 20,
+          maxResolution: 9, // below 15
           zIndex: 1
         }),
         new ol.layer.Tile({
           // extent: [761390, 6597471, 795931, 6628039],
           source: new ol.source.TileImage({
-            attributions: 'hist. Karte: LAV NRW',
-            url: 'http://www.die-karte.org/tiles/200000/{z}/{x}/{y}.png'
+            attributions: 'hist. Karte: LAV NRW Rheinland',
+            url: 'http://www.die-karte.org/tiles/duesseldorf-koeln_94b_100000/{z}/{x}/{y}.png'
           }),
-          minResolution: 20,
-          maxResolution: 160,
+          minResolution: 9, // from 13
+          maxResolution: 20, // to 14
           zIndex: 1
         }),
+        new ol.layer.Tile({
+          // extent: [761390, 6597471, 795931, 6628039],
+          source: new ol.source.TileImage({
+            attributions: 'hist. Karte: LAV NRW Rheinland',
+            url: 'http://www.die-karte.org/tiles/duesseldorf-koeln_94b_100000/{z}/{x}/{y}.png'
+          }),
+          minResolution: 9, // from 13
+          maxResolution: 20, // to 14
+          zIndex: 1
+        }),
+        new ol.layer.Tile({
+          // extent: [761390, 6597471, 795931, 6628039],
+          source: new ol.source.TileImage({
+            attributions: 'hist. Karte: LAV NRW Rheinland',
+            url: 'http://www.die-karte.org/tiles/krefeld-essen_82b_100000/{z}/{x}/{y}.png'
+          }),
+          minResolution: 9, // from 13
+          maxResolution: 20, // to 14
+          zIndex: 1
+        }),
+        // new ol.layer.Tile({
+        //   // extent: [761390, 6597471, 795931, 6628039],
+        //   source: new ol.source.TileImage({
+        //     attributions: 'hist. Karte: LAV NRW',
+        //     url: 'http://www.die-karte.org/tiles/200000/{z}/{x}/{y}.png'
+        //   }),
+        //   minResolution: 20,
+        //   maxResolution: 160,
+        //   zIndex: 1
+        // }),
         new ol.layer.Tile({
           source: new ol.source.OSM({
             attributions: [
@@ -89,7 +69,19 @@ export function baseLayers(map) {
       ],
       visible: true
     }),
-    // 
+
+    new ol.layer.Tile({
+      name: 'Nur moderne Karte',
+      source: new ol.source.OSM({
+        attributions: [
+          'Karte &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+          'Icons &copy; <a href="https://mapicons.mapsmarker.com">Map Icons Collection</a>'
+        ]
+      }),
+      visible: false,
+      zIndex: 0
+    })
+    //
     //   name: 'test',
     //   // extent: [761390, 6597471, 795931, 6628039],
     //   source: new ol.source.TileImage({
