@@ -102,5 +102,9 @@ export const ICONS = {
   'medicine': {
     normal: '../images/medicine.png',
     active: '../images/medicine-select.png'
+  },
+  'protest': {
+    normal: '../images/revolt.png',
+    active: '../images/revolt-select.png'
   }
 };

@@ -781,6 +781,59 @@
         ]
       },
       "id": 1540050071455
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "\"Der Freie Arbeiter\"",
+        "description": [
+          "Geschäftsstelle des \"Freien Arbeiter\".",
+          "1904 gegründet, von 1919-1931 Organ der Föderation Kommunistischer Anarchisten Deutschlands und ab 1932 der Anarchistischen Föderation Deutschlands.",
+          "Herausgeber waren unter anderem Albert Weidner, Karl Kielmeyer, Rudolf Rocker, Joseph Oerter und Rudolf Oestreich. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> zeichnete  1928 als Redakteur & Verleger und führte Januar 1931 bis April 1932 die Geschäftsstelle.",
+          "(Der hier angegebene Zeitraum bezieht sich nur auf den durch die Quelle belegten, letztgenannten Zeitraum, bis ein längerer nachgewiesen ist.)"
+        ],
+        "icon": "lecture",
+        "address": "Heinrichstraße 4, Berlin-Lichtenberg",
+        "begin": "1931-01-01",
+        "end": "1932-04-30",
+        "sources": [
+          "\"Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 35. <a href=\\\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\\\">Link zur Broschüre</a>.",
+          "<a href=\\\"https://de.wikipedia.org/wiki/F%C3%B6deration_Kommunistischer_Anarchisten_Deutschlands#Der_Freie_Arbeiter\">Wikipedia über den Freien Arbeiter</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.499504327774046,
+          52.50650806440878
+        ]
+      },
+      "id": 1555360081689
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kongress der FKAD",
+        "description": [
+          "Kongress der Föderation Kommunistischer Anarchisten Deutschlands vom 25. bis 27.12.1931, bei Wollschläger.",
+          "Thema war u.a. das Verhältnis zwischen Anarchismus und Kommunismus. Ein bei diesem Anlass gehaltener Vortrag von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> erschien in 15 Folgen im Freien Arbeiter unter dem Titel \"Unsere Stellung zum Kommunismus\"."
+        ],
+        "icon": "shakehand",
+        "address": "Adalbertstraße 21, Berlin-Kreuzberg",
+        "begin": "1931-12-25",
+        "end": "1931-12-27",
+        "sources": [
+          "\"Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 35. <a href=\\\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\\\">Link zur Broschüre</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.42053472995758,
+          52.50271377619043
+        ]
+      },
+      "id": 1555362582519
     }
   ]
 }
