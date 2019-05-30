@@ -584,8 +584,8 @@
         "name": "Proletarischer Gesundheitsdienst",
         "sources": [
           "Rheinisch-Westfälischer Kurier, I.Jg., Nr.4, S.4.",
-          "https://de.wikipedia.org/wiki/Proletarischer_Gesundheitsdienst",
-          "http://www.geschichtevonunten.de/01_sek-lit/organisationen/uebergreifend/d-ruebner-pgd.htm"
+          "<a href=\"https://de.wikipedia.org/wiki/Proletarischer_Gesundheitsdienst\">https://de.wikipedia.org/wiki/Proletarischer_Gesundheitsdienst</a>",
+          "<a href=\"http://www.geschichtevonunten.de/01_sek-lit/organisationen/uebergreifend/d-ruebner-pgd.htm\">http://www.geschichtevonunten.de/01_sek-lit/organisationen/uebergreifend/d-ruebner-pgd.htm</a>"
         ],
         "description": [
           "In der weltlichen Schule an der Hildener Straße fanden Kurse des proletarischen Gesundheitsdienst (PGD) statt.",
@@ -866,6 +866,34 @@
         ]
       },
       "id": 1555360149567
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Internationaler Anti-Militaristischer Kongress ",
+        "description": [
+          "Zu dem Kongress kamen Antimilitaristen aus der ganzen Welt zusammen. Es gab Berichte und Botschaften, Referate unter anderem über das Wesen des Krieges und praktische Aspekte. Außerdem ein ausgedehnter organisatorischer Teil in dem  ein ständiges Antimilitaristisches Büro in Amsterdam beschlossen wurde.",
+          "",
+          "Einer der Redner war Albert de Jong über „Praxis des Antimilitarismus“.",
+          "",
+          "Einige Menschen, die an dem Kongress teilnehmen wollten, konnten auf Grund von Passschwierigkeiten nicht anreisen. So unter anderen auch Rudolf Rocker, der über „Militarismus und Kapitalismus“ referieren sollte."
+        ],
+        "icon": "shakehand",
+        "address": "Volksgebouw (Volkshaus) in der Herengracht 32, Den Haag",
+        "begin": "1921-03-26",
+        "end": "1921-04-01",
+        "sources": [
+          "<a href=\"https://archive.org/details/berichtberdeni00inte/\">Bericht über den Internationalen Anti-Militaristischen Kongress im Haag, 1921</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3190136551856995,
+          52.08089887857516
+        ]
+      },
+      "id": 1559247688360
     }
   ]
 }
