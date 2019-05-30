@@ -1915,6 +1915,126 @@
         ]
       },
       "id": 1540048706789
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Köpleck, Hermann",
+        "description": [
+          "Vorsitzender der F.A.U.D Duisburg-Nord."
+        ],
+        "icon": "home",
+        "address": "Pützstr. 194, Duisburg-Meiderich",
+        "begin": "1928-01-28",
+        "end": "1928-01-28",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.754700839519501,
+          51.46003524766416
+        ]
+      },
+      "id": 1555355062939
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kistner, Jakob",
+        "description": [
+          "Kassierer der F.A.U.D Duisburg-Nord."
+        ],
+        "address": "Ostackerweg 34, Duisburg-Beek",
+        "begin": "1928-01-28",
+        "end": "1928-01-28",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
+        ],
+        "icon": "home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.745715439319611,
+          51.48182387860486
+        ]
+      },
+      "id": 1555355373869
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schmitz, Wilhelm",
+        "description": [
+          "Schriftführer der F.A.U.D Duisburg-Nord."
+        ],
+        "icon": "home",
+        "address": "Windmühlenstr 29, Duisburg-Beek (vermutete Lage)",
+        "begin": "1928-01-28",
+        "end": "1928-01-28",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.737344264984131,
+          51.475863572618906
+        ]
+      },
+      "id": 1555355637069
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neif",
+        "description": [
+          "Revisor der F.A.U.D Duisburg-Nord."
+        ],
+        "icon": "home",
+        "address": "Bruckhauser 46, Duisburg-Beek",
+        "begin": "1928-01-28",
+        "end": "1928-01-28",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.738446652889252,
+          51.477293582516516
+        ]
+      },
+      "id": 1555355979965
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kienapfel, Otto",
+        "description": [
+          "Obmann für Bezirksangelegenheiten"
+        ],
+        "icon": "home",
+        "address": "Mülheimer Str. 39, Düsseldorf",
+        "begin": "1928-02-01",
+        "end": "1928-02-28",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.799721717834473,
+          51.239922258663306
+        ]
+      },
+      "id": 1555356733054
     }
   ]
 }
