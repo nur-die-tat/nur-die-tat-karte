@@ -17,7 +17,7 @@ export function createFeatureLinks(target) {
           });
         }
       });
-      $karteTab.tab('show'); //
+      $karteTab.tab('show');
       e.preventDefault();
     });
   }

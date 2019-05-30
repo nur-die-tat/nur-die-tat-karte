@@ -297,6 +297,7 @@
         "end": "1928-04-30",
         "sources": [
           "Der Syndikalist, X.Jg., Nr.12, S.4.",
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.6, S. 4.",
           "Foto: Gemeinfrei."
         ]
       },
@@ -467,24 +468,30 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bauarbeiterkonferenz",
+        "name": "Lokal Warth/Büsken",
         "description": [
           "Sonntag, den 28.02.1926 \"Konferenz der Bauarbeiter von Rheinland-Westfalen\";",
-          "Bitte um Entsendung von mandatierten Delegierten (auch Metallarbeiter)."
+          "Bitte um Entsendung von mandatierten Delegierten (auch Metallarbeiter).",
+          "",
+          "Sonntag, den 22.01.1928: Mitgliederversammlung der Metallarbeiter-Förderation Duisburg-Süd im Verkehrslokal Franz Büsken.",
+          "Besprochen wurden unter anderem Presseangelegenheiten des Rheinisch-Westfälischen Kuriers (\"sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\") und die Kosten desselben für Erwerbslose und Kranke.",
+          "Es wurde beschlossen, die Kosten für diese von 10 auf 25 Pfennig anzuheben. Bei Verzicht auf die Zeitung sei für diese Personen aber weiterhin der Mitgliedsbeitrag umsonst und die Mitgliedsausweise dementsprechend zu stempeln.",
+          "Die Mitgliederversammlung fand einmal im Monat statt."
         ],
-        "icon": "construct",
-        "address": "Lokal von der Warth am Marientor, Duisburg (grobe Lage)",
+        "icon": "meet",
+        "address": "Lokal von der Warth (später Franz Büsken) am Marientor 20, Duisburg",
         "begin": "1926-02-28",
-        "end": "1926-02-28",
+        "end": "1928-01-22",
         "sources": [
-          "Der Syndikalist, VIII.Jg., Nr.4, Beilage S.4."
+          "Der Syndikalist, VIII.Jg., Nr.4, Beilage S.4.",
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.5, S. 4."
         ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.755931973457336,
-          51.431295309363
+          6.755390167236328,
+          51.43251769333793
         ]
       },
       "id": 22
@@ -834,6 +841,31 @@
         ]
       },
       "id": 1555362582519
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "name": "Freie Sänger Chorabend",
+        "description": [
+          "Jeden Freitag Abend findet im Lokal Lettmann ein \"Gemischter Chorabend\" des Arbeitergesangsvereins \"Freie Sänger 04\" statt.",
+          "In Düsseldorf gab es auch den <a class='feature-link' data-layer='meetings' data-feature='1540055254910' href='#'>Verlag Freie Sänger</a>."
+        ],
+        "icon": "music",
+        "address": "Kölner Straße 84 am Worringerplatz, Düsseldorf (vermutete Lage)",
+        "begin": "1928-02-18",
+        "end": "1928-06-23",
+        "sources": [
+          "Rheinisch-Westfälischer Kurier, I.Jg., Nr.7 bis Nr.11, jeweils S.4."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.796857118606567,
+          51.22345954561839
+        ]
+      },
+      "id": 1555360149567
     }
   ]
 }

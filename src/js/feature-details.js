@@ -43,7 +43,19 @@ export class FeatureDetails {
     this.featureSourcesElement = document.querySelector('#feature-sources');
 
     eventChannel.on('mapQuery', e => {
-      this.focusOnFeatureByIds(parseInt(e.mapQuery['feature']), e.mapQuery['layer']);
+      if (e.mapQuery === 'random') {
+        eventChannel.onceLayersLoaded(() => {
+          debugger;
+          const features = vectorLayers.reduce((features, layer) => {
+            features.push(...layer.getSource().getFeatures().map(f => [layer, f]));
+            return features;
+          }, []);
+          const [layer, feature] = features[Math.floor(Math.random() * features.length)];
+          this.focusOnFeatureByIds(feature.getId(), layer.get('id'));
+        });
+      } else {
+        this.focusOnFeatureByIds(parseInt(e.mapQuery['feature']), e.mapQuery['layer']);
+      }
     });
 
     this.timePicker.on('click:feature', e => {
@@ -64,7 +76,7 @@ export class FeatureDetails {
   }
 
   focusOnFeature (feature, layer) {
-    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()) });
+    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()), duration: 2000 });
     this.showFeatureDetails(feature, layer);
   }
 
