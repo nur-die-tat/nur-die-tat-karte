@@ -75,6 +75,8 @@ function setMapQueryFromSearch(search) {
       mapQuery[key] = val;
     }
     eventChannel.dispatchMapQuery(mapQuery);
+  } else {
+    eventChannel.dispatchMapQuery('random');
   }
 }
 

@@ -1,5 +1,6 @@
 import {vectorLayerStyle} from './vectorLayerStyle.js';
 import {vectorLayerMenu} from "./vectorLayerMenu.js";
+import {eventChannel} from "./eventChannel";
 
 export function vectorLayers(map) {
   let layers = [
@@ -45,7 +46,18 @@ export function vectorLayers(map) {
     })
   ];
 
+  let count = layers.length;
+
   for (let l of layers) {
+    l.getSource().once('addfeature', () => {
+      count--;
+      if (count === 0) {
+        setTimeout(() => {
+          eventChannel.dispatchLayerLoaded();
+          map.getView().animate({ zoom: 14, duration: 2000, easing: ol.easing.easeOut });
+        }, 1000);
+      }
+    });
     l.setStyle(vectorLayerStyle);
     map.addLayer(l);
   }
