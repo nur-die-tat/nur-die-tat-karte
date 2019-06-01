@@ -94,7 +94,7 @@
       "properties": {
         "name": "Born, Willi",
         "description": [
-          "Verantwortlicher für Planung und Unterkünfte während der Antikriegstage 1929.",
+          "Verantwortlicher für Planung und Unterkünfte während der <a class='feature-link' data-layer='events' data-feature='5' href='#'>Antikriegstage 1929</a>.",
           "trug zu Ausschluss von <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Eduard Neumann</a> bei, dem Veruntreuung von Geldern vorgeworfen wurde."
         ],
         "icon": "home",
