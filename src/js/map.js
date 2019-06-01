@@ -1,5 +1,5 @@
 import {baseLayers} from "./baseLayers";
-import {TimePicker} from "./time-picker/time-picker";
+import {TimePicker} from "./time-picker/TimePicker";
 import {featureDetails} from "./feature-details";
 import {vectorLayers} from "./vectorLayers";
 import {FeatureDetails} from "./feature-details";

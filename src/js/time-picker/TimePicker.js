@@ -2,9 +2,9 @@ import $ from 'jquery';
 import htmlUrl from 'file-loader?name=assets/[name].[ext]!../../html/time-picker.html';
 import '../../css/rangeslider.css';
 
-import {addMonths, monthDiff, minDate, maxDate} from "./time-helper";
+import {addMonths, monthDiff, minDate, maxDate} from "./timeHelper";
 import {ICONS} from "../icons";
-import {mouseMoveListener} from "./mouse-move-listener";
+import {DragObserver} from "./DragObserver";
 import {loadHTML} from "../loadHTML";
 import {clearElement} from "../utils";
 
@@ -151,56 +151,65 @@ export class TimePicker extends ol.Observable {
 
   attachLeftKnobListeners() {
     let startStep;
+    const obs = new DragObserver(this.leftKnob);
 
-    mouseMoveListener(this.leftKnob)
-      .onMoveStart(e => {
-        startStep = this.leftStep;
-      })
-      .onMove(e => {
-        this.setLeft(startStep + Math.round(e.diffX / this.stepSize));
-      })
-      .onClick(e => {
-        this.doClick(e);
-      });
+    obs.on('moveStart', () => {
+      startStep = this.leftStep;
+    });
+
+    obs.on('move', e => {
+      this.setLeft(startStep + Math.round(e.originalEvent.diffX / this.stepSize));
+    });
+
+    obs.on('click', e => {
+      this.doClick(e.originalEvent);
+    });
   }
 
   attachRightKnobListeners() {
     let startStep;
+    const obs = new DragObserver(this.rightKnob);
 
-    mouseMoveListener(this.rightKnob)
-      .onMoveStart(e => {
-        startStep = this.rightStep;
-      })
-      .onMove(e => {
-        this.setRight(startStep + Math.round(e.diffX / this.stepSize));
-      })
-      .onClick(e => {
-        this.doClick(e);
-      });
+    obs.on('moveStart', () => {
+      startStep = this.rightStep;
+    });
+
+    obs.on('move', e => {
+      this.setRight(startStep + Math.round(e.originalEvent.diffX / this.stepSize));
+    });
+
+    obs.on('click', e => {
+      this.doClick(e.originalEvent);
+    });
   }
 
   attachBetweenKnobListeners() {
     let startLeft;
     let startRight;
+    const obs = new DragObserver(this.betweenKnobs);
 
-    mouseMoveListener(this.betweenKnobs)
-      .onMoveStart(e => {
-        startLeft = this.leftStep;
-        startRight = this.rightStep;
-      })
-      .onMove(e => {
-        let move = Math.round(e.diffX / this.stepSize);
-        this.setLeft(startLeft + move);
-        this.setRight(startRight + move);
-      })
-      .onClick(e => {
-        this.doClick(e);
-      });
+    obs.on('moveStart', () => {
+      startLeft = this.leftStep;
+      startRight = this.rightStep;
+    });
+
+    obs.on('move', e => {
+      let move = Math.round(e.originalEvent.diffX / this.stepSize);
+      this.setLeft(startLeft + move);
+      this.setRight(startRight + move);
+    });
+
+    obs.on('click', e => {
+      this.doClick(e.originalEvent);
+    });
   }
 
   attachBackgroundListeners() {
-    mouseMoveListener(this.rangeBackground)
-      .onClick(e => this.doClick(e));
+    const obs = new DragObserver(this.rangeBackground);
+
+    obs.on('click', e => {
+      this.doClick(e.originalEvent);
+    });
   }
 
   doClick(e) {
