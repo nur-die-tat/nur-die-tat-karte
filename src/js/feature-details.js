@@ -26,11 +26,22 @@ export class FeatureDetails {
         return true;
       });
     });
+
+    let hovered = null;
     map.on('pointermove', e => {
       if (map.hasFeatureAtPixel(e.pixel)) {
+        if (hovered) {
+          hovered.set('hover', false);
+        }
+        hovered = map.forEachFeatureAtPixel(e.pixel, f => f);
+        hovered.set('hover', true);
         map.getViewport().style.cursor = 'pointer';
       }
       else {
+        if (hovered) {
+          hovered.set('hover', false);
+          hovered = null;
+        }
         map.getViewport().style.cursor = 'auto';
       }
     });
