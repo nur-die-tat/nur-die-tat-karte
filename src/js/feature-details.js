@@ -1,11 +1,11 @@
 import {createImageModalLinks} from "./imageModal";
 import {clearElement} from "./utils";
-import {vectorLayerStyle} from "./vectorLayerStyle";
+import {createVectorLayerStyle} from "./vectorLayerStyle";
 import {setMapQuery} from "./pages";
 import {eventChannel} from "./eventChannel";
 
 export class FeatureDetails {
-  constructor (map, vectorLayers, timePicker) {
+  constructor (map, vectorLayers, timePicker, icons) {
     this.map = map;
     this.vectorLayers = vectorLayers;
     this.timePicker = timePicker;
@@ -16,7 +16,7 @@ export class FeatureDetails {
 
     this.map.addLayer(new ol.layer.Vector({
       source: this.highlightSource,
-      style: vectorLayerStyle,
+      style: createVectorLayerStyle(icons),
       zIndex: 10
     }));
 
@@ -44,15 +44,12 @@ export class FeatureDetails {
 
     eventChannel.on('mapQuery', e => {
       if (e.mapQuery === 'random') {
-        eventChannel.onceLayersLoaded(() => {
-          debugger;
-          const features = vectorLayers.reduce((features, layer) => {
-            features.push(...layer.getSource().getFeatures().map(f => [layer, f]));
-            return features;
-          }, []);
-          const [layer, feature] = features[Math.floor(Math.random() * features.length)];
-          this.focusOnFeatureByIds(feature.getId(), layer.get('id'));
-        });
+        const features = vectorLayers.reduce((features, layer) => {
+          features.push(...layer.getSource().getFeatures().map(f => [layer, f]));
+          return features;
+        }, []);
+        const [layer, feature] = features[Math.floor(Math.random() * features.length)];
+        this.focusOnFeatureByIds(feature.getId(), layer.get('id'));
       } else {
         this.focusOnFeatureByIds(parseInt(e.mapQuery['feature']), e.mapQuery['layer']);
       }

@@ -1,54 +1,45 @@
-import $ from 'jquery';
-import htmlUrl from 'file-loader?name=assets/[name].[ext]!../../html/time-picker.html';
+import html from 'raw-loader!../../html/time-picker.html';
 import '../../css/rangeslider.css';
 
 import {addMonths, monthDiff, minDate, maxDate} from "./timeHelper";
-import {ICONS} from "../icons";
 import {DragObserver} from "./DragObserver";
-import {loadHTML} from "../loadHTML";
 import {clearElement} from "../utils";
 
 export class TimePicker extends ol.Observable {
-  constructor(targetSelector, configFile, layers, view) {
+  constructor(targetSelector, config, layers, view, icons) {
     super();
     this.layers = layers;
     this.view = view;
+    this.icons = icons;
 
-    this.configFile = configFile;
     this.target = document.querySelector(targetSelector);
-  }
+    this.target.innerHTML = html;
 
-  init() {
-    return Promise.all([
-      loadHTML(this.target, htmlUrl),
-      $.getJSON(this.configFile, config => {
-        this.begin = new Date(config.begin);
-        this.end = new Date(config.end);
-        this.events = config.events;
-      })
-    ]).then(() => {
-      this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
-      this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
-      this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
-      this.betweenKnobs = this.target.querySelector('.rangeslider-range-between-knobs');
-      this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
-      this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
-      this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
-      this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
-      this.featureRange = this.target.querySelector('.rangeslider-feature-range');
-      this.featureHighlightIcon = this.target.querySelector('.rangeslider-feature-highlight-icon');
-      this.featureIcons = this.target.querySelector('.rangeslider-feature-icons');
+    this.begin = new Date(config.begin);
+    this.end = new Date(config.end);
+    this.events = config.events;
 
-      this.diff = monthDiff(this.begin, this.end);
-      this.leftStep = 0;
-      this.rightStep = this.diff;
+    this.rangeBackground = this.target.querySelector('.rangeslider-range-background');
+    this.leftKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-left-knob');
+    this.rightKnob = this.target.querySelector('.rangeslider-range-knob.rangeslider-right-knob');
+    this.betweenKnobs = this.target.querySelector('.rangeslider-range-between-knobs');
+    this.lineMarkerContainer = this.target.querySelector('.rangeslider-ruler');
+    this.yearMarkersContainer = this.target.querySelector('.rangeslider-yearmarkers');
+    this.eventArrowsContainer = this.target.querySelector('.rangeslider-event-arrows');
+    this.eventTextsContainer = this.target.querySelector('.rangeslider-event-texts');
+    this.featureRange = this.target.querySelector('.rangeslider-feature-range');
+    this.featureHighlightIconContainer = this.target.querySelector('.rangeslider-feature-highlight-icon');
+    this.featureIcons = this.target.querySelector('.rangeslider-feature-icons');
 
-      this.update();
-      this.attachLeftKnobListeners();
-      this.attachRightKnobListeners();
-      this.attachBetweenKnobListeners();
-      this.attachBackgroundListeners();
-    });
+    this.diff = monthDiff(this.begin, this.end);
+    this.leftStep = 0;
+    this.rightStep = this.diff;
+
+    this.update();
+    this.attachLeftKnobListeners();
+    this.attachRightKnobListeners();
+    this.attachBetweenKnobListeners();
+    this.attachBackgroundListeners();
   }
 
   update() {
@@ -77,18 +68,16 @@ export class TimePicker extends ol.Observable {
       if (this.isFeatureInTimeline(feature)) {
         const featureBegin = new Date(feature.get('begin'));
         const featureEnd = new Date(feature.get('end'));
-        const iconId = feature.get('icon');
 
-        const img = document.createElement('img');
         const stepsLeft = monthDiff(this.begin, maxDate(this.begin, featureBegin));
         const stepsRight = monthDiff(this.begin, minDate(this.end, featureEnd));
 
         const left = stepsLeft * this.stepSize;
         const right = this.width - stepsRight * this.stepSize;
 
-        img.src = ICONS[iconId].normal;
+        const img = this.icons.get(feature.get('icon'), false).cloneNode();
         img.title = feature.get('name');
-        img.style.left = (left + this.width - right) / 2 - img.clientWidth / 2 + 10 + 'px';
+        img.style.left = (left + this.width - right) / 2 - img.width / 2 + 10 + 'px';
 
         img.addEventListener('click', () => {
           this.dispatchEvent({
@@ -109,7 +98,7 @@ export class TimePicker extends ol.Observable {
     const iconId = feature.get('icon');
 
     this.featureRange.classList.remove('hidden');
-    this.featureHighlightIcon.classList.remove('hidden');
+    this.featureHighlightIconContainer.classList.remove('hidden');
 
     const stepsLeft = monthDiff(this.begin, maxDate(this.begin, begin));
     const stepsRight = monthDiff(this.begin, minDate(this.end, end));
@@ -120,8 +109,10 @@ export class TimePicker extends ol.Observable {
     this.featureRange.style.left = left + 'px';
     this.featureRange.style.right = right + 'px';
 
-    this.featureHighlightIcon.src = ICONS[iconId].active;
-    this.featureHighlightIcon.style.left = (left + this.width - right) / 2 - this.featureHighlightIcon.clientWidth / 2 + 'px';
+    clearElement(this.featureHighlightIconContainer);
+    const img = this.icons.get(feature.get('icon'), true);
+    this.featureHighlightIconContainer.appendChild(img);
+    this.featureHighlightIconContainer.style.left = (left + this.width - right) / 2 - img.width / 2 + 'px';
   }
 
   setLeft(step) {

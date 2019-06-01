@@ -1,5 +1,4 @@
 import ol from 'openlayers';
-import {ICONS} from "./icons";
 
 const pointStyle = new ol.style.Style({
   image: new ol.style.Circle({
@@ -38,7 +37,7 @@ const lineStyle = new ol.style.Style({
   zIndex: 1
 });
 
-function createGeometryStyle(feature, resolution, geometry) {
+function createGeometryStyle(feature, resolution, geometry, icons) {
   if (geometry instanceof ol.geom.Point) {
     let style = pointStyle.clone();
     style.setGeometry(geometry);
@@ -48,17 +47,14 @@ function createGeometryStyle(feature, resolution, geometry) {
         anchor: [0.5, 1]
       };
 
-      if (!feature.get('active')) {
-        iconOptions.src = ICONS[feature.get('icon')].normal;
-      } else {
-        iconOptions.src = ICONS[feature.get('icon')].active;
-      }
-
+      let img = icons.get(feature.get('icon'), feature.get('active'));
+      iconOptions.img = img;
+      iconOptions.imgSize = [ img.width, img.height ];
 
       style.setImage(new ol.style.Icon(iconOptions));
     }
 
-    if (resolution < 10) {
+    if (resolution < 10 || feature.get('hover')) {
       style.getText().setText(feature.get('name'));
     }
 
@@ -71,16 +67,18 @@ function createGeometryStyle(feature, resolution, geometry) {
   }
 }
 
-export function vectorLayerStyle(feature, resolution) {
-  if (feature.get('hidden')) {
-    return null;
-  }
+export function createVectorLayerStyle(icons) {
+  return function vectorLayerStyle(feature, resolution) {
+    if (feature.get('hidden')) {
+      return null;
+    }
 
-  let geom = feature.getGeometry();
-  if (geom instanceof ol.geom.GeometryCollection) {
-    return geom.getGeometries().map(g => createGeometryStyle(feature, resolution, g));
-  }
-  else {
-    return createGeometryStyle(feature, resolution, geom);
+    let geom = feature.getGeometry();
+    if (geom instanceof ol.geom.GeometryCollection) {
+      return geom.getGeometries().map(g => createGeometryStyle(feature, resolution, g, icons));
+    }
+    else {
+      return createGeometryStyle(feature, resolution, geom, icons);
+    }
   }
 }
