@@ -403,7 +403,7 @@
         "description": [
           "öffentliche Versammlung der Notstandsarbeiter im „Maurischen Tempel“ Ende August 1924;",
           "Die sog. Notstandarbeiten waren privaten Unternehmen übertragen worden, die auf drohende Streiks mit Aussperrungen reagierten. Die FAUD lud daher zu einer Protestveranstaltung ein, die von ca. 1500 besucht wurde.",
-          "<a href='#' class='image-modal'> <img src='http://www.bilderbuch-koeln.de/bilder/k%C3%B6ln_altstadt_s%C3%BCd_maurischer_tempel_ball_und_gesellschaftslokal_historisch_nostalgie_ansichtskarte_e4d2401762_1200x1600xin.jpeg' style='width: 20rem'> </a>"
+          "<a href='#' class='image-modal'> <img src='images/maurischer-tempel.jpeg' style='width: 20rem'> </a>"
         ],
         "icon": "meet",
         "address": "Vor den Siebenburgen 51, Köln",
@@ -719,6 +719,192 @@
         "type": "GeometryCollection"
       },
       "id": 1540238806794
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maidemo",
+        "icon": "flagw",
+        "address": "vom Restaurant \"Kuberski\" in Köpenick (damals Grünauer Sr. 7) zum Spreerestaurant \"Sadowa\" an der Wuhlheide (Route vermutet)",
+        "begin": "1931-05-01",
+        "end": "1931-05-01",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 33. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "description": [
+          "Demonstration der Kreisarbeitsbörse der südöstlichen Berliner Vororte anlässlich des 1. Mai 1931.",
+          "Als Hauptredner trat <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auf."
+        ]
+      },
+      "id": 1555350281737,
+      "geometry": {
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              13.56924444437027,
+              52.442715968441235
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                13.569343686103819,
+                52.44273558786182
+              ],
+              [
+                13.56910228729248,
+                52.44455361625133
+              ],
+              [
+                13.573908805847166,
+                52.44448822084752
+              ],
+              [
+                13.575432300567627,
+                52.447221665946955
+              ],
+              [
+                13.575389385223387,
+                52.44747015254529
+              ],
+              [
+                13.574745655059814,
+                52.44813713595704
+              ],
+              [
+                13.574080467224121,
+                52.4493795291093
+              ],
+              [
+                13.571999073028564,
+                52.45097497207474
+              ],
+              [
+                13.566398620605469,
+                52.45547328692283
+              ],
+              [
+                13.564531803131104,
+                52.456453963163696
+              ],
+              [
+                13.562450408935547,
+                52.456597793842526
+              ],
+              [
+                13.561849594116211,
+                52.4582975753711
+              ],
+              [
+                13.561420440673828,
+                52.45893824522766
+              ],
+              [
+                13.552665710449219,
+                52.468756325096464
+              ],
+              [
+                13.552665710449219,
+                52.46896547474687
+              ],
+              [
+                13.55212926864624,
+                52.469135408106034
+              ],
+              [
+                13.551616966724396,
+                52.46886580199056
+              ]
+            ]
+          }
+        ],
+        "type": "GeometryCollection"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Protest für den 1. Mai",
+        "description": [
+          "Öffentliche Protestkundgebung für die Wiederzulassung Maidemonstrationen 1930 bei Deike.",
+          "\"Am 1. Mai die Straße frei - für die demonstrierenden Arbeitermassen.",
+          "Wir wollen keinen zweiten Blutmai.",
+          "Wir fordern Demonstrationsfreiheit.\"",
+          "Es sprachen Helmut Rüdiger und <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>. Eine weitere Veranstaltung fand in <a class='feature-link' data-layer='events' data-feature='1555357694860' href='#'>Friedrichshain</a> statt.",
+          "Im Jahr zuvor waren Maiveranstaltungen durch den sozialdemokratischen Polizeipräsidenten Zörgiebel verboten worden. Bei den dennoch stattgefundenen Demonstrationen starben 33 Personen, beinahe 200 wurden verletzt."
+        ],
+        "icon": "protest",
+        "address": "Am Lützow 9, Berlin-Charlottenburg (Gebäude abgerissen; heute Alt-Lützow)",
+        "begin": "1930-04-02",
+        "end": "1930-04-02",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 33. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.311095237731934,
+          52.51853855930714
+        ]
+      },
+      "id": 1555355180105
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Protest für den 1. Mai",
+        "description": [
+          "Öffentliche Protestkundgebung für die Wiederzulassung Maidemonstrationen 1930 bei Deike.",
+          "\"Am 1. Mai die Straße frei - für die demonstrierenden Arbeitermassen.",
+          "Wir wollen keinen zweiten Blutmai.",
+          "Wir fordern Demonstrationsfreiheit.\"",
+          "Es sprachen Reinhold Busch und Fritz Kater. Eine weitere Veranstaltung fand in <a class='feature-link' data-layer='events' data-feature='1555355180105' href='#'>Charlottenburg</a> statt.",
+          "Im Jahr zuvor waren Maiveranstaltungen durch den sozialdemokratischen Polizeipräsidenten Zörgiebel verboten worden. Bei den dennoch stattgefundenen Demonstrationen starben 33 Personen, beinahe 200 wurden verletzt."
+        ],
+        "icon": "protest",
+        "address": "Fruchtstraße 36a, Berlin-Friedrichshain (Gebäude abgerissen; heute Str. der Pariser Kommune)",
+        "begin": "1930-04-10",
+        "end": "1930-04-10",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 33. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.440388441085815,
+          52.515770368103205
+        ]
+      },
+      "id": 1555357694860
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "\"Satyrischer Abend\"",
+        "icon": "theater",
+        "begin": "1929-12-08",
+        "end": "1929-12-08",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 34. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "address": "Bergstraße 29, Berlin",
+        "description": [
+          "\"Satyrischer Abend\" im Jugendheim, mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "\"Satyrisches aus der Revolution nebst eigenen Erlebnissen.\""
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.393884301185608,
+          52.53233447717015
+        ]
+      },
+      "id": 1555358885848
     }
   ]
 }

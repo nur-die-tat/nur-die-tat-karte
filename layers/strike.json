@@ -52,8 +52,8 @@
           "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
           "Bewertung des Streiks als Tarifbruch durch Zentralgewerkschaften;",
           "nach erfolgslosen Verhandlungen Wiederaufnahme der Arbeit am 26. Februar.",
-          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/2/21/ISK_Knapsack_Carbidabstich.jpg' style='width: 20rem'> </a>",
-          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/c/c1/ISK_Knapsack_Hoechst_1920er.jpg' style='width: 20rem'> </a>"
+          "<a href='#' class='image-modal'> <img src='images/Knapsack-Carbidabstich.jpg' style='width: 20rem'> </a>",
+          "<a href='#' class='image-modal'> <img src='images/Knapsack-Hoechst.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "strike",
         "address": "Knapsack Chemiewerk, Köln",
@@ -87,7 +87,7 @@
           "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
           "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='persons' data-feature='14' href='#'>Sneydn</a>",
           "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
-          "<a href='#' class='image-modal'> <img src='http://www.ksta.de/image/3933596/max/1920/1080/518e01cb97bb7910fa5d2bf494776305/WI/bayer-150-werk-am-rhein19-jpg.jpg' style='width: 20rem'> </a>"
+          "<a href='#' class='image-modal'> <img src='images/bayer-werk-am-rhein.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "strike",
         "address": "Leverkusen, Farbenfabriken",
@@ -148,7 +148,7 @@
           "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
           "<a href='#' class='image-modal'> <img src='../images/Cologne Post cut.JPG' style='width: 20rem'> </a>",
           "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung vergrößert",
-          "<a href='#' class='image-modal'> <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/Kraftwerk_Goldenberg.jpg' style='width: 20rem'> </a>",
+          "<a href='#' class='image-modal'> <img src='images/Kraftwerk-Goldenberg.jpg' style='width: 20rem'> </a>",
           "Kraftwerk Goldenberg im Baujahr acht Jahre zuvor"
         ],
         "icon": "strike",
