@@ -308,6 +308,8 @@ export class TimePicker extends ol.Observable {
       let left = steps * this.stepSize - eventText.clientWidth / 2;
       if (left < -overlap) {
         left = -overlap;
+      } else if (left + eventText.clientWidth + overlap > this.eventTextsContainer.clientWidth) {
+        left = this.eventTextsContainer.clientWidth - eventText.clientWidth + overlap;
       } else if (left < lastTextRight) {
         left = lastTextRight + spacing;
       }
