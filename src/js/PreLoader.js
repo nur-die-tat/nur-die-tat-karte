@@ -1,6 +1,8 @@
-/* globals ol, Image, XMLHttpRequest */
+/* globals Image, XMLHttpRequest */
 
-export class PreLoader extends ol.Observable {
+import Observable from 'ol/Observable'
+
+export class PreLoader extends Observable {
   constructor () {
     super()
     this.files = {}

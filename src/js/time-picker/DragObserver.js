@@ -1,6 +1,6 @@
-/* globals ol */
+import Observable from 'ol/Observable'
 
-export class DragObserver extends ol.Observable {
+export class DragObserver extends Observable {
   constructor (element) {
     super()
 

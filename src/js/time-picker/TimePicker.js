@@ -1,13 +1,12 @@
-/* globals ol */
-
 import html from 'raw-loader!../../html/time-picker.html' // eslint-disable-line import/no-webpack-loader-syntax
 import '../../css/rangeslider.css'
 
 import { monthDiff, minDate, maxDate } from './timeHelper'
 import { DragObserver } from './DragObserver'
 import { clearElement } from '../utils'
+import Observable from 'ol/Observable'
 
-export class TimePicker extends ol.Observable {
+export class TimePicker extends Observable {
   constructor (targetSelector, config, layers, view, icons) {
     super()
     this.layers = layers

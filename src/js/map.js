@@ -1,4 +1,4 @@
-/* globals ol, $ */
+/* globals $ */
 
 import { baseLayers } from './baseLayers'
 import { TimePicker } from './time-picker/TimePicker'
@@ -8,23 +8,26 @@ import { PanelHide } from './panelHide'
 import { eventChannel } from './eventChannel'
 import { PreLoader } from './PreLoader'
 import { Icons } from './icons'
+import { defaults } from 'ol/control/util'
+import View from 'ol/View'
+import OlMap from 'ol/Map'
+
+import 'ol/ol.css'
 
 export function createMap () {
-  // proj4.defs("EPSG:31466", "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs");
-
   const preLoader = new PreLoader()
 
-  const map = new ol.Map({
+  const map = new OlMap({
     target: 'map',
-    controls: ol.control.defaults({
+    controls: defaults({
       zoomOptions: {
         className: 'zoom'
       },
-      attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+      attributionOptions: {
         collapsible: false
-      })
+      }
     }),
-    view: new ol.View({
+    view: new View({
       center: [ 969903.0294226853, 6715569.3577772435 ],
       zoom: 6
     })
@@ -56,8 +59,7 @@ export function createMap () {
       panelHide.update()
     }
 
-    panelHide.getToggleObservable()
-      .subscribe(updateSizes)
+    panelHide.on('change', updateSizes)
 
     const resetSizes = () => {
       $('.tab-content').css('height', null)

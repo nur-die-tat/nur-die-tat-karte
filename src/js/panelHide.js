@@ -1,7 +1,8 @@
-import { Subject } from 'rxjs/Subject'
+import Observable from 'ol/Observable'
 
-export class PanelHide {
+export class PanelHide extends Observable {
   constructor () {
+    super()
     this.leftPanel = document.querySelector('#left-panel')
     this.hideButton = document.querySelector('#left-panel-hide-button')
     this.showButton = document.querySelector('#left-panel-show-button')
@@ -14,7 +15,7 @@ export class PanelHide {
       this.leftPanel.classList.add('hidden')
       this.visible = false
       this.update()
-      this.toggleSubject.next('hide')
+      this.dispatchEvent('change')
     })
 
     this.showButton.addEventListener('click', () => {
@@ -23,16 +24,10 @@ export class PanelHide {
       this.leftPanel.classList.remove('hidden')
       this.visible = true
       this.update()
-      this.toggleSubject.next('show')
+      this.dispatchEvent('change')
     })
 
-    this.toggleSubject = new Subject()
-
     this.update()
-  }
-
-  getToggleObservable () {
-    return this.toggleSubject.asObservable()
   }
 
   update () {

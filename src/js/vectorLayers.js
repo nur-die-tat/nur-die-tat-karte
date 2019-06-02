@@ -1,7 +1,9 @@
-/* globals ol */
-
 import { vectorLayerMenu } from './vectorLayerMenu.js'
 import { createVectorLayerStyle } from './vectorLayerStyle'
+import GeoJSON from 'ol/format/GeoJSON'
+import VectorLayer from 'ol/layer/Vector'
+import VectorSource from 'ol/source/Vector'
+import { easeOut } from 'ol/easing'
 
 const VECTORLAYERS = [
   {
@@ -28,17 +30,17 @@ const VECTORLAYERS = [
 
 export function vectorLayers (map, preLoader, icons) {
   const layers = []
-  const format = new ol.format.GeoJSON({
+  const format = new GeoJSON({
     featureProjection: map.getView().getProjection()
   })
 
   for (const layerDef of VECTORLAYERS) {
     preLoader.add(layerDef.file, 'txt')
-    const layer = new ol.layer.Vector({
+    const layer = new VectorLayer({
       id: layerDef.id,
       name: layerDef.name,
       style: createVectorLayerStyle(icons),
-      source: new ol.source.Vector(),
+      source: new VectorSource(),
       visible: true,
       zIndex: 2
     })
@@ -52,7 +54,7 @@ export function vectorLayers (map, preLoader, icons) {
     }
 
     setTimeout(() => {
-      map.getView().animate({ zoom: 14, duration: 4000, easing: ol.easing.easeOut })
+      map.getView().animate({ zoom: 14, duration: 4000, easing: easeOut })
     }, 0)
   })
 

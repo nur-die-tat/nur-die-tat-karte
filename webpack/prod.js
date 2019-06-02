@@ -25,9 +25,6 @@ module.exports = webpackMerge(commonConfig, {
     }),
     new ExtractTextPlugin('css/[name].css'),
     new HtmlWebpackIncludeAssetsPlugin({ assets: [
-      'vendor/proj4/proj4.js',
-      'vendor/openlayers/ol.css',
-      'vendor/openlayers/ol.js',
       'vendor/bootstrap/css/bootstrap.min.css',
       'vendor/jquery/jquery.min.js',
       'vendor/tether/js/tether.min.js',

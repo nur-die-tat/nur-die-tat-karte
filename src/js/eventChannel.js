@@ -1,6 +1,6 @@
-/* globals ol */
+import Observable from 'ol/Observable'
 
-class EventChannel extends ol.Observable {
+class EventChannel extends Observable {
   dispatchMapCreated () {
     this.dispatchEvent('mapCreated')
   }

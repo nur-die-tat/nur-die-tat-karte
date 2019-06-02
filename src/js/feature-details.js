@@ -1,10 +1,13 @@
-/* globals ol */
-
 import { createImageModalLinks } from './imageModal'
 import { clearElement } from './utils'
 import { createVectorLayerStyle, networkStyle } from './vectorLayerStyle'
 import { setMapQuery } from './pages'
 import { eventChannel } from './eventChannel'
+import VectorSource from 'ol/source/Vector'
+import VectorLayer from 'ol/layer/Vector'
+import LineString from 'ol/geom/LineString'
+import Feature from 'ol/Feature'
+import { getCenter } from 'ol/extent'
 
 function getPoint (geom) {
   while (geom.getGeometries) {
@@ -19,21 +22,21 @@ export class FeatureDetails {
     this.vectorLayers = vectorLayers
     this.timePicker = timePicker
 
-    this.highlightSource = new ol.source.Vector({
+    this.highlightSource = new VectorSource({
       features: []
     })
 
-    this.map.addLayer(new ol.layer.Vector({
+    this.map.addLayer(new VectorLayer({
       source: this.highlightSource,
       style: createVectorLayerStyle(icons),
       zIndex: 10
     }))
 
-    this.networkSource = new ol.source.Vector({
+    this.networkSource = new VectorSource({
       features: []
     })
 
-    this.map.addLayer(new ol.layer.Vector({
+    this.map.addLayer(new VectorLayer({
       source: this.networkSource,
       style: networkStyle,
       zIndex: 9
@@ -107,11 +110,11 @@ export class FeatureDetails {
     for (const link of links) {
       const layer = this.vectorLayers.find(l => l.get('id') === link.dataset.layer)
       const feature = layer.getSource().getFeatureById(link.dataset.feature)
-      const line = new ol.geom.LineString([
+      const line = new LineString([
         activePoint,
         getPoint(feature.getGeometry())
       ])
-      this.networkSource.addFeature(new ol.Feature(line))
+      this.networkSource.addFeature(new Feature(line))
     }
   }
 
@@ -129,7 +132,7 @@ export class FeatureDetails {
 
   focusOnFeature (feature, layer) {
     setTimeout(() => {
-      this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()), duration: 2000 })
+      this.map.getView().animate({ center: getCenter(feature.getGeometry().getExtent()), duration: 2000 })
     }, 0)
     this.showFeatureDetails(feature, layer)
   }
