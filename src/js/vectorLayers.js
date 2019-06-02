@@ -52,8 +52,8 @@ export function vectorLayers (map, preLoader, icons) {
     }
 
     setTimeout(() => {
-      map.getView().animate({ zoom: 14, duration: 2000, easing: ol.easing.easeOut })
-    }, 1000)
+      map.getView().animate({ zoom: 14, duration: 4000, easing: ol.easing.easeOut })
+    }, 0)
   })
 
   vectorLayerMenu(layers)

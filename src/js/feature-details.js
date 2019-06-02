@@ -128,7 +128,9 @@ export class FeatureDetails {
   }
 
   focusOnFeature (feature, layer) {
-    this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()), duration: 2000 })
+    setTimeout(() => {
+      this.map.getView().animate({ center: ol.extent.getCenter(feature.getGeometry().getExtent()), duration: 2000 })
+    }, 0)
     this.showFeatureDetails(feature, layer)
   }
 
