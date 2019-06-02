@@ -1,5 +1,5 @@
-export function clearElement(element) {
+export function clearElement (element) {
   while (element.hasChildNodes()) {
-    element.removeChild(element.lastChild);
+    element.removeChild(element.lastChild)
   }
 }

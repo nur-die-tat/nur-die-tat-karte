@@ -1,6 +1,8 @@
-import {baseLayerMenu} from "./baseLayerMenu.js";
+/* globals ol */
 
-export function baseLayers(map) {
+import { baseLayerMenu } from './baseLayerMenu.js'
+
+export function baseLayers (map) {
   let layers = [
     new ol.layer.Group({
       name: 'Historische Karten',
@@ -130,13 +132,13 @@ export function baseLayers(map) {
     //   source: new ol.source.OSM(),
     //   visible: false
     // })
-  ];
+  ]
 
   for (let l of layers) {
-    map.addLayer(l);
+    map.addLayer(l)
   }
 
-  baseLayerMenu(layers);
+  baseLayerMenu(layers)
 
-  return layers;
+  return layers
 }

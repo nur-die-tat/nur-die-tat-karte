@@ -1,10 +1,10 @@
-var path = require('path');
-var webpackMerge = require('webpack-merge');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
-var commonConfig = require('./common.js');
+var path = require('path')
+var webpackMerge = require('webpack-merge')
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin')
+var commonConfig = require('./common.js')
 
-var root = path.resolve(__dirname, '..');
+var root = path.resolve(__dirname, '..')
 
 module.exports = webpackMerge(commonConfig, {
   devtool: 'cheap-module-eval-source-map',
@@ -25,11 +25,12 @@ module.exports = webpackMerge(commonConfig, {
       'vendor/jquery/jquery.min.js',
       'vendor/tether/js/tether.min.js',
       'vendor/bootstrap/js/bootstrap.min.js'
-    ], append: false })
+    ],
+    append: false })
   ],
 
   devServer: {
     historyApiFallback: true,
     stats: 'minimal'
   }
-});
+})

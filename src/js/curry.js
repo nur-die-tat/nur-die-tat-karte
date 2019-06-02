@@ -1,5 +1,5 @@
-export function curry(fn, ...staticArgs) {
+export function curry (fn, ...staticArgs) {
   return (...dynamicArgs) => {
-    return fn(...staticArgs, ...dynamicArgs);
+    return fn(...staticArgs, ...dynamicArgs)
   }
 }

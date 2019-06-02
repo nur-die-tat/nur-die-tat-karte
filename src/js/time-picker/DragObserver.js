@@ -1,35 +1,37 @@
+/* globals ol */
+
 export class DragObserver extends ol.Observable {
   constructor (element) {
     super()
 
-    let clickTolerance = 200;
-    let mouseDown;
-    let mouseDownTime;
-    let startX;
+    let clickTolerance = 200
+    let mouseDown
+    let mouseDownTime
+    let startX
 
     element.addEventListener('mousedown', e => {
-      mouseDown = true;
-      startX = e.screenX;
-      mouseDownTime = Date.now();
+      mouseDown = true
+      startX = e.screenX
+      mouseDownTime = Date.now()
       // console.log('down: ' + mouseDownTime);
-      e.preventDefault();
-      e.stopImmediatePropagation();
+      e.preventDefault()
+      e.stopImmediatePropagation()
       this.dispatchEvent({
         type: 'moveStart',
         originalEvent: e
       })
-    });
+    })
 
     document.addEventListener('mousemove', e => {
       // console.log('move: ' + Date.now());
       if (mouseDown && (Date.now() - mouseDownTime) > clickTolerance) {
-        e.diffX = e.screenX - startX;
+        e.diffX = e.screenX - startX
         this.dispatchEvent({
           type: 'move',
           originalEvent: e
         })
       }
-    });
+    })
 
     document.addEventListener('mouseup', e => {
       // console.log('up: ' + Date.now());
@@ -39,11 +41,11 @@ export class DragObserver extends ol.Observable {
           originalEvent: e
         })
       }
-      mouseDown = false;
+      mouseDown = false
       this.dispatchEvent({
         type: 'moveEnd',
         originalEvent: e
       })
-    });
+    })
   }
 }

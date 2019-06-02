@@ -1,5 +1,7 @@
-import {vectorLayerMenu} from "./vectorLayerMenu.js";
-import {createVectorLayerStyle} from "./vectorLayerStyle";
+/* globals ol */
+
+import { vectorLayerMenu } from './vectorLayerMenu.js'
+import { createVectorLayerStyle } from './vectorLayerStyle'
 
 const VECTORLAYERS = [
   {
@@ -22,16 +24,16 @@ const VECTORLAYERS = [
     name: 'Arbeitskämpfe',
     file: '../layers/strike.json'
   }
-  ];
+]
 
-export function vectorLayers(map, preLoader, icons) {
-  const layers = [];
+export function vectorLayers (map, preLoader, icons) {
+  const layers = []
   const format = new ol.format.GeoJSON({
     featureProjection: map.getView().getProjection()
-  });
+  })
 
   for (const layerDef of VECTORLAYERS) {
-    preLoader.add(layerDef.file, 'txt');
+    preLoader.add(layerDef.file, 'txt')
     const layer = new ol.layer.Vector({
       id: layerDef.id,
       name: layerDef.name,
@@ -39,22 +41,22 @@ export function vectorLayers(map, preLoader, icons) {
       source: new ol.source.Vector(),
       visible: true,
       zIndex: 2
-    });
-    layers.push(layer);
-    map.addLayer(layer);
+    })
+    layers.push(layer)
+    map.addLayer(layer)
   }
 
   preLoader.on('ready', () => {
     for (let i = 0; i < VECTORLAYERS.length; i++) {
-      layers[i].getSource().addFeatures(format.readFeatures(preLoader.get(VECTORLAYERS[i].file)));
+      layers[i].getSource().addFeatures(format.readFeatures(preLoader.get(VECTORLAYERS[i].file)))
     }
 
     setTimeout(() => {
-      map.getView().animate({ zoom: 14, duration: 2000, easing: ol.easing.easeOut });
-    }, 1000);
-  });
+      map.getView().animate({ zoom: 14, duration: 2000, easing: ol.easing.easeOut })
+    }, 1000)
+  })
 
-  vectorLayerMenu(layers);
+  vectorLayerMenu(layers)
 
-  return layers;
+  return layers
 }
