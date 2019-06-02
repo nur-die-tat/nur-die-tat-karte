@@ -1,4 +1,6 @@
-/* global history, $ */
+/* globals history */
+
+import $ from 'jquery'
 
 /* eslint-disable import/no-webpack-loader-syntax */
 import anmerkungenUrl from 'file-loader?name=pages/[name].[ext]!../html/anmerkungen.html'

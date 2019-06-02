@@ -1,11 +1,12 @@
-var path = require('path')
-var webpackMerge = require('webpack-merge')
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var commonConfig = require('./common.js')
+const path = require('path')
+const webpackMerge = require('webpack-merge')
+const commonConfig = require('./common.js')
 
-var root = path.resolve(__dirname, '..')
+const root = path.resolve(__dirname, '..')
 
 module.exports = webpackMerge(commonConfig, {
+  mode: 'development',
+
   devtool: 'cheap-module-eval-source-map',
 
   output: {
@@ -13,10 +14,6 @@ module.exports = webpackMerge(commonConfig, {
     publicPath: '/',
     filename: 'js/[name].js'
   },
-
-  plugins: [
-    new ExtractTextPlugin('css/[name].css')
-  ],
 
   devServer: {
     historyApiFallback: true,

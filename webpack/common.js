@@ -1,6 +1,6 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin')
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var CopyWebpackPlugin = require('copy-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -25,15 +25,15 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/,
-        loader: 'file-loader?name=images/[name].[ext]'
+        use: 'file-loader?name=images/[name].[ext]'
       },
       {
         test: /\.(ttf)$/,
-        loader: 'file-loader?name=fonts/[name].[ext]'
+        use: 'file-loader?name=fonts/[name].[ext]'
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap' })
+        use: [ MiniCssExtractPlugin.loader, 'css-loader?sourceMap' ]
       }
     ]
   },
@@ -48,6 +48,9 @@ module.exports = {
       { from: 'layers', to: 'layers' },
       { from: 'icons', to: 'images' },
       { from: 'data', to: 'data' }
-    ])
+    ]),
+    new MiniCssExtractPlugin({
+      filename: 'css/[name].css'
+    })
   ]
 }
