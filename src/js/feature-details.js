@@ -1,8 +1,15 @@
 import {createImageModalLinks} from "./imageModal";
 import {clearElement} from "./utils";
-import {createVectorLayerStyle} from "./vectorLayerStyle";
+import {createVectorLayerStyle, networkStyle} from "./vectorLayerStyle";
 import {setMapQuery} from "./pages";
 import {eventChannel} from "./eventChannel";
+
+function getPoint(geom) {
+  while (geom.getGeometries) {
+    geom = geom.getGeometries()[0]; // TODO: is there something nicer?
+  }
+  return geom.getFirstCoordinate(); // TODO: is there something nicer?
+}
 
 export class FeatureDetails {
   constructor (map, vectorLayers, timePicker, icons) {
@@ -20,6 +27,16 @@ export class FeatureDetails {
       zIndex: 10
     }));
 
+    this.networkSource = new ol.source.Vector({
+      features: []
+    });
+
+    this.map.addLayer(new ol.layer.Vector({
+      source: this.networkSource,
+      style: networkStyle,
+      zIndex: 9
+    }));
+
     map.on('click', e => {
       map.forEachFeatureAtPixel(e.pixel, (f, l) => {
         this.showFeatureDetails(f, l);
@@ -32,14 +49,17 @@ export class FeatureDetails {
       if (map.hasFeatureAtPixel(e.pixel)) {
         if (hovered) {
           hovered.set('hover', false);
+          this.highlightSource.removeFeature(hovered);
         }
         hovered = map.forEachFeatureAtPixel(e.pixel, f => f);
         hovered.set('hover', true);
         map.getViewport().style.cursor = 'pointer';
+        this.highlightSource.addFeature(hovered);
       }
       else {
         if (hovered) {
           hovered.set('hover', false);
+          this.highlightSource.removeFeature(hovered);
           hovered = null;
         }
         map.getViewport().style.cursor = 'auto';
@@ -71,6 +91,29 @@ export class FeatureDetails {
     })
   }
 
+  toggleNetworkVisibility () {
+    this.networkVisible = !this.networkVisible;
+    if (this.networkVisible) {
+      this.showNetwork();
+    } else {
+      this.networkSource.clear();
+    }
+  }
+
+  showNetwork () {
+    const links = this.featureDescriptionElement.querySelectorAll('.feature-link');
+    const activePoint = getPoint(this.activeFeature.getGeometry());
+    for (const link of links) {
+      const layer = this.vectorLayers.find(l => l.get('id') === link.dataset.layer);
+      const feature = layer.getSource().getFeatureById(link.dataset.feature);
+      const line = new ol.geom.LineString([
+        activePoint,
+        getPoint(feature.getGeometry())
+      ]);
+      this.networkSource.addFeature(new ol.Feature(line));
+    }
+  }
+
   focusOnFeatureByIds (featureId, layerId) {
     let layer = this.vectorLayers.find(l => l.get('id') === layerId);
     let feature = layer.getSource().getFeatures().find(f => f.getId() === featureId);
@@ -92,6 +135,7 @@ export class FeatureDetails {
     if (this.activeFeature) {
       this.activeFeature.set('active', false);
       this.highlightSource.clear();
+      this.networkSource.clear();
     }
 
     if (feature === null || this.activeFeature === feature) {
@@ -155,6 +199,10 @@ export class FeatureDetails {
       }
 
       setMapQuery(feature.getId(), layer.get('id'));
+
+      if (this.networkVisible) {
+        this.showNetwork();
+      }
     }
   }
 }

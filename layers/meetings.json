@@ -842,7 +842,7 @@
       },
       "id": 1555362582519
     },
-      {
+    {
       "type": "Feature",
       "properties": {
         "name": "Freie Sänger Chorabend",
@@ -883,7 +883,7 @@
         "begin": "1921-03-26",
         "end": "1921-04-01",
         "sources": [
-          "<a href=\"https://archive.org/details/berichtberdeni00inte/\">Bericht über den Internationalen Anti-Militaristischen Kongress im Haag, 1921</a>"
+          "<a target=\"_blank\" href=\"https://archive.org/details/berichtberdeni00inte/\">Bericht über den Internationalen Anti-Militaristischen Kongress im Haag, 1921</a>"
         ]
       },
       "geometry": {

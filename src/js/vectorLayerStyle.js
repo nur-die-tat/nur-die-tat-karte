@@ -37,6 +37,13 @@ const lineStyle = new ol.style.Style({
   zIndex: 1
 });
 
+export const networkStyle = new ol.style.Style({
+  stroke: new ol.style.Stroke({
+    color: 'black',
+    width: 2
+  })
+});
+
 function createGeometryStyle(feature, resolution, geometry, icons) {
   if (geometry instanceof ol.geom.Point) {
     let style = pointStyle.clone();
@@ -56,6 +63,10 @@ function createGeometryStyle(feature, resolution, geometry, icons) {
 
     if (resolution < 10 || feature.get('hover')) {
       style.getText().setText(feature.get('name'));
+    }
+
+    if (feature.get('hover')) {
+      style.setZIndex(2);
     }
 
     return style;

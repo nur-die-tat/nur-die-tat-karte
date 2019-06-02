@@ -35,19 +35,20 @@ export function createMap() {
   preLoader.add('data/time-line.json');
 
   preLoader.load().then(() => {
-    let timePicker = new TimePicker('#footer', preLoader.get('data/time-line.json'), vectorLayers_, map.getView(), icons);
+    const timePicker = new TimePicker('#footer', preLoader.get('data/time-line.json'), vectorLayers_, map.getView(), icons);
 
-    map.set('featureDetails', new FeatureDetails(map, vectorLayers_, timePicker, icons));
+    const featureDetails = new FeatureDetails(map, vectorLayers_, timePicker, icons);
+    map.set('featureDetails', featureDetails);
     map.on('moveend', () => {
       timePicker.showVisibleFeatures();
     });
 
-    let panelHide = new PanelHide();
+    const panelHide = new PanelHide();
 
     window.map = map;
     eventChannel.dispatchMapCreated();
 
-    let updateSizes = () => {
+    const updateSizes = () => {
       $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());
       map.updateSize();
       timePicker.update();
@@ -57,7 +58,7 @@ export function createMap() {
     panelHide.getToggleObservable()
       .subscribe(updateSizes);
 
-    let resetSizes = () => {
+    const resetSizes = () => {
       $('.tab-content').css('height', null);
     };
 
@@ -72,6 +73,21 @@ export function createMap() {
     });
 
     updateSizes();
+
+    const randomButton = document.getElementById('random-button');
+    randomButton.addEventListener('click', () => {
+      eventChannel.dispatchMapQuery('random');
+    });
+
+    const networkButton = document.getElementById('network-button');
+    networkButton.addEventListener('click', () => {
+      featureDetails.toggleNetworkVisibility();
+      if (featureDetails.networkVisible) {
+        networkButton.classList.add('active');
+      } else {
+        networkButton.classList.remove('active');
+      }
+    });
   });
 
   return map;
