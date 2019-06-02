@@ -1,4 +1,4 @@
-/* globals $ */
+import $ from 'jquery'
 
 export function baseLayerMenu (layers) {
   let target = document.querySelector('#basiskarten-dropdown .dropdown-menu')

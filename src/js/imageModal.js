@@ -1,4 +1,4 @@
-/* globals $ */
+import $ from 'jquery'
 
 export function createImageModalLinks (target) {
   for (let imageModalLink of target.querySelectorAll('.image-modal')) {

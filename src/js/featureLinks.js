@@ -1,5 +1,4 @@
-/* globals $ */
-
+import $ from 'jquery'
 import { eventChannel } from './eventChannel'
 import OlMap from 'ol/Map'
 

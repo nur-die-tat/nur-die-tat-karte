@@ -1,4 +1,4 @@
-/* globals $ */
+import $ from 'jquery'
 
 export function vectorLayerMenu (layers) {
   let target = document.querySelector('#themen-dropdown .dropdown-menu')

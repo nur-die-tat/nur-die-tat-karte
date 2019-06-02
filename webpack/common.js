@@ -38,17 +38,12 @@ module.exports = {
     ]
   },
 
-  externals: {
-    jquery: 'jQuery'
-  },
-
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/html/index.html',
       favicon: 'images/favicon.ico'
     }),
     new CopyWebpackPlugin([
-      { from: 'node_modules/jquery/dist', to: 'vendor/jquery' },
       { from: 'images', to: 'images' },
       { from: 'layers', to: 'layers' },
       { from: 'icons', to: 'images' },

@@ -2,7 +2,6 @@ var path = require('path')
 var webpack = require('webpack')
 var webpackMerge = require('webpack-merge')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin')
 var commonConfig = require('./common.js')
 
 var root = path.resolve(__dirname, '..')
@@ -23,10 +22,6 @@ module.exports = webpackMerge(commonConfig, {
         keep_fnames: true
       }
     }),
-    new ExtractTextPlugin('css/[name].css'),
-    new HtmlWebpackIncludeAssetsPlugin({ assets: [
-      'vendor/jquery/jquery.min.js'
-    ],
-    append: false })
+    new ExtractTextPlugin('css/[name].css')
   ]
 })

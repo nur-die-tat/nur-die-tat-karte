@@ -1,5 +1,4 @@
-/* globals $ */
-
+import $ from 'jquery'
 import { baseLayers } from './baseLayers'
 import { TimePicker } from './time-picker/TimePicker'
 import { vectorLayers } from './vectorLayers'
