@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config webpack/dev.js --inline --progress --port 8080",
     "build": "rimraf dist && webpack --config webpack/prod.js --progress --profile --bail",
     "test:json": "jsonlint -q layers/events.json && jsonlint -q layers/meetings.json && jsonlint -q layers/persons.json && jsonlint -q layers/strike.json",
-    "test": "npm run test:json"
+    "test": "npm run test:json && standard"
   },
   "author": "",
   "license": "ISC",
@@ -35,10 +35,13 @@
     "html-webpack-plugin": "^2.29.0",
     "jsonlint": "^1.6.2",
     "mocha": "^3.2.0",
+    "pre-push": "^0.1.1",
     "rimraf": "^2.6.1",
+    "standard": "^12.0.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "2.11.3",
     "webpack-merge": "^4.1.0"
-  }
+  },
+  "pre-push": [ "test" ]
 }
