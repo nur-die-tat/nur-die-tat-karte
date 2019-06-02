@@ -27,7 +27,6 @@ export function createTabLinks (target) {
     const res = /(?:^|^\/)([^#?/]+?)(?:#|\?|$)/.exec(href)
     if (res) {
       const page = res[1]
-      console.log(page)
       tabLink.addEventListener('click', e => {
         showTab(page)
       })

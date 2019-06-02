@@ -3,7 +3,7 @@
 import { baseLayers } from './baseLayers'
 import { TimePicker } from './time-picker/TimePicker'
 import { vectorLayers } from './vectorLayers'
-import { FeatureDetails } from './feature-details'
+import { FeatureDetails } from './FeatureDetails'
 import { PanelHide } from './panelHide'
 import { eventChannel } from './eventChannel'
 import { PreLoader } from './PreLoader'

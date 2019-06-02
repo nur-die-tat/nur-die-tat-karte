@@ -75,9 +75,14 @@ body {
     padding-top: 5px;
 }
 
+.full-width {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 .tab-content {
     position: relative;
-    width: 100%;
     margin: 0;
 }
 
@@ -188,4 +193,8 @@ body {
 
 button .icon {
     height: 22px;
+}
+
+#home-tab .card-img {
+    height: 449px;
 }

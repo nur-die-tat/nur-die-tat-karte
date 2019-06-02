@@ -48,8 +48,6 @@ module.exports = {
       favicon: 'images/favicon.ico'
     }),
     new CopyWebpackPlugin([
-      { from: 'node_modules/bootstrap/dist', to: 'vendor/bootstrap' },
-      { from: 'node_modules/tether/dist', to: 'vendor/tether' },
       { from: 'node_modules/jquery/dist', to: 'vendor/jquery' },
       { from: 'images', to: 'images' },
       { from: 'layers', to: 'layers' },

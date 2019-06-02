@@ -25,10 +25,7 @@ module.exports = webpackMerge(commonConfig, {
     }),
     new ExtractTextPlugin('css/[name].css'),
     new HtmlWebpackIncludeAssetsPlugin({ assets: [
-      'vendor/bootstrap/css/bootstrap.min.css',
-      'vendor/jquery/jquery.min.js',
-      'vendor/tether/js/tether.min.js',
-      'vendor/bootstrap/js/bootstrap.min.js'
+      'vendor/jquery/jquery.min.js'
     ],
     append: false })
   ]

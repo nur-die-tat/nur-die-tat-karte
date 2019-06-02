@@ -42,11 +42,13 @@ export class FeatureDetails {
       zIndex: 9
     }))
 
+    const layerFilter = l => this.vectorLayers.includes(l)
+
     map.on('click', e => {
       map.forEachFeatureAtPixel(e.pixel, (f, l) => {
         this.showFeatureDetails(f, l)
         return true
-      })
+      }, { layerFilter })
     })
 
     let hovered = null
@@ -56,7 +58,7 @@ export class FeatureDetails {
           hovered.set('hover', false)
           this.highlightSource.removeFeature(hovered)
         }
-        hovered = map.forEachFeatureAtPixel(e.pixel, f => f)
+        hovered = map.forEachFeatureAtPixel(e.pixel, f => f, { layerFilter })
         hovered.set('hover', true)
         map.getViewport().style.cursor = 'pointer'
         this.highlightSource.addFeature(hovered)
