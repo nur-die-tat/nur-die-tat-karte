@@ -52,22 +52,25 @@ export class FeatureDetails {
     })
 
     let hovered = null
-    map.on('pointermove', e => {
-      if (map.hasFeatureAtPixel(e.pixel)) {
-        if (hovered) {
-          hovered.set('hover', false)
+    const resetHover = () => {
+      if (hovered) {
+        hovered.set('hover', false)
+        if (this.highlightSource.hasFeature(hovered)) {
           this.highlightSource.removeFeature(hovered)
         }
+      }
+    }
+
+    map.on('pointermove', e => {
+      if (map.hasFeatureAtPixel(e.pixel)) {
+        resetHover()
         hovered = map.forEachFeatureAtPixel(e.pixel, f => f, { layerFilter })
         hovered.set('hover', true)
         map.getViewport().style.cursor = 'pointer'
         this.highlightSource.addFeature(hovered)
       } else {
-        if (hovered) {
-          hovered.set('hover', false)
-          this.highlightSource.removeFeature(hovered)
-          hovered = null
-        }
+        resetHover()
+        hovered = null
         map.getViewport().style.cursor = 'auto'
       }
     })
