@@ -103,7 +103,7 @@ const ICONS = {
     normal: '../images/medicine.png',
     active: '../images/medicine-select.png'
   },
-  'protest': {
+  'revolt': {
     normal: '../images/revolt.png',
     active: '../images/revolt-select.png'
   }
