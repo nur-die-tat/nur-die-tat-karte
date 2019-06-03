@@ -870,11 +870,13 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Internationaler Anti-Militaristischer Kongress ",
+        "name": "3. Internationaler Anti-Militaristischer Kongress ",
         "description": [
           "Zu dem Kongress kamen Antimilitaristen aus der ganzen Welt zusammen. Es gab Berichte und Botschaften, Referate unter anderem über das Wesen des Krieges und praktische Aspekte. Außerdem ein ausgedehnter organisatorischer Teil in dem  ein ständiges Antimilitaristisches Büro in Amsterdam beschlossen wurde.",
           "",
-          "Einer der Redner war Albert de Jong über „Praxis des Antimilitarismus“.",
+          "Für <a class='feature-link' data-layer='persons' data-feature='1559588462732' href='#'>Albert de Jong</a> und Arthur Müller-Lehning war der Antimilitarismus die Ablehnung des militärischen Nationalismus, der „auch durch die Bolschewisten übernommen [worden] ist“. Jedoch war keine absolute Gewaltlosigkeit gemeint: „Wir stehen nicht auf dem Standpunkt, dass es besser sei, sich töten zu lassen, als selbst zu töten. Wir stehen auf dem Standpunkte der Verteidigung des Einzelwesens, des Volkes und der Revolution.“ ",
+          "",
+          "Albert de Jong war Mitorganisator und Redner (über „Praxis des Antimilitarismus“) des Kongresses.",
           "",
           "Einige Menschen, die an dem Kongress teilnehmen wollten, konnten auf Grund von Passschwierigkeiten nicht anreisen. So unter anderen auch Rudolf Rocker, der über „Militarismus und Kapitalismus“ referieren sollte."
         ],
@@ -883,7 +885,8 @@
         "begin": "1921-03-26",
         "end": "1921-04-01",
         "sources": [
-          "<a target=\"_blank\" href=\"https://archive.org/details/berichtberdeni00inte/\">Bericht über den Internationalen Anti-Militaristischen Kongress im Haag, 1921</a>"
+          "<a target=\"_blank\" href=\"https://archive.org/details/berichtberdeni00inte/\">Bericht über den Internationalen Anti-Militaristischen Kongress im Haag, 1921</a>",
+          "<a target='_blank' href='https://www.anarchismus.at/anarchistische-klassiker/arthur-mueller-lehning/8002-arthur-mueller-lehning-albert-de-jong-gewalt-und-revolution'>Arthur Müller-Lehning / Albert de Jong - Gewalt und Revolution</a>"
         ]
       },
       "geometry": {

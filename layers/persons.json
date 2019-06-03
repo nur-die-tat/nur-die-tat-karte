@@ -2069,7 +2069,7 @@
         "name": "Nolden, Julius",
         "description": [
           "*1895, ✝1973",
-          "Schlosser, Teilnehmer am 1.Weltkrieg, 1919 Deutscher Metallarbeiterverband, 1923 FAUD, 1931-36 arbeitslos, in dieser Zeit Grabredner und Kassierer für eine Feuerbestattungskasse, in deren Rahmen nach der NS-Machtübernahme illegale politische Arbeit geleistet wurde. Ab 1932 Kassenobmann FAUD-Provinzarbeiterbörse Rheinland, Anlaufstelle für Grenzdurchgangsstelle der illegalen FAUD nach Holland. Druckschriftenschmuggel. 1937 Verhaftung. Urteil: 10 Jahre Zuchthaus im <a class='feature-link' data-layer='persons' data-feature='1559242446862' href='#'>Zuchthaus Remscheid</a>.",
+          "Schlosser, Teilnehmer am 1.Weltkrieg, 1919 Deutscher Metallarbeiterverband, 1923 FAUD, 1931-36 arbeitslos, in dieser Zeit Grabredner und Kassierer für eine Feuerbestattungskasse, in deren Rahmen nach der NS-Machtübernahme illegale politische Arbeit geleistet wurde. Ab 1932 Kassenobmann FAUD-Provinzarbeiterbörse Rheinland, Anlaufstelle für Grenzdurchgangsstelle der illegalen FAUD in <a class='feature-link' data-layer='persons' data-feature='1559588462732' href='#'>die Niederlande</a>. Druckschriftenschmuggel. 1937 Verhaftung. Urteil: 10 Jahre Zuchthaus im <a class='feature-link' data-layer='persons' data-feature='1559242446862' href='#'>Zuchthaus Remscheid</a>.",
           "(Text: FAU Düsseldorf)"
         ],
         "icon": "home",
@@ -2090,6 +2090,35 @@
         ]
       },
       "id": 1559245488202
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "de Jong, Albert",
+        "description": [
+          "*1891, ✝1970",
+          "Lehrer, Redakteur, Autor, (Mit-)Organisator des <a class='feature-link' data-layer='meetings' data-feature='1559247688360' href='#'>3. Antimilitaristischen Kongresses 1921 in Den Haag</a>. Dafür reiste er mehrmals illegal nach Berlin und Paris.",
+          "Sekretär des Internationalen Antimilitaristischen Büros.",
+          "Ab 1933 versorgte er Anarchisten im Rheinland mit Flugblättern und Broschüren und half bei Grenzüberquerungen. Stand dazu in Kontakt mit <a class='feature-link' data-layer='persons' data-feature='1559245488202' href='#'>Julius Nolden</a>.",
+          "<a href='#' class='image-modal'> <img src='../images/jong-a-a.jpg' style='width: 20rem'> </a>"
+        ],
+        "icon": "home",
+        "address": "Laurierstraat 127, Den Haag",
+        "begin": "1921-01-01",
+        "end": "1937-01-01",
+        "sources": [
+          "<a target='_blank' href='https://socialhistory.org/bwsa/biografie/jong-a-a'>https://socialhistory.org/bwsa/biografie/jong-a-a</a>",
+          "<a target='_blank' href='https://de.wikipedia.org/wiki/Albert_de_Jong'>https://de.wikipedia.org/wiki/Albert_de_Jong</a>"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2722466588020325,
+          52.06951889021374
+        ]
+      },
+      "id": 1559588462732
     }
   ]
 }
