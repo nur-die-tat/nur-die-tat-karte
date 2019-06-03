@@ -2,13 +2,11 @@
 
 import $ from 'jquery'
 
-/* eslint-disable import/no-webpack-loader-syntax */
-import anmerkungenUrl from 'file-loader?name=pages/[name].[ext]!../html/anmerkungen.html'
-import karteUrl from 'file-loader?name=pages/[name].[ext]!../html/karte.html'
-import homeUrl from 'file-loader?name=pages/[name].[ext]!../html/home.html'
-import kontaktUrl from 'file-loader?name=pages/[name].[ext]!../html/kontakt.html'
-import datenschutzUrl from 'file-loader?name=pages/[name].[ext]!../html/datenschutz.html'
-/* eslint-enable import/no-webpack-loader-syntax */
+import anmerkungenUrl from '../html/pages/anmerkungen.html'
+import karteUrl from '../html/pages/karte.html'
+import homeUrl from '../html/pages/home.html'
+import kontaktUrl from '../html/pages/kontakt.html'
+import datenschutzUrl from '../html/pages/datenschutz.html'
 
 import { loadHTML } from './loadHTML'
 import { eventChannel } from './eventChannel'

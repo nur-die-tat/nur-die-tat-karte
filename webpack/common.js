@@ -46,6 +46,15 @@ module.exports = {
         use: [ MiniCssExtractPlugin.loader, 'css-loader?sourceMap' ]
       },
       {
+        test: /pages.*?\.html$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'pages/[name].[contenthash].html'
+          }
+        }
+      },
+      {
         type: 'javascript/auto',
         test: /\.json$/,
         use: {
