@@ -226,6 +226,34 @@
         ]
       },
       "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lohnkommission der Fliesenleger",
+        "description": [
+          "Im Haus Kroll war die Lohnkommission der Fliesenleger ansässig. Als Ansprechpartner fungierte der sehr aktive <a class='feature-link' data-layer='persons' data-feature='44' href='#'>Carl Windhoff</a>.",
+          "",
+          "Bei einem Streik ab dem 13.09.1932 wurden unter anderem ein fester Tariflohn und eine \"im Arbeitsvertrag verankerte paritätische Arbeitsteilung\" gefordert. Der Deutsche Baugewerksbund, christliche Gewerkschaften sowie die FAUD entwarfen und unterzeichneten diese Forderungen gemeinsam. Die Arbeitgeber-Vereinigung wurde durch eine Fliesenleger-Versammlung am 01.10.1931 aufgerufen sich hier bei der Lohnkommission zur Aufnahme von Verhandlungen zu melden - täglich ab 9 Uhr Vormittags und/oder unter \"Fernruf 269 66\".",
+          "",
+          "Der Streik dehnte sich in diesem Gewerbe mindestens noch bis nach Essen aus. Die letzten Ausgaben der bei der Machtübernahme der Nationalsozialisten in Arbeiter-Echo umbenannten und dann verbotenen Zeitung, zeigen, dass der Streik noch lange andauerte."
+        ],
+        "icon": "revolt",
+        "address": "Am Wehrhahn 70, Düsseldorf",
+        "begin": "1932-09-13",
+        "end": "1933-01-31",
+        "sources": [
+          "Der Syndikalist, XIV. Jg., Nr. 47, S. 3."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.793112754821777,
+          51.22906814411058
+        ]
+      },
+      "id": 1559591440623
     }
   ]
 }
