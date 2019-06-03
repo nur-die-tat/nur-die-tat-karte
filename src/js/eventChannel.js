@@ -1,27 +1,16 @@
-class EventChannel extends ol.Observable {
-  dispatchMapCreated() {
-    this.dispatchEvent('mapCreated');
+import Observable from 'ol/Observable'
+
+class EventChannel extends Observable {
+  dispatchMapCreated () {
+    this.dispatchEvent('mapCreated')
   }
 
-  dispatchMapQuery(mapQuery) {
+  dispatchMapQuery (mapQuery) {
     this.dispatchEvent({
       type: 'mapQuery',
       mapQuery
-    });
-  }
-
-  onceLayersLoaded(fn) {
-    if (this.layersLoaded_) {
-      fn();
-    } else {
-      this.once('layersLoaded', fn);
-    }
-  }
-
-  dispatchLayerLoaded() {
-    this.layersLoaded_ = true;
-    this.dispatchEvent('layersLoaded')
+    })
   }
 }
 
-export const eventChannel = new EventChannel();
+export const eventChannel = new EventChannel()

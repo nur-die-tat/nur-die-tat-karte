@@ -1,4 +1,4 @@
-export const ICONS = {
+const ICONS = {
   'flagw': {
     normal: '../images/flagw.png',
     active: '../images/flagw-select.png'
@@ -76,9 +76,9 @@ export const ICONS = {
     active: '../images/farm1-select.png'
   },
   'prison': {
-  	normal: '../images/prison.png',
-	  active: '../images/prison-select.png'
-  },	
+    normal: '../images/prison.png',
+    active: '../images/prison-select.png'
+  },
   'circus': {
     normal: '../images/circus.png',
     active: '../images/circus-select.png'
@@ -107,4 +107,18 @@ export const ICONS = {
     normal: '../images/revolt.png',
     active: '../images/revolt-select.png'
   }
-};
+}
+
+export class Icons {
+  constructor (preLoader) {
+    this.preLoader = preLoader
+    for (const icon of Object.values(ICONS)) {
+      preLoader.add(icon.normal)
+      preLoader.add(icon.active)
+    }
+  }
+
+  get (name, active = false) {
+    return this.preLoader.get(ICONS[name][active ? 'active' : 'normal'])
+  }
+}

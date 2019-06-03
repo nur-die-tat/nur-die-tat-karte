@@ -31,7 +31,6 @@ h4 *,
 h5,
 h5 *,
 h6,
-h7,
 button,
 button *,
 .btn,
@@ -76,9 +75,14 @@ body {
     padding-top: 5px;
 }
 
+.full-width {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 .tab-content {
     position: relative;
-    width: 100%;
     margin: 0;
 }
 
@@ -102,7 +106,7 @@ body {
     /*display: inline-block;*/
 }
 
-#layer-selection {
+#map-controls {
     height: 60px;
     width: 100%;
     margin: 0;
@@ -157,6 +161,7 @@ body {
 #footer {
     height: 100px;
     margin: 0;
+    padding-top: 8px;
 }
 
 #footer-background {
@@ -184,4 +189,12 @@ body {
 
 .smaller-list-text li {
     font-size: 12px;
+}
+
+button .icon {
+    height: 22px;
+}
+
+#home-tab .card-img {
+    height: 449px;
 }

@@ -1,70 +1,96 @@
-import {baseLayers} from "./baseLayers";
-import {TimePicker} from "./time-picker/time-picker";
-import {featureDetails} from "./feature-details";
-import {vectorLayers} from "./vectorLayers";
-import {FeatureDetails} from "./feature-details";
-import {PanelHide} from "./panelHide";
-import {eventChannel} from "./eventChannel";
+import $ from 'jquery'
+import { baseLayers } from './baseLayers'
+import { TimePicker } from './time-picker/TimePicker'
+import { vectorLayers } from './vectorLayers'
+import { FeatureDetails } from './FeatureDetails'
+import { PanelHide } from './panelHide'
+import { eventChannel } from './eventChannel'
+import { PreLoader } from './PreLoader'
+import { Icons } from './icons'
+import { defaults } from 'ol/control/util'
+import View from 'ol/View'
+import OlMap from 'ol/Map'
 
-export function createMap() {
-  // proj4.defs("EPSG:31466", "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs");
+import 'ol/ol.css'
 
-  let map = new ol.Map({
+export function createMap () {
+  const preLoader = new PreLoader()
+
+  const map = new OlMap({
     target: 'map',
-    controls: ol.control.defaults({
+    controls: defaults({
       zoomOptions: {
         className: 'zoom'
       },
-      attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+      attributionOptions: {
         collapsible: false
-      })
+      }
     }),
-    view: new ol.View({
+    view: new View({
       center: [ 969903.0294226853, 6715569.3577772435 ],
       zoom: 6
     })
-  });
+  })
 
-  baseLayers(map);
-  let vectorLayers_ = vectorLayers(map);
-  let timePicker = new TimePicker('#footer', 'data/time-line.json', vectorLayers_, map.getView());
-  return timePicker.init().then(() => {
-    map.set('featureDetails', new FeatureDetails(map, vectorLayers_, timePicker));
+  baseLayers(map)
+  const icons = new Icons(preLoader)
+  const vectorLayers_ = vectorLayers(map, preLoader, icons)
+  preLoader.add('data/time-line.json')
+
+  preLoader.load().then(() => {
+    const timePicker = new TimePicker('#footer', preLoader.get('data/time-line.json'), vectorLayers_, map.getView(), icons)
+
+    const featureDetails = new FeatureDetails(map, vectorLayers_, timePicker, icons)
+    map.set('featureDetails', featureDetails)
     map.on('moveend', () => {
-      timePicker.showVisibleFeatures();
-    });
+      timePicker.showVisibleFeatures()
+    })
 
-    let panelHide = new PanelHide();
+    const panelHide = new PanelHide()
 
-    window.map = map;
-    eventChannel.dispatchMapCreated();
+    window.map = map
+    eventChannel.dispatchMapCreated()
 
-    let updateSizes = () => {
-      $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight());
-      map.updateSize();
-      timePicker.update();
-      panelHide.update();
-    };
+    const updateSizes = () => {
+      $('.tab-content').outerHeight($('body').innerHeight() - $('.navbar').outerHeight())
+      map.updateSize()
+      timePicker.update()
+      panelHide.update()
+    }
 
-    panelHide.getToggleObservable()
-      .subscribe(updateSizes);
+    panelHide.on('change', updateSizes)
 
-    let resetSizes = () => {
-      $('.tab-content').css('height', null);
-    };
+    const resetSizes = () => {
+      $('.tab-content').css('height', null)
+    }
 
     $('a[data-toggle="tab"][data-target="#karte-tab"]')
       .on('shown.bs.tab', updateSizes)
-      .on('hide.bs.tab', resetSizes);
+      .on('hide.bs.tab', resetSizes)
 
     window.addEventListener('resize', () => {
       if ($('#karte-tab').is(':visible')) {
-        updateSizes();
+        updateSizes()
       }
-    });
+    })
 
-    updateSizes();
+    updateSizes()
 
-    return map;
-  });
+    const randomButton = document.getElementById('random-button')
+    randomButton.addEventListener('click', () => {
+      eventChannel.dispatchMapQuery('random')
+    })
+
+    const networkButton = document.getElementById('network-button')
+    networkButton.addEventListener('click', () => {
+      featureDetails.toggleNetworkVisibility()
+      if (featureDetails.networkVisible) {
+        networkButton.classList.add('active')
+      } else {
+        networkButton.classList.remove('active')
+      }
+    })
+  })
+
+  return map
 }

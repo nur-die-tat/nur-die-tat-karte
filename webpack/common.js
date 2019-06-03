@@ -1,10 +1,6 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-
-var _root = path.resolve(__dirname, '..');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -29,23 +25,17 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/,
-        loader: 'file-loader?name=images/[name].[ext]'
+        use: 'file-loader?name=images/[name].[ext]'
       },
       {
         test: /\.(ttf)$/,
-        loader: 'file-loader?name=fonts/[name].[ext]'
+        use: 'file-loader?name=fonts/[name].[ext]'
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract({fallbackLoader: 'style-loader', loader: 'css-loader?sourceMap'})
+        use: [ MiniCssExtractPlugin.loader, 'css-loader?sourceMap' ]
       }
     ]
-  },
-
-  externals: {
-    jquery: 'jQuery',
-    openlayers: 'ol',
-    proj4: 'proj4'
   },
 
   plugins: [
@@ -54,15 +44,13 @@ module.exports = {
       favicon: 'images/favicon.ico'
     }),
     new CopyWebpackPlugin([
-      {from: 'node_modules/bootstrap/dist', to: 'vendor/bootstrap'},
-      {from: 'node_modules/tether/dist', to: 'vendor/tether'},
-      {from: 'node_modules/jquery/dist', to: 'vendor/jquery'},
-      {from: 'node_modules/openlayers/dist', to: 'vendor/openlayers'},
-      {from: 'node_modules/proj4/dist', to: 'vendor/proj4'},
-      {from: 'images', to: 'images'},
-      {from: 'layers', to: 'layers'},
-      {from: 'icons', to: 'images'},
-      {from: 'data', to: 'data'}
-    ])
+      { from: 'images', to: 'images' },
+      { from: 'layers', to: 'layers' },
+      { from: 'icons', to: 'images' },
+      { from: 'data', to: 'data' }
+    ]),
+    new MiniCssExtractPlugin({
+      filename: 'css/[name].css'
+    })
   ]
-};
+}

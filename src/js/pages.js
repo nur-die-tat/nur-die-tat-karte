@@ -1,11 +1,17 @@
-import anmerkungenUrl from 'file-loader?name=pages/[name].[ext]!../html/anmerkungen.html';
-import karteUrl from 'file-loader?name=pages/[name].[ext]!../html/karte.html';
-import homeUrl from 'file-loader?name=pages/[name].[ext]!../html/home.html';
-import kontaktUrl from 'file-loader?name=pages/[name].[ext]!../html/kontakt.html';
-import datenschutzUrl from 'file-loader?name=pages/[name].[ext]!../html/datenschutz.html';
+/* globals history */
 
-import {loadHTML} from "./loadHTML";
-import {eventChannel} from "./eventChannel";
+import $ from 'jquery'
+
+/* eslint-disable import/no-webpack-loader-syntax */
+import anmerkungenUrl from 'file-loader?name=pages/[name].[ext]!../html/anmerkungen.html'
+import karteUrl from 'file-loader?name=pages/[name].[ext]!../html/karte.html'
+import homeUrl from 'file-loader?name=pages/[name].[ext]!../html/home.html'
+import kontaktUrl from 'file-loader?name=pages/[name].[ext]!../html/kontakt.html'
+import datenschutzUrl from 'file-loader?name=pages/[name].[ext]!../html/datenschutz.html'
+/* eslint-enable import/no-webpack-loader-syntax */
+
+import { loadHTML } from './loadHTML'
+import { eventChannel } from './eventChannel'
 
 export const pages = {
   anmerkungen: anmerkungenUrl,
@@ -13,99 +19,98 @@ export const pages = {
   home: homeUrl,
   kontakt: kontaktUrl,
   datenschutz: datenschutzUrl
-};
+}
 
-let mapQuery = {};
+let mapQuery = {}
 
-export function createTabLinks(target) {
+export function createTabLinks (target) {
   for (let tabLink of target.querySelectorAll('a')) {
-    let href = tabLink.getAttribute('href');
-    const res = /(?:^|^\/)([^#?\/]+?)(?:#|\?|$)/.exec(href);
+    let href = tabLink.getAttribute('href')
+    const res = /(?:^|^\/)([^#?/]+?)(?:#|\?|$)/.exec(href)
     if (res) {
-      const page = res[1];
-      console.log(page);
+      const page = res[1]
       tabLink.addEventListener('click', e => {
-        showTab(page);
-      });
+        showTab(page)
+      })
     }
   }
 }
 
-function updateState(page) {
-  let search = '';
+function updateState (page) {
+  let search = ''
   if (page === 'karte' && Object.keys(mapQuery).length) {
     search += '?' + Object.entries(mapQuery).map(function (kv) {
-        return kv.join('=');
-      }).join('&');
+      return kv.join('=')
+    }).join('&')
   }
   if (history.state && (history.state.page !== page || history.state.search !== search)) {
-    history.pushState({ page, search }, '', page + search);
+    history.pushState({ page, search }, '', page + search)
   } else {
-    history.replaceState({ page, search }, '', page + search);
+    history.replaceState({ page, search }, '', page + search)
   }
 }
 
 window.addEventListener('popstate', function (e) {
-  showTab(e.state.page);
+  showTab(e.state.page)
   if (e.state.page === 'karte') {
-    setMapQueryFromSearch(e.state.search);
+    setMapQueryFromSearch(e.state.search)
   }
-});
+})
 
-function showTab(page) {
-  $(`a[data-toggle="tab"][data-target="#${page}-tab"]`).tab('show');
+function showTab (page) {
+  $(`a[data-toggle="tab"][data-target="#${page}-tab"]`).tab('show')
 }
 
-export function setMapQuery(feature, layer) {
-  mapQuery = {};
+export function setMapQuery (feature, layer) {
+  mapQuery = {}
   if (feature) {
-    mapQuery['feature'] = feature;
+    mapQuery['feature'] = feature
   }
   if (layer) {
-    mapQuery['layer'] = layer;
+    mapQuery['layer'] = layer
   }
   updateState('karte')
 }
 
-function setMapQueryFromSearch(search) {
-  mapQuery = {};
+function setMapQueryFromSearch (search) {
+  mapQuery = {}
   if (search.length > 1) {
     for (let keyVal of search.substr(1).split('&')) {
-      const [key, val] = keyVal.split('=');
-      mapQuery[key] = val;
+      const [key, val] = keyVal.split('=')
+      mapQuery[key] = val
     }
-    eventChannel.dispatchMapQuery(mapQuery);
+    eventChannel.dispatchMapQuery(mapQuery)
   } else {
-    eventChannel.dispatchMapQuery('random');
+    eventChannel.dispatchMapQuery('random')
   }
 }
 
-export function initPages() {
+export function initPages () {
   $('a[data-toggle="tab"]')
     .on('show.bs.tab', function () {
-      let target = $(this).data('target');
-      const page = /#(.*?)-tab/.exec(target)[1];
+      let target = $(this).data('target')
+      const page = /#(.*?)-tab/.exec(target)[1]
       loadHTML(target, pages[page])
-        .then(() => $(this).trigger('loaded.tab'));
-      updateState(page);
+        .then(() => $(this).trigger('loaded.tab'))
+      updateState(page)
     })
     .on('shown.bs.tab', function () {
-      window.scrollTo(0,0);
-    });
+      window.scrollTo(0, 0)
+    })
 
-  let page = 'home';
-  let search = '';
+  let page = 'home'
+  let search = ''
   if (history.state) {
-    page = history.state.page;
-    search = history.state.search;
+    page = history.state.page
+    search = history.state.search
   }
-  page = window.location.pathname.slice(1) || page;
-  search = window.location.search || search;
+  page = window.location.pathname.slice(1) || page
+  search = window.location.search || search
   if (page === 'karte') {
     eventChannel.on('mapCreated', function () {
-      setMapQueryFromSearch(search);
-    });
+      setMapQueryFromSearch(search)
+    })
   }
 
-  showTab(page);
+  showTab(page)
 }

@@ -1,7 +1,7 @@
 <button id="left-panel-hide-button" class="toggle-panel-button btn btn-primary">&#x25C4;</button>
 <button id="left-panel-show-button" class="hidden toggle-panel-button btn btn-primary">&#x25B6;</button>
 <div id="left-panel">
-    <div id="layer-selection" class="container mt-3">
+    <div id="map-controls" class="container mt-3">
         <div class="btn-group dropdown" id="basiskarten-dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -19,7 +19,18 @@
             <div class="dropdown-menu" aria-labelledby="themen-dropdown">
             </div>
         </div>
+
+        <div class="float-right">
+            <button class="btn btn-secondary" role="button" id="network-button" aria-pressed="true">
+                <img class="icon" alt="Zeige Netzwerk" src="../images/network.png">
+            </button>
+            <button class="btn btn-secondary" role="button" id="random-button">
+                <img class="icon" alt="Zufälliger Punkt" src="../images/dice_1.png">
+            </button>
+        </div>
     </div>
+
+
 
     <div class="hidden container" id="details">
         <h5 id="layer-name"></h5>

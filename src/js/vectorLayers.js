@@ -1,68 +1,64 @@
-import {vectorLayerStyle} from './vectorLayerStyle.js';
-import {vectorLayerMenu} from "./vectorLayerMenu.js";
-import {eventChannel} from "./eventChannel";
+import { vectorLayerMenu } from './vectorLayerMenu.js'
+import { createVectorLayerStyle } from './vectorLayerStyle'
+import GeoJSON from 'ol/format/GeoJSON'
+import VectorLayer from 'ol/layer/Vector'
+import VectorSource from 'ol/source/Vector'
+import { easeOut } from 'ol/easing'
 
-export function vectorLayers(map) {
-  let layers = [
-    new ol.layer.Vector({
-      id: 'persons',
-      name: 'Wohnorte',
-      source: new ol.source.Vector({
-        url: '../layers/persons.json',
-        format: new ol.format.GeoJSON()
-      }),
-      visible: true,
-      zIndex: 2
-    }),
-    new ol.layer.Vector({
-      id: 'events',
-      name: 'Veranstaltungen',
-      source: new ol.source.Vector({
-        url: '../layers/events.json',
-        format: new ol.format.GeoJSON()
-      }),
-      visible: true,
-      zIndex: 2
-    }),
-    new ol.layer.Vector({
-      id: 'meetings',
-      name: 'Treffpunkte',
-      source: new ol.source.Vector({
-        url: '../layers/meetings.json',
-        format: new ol.format.GeoJSON()
-      }),
-      visible: true,
-      zIndex: 2
-    }),
-    new ol.layer.Vector({
-      id: 'strike',
-      name: 'Arbeitskämpfe',
-      source: new ol.source.Vector({
-        url: '../layers/strike.json',
-        format: new ol.format.GeoJSON()
-      }),
+const VECTORLAYERS = [
+  {
+    id: 'persons',
+    name: 'Wohnorte',
+    file: '../layers/persons.json'
+  },
+  {
+    id: 'events',
+    name: 'Veranstaltungen',
+    file: '../layers/events.json'
+  },
+  {
+    id: 'meetings',
+    name: 'Treffpunkte',
+    file: '../layers/meetings.json'
+  },
+  {
+    id: 'strike',
+    name: 'Arbeitskämpfe',
+    file: '../layers/strike.json'
+  }
+]
+
+export function vectorLayers (map, preLoader, icons) {
+  const layers = []
+  const format = new GeoJSON({
+    featureProjection: map.getView().getProjection()
+  })
+
+  for (const layerDef of VECTORLAYERS) {
+    preLoader.add(layerDef.file, 'txt')
+    const layer = new VectorLayer({
+      id: layerDef.id,
+      name: layerDef.name,
+      style: createVectorLayerStyle(icons),
+      source: new VectorSource(),
       visible: true,
       zIndex: 2
     })
-  ];
-
-  let count = layers.length;
-
-  for (let l of layers) {
-    l.getSource().once('addfeature', () => {
-      count--;
-      if (count === 0) {
-        setTimeout(() => {
-          eventChannel.dispatchLayerLoaded();
-          map.getView().animate({ zoom: 14, duration: 2000, easing: ol.easing.easeOut });
-        }, 1000);
-      }
-    });
-    l.setStyle(vectorLayerStyle);
-    map.addLayer(l);
+    layers.push(layer)
+    map.addLayer(layer)
   }
 
-  vectorLayerMenu(layers);
+  preLoader.on('ready', () => {
+    for (let i = 0; i < VECTORLAYERS.length; i++) {
+      layers[i].getSource().addFeatures(format.readFeatures(preLoader.get(VECTORLAYERS[i].file)))
+    }
 
-  return layers;
+    setTimeout(() => {
+      map.getView().animate({ zoom: 14, duration: 4000, easing: easeOut })
+    }, 0)
+  })
+
+  vectorLayerMenu(layers)
+
+  return layers
 }
