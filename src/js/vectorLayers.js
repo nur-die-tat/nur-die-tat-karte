@@ -5,26 +5,31 @@ import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import { easeOut } from 'ol/easing'
 
+import persons from '../../layers/persons.json'
+import events from '../../layers/events.json'
+import meetings from '../../layers/meetings.json'
+import strike from '../../layers/strike.json'
+
 const VECTORLAYERS = [
   {
     id: 'persons',
     name: 'Wohnorte',
-    file: '../layers/persons.json'
+    file: persons
   },
   {
     id: 'events',
     name: 'Veranstaltungen',
-    file: '../layers/events.json'
+    file: events
   },
   {
     id: 'meetings',
     name: 'Treffpunkte',
-    file: '../layers/meetings.json'
+    file: meetings
   },
   {
     id: 'strike',
     name: 'Arbeitskämpfe',
-    file: '../layers/strike.json'
+    file: strike
   }
 ]
 

@@ -12,6 +12,6 @@ module.exports = webpackMerge(commonConfig, {
   output: {
     path: path.join(root, 'dist'),
     publicPath: '/',
-    filename: 'js/[name].js'
+    filename: 'js/[name].[contenthash].js'
   }
 })

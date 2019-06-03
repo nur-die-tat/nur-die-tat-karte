@@ -8,7 +8,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js', '.json']
   },
 
   module: {
@@ -25,15 +25,35 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/,
-        use: 'file-loader?name=images/[name].[ext]'
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'images/[name].[ext]'
+          }
+        }
       },
       {
         test: /\.(ttf)$/,
-        use: 'file-loader?name=fonts/[name].[ext]'
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'fonts/[name].[ext]'
+          }
+        }
       },
       {
         test: /\.css$/,
         use: [ MiniCssExtractPlugin.loader, 'css-loader?sourceMap' ]
+      },
+      {
+        type: 'javascript/auto',
+        test: /\.json$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[contenthash].json'
+          }
+        }
       }
     ]
   },
@@ -45,12 +65,11 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: 'images', to: 'images' },
-      { from: 'layers', to: 'layers' },
       { from: 'icons', to: 'images' },
       { from: 'data', to: 'data' }
     ]),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].css'
+      filename: 'css/[name].[contenthash].css'
     })
   ]
 }
