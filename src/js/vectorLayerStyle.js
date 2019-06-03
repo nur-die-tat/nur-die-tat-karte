@@ -1,5 +1,4 @@
 import Style from 'ol/style/Style'
-import CircleStyle from 'ol/style/Circle'
 import Stroke from 'ol/style/Stroke'
 import Text from 'ol/style/Text'
 import Point from 'ol/geom/Point'
@@ -8,13 +7,6 @@ import LineString from 'ol/geom/LineString'
 import GeometryCollection from 'ol/geom/GeometryCollection'
 
 const pointStyle = new Style({
-  image: new CircleStyle({
-    radius: 7.5,
-    stroke: new Stroke({
-      color: 'purple',
-      width: 2
-    })
-  }),
   text: new Text({
     font: '18px \'Josefin Slab\', serif',
     textAlign: 'left',
@@ -30,15 +22,8 @@ const pointStyle = new Style({
 })
 
 const lineStyle = new Style({
-  image: new CircleStyle({
-    radius: 7.5,
-    stroke: new Stroke({
-      color: 'purple',
-      width: 2
-    })
-  }),
   stroke: new Stroke({
-    color: 'red',
+    color: 'rgb(248, 126, 126)',
     width: 4
   }),
   zIndex: 1
@@ -46,8 +31,10 @@ const lineStyle = new Style({
 
 export const networkStyle = new Style({
   stroke: new Stroke({
-    color: 'black',
-    width: 2
+    color: 'rgb(255, 0, 0)',
+    width: 4,
+    lineDash: [10, 20],
+    lineCap: 'round'
   })
 })
 
