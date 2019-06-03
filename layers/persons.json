@@ -969,7 +969,7 @@
           "Kölner ASJ Mitglieder;",
           "Hans protokollierte noch 1933 eine Schulungsveranstaltung, bei der auch <a class='feature-link' data-layer='persons' data-feature='27' href='#'>Fritz Benner</a> (ggf. auch dessen Bruder <a class='feature-link' data-layer='persons' data-feature='45' href='#'>Willi</a>) referierte (siehe Ausschnitt unten).",
           "nach 1933 Kurierdienste und Verteilung 'staatsfeindlicher Schriften', u.a. 'Esst deutsche Bananen', 'Neuer Vorwärts', 'Internationale Revue', in Zusammenarbeit mit <a class='feature-link' data-layer='persons' data-feature='10' href='#'>Lösaus</a>;",
-          "Untergrundvernetzung mit Julius Nolden in Duisburg;",
+          "Untergrundvernetzung mit <a class='feature-link' data-layer='persons' data-feature='1559245488202' href='#'>Julius Nolden</a> in Duisburg;",
           "im Zuge reichsweiter Zerschlagung der verbliebenen anarchistischen Netzwerke im Januar 1937, Festnahme; Entlassung von Greta nach 8 Tagen; Verurteilung von Johann Saballa zu vier Jahren Haft.",
           "<a href='#' class='image-modal'> <img src='../images/AE 6, S.4 (Saballa).jpg' style='width: 5rem'> </a>"
         ],
@@ -1922,7 +1922,9 @@
         "name": "Zuchthaus Remscheid",
         "icon": "prison",
         "description": [
-          "Im Zuchthaus Remscheid-Lüttringhausen saß während des Nationalsozialismus unter anderem Julius Nolden (1895-1973) ein. Er hatte im anarchosyndikalistischen Widerstand eine tragende Rolle gespielt, zahlreiche Kurierfahrten mit verbotenen Schriften unternommen und Fluchtwege vermittelt. Nach der Zerschlagung durch die Gestapo wurde er zu zehn Jahren Haft verurteilt, die er bis zur Befreiung durch US-amerikanische Truppen verbüßte."
+          "Im Zuchthaus Remscheid-Lüttringhausen saß während des Nationalsozialismus unter anderem <a class='feature-link' data-layer='persons' data-feature='1559245488202' href='#'>Julius Nolden</a> ein. Er hatte im anarchosyndikalistischen Widerstand eine tragende Rolle gespielt, zahlreiche Kurierfahrten mit verbotenen Schriften unternommen und Fluchtwege vermittelt. Nach der Zerschlagung durch die Gestapo wurde er zu zehn Jahren Haft verurteilt, die er bis zur Befreiung durch US-amerikanische Truppen verbüßte.",
+          "",
+          "<a href='#' class='image-modal'> <img src='../images/nolden-urteil.jpg' style='width: 20rem'> </a>"
         ],
         "address": "Masurenstraße 28, Remscheid",
         "begin": "1937-01-01",
@@ -2060,6 +2062,34 @@
         ]
       },
       "id": 1555356733054
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nolden, Julius",
+        "description": [
+          "*1895, ✝1973",
+          "Schlosser, Teilnehmer am 1.Weltkrieg, 1919 Deutscher Metallarbeiterverband, 1923 FAUD, 1931-36 arbeitslos, in dieser Zeit Grabredner und Kassierer für eine Feuerbestattungskasse, in deren Rahmen nach der NS-Machtübernahme illegale politische Arbeit geleistet wurde. Ab 1932 Kassenobmann FAUD-Provinzarbeiterbörse Rheinland, Anlaufstelle für Grenzdurchgangsstelle der illegalen FAUD nach Holland. Druckschriftenschmuggel. 1937 Verhaftung. Urteil: 10 Jahre Zuchthaus im <a class='feature-link' data-layer='persons' data-feature='1559242446862' href='#'>Zuchthaus Remscheid</a>.",
+          "(Text: FAU Düsseldorf)"
+        ],
+        "icon": "home",
+        "address": "Bismarckstraße 99, Duisburg",
+        "begin": "1931-01-01",
+        "end": "1937-01-01",
+        "sources": [
+          "<a target='_blank' href='https://duesseldorf.fau.org/julius-nolden-geb-1875-gest-1973/'>Kurzbio (FAU Düsseldorf)</a>;",
+          "<a target='_blank' href='https://libcom.org/history/nolden-julius-1895-1973'>Kurzbio (libcom)</a>;",
+          "<a target='_blank' href='https://www.anarchismus.at/texte-anarchosyndikalismus/anarchistinnen-gegen-hitler/7322-anarchosyndikalistischer-widerstand-duisburg'>Anarchosyndikalistischer Widerstand - Duisburg (anarchismus.at)</a>."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7864662408828735,
+          51.42903607040991
+        ]
+      },
+      "id": 1559245488202
     }
   ]
 }
