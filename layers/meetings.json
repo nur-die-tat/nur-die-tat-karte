@@ -474,11 +474,11 @@
           "Bitte um Entsendung von mandatierten Delegierten (auch Metallarbeiter).",
           "",
           "Sonntag, den 22.01.1928: Mitgliederversammlung der Metallarbeiter-Förderation Duisburg-Süd im Verkehrslokal Franz Büsken.",
-          "Besprochen wurden unter anderem Presseangelegenheiten des Rheinisch-Westfälischen Kuriers (\"sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\") und die Kosten desselben für Erwerbslose und Kranke.",
+          "Besprochen wurden unter anderem Presseangelegenheiten des <a class='feature-link' data-layer='meetings' data-feature='23' href='#'>Rheinisch-Westfälischen Kuriers (\"sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\")</a> und die Kosten desselben für Erwerbslose und Kranke.",
           "Es wurde beschlossen, die Kosten für diese von 10 auf 25 Pfennig anzuheben. Bei Verzicht auf die Zeitung sei für diese Personen aber weiterhin der Mitgliedsbeitrag umsonst und die Mitgliedsausweise dementsprechend zu stempeln.",
           "Die Mitgliederversammlung fand einmal im Monat statt."
         ],
-        "icon": "meet",
+        "icon": "metal",
         "address": "Lokal von der Warth (später Franz Büsken) am Marientor 20, Duisburg",
         "begin": "1926-02-28",
         "end": "1928-01-22",
@@ -503,7 +503,8 @@
         "description": [
           "\"Kurier-Verlag\" in dem ab Januar 1928 wöchentlich der \"Rheinisch-Westfälische Kurier - Sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\" erschien. Für den Druck zeichnete der hier wohnhafte Leonhard Kleefeld verantwortlich. Die FAUD in der Region erkannte die Publikation als ihr regionales Organ an.",
           "Verantwortlich für den Inhalt zeichnete <a class='feature-link' data-layer='persons' data-feature='62' href='#'>Johannes Gerlach</a>.",
-          "<a href='#' class='image-modal'> <img src='../images/Kurier1928nr25s1.jpg' style='width: 20rem'> </a>"
+          "<a href='#' class='image-modal'> <img src='../images/Kurier1928nr25s1.jpg' style='width: 20rem'> </a>",
+          "Die jeweiligen lokalen Föderationen und Berufsverbände organisierten die Verteilung selbständig, wie bspw. die <a class='feature-link' data-layer='meetings' data-feature='22' href='#'>Metallarbeiter in Duisburg-Süd</a>."
         ],
         "icon": "lecture",
         "address": "Mindener Straße 17, Düsseldorf",
