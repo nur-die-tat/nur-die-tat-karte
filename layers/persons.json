@@ -1807,8 +1807,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.415760397911072,
-          52.525229810560624
+          13.415025472640991,
+          52.52552354945639
         ]
       },
       "id": 66
@@ -1854,7 +1854,7 @@
           "Cahn und Scherer ca. 1931 in der gemeinsamen Wohnung."
         ],
         "icon": "home",
-        "address": "Wadzeckstraße 4, Berlin",
+        "address": "Wadzeckstraße 4, Berlin\n(Punkt zur besseren Sichbarkeit leicht verschoben, da Überschneidung mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Cahn</a>)",
         "begin": "1931-06-01",
         "end": "1937-01-31",
         "sources": [
@@ -1866,8 +1866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.415800631046295,
-          52.525177590106864
+          13.414877951145172,
+          52.52574385233912
         ]
       },
       "id": 1540047210405
