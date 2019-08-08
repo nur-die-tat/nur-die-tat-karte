@@ -12,6 +12,8 @@ import View from 'ol/View'
 import OlMap from 'ol/Map'
 
 import 'ol/ol.css'
+import { clusterLayer } from './clusterLayer'
+import { clickable } from './clickable'
 
 export function createMap () {
   const preLoader = new PreLoader()
@@ -35,6 +37,9 @@ export function createMap () {
   baseLayers(map)
   const icons = new Icons(preLoader)
   const vectorLayers_ = vectorLayers(map, preLoader, icons)
+  const clusterLayer_ = clusterLayer(map, vectorLayers_, preLoader, icons)
+  clickable(map, vectorLayers_, clusterLayer_)
+
   preLoader.add('data/time-line.json')
 
   preLoader.load().then(() => {

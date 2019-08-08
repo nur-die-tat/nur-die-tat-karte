@@ -62,16 +62,14 @@ export class FeatureDetails {
     }
 
     map.on('pointermove', e => {
-      if (map.hasFeatureAtPixel(e.pixel)) {
+      if (map.hasFeatureAtPixel(e.pixel, { layerFilter })) {
         resetHover()
         hovered = map.forEachFeatureAtPixel(e.pixel, f => f, { layerFilter })
         hovered.set('hover', true)
-        map.getViewport().style.cursor = 'pointer'
         this.highlightSource.addFeature(hovered)
       } else {
         resetHover()
         hovered = null
-        map.getViewport().style.cursor = 'auto'
       }
     })
 

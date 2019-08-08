@@ -73,7 +73,7 @@ function createGeometryStyle (feature, resolution, geometry, icons) {
 
 export function createVectorLayerStyle (icons) {
   return function vectorLayerStyle (feature, resolution) {
-    if (feature.get('hidden')) {
+    if (feature.get('hidden') || feature.get('clustered')) {
       return null
     }
 

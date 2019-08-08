@@ -106,6 +106,10 @@ const ICONS = {
   'revolt': {
     normal: '../images/revolt.png',
     active: '../images/revolt-select.png'
+  },
+  'empty': {
+    normal: '../images/empty.png',
+    active: '../images/empty-select.png'
   }
 }
 

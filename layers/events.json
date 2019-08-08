@@ -255,17 +255,12 @@
         ]
       },
       "geometry": {
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              6.972193121910094,
-              50.936874088185604,
-              0
-            ]
-          }
-        ],
-        "type": "GeometryCollection"
+        "type": "Point",
+        "coordinates": [
+          6.972193121910094,
+          50.936874088185604,
+          0
+        ]
       },
       "id": 1002
     },

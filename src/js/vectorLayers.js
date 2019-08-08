@@ -47,7 +47,8 @@ export function vectorLayers (map, preLoader, icons) {
       style: createVectorLayerStyle(icons),
       source: new VectorSource(),
       visible: true,
-      zIndex: 2
+      zIndex: 2,
+      updateWhileAnimating: true
     })
     layers.push(layer)
     map.addLayer(layer)
