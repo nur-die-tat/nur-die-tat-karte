@@ -79,7 +79,7 @@ export class TimePicker extends Observable {
 
         const img = this.icons.get(feature.get('icon'), false).cloneNode()
         img.title = feature.get('name')
-        img.style.left = (left + this.width - right) / 2 - img.width / 2 + 10 + 'px'
+        img.style.left = (left + this.width - right) / 2 + 10 + 'px'
 
         img.addEventListener('click', () => {
           this.dispatchEvent({
