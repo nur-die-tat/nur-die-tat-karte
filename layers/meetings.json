@@ -26,7 +26,7 @@
           0
         ]
       },
-      "id": 14
+      "id": 1013
     },
     {
       "type": "Feature",
@@ -34,7 +34,7 @@
         "name": "Baumbach, Lina",
         "description": [
           "Gründung und wöchentliche Treffen des Wiesdorfer <a target='_blank' href='https://de.wikipedia.org/wiki/Syndikalistischer_Frauenbund'>Syndikalistischen Frauenbundes (SFB)</a>, jeden Dienstag um 20:00 Uhr; im Oktober 1921 zwölf Mitglieder;",
-          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='6' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
+          "Delegierte für Köln-Wiesdorf auf <a class='feature-link' data-layer='meetings' data-feature='1025' href='#'>SFB-Reichskonferenz</a> am 15. Oktober 1921 in Düsseldorf.",
           "<a href='#' class='image-modal'> <img src='images/Bayer-Arbeiterhäuser.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "sfb",
@@ -57,7 +57,7 @@
           0
         ]
       },
-      "id": 15
+      "id": 1014
     },
     {
       "type": "Feature",
@@ -82,7 +82,7 @@
           0
         ]
       },
-      "id": 16
+      "id": 1015
     },
     {
       "type": "Feature",
@@ -108,7 +108,7 @@
           0
         ]
       },
-      "id": 17
+      "id": 1016
     },
     {
       "type": "Feature",
@@ -117,7 +117,7 @@
         "description": [
           "Lokal Theodor Hochwald;",
           "1922 Vollversammlung der Metallarbeiter jeden 2. Sonntag, morgens 9 Uhr;",
-          "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='persons' data-feature='20' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='21' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='22' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a>.",
+          "allgemeine Einladung durch den Vorstand: <a class='feature-link' data-layer='persons' data-feature='1036' href='#'>Boske</a>, <a class='feature-link' data-layer='persons' data-feature='1044' href='#'>Herl</a>, <a class='feature-link' data-layer='persons' data-feature='1055' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='1057' href='#'>Müller</a>.",
           "Im Juni 1922 gesammelte Solidaritätsbeiträge: 2000,- Mark."
         ],
         "icon": "info",
@@ -137,7 +137,7 @@
           0
         ]
       },
-      "id": 3
+      "id": 1017
     },
     {
       "type": "Feature",
@@ -145,7 +145,7 @@
         "name": "Innungshaus Willi Schilling",
         "description": [
           "Zahl- und Diskutierabend der Ortsgruppe Mülheim jeden Samstag 7 Uhr;",
-          "Es luden ein: <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='17' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='persons' data-feature='16' href='#'>Canje</a>."
+          "Es luden ein: <a class='feature-link' data-layer='persons' data-feature='1072' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='1059' href='#'>Nußbaum</a>, <a class='feature-link' data-layer='persons' data-feature='1039' href='#'>Canje</a>."
         ],
         "icon": "info",
         "address": "Oskarstraße, Köln (Lage geschätzt)",
@@ -163,7 +163,7 @@
           0
         ]
       },
-      "id": 2
+      "id": 1018
     },
     {
       "type": "Feature",
@@ -192,7 +192,7 @@
           0
         ]
       },
-      "id": 18
+      "id": 1019
     },
     {
       "type": "Feature",
@@ -202,7 +202,7 @@
         "description": [
           "Auch „Tropp“;",
           "Organisationstreffen der Arbeiter-Börse „Groß-Köln“ 27.03., 09.04., 27.04., 07.05.1922;",
-          "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: <a class='feature-link' data-layer='persons' data-feature='24' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='18' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='19' href='#'>Müller</a> und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
+          "Am 09.04. wurden die Beitragszahlungen inflationsbedingt auf wöchentlich 7,50 Mark heraufgesetzt. Die einzelnen Ortsgruppen verpflichteten sich wiederum zur Zahlung von 5 Mark pro Mitglied an die übergeordnete Börse. Vorstandswahl: <a class='feature-link' data-layer='persons' data-feature='1037' href='#'>Bunse</a>, <a class='feature-link' data-layer='persons' data-feature='1072' href='#'>Wiefels</a>, <a class='feature-link' data-layer='persons' data-feature='1056' href='#'>Morawitz</a>, <a class='feature-link' data-layer='persons' data-feature='1075' href='#'>Zander</a>. Im Kontrollgremium: Greuling, <a class='feature-link' data-layer='persons' data-feature='1057' href='#'>Müller</a> und Watt. Bunse wurde zudem beauftragt als Deligierter bei der Tagung der Agitations-Kommission Rheinland-Westfalen am 23. & 27.04. zu sprechen.",
           "Börsenlokal der FAU Köln in Deutz, 'Siegburgerhof'; Börsensitzungen jeden zweiten Donnerstag ab 24.08.1922."
         ],
         "icon": "info",
@@ -221,7 +221,7 @@
           0
         ]
       },
-      "id": 5
+      "id": 1020
     },
     {
       "type": "Feature",
@@ -231,7 +231,7 @@
         "description": [
           "Restaurant „Witwe Laurenz“;",
           "ab Juni 1921 Versammlungen der Föderation der Metall- und Industriearbeiter Köln und Umgebung jeden Samstag 19 Uhr;",
-          "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='persons' data-feature='23' href='#'>Rohland</a>.",
+          "Konferenz des Bezirks Köln am 19.03.1922, Einladung durch <a class='feature-link' data-layer='persons' data-feature='1065' href='#'>Rohland</a>.",
           "Vollversammlung Köln-Mülheim am 10.12.1922."
         ],
         "icon": "info",
@@ -254,7 +254,7 @@
           0
         ]
       },
-      "id": 4
+      "id": 1021
     },
     {
       "type": "Feature",
@@ -281,7 +281,7 @@
           0
         ]
       },
-      "id": 19
+      "id": 1022
     },
     {
       "type": "Feature",
@@ -289,7 +289,7 @@
         "name": "Ostertreffen",
         "address": "Lindscheid 14, Wermelskirchen",
         "description": [
-          "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='persons' data-feature='11' href='#'>Neumann</a>.",
+          "Ostertreffen der Syndikalistisch-Anarchistischen Jugend Rheinland-Westfalenss 07.-09.04.1928 in der Loosenau im Dhünntal; dort Entschluss zur Verlegung der Bezirksinformationsstelle (BISt) nach Köln, mit Vorsitz <a class='feature-link' data-layer='persons' data-feature='1058' href='#'>Neumann</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Loosenau.jpg' style='width: 20rem'> </a>"
         ],
         "icon": "shakehand",
@@ -309,7 +309,7 @@
           0
         ]
       },
-      "id": 13
+      "id": 1023
     },
     {
       "type": "Feature",
@@ -317,8 +317,8 @@
         "name": "Siedlergruppe Freie Erde",
         "description": [
           "jeden Samstag Abend 19 Uhr Treffen der Siedlergruppe „Freie Erde“ in der Wirtschaft Simons.",
-          "Die <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung</a> bestand 1921 bis 1923.",
-          "Auch in Köln gab es <a class='feature-link' data-layer='meetings' data-feature='10' href='#'>eine Initiative zum Siedlertag</a>."
+          "Die <a class='feature-link' data-layer='persons' data-feature='1094' href='#'>Siedlung</a> bestand 1921 bis 1923.",
+          "Auch in Köln gab es <a class='feature-link' data-layer='meetings' data-feature='1026' href='#'>eine Initiative zum Siedlertag</a>."
         ],
         "icon": "seed",
         "address": "Kaiserswertherstr. 42, Düsseldorf",
@@ -333,7 +333,7 @@
           51.23896509018048
         ]
       },
-      "id": 20
+      "id": 1024
     },
     {
       "type": "Feature",
@@ -344,25 +344,25 @@
           "Durch Delegierte vertreten waren 579 Mitglieder, bei einer Gesamtzahl von um die 1000 laut Kongressbericht.",
           "",
           "Anwesende Delegierte:",
-          "<a class='feature-link' data-layer='persons' data-feature='51' href='#'>Hertha Barwich</a>, Berlin-Lankwitz;",
-          "<a class='feature-link' data-layer='persons' data-feature='25' href='#'>Lina Baumbach</a>, Köln-Wiesdorf;",
-          "<a class='feature-link' data-layer='persons' data-feature='53' href='#'>Therese Bungert</a>, Mülheim-Ruhr;",
-          "<a class='feature-link' data-layer='persons' data-feature='49' href='#'>Fränze Gerlach</a>, Düsseldorf;",
-          "<a class='feature-link' data-layer='persons' data-feature='55' href='#'>Gertrud Leimkühler</a>, Friemersdorf;",
-          "<a class='feature-link' data-layer='persons' data-feature='52' href='#'>Anna Ludwig</a>, Berlin-Oberschöneweide;",
-          "<a class='feature-link' data-layer='persons' data-feature='58' href='#'>Heinz Melzer</a>, Stettin;",
-          "<a class='feature-link' data-layer='persons' data-feature='57' href='#'>Luise Siewert</a>, Duisburg;",
-          "<a class='feature-link' data-layer='persons' data-feature='56' href='#'>Wilhelm Wehner</a>, Schweinfurt;",
-          "<a class='feature-link' data-layer='persons' data-feature='50' href='#'>Milly Witkop</a>, Groß-Berlin;",
-          "<a class='feature-link' data-layer='persons' data-feature='48' href='#'>Henriette Wörndl</a>, Düsseldorf;",
-          "<a class='feature-link' data-layer='persons' data-feature='59' href='#'>Emil Zehner</a>, Erfurt.",
+          "<a class='feature-link' data-layer='persons' data-feature='1082' href='#'>Hertha Barwich</a>, Berlin-Lankwitz;",
+          "<a class='feature-link' data-layer='persons' data-feature='1032' href='#'>Lina Baumbach</a>, Köln-Wiesdorf;",
+          "<a class='feature-link' data-layer='persons' data-feature='1084' href='#'>Therese Bungert</a>, Mülheim-Ruhr;",
+          "<a class='feature-link' data-layer='persons' data-feature='1080' href='#'>Fränze Gerlach</a>, Düsseldorf;",
+          "<a class='feature-link' data-layer='persons' data-feature='1085' href='#'>Gertrud Leimkühler</a>, Friemersdorf;",
+          "<a class='feature-link' data-layer='persons' data-feature='1083' href='#'>Anna Ludwig</a>, Berlin-Oberschöneweide;",
+          "<a class='feature-link' data-layer='persons' data-feature='1088' href='#'>Heinz Melzer</a>, Stettin;",
+          "<a class='feature-link' data-layer='persons' data-feature='1087' href='#'>Luise Siewert</a>, Duisburg;",
+          "<a class='feature-link' data-layer='persons' data-feature='1086' href='#'>Wilhelm Wehner</a>, Schweinfurt;",
+          "<a class='feature-link' data-layer='persons' data-feature='1081' href='#'>Milly Witkop</a>, Groß-Berlin;",
+          "<a class='feature-link' data-layer='persons' data-feature='1079' href='#'>Henriette Wörndl</a>, Düsseldorf;",
+          "<a class='feature-link' data-layer='persons' data-feature='1089' href='#'>Emil Zehner</a>, Erfurt.",
           "",
           "Zu Gast:",
-          "<a class='feature-link' data-layer='persons' data-feature='51' href='#'>Franz Barwich</a>, Berlin-Lankwitz, als Vertreter der Geschäftskommission der FAUD;",
-          "<a class='feature-link' data-layer='persons' data-feature='60' href='#'>Traudchen Berendonk</a>, Essen;",
+          "<a class='feature-link' data-layer='persons' data-feature='1082' href='#'>Franz Barwich</a>, Berlin-Lankwitz, als Vertreter der Geschäftskommission der FAUD;",
+          "<a class='feature-link' data-layer='persons' data-feature='1090' href='#'>Traudchen Berendonk</a>, Essen;",
           "August Mackenstein, Crefeld;",
           "Agnes Smedley, Berlin, aus New York;",
-          "<a class='feature-link' data-layer='persons' data-feature='61' href='#'>Max Winkler</a>, Neu-Kölln, als Referent."
+          "<a class='feature-link' data-layer='persons' data-feature='1091' href='#'>Max Winkler</a>, Neu-Kölln, als Referent."
         ],
         "icon": "sfbmeet2",
         "address": "Adlerstraße 44, Düsseldorf",
@@ -377,7 +377,7 @@
           51.23087034287181
         ]
       },
-      "id": 6
+      "id": 1025
     },
     {
       "type": "Feature",
@@ -387,8 +387,8 @@
         "description": [
           "23. April 1921 freisozialistischer Siedlertag;",
           "Aufruf zur Bildung von Arbeitsgemeinschaften, um genossenschaftliche Gemeinden zu gründen.",
-          "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='2' href='#'>König</a>, Vogt, Kluth.",
-          "Ein ähnliches Projekt bestand mit der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>Siedlung Freie Erde</a> in Düsseldorf."
+          "Unterzeichnet durch <a class='feature-link' data-layer='persons' data-feature='1049' href='#'>König</a>, Vogt, Kluth.",
+          "Ein ähnliches Projekt bestand mit der <a class='feature-link' data-layer='persons' data-feature='1094' href='#'>Siedlung Freie Erde</a> in Düsseldorf."
         ],
         "icon": "farm2",
         "begin": "1921-04-01",
@@ -405,7 +405,7 @@
           0
         ]
       },
-      "id": 10
+      "id": 1026
     },
     {
       "type": "Feature",
@@ -419,7 +419,7 @@
           "21.02.1926 „Zusammenkunft[...], um zu verwirklichen, was die Kölner Genossen sich in einer Arbeitsgemeinschaft zum Ziel gesteckt haben.“",
           "07.03.1926 Zusammenkunft „Arbeitsgemeinschaft aller antiautoritären Menschen von Köln und Umgegend“, 10h; „Themen: 1.Flugblätter, 2.Kropotkin-Abend, 3.Verschiedenes“;",
           "07.07.1926 Vollversammlung aller Anarchosyndikalisten Kölns;",
-          "Redner u.a. auch <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>."
+          "Redner u.a. auch <a class='feature-link' data-layer='persons' data-feature='1056' href='#'>Morawitz</a>."
         ],
         "icon": "shakehand",
         "begin": "1925-12-01",
@@ -438,7 +438,7 @@
           0
         ]
       },
-      "id": 1
+      "id": 1027
     },
     {
       "type": "Feature",
@@ -463,7 +463,7 @@
           0
         ]
       },
-      "id": 21
+      "id": 1028
     },
     {
       "type": "Feature",
@@ -474,7 +474,7 @@
           "Bitte um Entsendung von mandatierten Delegierten (auch Metallarbeiter).",
           "",
           "Sonntag, den 22.01.1928: Mitgliederversammlung der Metallarbeiter-Förderation Duisburg-Süd im Verkehrslokal Franz Büsken.",
-          "Besprochen wurden unter anderem Presseangelegenheiten des <a class='feature-link' data-layer='meetings' data-feature='23' href='#'>Rheinisch-Westfälischen Kuriers (\"sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\")</a> und die Kosten desselben für Erwerbslose und Kranke.",
+          "Besprochen wurden unter anderem Presseangelegenheiten des <a class='feature-link' data-layer='meetings' data-feature='1030' href='#'>Rheinisch-Westfälischen Kuriers (\"sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\")</a> und die Kosten desselben für Erwerbslose und Kranke.",
           "Es wurde beschlossen, die Kosten für diese von 10 auf 25 Pfennig anzuheben. Bei Verzicht auf die Zeitung sei für diese Personen aber weiterhin der Mitgliedsbeitrag umsonst und die Mitgliedsausweise dementsprechend zu stempeln.",
           "Die Mitgliederversammlung fand einmal im Monat statt."
         ],
@@ -494,7 +494,7 @@
           51.43251769333793
         ]
       },
-      "id": 22
+      "id": 1029
     },
     {
       "type": "Feature",
@@ -502,9 +502,9 @@
         "name": "Kurier-Verlag",
         "description": [
           "\"Kurier-Verlag\" in dem ab Januar 1928 wöchentlich der \"Rheinisch-Westfälische Kurier - Sozialrevolutionäres Organ für den Wirtschaftsbezirk Rhein und Ruhr\" erschien. Für den Druck zeichnete der hier wohnhafte Leonhard Kleefeld verantwortlich. Die FAUD in der Region erkannte die Publikation als ihr regionales Organ an.",
-          "Verantwortlich für den Inhalt zeichnete <a class='feature-link' data-layer='persons' data-feature='62' href='#'>Johannes Gerlach</a>.",
+          "Verantwortlich für den Inhalt zeichnete <a class='feature-link' data-layer='persons' data-feature='1092' href='#'>Johannes Gerlach</a>.",
           "<a href='#' class='image-modal'> <img src='../images/Kurier1928nr25s1.jpg' style='width: 20rem'> </a>",
-          "Die jeweiligen lokalen Föderationen und Berufsverbände organisierten die Verteilung selbständig, wie bspw. die <a class='feature-link' data-layer='meetings' data-feature='22' href='#'>Metallarbeiter in Duisburg-Süd</a>."
+          "Die jeweiligen lokalen Föderationen und Berufsverbände organisierten die Verteilung selbständig, wie bspw. die <a class='feature-link' data-layer='meetings' data-feature='1029' href='#'>Metallarbeiter in Duisburg-Süd</a>."
         ],
         "icon": "lecture",
         "address": "Mindener Straße 17, Düsseldorf",
@@ -522,7 +522,7 @@
           51.215516641330254
         ]
       },
-      "id": 23
+      "id": 1030
     },
     {
       "type": "Feature",
@@ -552,7 +552,7 @@
           51.2297870165702
         ]
       },
-      "id": 24
+      "id": 1031
     },
     {
       "type": "Feature",
@@ -617,7 +617,7 @@
         "icon": "music",
         "description": [
           "Verlag der Freien Sängergemeinschaft, bei Paul Mittau.",
-          "Hier konnten Partituren zur Ansicht bestellt werden. Unter anderem gab es Auftritte in der <a class='feature-link' data-layer='persons' data-feature='64' href='#'>\"Siedlung Freie Erde\"</a>. Bei der Sängergemeinschaft engagierte sich auch <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>."
+          "Hier konnten Partituren zur Ansicht bestellt werden. Unter anderem gab es Auftritte in der <a class='feature-link' data-layer='persons' data-feature='1094' href='#'>\"Siedlung Freie Erde\"</a>. Bei der Sängergemeinschaft engagierte sich auch <a class='feature-link' data-layer='persons' data-feature='1093' href='#'>Anton Rosinke</a>."
         ],
         "begin": "1928-01-01",
         "end": "1928-02-28",
@@ -648,7 +648,7 @@
         "description": [
           "Am 15. und 16. September des Jahres 1919 fand im Rittersaal der (alten) Tonhalle in Düsseldorf die „Verschmelzungskonferenz der linksrheinischen Gewerkschaftsgruppen Rheinlands und Westfalen“ statt. Einberufen war die Konferenz von der „Freien Vereinigung“ um sich gemeinsam besser gegen die Unterdrückung durch die sozialdemokratische Partei und die Zentralgewerkschaften zu Wehr setzen zu können. Teil nahmen außerdem die „Allgemeine Arbeiter-Union Essen“, die „Allgemeine deutsche Arbeiter-Union Düsseldorf“, die „Bergarbeiter-Union“ und der „Allgemeine Arbeiter-Verband“. Im Laufe der Konferenz schlossen sich die Gewerkschaften zur der „Freien Arbeiter-Union für Rheinland und Westfalen“ zusammen.",
           "",
-          "Als bedeutenster Beitrag zur Gründung einer Förderation wurde im Nachhinein ein Redebeitrag Rudolf Rockers angesehen. Dieser behandelte die „Verschmelzungsfrage im Licht der geschichtlichen Entwicklung der internationalen Arbeiterbewegung“. Programmatisch wurde an das Programm des 7. und 9. Syndikalistenkongresses 1906 und 1910 angeknüpft. Den neu gewählten Namen verkündete <a class='feature-link' data-layer='persons' data-feature='44' href='#'>Carl Windhoff</a>.",
+          "Als bedeutenster Beitrag zur Gründung einer Förderation wurde im Nachhinein ein Redebeitrag Rudolf Rockers angesehen. Dieser behandelte die „Verschmelzungsfrage im Licht der geschichtlichen Entwicklung der internationalen Arbeiterbewegung“. Programmatisch wurde an das Programm des 7. und 9. Syndikalistenkongresses 1906 und 1910 angeknüpft. Den neu gewählten Namen verkündete <a class='feature-link' data-layer='persons' data-feature='1073' href='#'>Carl Windhoff</a>.",
           "",
           "Später ging die „Freien Arbeiter-Union für Rheinland und Westfalen“ in der „Freien Arbeiter-Union Deutschland“ auf.",
           "",
@@ -797,7 +797,7 @@
         "description": [
           "Geschäftsstelle des \"Freien Arbeiter\".",
           "1904 gegründet, von 1919-1931 Organ der Föderation Kommunistischer Anarchisten Deutschlands und ab 1932 der Anarchistischen Föderation Deutschlands. Deren <a class='feature-link' data-layer='meetings' data-feature='1565295273333' href='#'>Geschäftsstelle</a> lag in der Nachbarschaft.",
-          "Herausgeber waren unter anderem Albert Weidner, Karl Kielmeyer, Rudolf Rocker, Joseph Oerter und Rudolf Oestreich. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> zeichnete  1928 als Redakteur & Verleger und führte Januar 1931 bis April 1932 die Geschäftsstelle.",
+          "Herausgeber waren unter anderem Albert Weidner, Karl Kielmeyer, Rudolf Rocker, Joseph Oerter und Rudolf Oestreich. <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> zeichnete  1928 als Redakteur & Verleger und führte Januar 1931 bis April 1932 die Geschäftsstelle.",
           "(Der hier angegebene Zeitraum bezieht sich nur auf den durch die Quelle belegten, letztgenannten Zeitraum, bis ein längerer nachgewiesen ist.)"
         ],
         "icon": "lecture",
@@ -824,7 +824,7 @@
         "name": "Kongress der FKAD",
         "description": [
           "Kongress der Föderation Kommunistischer Anarchisten Deutschlands vom 25. bis 27.12.1931, bei Wollschläger.",
-          "Thema war u.a. das Verhältnis zwischen Anarchismus und Kommunismus. Ein bei diesem Anlass gehaltener Vortrag von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> erschien in 15 Folgen im Freien Arbeiter unter dem Titel \"Unsere Stellung zum Kommunismus\"."
+          "Thema war u.a. das Verhältnis zwischen Anarchismus und Kommunismus. Ein bei diesem Anlass gehaltener Vortrag von <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> erschien in 15 Folgen im Freien Arbeiter unter dem Titel \"Unsere Stellung zum Kommunismus\"."
         ],
         "icon": "shakehand",
         "address": "Adalbertstraße 21, Berlin-Kreuzberg",
@@ -905,7 +905,7 @@
         "name": "FKAD Büro",
         "description": [
           "Letzte Geschäftsstelle der Föderation Kommunistischer Anarchisten Deutschlands. Die Geschäftsstelle des Zentralorgans <a class='feature-link' data-layer='meetings' data-feature='1555360081689' href='#'>\"Der Freie Arbeiter\"</a> lag in der Nachbarschaft.",
-          "Am 28.02.1933, kurz nach der Machtübertragung an die NSDAP, wurde das Büro durchsucht und geschlossen. Die Leitung hatte zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> inne.",
+          "Am 28.02.1933, kurz nach der Machtübertragung an die NSDAP, wurde das Büro durchsucht und geschlossen. Die Leitung hatte zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> inne.",
           "(Wie lange es zuvor genutzt wurde ist derzeit nicht klar.)"
         ],
         "address": "Sophienstraße 34, Berlin-",

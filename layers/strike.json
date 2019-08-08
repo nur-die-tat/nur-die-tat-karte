@@ -5,7 +5,9 @@
       "type": "Feature",
       "properties": {
         "name": "Buchdruckerstreik (Versammlung)",
-        "description": "Eine außerordentliche Versammlung des Verbandes der Buchdrucker im Gürzenich beschließt am Sonntag, den 24.07.1921 die Arbeitsniederlegung ab dem nächsten Tag. Gefordert ist eine wöchentliche Lohnzulage von 100 Mark. (siehe auch <a class='feature-link' data-layer='strike' data-feature='6' href='#'>Druckerei Hemmersbach)</a>",
+        "description": [
+          "Eine außerordentliche Versammlung des Verbandes der Buchdrucker im Gürzenich beschließt am Sonntag, den 24.07.1921 die Arbeitsniederlegung ab dem nächsten Tag. Gefordert ist eine wöchentliche Lohnzulage von 100 Mark. (siehe auch <a class='feature-link' data-layer='strike' data-feature='1098' href='#'>Druckerei Hemmersbach)</a>"
+        ],
         "icon": "strike",
         "address": "Martinstraße 29-37, 50667 Köln",
         "begin": "1921-07-25",
@@ -19,13 +21,15 @@
           50.936596884002036
         ]
       },
-      "id": 5
+      "id": 1097
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Buchdruckerstreik (Ende)",
-        "description": "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='strike' data-feature='5' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)",
+        "description": [
+          "Ende des Buchdruckerstreiks (hier vermutlich bestreikte Druckerei Hemmersbach) mit Teilerfolg; leichte Lohnerhöhungen für Buchdruckergehilfen. (siehe auch <a class='feature-link' data-layer='strike' data-feature='1097' href='#'>Versammlung der Buchdrucker</a> im Gürzenich)"
+        ],
         "icon": "strike",
         "address": "Thielenstraße 18, 50825 Köln",
         "begin": "1921-08-01",
@@ -39,14 +43,14 @@
           50.95503919077864
         ]
       },
-      "id": 6
+      "id": 1098
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Chemiepark",
         "description": [
-          "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='strike' data-feature='1' href='#'>Streik in Leverkusen</a>;",
+          "02.-26.02.1921 Solidaritätsstreik mit <a class='feature-link' data-layer='strike' data-feature='1100' href='#'>Streik in Leverkusen</a>;",
           "2027 zu 29 Stimmen für den Streik;",
           "Forderung der Wiedereinstellung zweier Kollegen;",
           "zunächst eigenhändige Instandhaltungsmaßnahmen, dann Abbruch, um Druck zu erhöhen;",
@@ -75,7 +79,7 @@
           0
         ]
       },
-      "id": 2
+      "id": 1099
     },
     {
       "type": "Feature",
@@ -83,9 +87,9 @@
         "name": "Farbenfabrik",
         "description": [
           "29.01.-28.02.1921 Streik der Arbeiter der Farbenfabriken in Leverkusen zur Durchsetzung des Achtstundentages;",
-          "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='strike' data-feature='2' href='#'>Knapsack</a>;",
+          "etwa zeitgleich Solidaritätsstreik in <a class='feature-link' data-layer='strike' data-feature='1099' href='#'>Knapsack</a>;",
           "Auslöser: Entlassung eines Arbeiters, der seine Überstunden abfeiern wollte am 27.01.1921;",
-          "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='persons' data-feature='14' href='#'>Sneydn</a>",
+          "ca. 8300 Personen im Streik, gesammelte Streikgelder lassen auf um die 800 Mitglieder der FAUD schließen; Redner u.a. <a class='feature-link' data-layer='persons' data-feature='1069' href='#'>Sneydn</a>",
           "Zentralgewerkschaften sahen den Streik als Tarifbruch, Abbruch und Wiederaufnahme der Arbeit nach erfolglosen Verhandlungsversuchen, Entlassung von ca. 700 Arbeitern.",
           "<a href='#' class='image-modal'> <img src='images/bayer-werk-am-rhein.jpg' style='width: 20rem'> </a>"
         ],
@@ -109,7 +113,7 @@
           0
         ]
       },
-      "id": 1
+      "id": 1100
     },
     {
       "type": "Feature",
@@ -134,7 +138,7 @@
           0
         ]
       },
-      "id": 4
+      "id": 1101
     },
     {
       "type": "Feature",
@@ -142,7 +146,7 @@
         "name": "Kraftwerk Goldenberg",
         "description": [
           "Wilder Streik beim Braunkohlekraftwerk Goldenberg am 04.04.1922 von 900 Arbeitern;",
-          "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='persons' data-feature='1' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='persons' data-feature='2' href='#'>Peter König</a>;",
+          "wilder Betriebsrat aus Unzufriedenheit über Zentralgewerkschaften; unter den vier Betriebsräten <a class='feature-link' data-layer='persons' data-feature='1046' href='#'>Wilhelm Kattarius</a> und <a class='feature-link' data-layer='persons' data-feature='1049' href='#'>Peter König</a>;",
           "am gleichen Tag Verhaftung von 18 Rädelsführern, Schließlich Verurteilung von vieren durch britisches Militärgericht zu einem Monat Haft (u.a. Peter König).",
           "<a href='#' class='image-modal'> <img src='../images/Cologne Post.JPG' style='width: 20rem'> </a>",
           "Cologne Post vom 13.04.1922, Ausschnitt bzgl. Verurteilung hervorgehoben",
@@ -169,7 +173,7 @@
           0
         ]
       },
-      "id": 3
+      "id": 1102
     },
     {
       "type": "Feature",
@@ -198,7 +202,7 @@
           0
         ]
       },
-      "id": 7
+      "id": 1103
     },
     {
       "type": "Feature",
@@ -225,14 +229,14 @@
           0
         ]
       },
-      "id": 8
+      "id": 1104
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Lohnkommission der Fliesenleger",
         "description": [
-          "Im Haus Kroll war die Lohnkommission der Fliesenleger ansässig. Als Ansprechpartner fungierte der sehr aktive <a class='feature-link' data-layer='persons' data-feature='44' href='#'>Carl Windhoff</a>.",
+          "Im Haus Kroll war die Lohnkommission der Fliesenleger ansässig. Als Ansprechpartner fungierte der sehr aktive <a class='feature-link' data-layer='persons' data-feature='1073' href='#'>Carl Windhoff</a>.",
           "",
           "Bei einem Streik ab dem 13.09.1932 wurden unter anderem ein fester Tariflohn und eine \"im Arbeitsvertrag verankerte paritätische Arbeitsteilung\" gefordert. Der Deutsche Baugewerksbund, christliche Gewerkschaften sowie die FAUD entwarfen und unterzeichneten diese Forderungen gemeinsam. Die Arbeitgeber-Vereinigung wurde durch eine Fliesenleger-Versammlung am 01.10.1931 aufgerufen sich hier bei der Lohnkommission zur Aufnahme von Verhandlungen zu melden - täglich ab 9 Uhr Vormittags und/oder unter \"Fernruf 269 66\".",
           "",

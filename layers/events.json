@@ -7,7 +7,7 @@
         "name": "Maidemonstration",
         "description": [
           "Demonstration zum 1. Mai 1926 von FAU und SAJ Köln von Köln-Mülheim über den Bergischen Ring zum Neumarkt, Karten 10 Pfennig;",
-          "<a class='feature-link' data-layer='events' data-feature='2' href='#'>Abendveranstaltung</a> in Kalk (Humboldt-Kolonie)."
+          "<a class='feature-link' data-layer='events' data-feature='1006' href='#'>Abendveranstaltung</a> in Kalk (Humboldt-Kolonie)."
         ],
         "icon": "flagw",
         "address": "Bergischer Ring, Köln-Mühlheim",
@@ -185,14 +185,14 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": 1
+      "id": 1000
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Antikriegstage '26",
         "description": [
-          "31.07.1926, Anfragen im Vorfeld an <a class='feature-link' data-layer='persons' data-feature='15' href='#'>Zander</a>, Plakat- u. Flugblattbestellungen an <a class='feature-link' data-layer='persons' data-feature='3' href='#'>Morawitz</a>;",
+          "31.07.1926, Anfragen im Vorfeld an <a class='feature-link' data-layer='persons' data-feature='1075' href='#'>Zander</a>, Plakat- u. Flugblattbestellungen an <a class='feature-link' data-layer='persons' data-feature='1056' href='#'>Morawitz</a>;",
           " „[...] abends 7 Uhr, Beginn der Feier in Köln-Deutz, Konzertsaal Reimann. Gesang der Kölner Freien Sänger, Vortrag der Genossen Heinrich Melzer, Hans Schmitz und der Genossin Trautchen Kaspers. Rezitation durch Düsseldorfer, Mühlheimer-Ruhr Genossen und Sprechchöre der München-Gladbacher, Elberfelder, Duisburger und Kölner Jugendgenossen.“ ",
           "01.08.1926",
           " „[...] morgens 10 Uhr, in Köln auf dem Neumarkt wieder Gesang, Vortrag, Rezitationen und Sprechchöre.“ ",
@@ -237,7 +237,7 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": 3
+      "id": 1001
     },
     {
       "type": "Feature",
@@ -267,7 +267,7 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": 4
+      "id": 1002
     },
     {
       "type": "Feature",
@@ -314,7 +314,7 @@
         ],
         "type": "GeometryCollection"
       },
-      "id": 5
+      "id": 1003
     },
     {
       "type": "Feature",
@@ -343,7 +343,7 @@
           51.6532491160809
         ]
       },
-      "id": 6
+      "id": 1004
     },
     {
       "type": "Feature",
@@ -368,7 +368,7 @@
           51.58854128818258
         ]
       },
-      "id": 7
+      "id": 1005
     },
     {
       "type": "Feature",
@@ -376,7 +376,7 @@
         "name": "Maifeier '26",
         "description": [
           "Maifeier am 01.05.1926;",
-          "nach der <a class='feature-link' data-layer='events' data-feature='1' href='#'>Demonstration</a> um 20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
+          "nach der <a class='feature-link' data-layer='events' data-feature='1000' href='#'>Demonstration</a> um 20 Uhr, Feier im Lokal Ohrem in Kalk, Abendveranstaltung mit „Theater, Gesang, Vortrag, Rezitation und Tanz. Karten 30 Pfennig.“"
         ],
         "icon": "theater",
         "address": "Wattstr. 15, Köln",
@@ -394,7 +394,7 @@
           0
         ]
       },
-      "id": 2
+      "id": 1006
     },
     {
       "type": "Feature",
@@ -422,7 +422,7 @@
           0
         ]
       },
-      "id": 8
+      "id": 1007
     },
     {
       "type": "Feature",
@@ -448,7 +448,7 @@
           51.331960727708804
         ]
       },
-      "id": 10
+      "id": 1008
     },
     {
       "type": "Feature",
@@ -456,7 +456,7 @@
         "name": "Vortragsreihe Gott, Staat, Anarchie",
         "description": [
           "15. & 29. März sowie 12. April 1922",
-          "Vortrags-Abende der Föderation kommunistischer Anarchisten Deutschlands (FKAD) zum Thema: \"Gott, Staat, Anarchie\" mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>"
+          "Vortrags-Abende der Föderation kommunistischer Anarchisten Deutschlands (FKAD) zum Thema: \"Gott, Staat, Anarchie\" mit <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>"
         ],
         "icon": "meet",
         "address": "Stephansbrücke 38, Magdeburg (grobe Lage)",
@@ -473,7 +473,7 @@
           52.13173293955536
         ]
       },
-      "id": 11
+      "id": 1009
     },
     {
       "type": "Feature",
@@ -481,8 +481,8 @@
         "name": "Volksversammlung FKAD",
         "description": [
           "12. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD) im Lokal Holsteinisches Haus zum Thema \"Anarchismus und Revolution\".",
-          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
-          "Veranstaltungen auch <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch <a class='feature-link' data-layer='events' data-feature='1011' href='#'>bei Struwe</a> und in <a class='feature-link' data-layer='events' data-feature='1012' href='#'>Barmbeck</a>."
         ],
         "icon": "meet",
         "address": "Kohlöfen 16, Hamburg",
@@ -499,7 +499,7 @@
           53.55245452054326
         ]
       },
-      "id": 12
+      "id": 1010
     },
     {
       "type": "Feature",
@@ -507,8 +507,8 @@
         "name": "Volksversammlung FKAD",
         "description": [
           "13. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  bei Struwe zum Thema \"Mensch Staat und Gesellschaft\".",
-          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
-          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und in <a class='feature-link' data-layer='events' data-feature='14' href='#'>Barmbeck</a>."
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='1010' href='#'>Lokal Holsteinisches Haus</a> und in <a class='feature-link' data-layer='events' data-feature='1012' href='#'>Barmbeck</a>."
         ],
         "icon": "meet",
         "begin": "1923-06-13",
@@ -525,7 +525,7 @@
           53.53507900507763
         ]
       },
-      "id": 13
+      "id": 1011
     },
     {
       "type": "Feature",
@@ -533,8 +533,8 @@
         "name": "Volksversammlung FKAD",
         "description": [
           "14. Juni 1923, \"Öffentliche Volksversammlung\" der Föderation kommunistischer Anarchisten Deutschlands (FKAD)  in Barmbek zum Thema \"Proletarische Diktatur\".",
-          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
-          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='12' href='#'>Lokal Holsteinisches Haus</a> und <a class='feature-link' data-layer='events' data-feature='13' href='#'>bei Struwe</a>."
+          "Teil einer Vortragsreise von <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>.",
+          "Veranstaltungen auch im <a class='feature-link' data-layer='events' data-feature='1010' href='#'>Lokal Holsteinisches Haus</a> und <a class='feature-link' data-layer='events' data-feature='1011' href='#'>bei Struwe</a>."
         ],
         "icon": "meet",
         "address": "Bachstraße 87, Hamburg",
@@ -551,7 +551,7 @@
           53.5774358522731
         ]
       },
-      "id": 14
+      "id": 1012
     },
     {
       "type": "Feature",
@@ -559,7 +559,7 @@
         "name": "Circus Busch",
         "description": [
           "Am 10.11.1918 hatte hier die Vollversammlung der Berliner Arbeiter- und Soldatenräte getagt und den <a class='feature-link' data-layer='events' data-feature='1540235706811' href='#'>Vollzugsrat</a> gewählt (wohl ohne Beteiligung von Antiautoritären).",
-          "Am 1. Mai 1919 fand eine große Mai-Veranstaltung statt, bei der u.a. auch <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>, Rudolf Rocker und Fritz Kater auftraten. Gemeinsam traten sie \"für die schnelle Sozialisierung der Betriebe durch die wirtschaftlichen Organisationen der Arbeiter, Abschaffung des Militarismus und die Verweigerung der Rüstungsproduktion ein.\" (Wortlaut der Gustav Landauer Gedenkinitiative 2018, Zitation s.u.)",
+          "Am 1. Mai 1919 fand eine große Mai-Veranstaltung statt, bei der u.a. auch <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>, Rudolf Rocker und Fritz Kater auftraten. Gemeinsam traten sie \"für die schnelle Sozialisierung der Betriebe durch die wirtschaftlichen Organisationen der Arbeiter, Abschaffung des Militarismus und die Verweigerung der Rüstungsproduktion ein.\" (Wortlaut der Gustav Landauer Gedenkinitiative 2018, Zitation s.u.)",
           "<a href='#' class='image-modal'> <img src='../images/Circus_Busch_(Berlin).jpg' style='width: 20rem'> </a>",
           "Foto: Wikimedia, <a href=\"https://de.wikipedia.org/wiki/Circus_Busch-Roland\">zum Wiki-Artikel</a>"
         ],
@@ -617,7 +617,7 @@
         "name": "Boeker´s Festsäle",
         "description": [
           "Am 3. Februar 1919 hatte hier der Vollzugsrat der Berliner <a class='feature-link' data-layer='events' data-feature='1539451538049' href='#'>Arbeiter- und Soldatenräte</a> getagt (wohl ohne Beteiligung von Antiautoritären).",
-          "Zum 7. Januar 1925 ludt die Arbeitsbörse Groß-Berlin der FAUD hier zu einer Versammlung unter dem Titel \"Heraus mit den politischen Gefangenen!\". Die Eröffnung hielt Erich Mühsam. Als weitere Redner traten Rudolf Rocker, <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> und Viktor Fraenkl auf.",
+          "Zum 7. Januar 1925 ludt die Arbeitsbörse Groß-Berlin der FAUD hier zu einer Versammlung unter dem Titel \"Heraus mit den politischen Gefangenen!\". Die Eröffnung hielt Erich Mühsam. Als weitere Redner traten Rudolf Rocker, <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> und Viktor Fraenkl auf.",
           "<a href='#' class='image-modal'> <img src='../images/boekersfestsaal.jpg' style='width: 20rem'> </a>",
           "Werbe-Postkarte aus den Zwanzigerjahren"
         ],
@@ -654,7 +654,7 @@
           "Zwei Kundgebungen 1930 auf dem Marktplatz mit anschließender Demonstration nach Glindow mit \"Kapelle, Fahnen und Transparenten\":",
           "Zunächst im Juni \"Gegen die internationale Reaktion\" mit 250 Personen.",
           "Außerdem am 02.08.1930 zum Antikriegstag mit etwa 70 Personen, davon etwa die Hälfte aus Berlin hinzugekommen. Mit dabei auch die <a href=\"https://de.wikipedia.org/wiki/Schwarze_Scharen\">Schwarzen Scharen</a> (Wiki-Link).",
-          "Auf beiden Veranstaltungen trat <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> als Redner auf."
+          "Auf beiden Veranstaltungen trat <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> als Redner auf."
         ]
       },
       "geometry": {
@@ -733,7 +733,7 @@
         ],
         "description": [
           "Demonstration der Kreisarbeitsbörse der südöstlichen Berliner Vororte anlässlich des 1. Mai 1931.",
-          "Als Hauptredner trat <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> auf."
+          "Als Hauptredner trat <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> auf."
         ]
       },
       "id": 1555350281737,
@@ -832,7 +832,7 @@
           "\"Am 1. Mai die Straße frei - für die demonstrierenden Arbeitermassen.",
           "Wir wollen keinen zweiten Blutmai.",
           "Wir fordern Demonstrationsfreiheit.\"",
-          "Es sprachen Helmut Rüdiger und <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>. Eine weitere Veranstaltung fand in <a class='feature-link' data-layer='events' data-feature='1555357694860' href='#'>Friedrichshain</a> statt.",
+          "Es sprachen Helmut Rüdiger und <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>. Eine weitere Veranstaltung fand in <a class='feature-link' data-layer='events' data-feature='1555357694860' href='#'>Friedrichshain</a> statt.",
           "Im Jahr zuvor waren Maiveranstaltungen durch den sozialdemokratischen Polizeipräsidenten Zörgiebel verboten worden. Bei den dennoch stattgefundenen Demonstrationen starben 33 Personen, beinahe 200 wurden verletzt."
         ],
         "icon": "revolt",
@@ -893,7 +893,7 @@
         ],
         "address": "Bergstraße 29, Berlin",
         "description": [
-          "\"Satyrischer Abend\" im Jugendheim, mit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a>.",
+          "\"Satyrischer Abend\" im Jugendheim, mit <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a>.",
           "\"Satyrisches aus der Revolution nebst eigenen Erlebnissen.\""
         ]
       },
@@ -918,9 +918,9 @@
         "name": "Märzgedenkfeier",
         "description": [
           "\"Die proletarische Kunstgemeinschaft Düsseldorf-Krefeld veranstaltet am 8. März, 20 Uhr im Rittersaal der Städtischen Tonhalle zu Düsseldorf eine unserer revolutionären Eigenart entsprechende große Märzgedenkfeier.\"",
-          "Es referierte u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> und 150 Sänger_innen waren angekündigt.",
-          "Verantwortlich zeichnete <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>.",
-          "Weiterhin führte eine Schauspielergrupe unter dem Name \"Schwarze Schar\" ein Stück auf. Die gleiche <a class='feature-link' data-layer='events' data-feature='5' href='#'>Schauspielgruppe trat 1929 in Köln</a> auf."
+          "Es referierte u.a. <a class='feature-link' data-layer='persons' data-feature='1096' href='#'>Berthold Cahn</a> und 150 Sänger_innen waren angekündigt.",
+          "Verantwortlich zeichnete <a class='feature-link' data-layer='persons' data-feature='1093' href='#'>Anton Rosinke</a>.",
+          "Weiterhin führte eine Schauspielergrupe unter dem Name \"Schwarze Schar\" ein Stück auf. Die gleiche <a class='feature-link' data-layer='events' data-feature='1003' href='#'>Schauspielgruppe trat 1929 in Köln</a> auf."
         ],
         "icon": "theater"
       },
