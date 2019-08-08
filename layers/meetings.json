@@ -659,8 +659,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.787008047103882,
-          51.22728939038727
+          6.786801517009735,
+          51.227279312266624
         ]
       },
       "id": 1539281837723
@@ -796,7 +796,7 @@
         "name": "\"Der Freie Arbeiter\"",
         "description": [
           "Geschäftsstelle des \"Freien Arbeiter\".",
-          "1904 gegründet, von 1919-1931 Organ der Föderation Kommunistischer Anarchisten Deutschlands und ab 1932 der Anarchistischen Föderation Deutschlands.",
+          "1904 gegründet, von 1919-1931 Organ der Föderation Kommunistischer Anarchisten Deutschlands und ab 1932 der Anarchistischen Föderation Deutschlands. Deren <a class='feature-link' data-layer='meetings' data-feature='1565295273333' href='#'>Geschäftsstelle</a> lag in der Nachbarschaft.",
           "Herausgeber waren unter anderem Albert Weidner, Karl Kielmeyer, Rudolf Rocker, Joseph Oerter und Rudolf Oestreich. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> zeichnete  1928 als Redakteur & Verleger und führte Januar 1931 bis April 1932 die Geschäftsstelle.",
           "(Der hier angegebene Zeitraum bezieht sich nur auf den durch die Quelle belegten, letztgenannten Zeitraum, bis ein längerer nachgewiesen ist.)"
         ],
@@ -898,6 +898,32 @@
         ]
       },
       "id": 1559247688360
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FKAD Büro",
+        "description": [
+          "Letzte Geschäftsstelle der Föderation Kommunistischer Anarchisten Deutschlands. Die Geschäftsstelle des Zentralorgans <a class='feature-link' data-layer='meetings' data-feature='1555360081689' href='#'>\"Der Freie Arbeiter\"</a> lag in der Nachbarschaft.",
+          "Am 28.02.1933, kurz nach der Machtübertragung an die NSDAP, wurde das Büro durchsucht und geschlossen. Die Leitung hatte zu dieser Zeit <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> inne.",
+          "(Wie lange es zuvor genutzt wurde ist derzeit nicht klar.)"
+        ],
+        "address": "Sophienstraße 34, Berlin-",
+        "icon": "info",
+        "end": "1933-02-28",
+        "sources": [
+          "\"Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 37. <a href=\\\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\\\">Link zur Broschüre</a>."
+        ],
+        "begin": "1932-02-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.49305361509323,
+          52.50666152700638
+        ]
+      },
+      "id": 1565295273333
     }
   ]
 }

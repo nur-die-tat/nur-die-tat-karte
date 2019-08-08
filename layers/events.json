@@ -905,6 +905,33 @@
         ]
       },
       "id": 1555358885848
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "Flinger Steinweg (heute Schadowstraße), Düsseldorf",
+        "begin": "1930-03-08",
+        "end": "1930-03-08",
+        "sources": [
+          "Gustav Landauer Denkmalinitiative (Berlin), Berthold Cahn. Ein Leben für den Anarchismus, Berlin 2018, S. 36. <a href=\"https://gustav-landauer.org/content/berthold-cahn-ein-leben-fuer-den-anarchismus\">Link zur Broschüre</a>"
+        ],
+        "name": "Märzgedenkfeier",
+        "description": [
+          "\"Die proletarische Kunstgemeinschaft Düsseldorf-Krefeld veranstaltet am 8. März, 20 Uhr im Rittersaal der Städtischen Tonhalle zu Düsseldorf eine unserer revolutionären Eigenart entsprechende große Märzgedenkfeier.\"",
+          "Es referierte u.a. <a class='feature-link' data-layer='persons' data-feature='66' href='#'>Berthold Cahn</a> und 150 Sänger_innen waren angekündigt.",
+          "Verantwortlich zeichnete <a class='feature-link' data-layer='persons' data-feature='63' href='#'>Anton Rosinke</a>.",
+          "Weiterhin führte eine Schauspielergrupe unter dem Name \"Schwarze Schar\" ein Stück auf. Die gleiche <a class='feature-link' data-layer='events' data-feature='5' href='#'>Schauspielgruppe trat 1929 in Köln</a> auf."
+        ],
+        "icon": "theater"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.787203848361969,
+          51.2274523196981
+        ]
+      },
+      "id": 1565292288631
     }
   ]
 }
