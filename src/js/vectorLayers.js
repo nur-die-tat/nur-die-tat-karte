@@ -9,6 +9,10 @@ import persons from '../../layers/persons.json'
 import events from '../../layers/events.json'
 import meetings from '../../layers/meetings.json'
 import strike from '../../layers/strike.json'
+import { VectorSourceLayerGroup } from './VectorSourceLayerGroup'
+import { getCenter, getHeight, getWidth } from 'ol/extent'
+import Cluster from 'ol/source/Cluster'
+import Point from 'ol/geom/Point'
 
 const VECTORLAYERS = [
   {
@@ -44,15 +48,45 @@ export function vectorLayers (map, preLoader, icons) {
     const layer = new VectorLayer({
       id: layerDef.id,
       name: layerDef.name,
-      style: createVectorLayerStyle(icons),
       source: new VectorSource(),
-      visible: true,
-      zIndex: 2,
-      updateWhileAnimating: true
+      visible: true
     })
     layers.push(layer)
-    map.addLayer(layer)
   }
+
+  const distance = 40
+
+  function extentSmall (extent) {
+    return getWidth(extent) + getHeight(extent) < 4 * map.getView().getResolution() * distance
+  }
+
+  const layer = new VectorLayer({
+    source: new Cluster({
+      source: new VectorSourceLayerGroup({
+        layers
+      }),
+      geometryFunction: f => {
+        if (f.get('hidden')) {
+          return null
+        }
+        const geom = f.getGeometry()
+        if (geom instanceof Point) {
+          return geom
+        } else if (extentSmall(geom.getExtent())) {
+          return new Point(getCenter(geom.getExtent()))
+        } else {
+          return null
+        }
+      },
+      distance
+    }),
+    style: createVectorLayerStyle(preLoader, icons),
+    zIndex: 2,
+    updateWhileAnimating: true,
+    declutter: true
+  })
+
+  map.addLayer(layer)
 
   preLoader.on('ready', () => {
     for (let i = 0; i < VECTORLAYERS.length; i++) {

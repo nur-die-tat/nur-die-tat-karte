@@ -16,7 +16,8 @@ export function baseLayers (map) {
             url: 'http://www.die-karte.org/tiles/1925/{z}/{x}/{y}.png'
             // url: '../../nur-die-tat-karte-tiles/1925/{z}/{x}/{y}.png'
           }),
-          maxResolution: 9, // below 15
+          maxResolution: 9, // from 15
+          minResolution: 1, // to 17
           zIndex: 1
         }),
         new TileLayer({
