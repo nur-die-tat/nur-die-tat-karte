@@ -1,6 +1,6 @@
 import { createImageModalLinks } from './imageModal'
 import { clearElement } from './utils'
-import { createVectorLayerStyle, networkStyle } from './vectorLayerStyle'
+import { networkStyle } from './vectorLayerStyle'
 import { setMapQuery } from './pages'
 import { eventChannel } from './eventChannel'
 import VectorSource from 'ol/source/Vector'
@@ -22,16 +22,6 @@ export class FeatureDetails {
     this.vectorLayers = vectorLayers
     this.timePicker = timePicker
 
-    this.highlightSource = new VectorSource({
-      features: []
-    })
-
-    this.map.addLayer(new VectorLayer({
-      source: this.highlightSource,
-      style: createVectorLayerStyle(icons),
-      zIndex: 10
-    }))
-
     this.networkSource = new VectorSource({
       features: []
     })
@@ -41,37 +31,6 @@ export class FeatureDetails {
       style: networkStyle,
       zIndex: 9
     }))
-
-    const layerFilter = l => this.vectorLayers.includes(l)
-
-    map.on('click', e => {
-      map.forEachFeatureAtPixel(e.pixel, (f, l) => {
-        this.showFeatureDetails(f, l)
-        return true
-      }, { layerFilter })
-    })
-
-    let hovered = null
-    const resetHover = () => {
-      if (hovered) {
-        hovered.set('hover', false)
-        if (this.highlightSource.hasFeature(hovered)) {
-          this.highlightSource.removeFeature(hovered)
-        }
-      }
-    }
-
-    map.on('pointermove', e => {
-      if (map.hasFeatureAtPixel(e.pixel, { layerFilter })) {
-        resetHover()
-        hovered = map.forEachFeatureAtPixel(e.pixel, f => f, { layerFilter })
-        hovered.set('hover', true)
-        this.highlightSource.addFeature(hovered)
-      } else {
-        resetHover()
-        hovered = null
-      }
-    })
 
     this.detailsElement = document.querySelector('#details')
     this.featureNameElement = document.querySelector('#feature-name')
@@ -143,7 +102,6 @@ export class FeatureDetails {
   showFeatureDetails (feature, layer) {
     if (this.activeFeature) {
       this.activeFeature.set('active', false)
-      this.highlightSource.clear()
       this.networkSource.clear()
     }
 
@@ -155,8 +113,6 @@ export class FeatureDetails {
       setMapQuery(null, null)
     } else {
       feature.set('active', true)
-
-      this.highlightSource.addFeature(feature)
 
       this.activeFeature = feature
 

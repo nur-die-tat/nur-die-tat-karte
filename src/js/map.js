@@ -12,8 +12,7 @@ import View from 'ol/View'
 import OlMap from 'ol/Map'
 
 import 'ol/ol.css'
-import { clusterLayer } from './clusterLayer'
-import { clickable } from './clickable'
+import { handleMouse } from './handleMouse'
 
 export function createMap () {
   const preLoader = new PreLoader()
@@ -30,15 +29,14 @@ export function createMap () {
     }),
     view: new View({
       center: [ 969903.0294226853, 6715569.3577772435 ],
-      zoom: 7
+      zoom: 7,
+      maxZoom: 19
     })
   })
 
   baseLayers(map)
   const icons = new Icons(preLoader)
   const vectorLayers_ = vectorLayers(map, preLoader, icons)
-  const clusterLayer_ = clusterLayer(map, vectorLayers_, preLoader, icons)
-  clickable(map, vectorLayers_, clusterLayer_)
 
   preLoader.add('data/time-line.json')
 
@@ -50,6 +48,8 @@ export function createMap () {
     map.on('moveend', () => {
       timePicker.showVisibleFeatures()
     })
+
+    handleMouse(map, vectorLayers_, featureDetails)
 
     const panelHide = new PanelHide()
 
