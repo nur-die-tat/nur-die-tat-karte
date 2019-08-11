@@ -924,6 +924,48 @@
         ]
       },
       "id": 1565295273333
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "15. Kongress der FAUD",
+        "icon": "meet",
+        "address": "Albrechtstraße 41 (heute etwa Pillnitzerstr. 20)",
+        "begin": "1925-04-09",
+        "end": "1925-04-13",
+        "sources": [
+          "Der Syndikalist, VII.Jg., Nr.14, S.4;",
+          "Der Syndikalist, VII.Jg., Nr.16, S.1ff.",
+          ""
+        ],
+        "description": [
+          "Ab dem 9. April 1925 reisten Delegierte und Gäste zum 15. Kongress der FAUD an. Am Hauptbahnhof Dresden wurden sie empfangen und dann zum Kongresslokal geführt.",
+          "",
+          "<a href='#' class='image-modal'> <img src='../images/dresden-albrecht.jpg' style='width: 10rem'> </a>",
+          "<small>(Restaurant Herzog Albrecht, Postkarte 1915)</small>",
+          "",
+          "Die Begrüßung übernahm Augustin Souchy. Als Gast aus Schweden kam Lindstam. Grußbotschaften aus Norwegen und den Niederladen wurden verlesen. Für den Frauenbund erschien u.a. Traudchen Caspers. Eine tiefere Unterstützung der Frauenbünde und ihre engere Anbindung an die FAUD wurden geplant.",
+          "Weiterhin wurde beschlossen, dass über die Sinnhaftigkeit der Mitarbeit in Betriebsräten situativ entschieden werden müsse. In ideeller Hinsicht wurden sie als reformistisch angesehen, jedoch konnte die Teilnahme sich taktisch posititv auswirken und Erfolge in Arbeitskämpfen bedeuten. Durch den Entschluss diese Entscheidung den regionalen Gruppen zu überlassen, wurde ein scharfer ideologischer Konflikt vermieden.",
+          "Nachdem es in den Vorjahren zu teils heftigen Streitigkeiten gekommen und die Organisation zahlreiche Mitglieder einbüßte, konnte nun wieder weitgehende Einigkeit hergestellt werden.",
+          "<br>",
+          "Gleichberechtigte Versammlungsleitung:<ul><li>Gampe, Nürnberg</li><li>Kater, Berlin</li><li>Melzer Mülheim</li></ul>",
+          "",
+          "Schriftführung:<ul><li>Mackenstein, Krefled</li><li>Reimelt, Berlin</li></ul>",
+          "",
+          "Mandatprüfungskommission:<ul><li>Paul Lange, Berlin</li><li>Otto Roth, Ratibor</li><li>Goldlauter, Ratibor</li><li>Alfons Pilarski, Ratibor</li></ul>",
+          "",
+          "Redaktionskommission:<ul><li>Büttner, Leipzig</li><li>Krefting, Krefeld</li><li>Souchy, Berlin</li></ul>",
+          ""
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75211477279663,
+          51.05032791457751
+        ]
+      },
+      "id": 1565541499667
     }
   ]
 }
